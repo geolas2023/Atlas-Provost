@@ -917,13 +917,13 @@
    "properties": {
     "id": "T19",
     "nom": "Avec Nicollet, du fort Pierre au lac du Diable",
-    "debut": 1839.5,
-    "fin": 1839.6657,
-    "date_edtf": "1839-07/1839-08",
+    "debut": 1839.5014,
+    "fin": 1839.5699,
+    "date_edtf": "1839-07-03/1839-07-28",
     "certitude": "approximative",
     "mode": "cheval",
     "description": "L'expédition de Nicollet et Frémont traverse le coteau du Missouri et remonte la James jusqu'au lac du Diable.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "sources": "Nicollet, Joseph-Nicolas (1841), Report Intended to Illustrate a Map of the Hydrographical Basin of the Upper Mississippi River, Sénat, 26e Congrès, 2e session, doc. 237, p. 42-50 (Drive de l'auteur) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
     "note": "Tracé schématique.",
     "type": "trajet"
    }

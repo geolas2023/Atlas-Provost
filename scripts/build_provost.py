@@ -29,6 +29,7 @@ AUD = "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scri
 HAV = "Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost »"
 AA = "enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)"
 UTG = "« Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026"
+NIC = "Nicollet, Joseph-Nicolas (1841), Report Intended to Illustrate a Map of the Hydrographical Basin of the Upper Mississippi River, Sénat, 26e Congrès, 2e session, doc. 237, p. 42-50 (Drive de l'auteur)"
 NPS = "National Park Service (1964), The Fur Trade: Significant Sites, National Survey of Historic Sites and Buildings, vol. 1, PDF p. 49 (Drive de l'auteur)"
 
 def dec(d, fin=False):
@@ -178,12 +179,12 @@ L(32, "Saint-Louis : Provost annonce l'épidémie de variole (24 février 1838)"
   f"{CH('626', '2-3')} ; {HA('259-262')}", "")
 
 # ---- V. Guide, recruteur et tavernier (1839-1850)
-L(33, "Fort Pierre : chef de camp de Nicollet et Frémont (1839)", 'guide', '1839-07', -100.385, 44.395, 'c',
-  "En 1839, l'American Fur Company prête Provost à Joseph-Nicolas Nicollet, qui cartographie les plateaux entre le haut Mississippi et le Missouri avec le jeune John C. Frémont. Chef du camp, il est, écrit Nicollet, l'un des cinq hommes de l'expédition qui « en valent certainement dix » ; on l'appelle « l'homme des montagnes ».",
-  f"{TYU} ; {UTG} ; {HF(382)}", "Point au fort Pierre, d'où l'expédition part vers le nord-est.")
-L(34, "Lac du Diable : terme de l'expédition Nicollet (1839)", 'guide', '1839-07-29~', -98.95, 48.05, 'a',
-  "Parti du fort Pierre, le convoi de Nicollet traverse le coteau du Missouri, remonte la James et atteint le lac du Diable (Devils Lake), avant de redescendre vers le fort Snelling.",
-  f"{TYU} ; {UTG}", "Itinéraire résumé ; point au lac du Diable (Dakota du Nord).")
+L(33, "Fort Pierre : chef des hommes de Nicollet et Frémont (1er-3 juillet 1839)", 'guide', '1839-07-01/1839-07-03', -100.385, 44.395, 'c',
+  "En 1839, l'American Fur Company prête Provost à Joseph-Nicolas Nicollet, qui cartographie les plateaux entre le Missouri et le haut Mississippi avec le jeune John C. Frémont. Nicollet écrit avoir amené de Saint-Louis cinq hommes qui « en valaient certainement dix », dont « Étienne Provost, connu comme l'homme des montagnes », qu'il promeut chef de ses hommes. Le 1er juillet, Provost vient annoncer que l'équipement est prêt ; la caravane, dix-neuf personnes, dix charrettes et trente chevaux, traverse le Missouri gonflé les 1er et 2 juillet et monte le 3 sur le coteau du Missouri.",
+  f"{NIC} ; {TYU} ; {UTG} ; {HF(382)}", "Point au fort Pierre.")
+L(34, "Lac du Diable : terme de l'expédition Nicollet (29 juillet-7 août 1839)", 'guide', '1839-07-29/1839-08-07~', -98.95, 48.05, 'a',
+  "Par le coteau du Missouri et la rivière à Jacques (James), le convoi atteint le 29 juillet 1839 le lac du Diable (Mini-wakan), où il reste neuf jours, près d'un camp que viennent de quitter les Métis de la rivière Rouge, avant de redescendre vers le sud-est.",
+  f"{NIC} ; {TYU}", "Point au lac du Diable (Dakota du Nord).")
 L(35, "Saint-Louis : recruteur et convoyeur de l'American Fur Company (1839-1849)", 'traite', '1839/1849', -90.1835, 38.6290, 'a',
   "De 1839 à sa mort, Provost recrute chaque hiver les nouveaux engagés de la compagnie et les conduit au printemps à leurs postes du Missouri. La compagnie loue aussi ses services de guide à des expéditions privées : officiers britanniques chassant le bison en 1840, Audubon en 1843, la troupe du comte d'Otrante, fils du ministre de la Police de Napoléon, en 1844, sans doute son client le plus exigeant.",
   f"{TYU} ; {VA}", "Point sur la levée de Saint-Louis.")
@@ -272,8 +273,8 @@ T(17, "La barge des fourrures descend vers Bellevue", 'canot', '1834-08~/1834-09
   "Les fourrures de la saison descendent vers Bellevue, par la Platte puis le Missouri.", f"{CH(475)}", "Tracé hypothétique ; la Platte est peu navigable et les fourrures voyagent souvent à dos de mulet jusqu'au Missouri.")
 T(18, "La caravane de 1837 vers le rendez-vous de Horse Creek", 'cheval', '1837-05/1837-07', [P['L03'], [-94.42, 39.25], [-96.5, 40.4], [-98.6, 40.7], [-101.0, 41.1], [-103.0, 41.7], P['L30'], [-106.3, 42.85], [-108.9, 42.35], P['L31']], 'a',
   "Chef en second de la caravane de l'American Fur Company, Provost suit la route de la Platte et du col du Sud jusqu'au rendez-vous de la Green River, avec le peintre Miller.", f"{VA} ; {TYU}", "Tracé schématique (route de l'Oregon).")
-T(19, "Avec Nicollet, du fort Pierre au lac du Diable", 'cheval', '1839-07/1839-08', [P['L33'], [-99.6, 45.0], [-98.7, 45.9], [-98.6, 46.9], P['L34']], 'a',
-  "L'expédition de Nicollet et Frémont traverse le coteau du Missouri et remonte la James jusqu'au lac du Diable.", TYU, "Tracé schématique.")
+T(19, "Avec Nicollet, du fort Pierre au lac du Diable", 'cheval', '1839-07-03/1839-07-28', [P['L33'], [-99.6, 45.0], [-98.7, 45.9], [-98.6, 46.9], P['L34']], 'a',
+  "L'expédition de Nicollet et Frémont traverse le coteau du Missouri et remonte la James jusqu'au lac du Diable.", f"{NIC} ; {TYU}", "Tracé schématique.")
 T(20, "Avec Audubon sur l'Omega, de Saint-Louis au fort Union", 'vapeur', '1843-04-25/1843-06-12', [P['L03'], [-92.2, 38.6], [-94.6, 39.1], [-95.9, 41.26], [-97.4, 42.87], [-99.4, 43.95], [-100.38, 44.4], [-101.4, 47.3], P['L37']], 'c',
   "Le vapeur Omega de l'American Fur Company emmène Audubon, ses compagnons et ses chasseurs, avec Provost et sa fille, jusqu'au fort Union en sept semaines.", f"{AUD} ; {VA}", "Tracé schématique le long du Missouri.")
 T(21, "La descente du Missouri en mackinaw", 'canot', '1843-08-16/1843-10-18', [P['L37'], [-101.4, 47.3], [-100.38, 44.4], [-99.4, 43.95], [-97.4, 42.87], [-95.9, 41.26], [-94.6, 39.1], [-92.2, 38.6], P['L38']], 'c',
