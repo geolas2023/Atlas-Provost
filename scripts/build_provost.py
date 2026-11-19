@@ -27,7 +27,7 @@ ROY = "Roy, Alain, « Sur la piste de Santa Fe, 1721-1880 », dans Frenette, Yve
 OSF = "Old Santa Fe: A Magazine of History, Archaeology, Genealogy and Biography, vol. 1, Santa Fe, 1913-1914, p. 375 (archive.org)"
 HF54 = "Hafen, LeRoy R. (1954), « When Was Bent's Fort Built? », The Colorado Magazine, vol. 31, n° 2, p. 107-108 ; lettre publiée par Dale L. Morgan, Provo, Pioneer Mormon City (1942), p. 24-25"
 AUD = "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65"
-HAV = "Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost »"
+HAV = "Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026)"
 AA = "enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)"
 UTG = "« Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026"
 NIC = "Nicollet, Joseph-Nicolas (1841), Report Intended to Illustrate a Map of the Hydrographical Basin of the Upper Mississippi River, Sénat, 26e Congrès, 2e session, doc. 237, p. 42-50 (Drive de l'auteur)"
@@ -152,10 +152,10 @@ L(23, "Pays crow : la première épouse et le fils Nicolas (hypothèse)", 'famil
   "Avant son mariage à Saint-Louis, Provost aurait eu d'une femme autochtone, crow selon la tradition familiale, un fils nommé Nicolas ; Bouchard et Lévesque placent cette liaison à l'hiver 1828. Un petit-fils, Michel, serait né au Canada.",
   f"{VA} ; {BOU} ; {ROQ}",
   "Union attestée seulement par la tradition rapportée par Vaugeois et De remarquables oubliés ; date et lieu inconnus. Point placé par l'atlas dans le pays crow (Bighorn-Yellowstone), que parcouraient les trappeurs libres recherchés en 1828-1829.")
-L(24, "Saint-Louis : mariage avec Marie-Rose Salle dit Lajoie (1829)", 'famille', '1829', -90.1857, 38.6243, 'a',
-  "En 1829, Provost épouse à Saint-Louis Marie-Rose Salle dit Lajoie, que les documents nomment aussi Lambert ou Lombard. Le couple aura une fille, Marie-Rose. Selon Bouchard et Lévesque, il apprend à l'été 1829, au retour du nord-est du Grand Lac Salé, que Marie-Rose est veuve depuis dix mois, l'épouse quelques semaines plus tard et repart un mois après les noces. Après 1830, il cesse de trapper lui-même.",
-  f"{TYU} ; {VA} ; {BOU} ; {ROQ} ; registre des sépultures de la vieille cathédrale de Saint-Louis, 4 juillet 1850, d'après {AA}",
-  "Vaugeois donne à l'épouse 31 ans et à Provost 46, ce qui placerait le mariage vers 1831-1832. Les noms varient : « Marie Rose Salle Dupuis » (Vaugeois), « Marie-Rose La Salle » (De remarquables oubliés), « Maria Rose Lombard » (registre de 1850). Point à la vieille cathédrale, paroisse des Canadiens.")
+L(24, "Saint-Louis : mariage avec Marie-Rose Lambert, belle-fille de Lambert Salé dit Lajoie (4 août 1829)", 'famille', '1829-08-04', -90.1857, 38.6243, 'c',
+  "Rentré à Saint-Louis le 27 juillet 1829, Provost apprend que Marie-Rose Lambert, belle-fille de son associé Lambert Salé dit Lajoie, de douze ans sa cadette, est veuve depuis l'automne ; il la connaît depuis 1826 au moins. Le mariage est fixé au 4 août et béni par le jésuite Joseph Anthony Lutz ; les témoins sont Lambert Salé, Marie Ménard et « Mr J. Laberge », sans doute Joseph-Marie La Barge, père du futur pilote. Provost achète pour la noce couvertures, casinette, étoffe écarlate et dentelle d'argent. L'union a aussi une dimension commerciale ; dès l'été 1829, Marie-Rose apparaît comme créditrice dans les registres de la compagnie.",
+  f"{HAV}, p. 339-340 ; {TYU} ; {VA} ; {BOU} ; registre des sépultures de la vieille cathédrale de Saint-Louis, 4 juillet 1850, d'après {AA}",
+  "La date de Havard, tirée des registres paroissiaux et des comptes de l'AFC, règle la question : Vaugeois, qui donne à l'épouse 31 ans et à Provost 46, plaçait le mariage vers 1831-1832. Les noms varient : « Marie Rose Salle Dupuis » (Vaugeois), « Marie-Rose La Salle » (De remarquables oubliés), « Maria Rose Lombard » (registre de 1850). Point à la vieille cathédrale.")
 L(25, "Saint-Louis : naissance de Mary Rose, « fille d'Étienne Provo » (1er mai 1830)", 'famille', '1830-05-01', -90.1860, 38.6255, 'a',
   "Le certificat de décès de Mary Rose Pillsbury (1913) la dit née à Saint-Louis le 1er mai 1830, fille d'« Etienne Provo », né au Canada. La date tombe un an après le mariage : ce serait la fille unique connue du couple, qu'Audubon voit à bord du vapeur en 1843.",
   "Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, Saint-Louis, 8 août 1913 (Drive de l'auteur) ; " + AUD,
@@ -209,6 +209,40 @@ L(40, "Saint-Louis : mort et inhumation (3-4 juillet 1850)", 'mort', '1850-07-03
   "Rentré en 1849 dans sa maison de la rue Lombard, Étienne Provost meurt subitement, d'une crise cardiaque selon Bouchard et Lévesque, à Saint-Louis le 3 juillet 1850, à 64 ans, sans savoir que les Mormons viennent de donner son nom à une ville de l'Utah. Il est inhumé le lendemain depuis la vieille cathédrale, dont le registre l'inscrit comme époux de « Maria Rose Lombard ».",
   f"{TYU} ; {UTG} ; {HAV} ; {BOU} ; registre des sépultures de la vieille cathédrale, 4 juillet 1850, d'après {AA}",
   "Point à la vieille cathédrale (basilique Saint-Louis-Roi-de-France).")
+
+# ---- Havard (2019), ch. 8, lu intégralement
+L(48, "Montréal : contrat de voyageur, « milieu » et hivernant pour les dépendances du Sud (25 janvier 1805)", 'vie', '1805-01-25', -73.5540, 45.5080, 'c',
+  "À 19 ans, Étienne Provost signe d'une croix, à Montréal, un contrat de voyageur : « milieu » (avironneur du centre du canot) et « hivernant », pour 500 livres, avec un « équipement double ordinaire » (deux ceintures de portage, deux couvertures, deux chemises de coton, deux paires de mocassins, double ration de tabac). Il doit passer par Michillimakinac et hiverner dans les « dépendances du Sud », c'est-à-dire notamment le pays des Illinois. On ne le revoit plus ensuite dans les actes de Chambly, où sa mère et ses trois frères apparaissent souvent.",
+  f"{HAV}, p. 328-329 (BAnQ-Montréal, CN601, S185)",
+  "Point au vieux Montréal (greffes notariaux). Audubon, qui le dit en 1843 « dans la traite depuis 29 ans », place plutôt ses débuts vers 1814.")
+L(49, "Fort Tecumseh : la carabine Hawken et les peaux refusées à McKenzie (9 juillet 1829)", 'traite', '1829-07-09', -100.3500, 44.3800, 'c',
+  "De retour de sa chasse de printemps chez les Corbeaux, Provost se présente au fort Tecumseh le 9 juillet 1829 mais refuse de vendre ses peaux à Kenneth McKenzie, pressé d'en tirer meilleur prix à Saint-Louis. McKenzie, admiratif de sa carabine à percussion faite par les frères Hawken, en commande deux semblables à Pierre Chouteau Jr. : Provost est l'un des premiers trappeurs à utiliser cette arme, quand la plupart portent encore le long fusil à silex de Pennsylvanie. En octobre, de retour au fort comme associé de l'« aventure d'Étienne Provost » financée à moitié par l'AFC, il obtient du commis Jacob Halsey 232,52 dollars d'articles avant de regagner le pays crow.",
+  f"{HAV}, p. 339-341",
+  "Point au fort Tecumseh, en face de l'actuelle Pierre (Dakota du Sud).")
+L(50, "Saint-Louis : naissance et mort de Marianne, choléra de 1834", 'famille', '1833-09-21/1834-06', -90.1862, 38.6250, 'c',
+  "Après avoir conduit de Fort Union à Fort Pierre la caravane de Fontenelle et Drips (120 mules et chevaux, 60 paquets de castor), Provost convoie les peaux jusqu'à Saint-Louis, où naît sa deuxième fille, Marianne, le 21 septembre 1833. Elle meurt du choléra en juin 1834, comme son cousin Jean-Baptiste Provost et l'épouse de celui-ci, Agnès, emportés au cours de l'été. Provost avait été témoin au mariage de Jean-Baptiste le 2 octobre 1826, en signant d'une croix.",
+  f"{HAV}, p. 337, 344, 349",
+  "Point schématique dans la vieille ville. Avec Mary Rose (L25), c'est la seconde fille connue du couple.")
+L(51, "Poste de Cabanné : le jeune La Barge rencontre « le vétéran montagnard » (été 1833)", 'vie', '1833-07~', -95.9700, 41.3800, 'a',
+  "Selon les souvenirs dictés dans sa vieillesse par le pilote Joseph La Barge, alors commis au poste de Jean-Pierre Cabanné dirigé par Joshua Pilcher, il y croise à l'été 1833 Provost, qu'il appelle un « vieil homme » (il a 47 ans) et dont il dit qu'« il connaissait probablement l'Ouest mieux qu'aucun autre homme vivant ». Havard juge l'anecdote douteuse mais révélatrice : La Barge, devenu son intime, est le seul passeur de la légende de Provost.",
+  f"{HAV}, p. 335-336",
+  "Point au poste de Cabanné, au nord de l'actuelle Omaha (Nebraska), approximatif.")
+L(52, "Council Bluffs : l'enquête sur la variole pour l'American Fur Company (décembre 1837-février 1838)", 'guide', '1837-12/1838-02-24', -95.8600, 41.2600, 'c',
+  "En décembre 1837, la compagnie dépêche Provost à Council Bluffs pour porter des lettres et recueillir toutes les informations sur l'épidémie qui ravage le haut Missouri. À son retour (24 février 1838), il dresse pour le comptable James A. Hamilton un bilan tribu par tribu : 31 Mandanes survivants, Assiniboines réclamant vengeance contre les traiteurs, 51 cas au fort McKenzie ; il estime la récolte de robes à venir (1 600 chez les Sioux, peu touchés, 800 chez les Pieds-Noirs, 300 chez les Corbeaux et autant chez les Assiniboines).",
+  f"{HAV}, p. 352-353",
+  "Point à Council Bluffs (Iowa). Complète L32.")
+L(53, "Independence : guide des officiers Warre et Fairholme, « Man on a Mule » (août-novembre 1840)", 'guide', '1840-08-22/1840-11', -94.4155, 39.0911, 'c',
+  "Engagé sur la recommandation de Kenneth McKenzie, qui le tient pour « l'un des meilleurs conducteurs de l'American Fur Company », Provost guide pour 80 dollars par mois deux officiers britanniques, Henry James Warre et William Fairholme, dans les plaines du Kansas. Il recrute sept Canadiens, dont deux neveux ; Constant Provost sert de valet à Warre, Jean-Baptiste Tabeau à Fairholme. La caravane (trois chariots, une vingtaine de chevaux, dix-sept hommes) quitte Saint-Louis le 22 août pour Independence. Warre, d'abord méfiant (« un vieil ivrogne » en ville), ne s'en plaint plus ; son croquis Man on a Mule semble représenter Provost.",
+  f"{HAV}, p. 359-363",
+  "Point à Independence (Missouri), départ de la caravane. Complète L35 (le « voyage au Texas » de 1840).")
+L(54, "Le vapeur Trapper : contremaître de 150 engagés vers Fort Union (11 avril 1842)", 'guide', '1842-04-11/1842-07', -90.1840, 38.6260, 'c',
+  "Le 11 avril 1842, Provost quitte à l'aube sa maison de l'angle des rues Lombard et Second pour embarquer sur le Trapper, vapeur de l'AFC commandé par Joseph A. Sire, à destination de Fort Union. Payé 50 dollars par mois, il sert de contremaître : prévenir les désertions et apaiser les querelles de 150 engagés. Un mois plus tôt, il a obtenu une licence d'aubergiste ; c'est Marie-Rose qui tient le saloon et loue les chambres.",
+  f"{HAV}, p. 363-364",
+  "Point à la levée de Saint-Louis.")
+L(55, "Cimetière catholique de Rock Springs : la sépulture et la succession (juillet 1850)", 'mort', '1850-07-04', -90.2560, 38.6220, 'a',
+  "Après les obsèques à la cathédrale, Provost est enterré au cimetière catholique de Rock Springs, dans la périphérie ouest de Saint-Louis. Il laisse à Marie-Rose une maison en ville et des parcelles dans l'Iowa et le Tennessee ; ses meubles valent 78,95 dollars et il laisse 102,70 dollars en liquide, aussitôt absorbés par les taxes foncières et les funérailles (54 dollars le cercueil, 1,50 le corbillard). Marie-Rose meurt en 1873. Aujourd'hui, rien ne rappelle son souvenir à Saint-Louis.",
+  f"{HAV}, p. 378-379",
+  "Le cimetière de Rock Springs a disparu ; point approximatif dans l'ancien secteur de Rock Spring (avenue Vandeventer).")
 
 # ---- VI. Postérité
 L(41, "Rivière Provo : la « Provost Fork » des cartes de Frémont (1845)", 'posterite', '1845', -111.73, 40.24, 'a',
