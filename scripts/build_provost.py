@@ -13,6 +13,7 @@ def HF(p): return f"Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), T
 HU = "Hafen, LeRoy R. (1968), « Etienne Provost, Mountain Man and Utah Pioneer », Utah Historical Quarterly, vol. 36, n° 2"
 NI = "Nichols, Jeffrey D. (1995), « Fellow Trappers Called Etienne Provost “The Man of the Mountains” », History Blazer, Utah State Historical Society, août 1995 (historytogo.utah.gov)"
 VA = "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)"
+BOU = "Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)"
 ROQ = "« Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf)"
 def CH(p, v=1): return f"Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. {v}, p. {p} (archive.org)"
 def DA(p): return f"Dale, Harrison C. (1918), The Ashley-Smith Explorations and the Discovery of a Central Route to the Pacific, 1822-1829, Cleveland, Arthur H. Clark, p. {p} (archive.org)"
@@ -59,8 +60,8 @@ def L(n, nom, cat, edtf, lon, lat, cert, desc, src, note=''):
 
 # ---- I. Chambly (1785-1813)
 L(1, "Chambly : naissance d'Étienne Provost", 'naissance', '1785-12-21', -73.2858, 45.4486, 'c',
-  "Étienne Provost naît à Chambly, sur le Richelieu, le 21 décembre 1785. Sa mère est Marie-Anne Mainard (Ménard). On ne sait presque rien de sa jeunesse ; il n'a pas vingt ans, écrit Denis Vaugeois, quand il choisit la traite des fourrures et le Far West, avec Saint-Louis pour base.",
-  f"{VA} ; {TYU} ; {ROQ}",
+  "Étienne Provost naît à Chambly, sur le Richelieu, le 21 décembre 1785. Il est le premier enfant du troisième mariage d'Albert Provost, cultivateur prospère, père d'une quinzaine d'enfants, et de Marie-Anne Mainard (Ménard). Son père meurt quand il a onze ans ; il ne saura jamais lire ni écrire. On ne sait presque rien de sa jeunesse ; il n'a pas vingt ans, écrit Denis Vaugeois, quand il choisit la traite des fourrures et le Far West, avec Saint-Louis pour base.",
+  f"{VA} ; {BOU} ; {TYU} ; {ROQ}",
   "Date du jour d'après Vaugeois ; Tykal et Hafen donnent seulement 1785. La photothèque de la Utah State Historical Society propose 1782. Point à l'église Saint-Joseph de Chambly.")
 L(2, "Québec : l'ancêtre Martin Prévost et Marie-Olivier Manitouabeouich (1644)", 'famille', '1644', -71.2074, 46.8139, 'c',
   "Vaugeois rattache Étienne à Martin Prévost, premier du nom en Nouvelle-France, qui épousa à Québec en 1644 Marie-Olivier Sylvestre Manitouabeouich, fille adoptive de Champlain issue d'une famille huronne-wendate et algonquine : un des tout premiers mariages franco-autochtones consacrés dans la colonie.",
@@ -72,8 +73,11 @@ L(3, "Saint-Louis : un Canadien dans la capitale de la traite", 'vie', '1814~/18
   f"{TYU} ; {ROQ} ; {GIT(139)}",
   "La fiche De remarquables oubliés date l'installation de 1815 ; Tykal le fait partir pour l'Arkansas dès 1814. Point sur le front de rivière de la vieille ville.")
 L(4, "Haut Arkansas : l'expédition de Joseph Philibert (1814)", 'prison', '1814', -104.61, 38.26, 'h',
-  "Dès 1814, Provost remonte l'Arkansas avec la troupe de trappeurs de Joseph Philibert, aux confins de la Louisiane américaine et du Nouveau-Mexique espagnol. Selon Tykal, l'expédition se termine, comme la suivante, par un emprisonnement à Santa Fe.",
-  TYU, "Point schématique sur le haut Arkansas (près de l'actuelle Pueblo). L'emprisonnement de 1814-1815 n'est connu que par Tykal ; les hommes de Philibert passent ensuite au service de Chouteau et De Mun.")
+  "En 1814, Provost fait partie de la brigade de Joseph Philibert, Montréalais établi à Saint-Louis, qui compte dix-huit Canadiens et se joint sur l'Arkansas à la troupe d'Ezekiel Williams ; le journal de Williams nomme Provost, Pierre Lespérance, Joseph Bissonnette dit Bijou, François Leclerc, Joseph Livernois, Charles Beaubien, Duchesne, Grenier, Lalande, Ledoux, Leroux et Nolan. En septembre, à Taos, ils sont arrêtés, emprisonnés à Santa Fe et expulsés, sans leurs marchandises. Philibert rentre à Saint-Louis en laissant neuf hommes, dont Provost, chasser dans les montagnes.",
+  f"{TYU} ; {BOU}", "Point schématique sur le haut Arkansas (près de l'actuelle Pueblo). L'emprisonnement de 1814-1815 n'est connu que par Tykal ; les hommes de Philibert passent ensuite au service de Chouteau et De Mun.")
+L(47, "Huerfano : le rendez-vous manqué de 1815", 'traite', '1815', -104.83, 37.73, 'h',
+  "Philibert avait donné rendez-vous à ses neuf hommes, pour 1815, au Huerfano, près de la Purgatoire. Revenu avec Auguste-Pierre Chouteau et Jules de Mun, à qui il vend sa compagnie en route, il ne les y trouve pas : affamés, ils s'étaient réfugiés à Taos des mois plus tôt. Chouteau et De Mun gardent ce noyau d'hommes dans les montagnes ; la troupe de Provost est attaquée par les Arapahos.",
+  BOU, "Point à la butte du Huerfano (Colorado), schématique.")
 L(5, "Taos : Chouteau et De Mun en territoire espagnol (1816)", 'traite', '1816', -105.5745, 36.4075, 'a',
   "Partis de Saint-Louis en septembre 1815, Auguste-Pierre Chouteau et Jules de Mun montent trapper sur le haut Arkansas avec une quarantaine d'hommes, dont Provost. Ils obtiennent d'abord des autorités espagnoles la permission de chasser, notamment autour de Taos.",
   f"{ROY} ; {TYU}", "Point à Taos.")
@@ -81,8 +85,8 @@ L(6, "Île Chouteau : le refuge sur l'Arkansas", 'combat', '1816', -101.20, 37.9
   "Au retour, la troupe de Chouteau, Provost et De Mun est attaquée et se retranche sur une île de l'Arkansas, rebaptisée depuis île Chouteau. Le lieu devient un repère de la future piste de Santa Fe.",
   ROY, "L'île a disparu avec les divagations du lit ; point près de l'actuelle Lakin (Kansas).")
 L(7, "Santa Fe : « Ettinne Provott » en prison (1817)", 'prison', '1817-05/1817-07', -105.9384, 35.6875, 'c',
-  "En mai 1817, la troupe est arrêtée par les soldats espagnols, qui l'accusent de chasser et de commercer sur leur territoire. Les hommes sont conduits à Santa Fe et enfermés plusieurs semaines ; leurs fourrures et leurs marchandises, d'une valeur de 30 000 $ selon De Mun, sont confisquées. « Ettinne Provott » signe la déclaration des prisonniers avant d'être relâché et renvoyé aux États-Unis.",
-  f"{OSF} ; {ROY} ; {TYU} ; {VA}",
+  "En mai 1817, la troupe est arrêtée par les soldats espagnols, qui l'accusent de chasser et de commercer sur leur territoire. Les hommes sont conduits à Santa Fe et enfermés plusieurs semaines ; leurs fourrures et leurs marchandises, d'une valeur de 30 000 $ selon De Mun, sont confisquées. Les vingt et un Canadiens restent captifs quarante-huit jours ; la liste des archives militaires de Santa Fe compte parmi eux Toussaint Charbonneau, l'ancien guide de Lewis et Clark. « Ettinne Provott » signe la déclaration des prisonniers avant d'être relâché et renvoyé aux États-Unis.",
+  f"{OSF} ; {ROY} ; {TYU} ; {VA} ; {BOU}",
   "Montant et durée de la détention d'après la plainte de Chouteau et De Mun, résumée par l'Atlas historique du Québec et Old Santa Fe. Point au palais des gouverneurs.")
 
 # ---- III. Taos et le Grand Bassin (1822-1826)
@@ -145,12 +149,12 @@ L(22, "Fort Floyd (futur fort Union) : McKenzie envoie Provost chercher les trap
   f"{DOL(325)} ; {CH('305-306, 328')} ; {HF(377)}",
   "Le fort Floyd est rebaptisé fort Union vers 1830.")
 L(23, "Pays crow : la première épouse et le fils Nicolas (hypothèse)", 'famille', '1828~', -107.6, 45.6, 'h',
-  "Avant son mariage à Saint-Louis, Provost aurait eu d'une femme autochtone, crow selon la tradition familiale, un fils nommé Nicolas ; un petit-fils, Michel, serait né au Canada.",
-  f"{VA} ; {ROQ}",
+  "Avant son mariage à Saint-Louis, Provost aurait eu d'une femme autochtone, crow selon la tradition familiale, un fils nommé Nicolas ; Bouchard et Lévesque placent cette liaison à l'hiver 1828. Un petit-fils, Michel, serait né au Canada.",
+  f"{VA} ; {BOU} ; {ROQ}",
   "Union attestée seulement par la tradition rapportée par Vaugeois et De remarquables oubliés ; date et lieu inconnus. Point placé par l'atlas dans le pays crow (Bighorn-Yellowstone), que parcouraient les trappeurs libres recherchés en 1828-1829.")
 L(24, "Saint-Louis : mariage avec Marie-Rose Salle dit Lajoie (1829)", 'famille', '1829', -90.1857, 38.6243, 'a',
-  "En 1829, Provost épouse à Saint-Louis Marie-Rose Salle dit Lajoie, que les documents nomment aussi Lambert ou Lombard. Le couple aura une fille, Marie-Rose. Après 1830, il cesse de trapper lui-même.",
-  f"{TYU} ; {VA} ; {ROQ} ; registre des sépultures de la vieille cathédrale de Saint-Louis, 4 juillet 1850, d'après {AA}",
+  "En 1829, Provost épouse à Saint-Louis Marie-Rose Salle dit Lajoie, que les documents nomment aussi Lambert ou Lombard. Le couple aura une fille, Marie-Rose. Selon Bouchard et Lévesque, il apprend à l'été 1829, au retour du nord-est du Grand Lac Salé, que Marie-Rose est veuve depuis dix mois, l'épouse quelques semaines plus tard et repart un mois après les noces. Après 1830, il cesse de trapper lui-même.",
+  f"{TYU} ; {VA} ; {BOU} ; {ROQ} ; registre des sépultures de la vieille cathédrale de Saint-Louis, 4 juillet 1850, d'après {AA}",
   "Vaugeois donne à l'épouse 31 ans et à Provost 46, ce qui placerait le mariage vers 1831-1832. Les noms varient : « Marie Rose Salle Dupuis » (Vaugeois), « Marie-Rose La Salle » (De remarquables oubliés), « Maria Rose Lombard » (registre de 1850). Point à la vieille cathédrale, paroisse des Canadiens.")
 L(25, "Saint-Louis : naissance de Mary Rose, « fille d'Étienne Provo » (1er mai 1830)", 'famille', '1830-05-01', -90.1860, 38.6255, 'a',
   "Le certificat de décès de Mary Rose Pillsbury (1913) la dit née à Saint-Louis le 1er mai 1830, fille d'« Etienne Provo », né au Canada. La date tombe un an après le mariage : ce serait la fille unique connue du couple, qu'Audubon voit à bord du vapeur en 1843.",
@@ -163,8 +167,8 @@ L(27, "Bayou Salade : guide de Fontenelle et Drips (1834)", 'guide', '1834-05~',
   "Au printemps 1834, Provost guide Lucien Fontenelle et Andrew Drips, chefs de partie de l'American Fur Company, jusqu'au Bayou Salade (South Park, Colorado), vaste parc d'altitude riche en gibier.",
   HF(379), "Hafen date l'épisode de 1833-1834 ; la date de 1834 suit le résumé biographique de Hafen repris par Prabook.")
 L(28, "Ham's Fork : le rendez-vous de 1834", 'rendezvous', '1834-07', -110.00, 41.65, 'a',
-  "En juillet 1834, Provost mène une troupe de l'American Fur Company au rendez-vous de la Ham's Fork, affluent de la Black's Fork (Green River). Jusqu'en 1838, il convoie ainsi les caravanes de la compagnie vers les rendez-vous annuels.",
-  f"{HF('379-380')} ; {TYU}", "Point près de Granger (Wyoming).")
+  "En juillet 1834, Provost mène une troupe de l'American Fur Company au rendez-vous de la Ham's Fork, affluent de la Black's Fork (Green River). Jusqu'en 1838, il convoie ainsi les caravanes de la compagnie vers les rendez-vous annuels. Le voyageur William Marshall Anderson, qu'il guide en 1834, gardera en mémoire ses ordres en français, « Fumez la pipe ! » pour la halte, « Gardez aux rames ! », et lui fait ses adieux à la fin de son journal.",
+  f"{HF('379-380')} ; {TYU} ; {BOU} ; Morgan, Dale L. et Eleanor T. Harris (éd.) (1967), The Rocky Mountain Journals of William Marshall Anderson", "Point près de Granger (Wyoming).")
 L(29, "Bellevue : la barge des fourrures (1834)", 'traite', '1834-09~', -95.89, 41.137, 'c',
   "À la fin de la saison 1834, Provost conduit sur le Missouri la barge qui porte les fourrures de la compagnie jusqu'au poste de Bellevue, tenu par Lucien Fontenelle puis Peter Sarpy, en route pour Saint-Louis.",
   f"{CH(475)} ; {HF(380)}", "Point à Bellevue (Nebraska).")
@@ -172,11 +176,11 @@ L(30, "Fort William (Laramie) : avec les caravanes de 1836", 'guide', '1836', -1
   "En 1836, Provost passe au fort William, sur la Laramie, que l'American Fur Company vient de racheter, avec la caravane qui monte de Liberty (Missouri) et du poste de Council Bluffs vers le rendez-vous.",
   HF(381), "Point au fort Laramie (Wyoming).")
 L(31, "Horse Creek (Green River) : Alfred Jacob Miller peint « Proveau » (rendez-vous de 1837)", 'rendezvous', '1837-07', -110.07, 42.87, 'c',
-  "Au rendez-vous de 1837, le peintre Alfred Jacob Miller, venu avec la caravane de Drips et du capitaine Stewart, croque Provost, chef en second de la caravane. On le reconnaît dans Threatened Attack, sur une mule, et dans Catching Up, debout près du feu, les mains en porte-voix. Miller lui prête un corps « rond comme un marsouin » ; un autre voyageur le dit « adipeux et rotond, engraissant la terre maigre où il passe ».",
-  f"{VA} ; {TYU}", "Point au confluent de Horse Creek et de la Green River (près de Daniel, Wyoming).")
+  "Au printemps 1837, Provost dirige une caravane d'une trentaine de charrettes où voyage le peintre Alfred Jacob Miller, engagé par le capitaine écossais William Drummond Stewart. Au rendez-vous, Miller croque Provost, toujours sur sa mule, chapeau à large bord et carabine Hawken. On le reconnaît dans Threatened Attack, sur une mule, et dans Catching Up, debout près du feu, les mains en porte-voix. Miller lui prête un corps « rond comme un marsouin » ; un autre voyageur le dit « adipeux et rotond, engraissant la terre maigre où il passe ».",
+  f"{VA} ; {TYU} ; {BOU}", "Point au confluent de Horse Creek et de la Green River (près de Daniel, Wyoming).")
 L(32, "Saint-Louis : Provost annonce l'épidémie de variole (24 février 1838)", 'traite', '1838-02-24', -90.1840, 38.6285, 'c',
-  "Le 24 février 1838, Provost arrive à Saint-Louis, tard en saison, du haut pays : il apporte la nouvelle de l'épidémie de variole qui ravage depuis l'été 1837 les nations du haut Missouri (Mandans, Arikaras, Assiniboines, Pieds-Noirs).",
-  f"{CH('626', '2-3')} ; {HA('259-262')}", "")
+  "Le 24 février 1838, Provost arrive à Saint-Louis, tard en saison, du haut pays : il apporte la nouvelle de l'épidémie de variole qui ravage depuis l'été 1837 les nations du haut Missouri (Mandans, Arikaras, Assiniboines, Pieds-Noirs), dont la compagnie l'avait chargé de constater l'étendue. Au printemps 1838, il assiste à son dernier rendez-vous et ne retournera plus dans les Rocheuses.",
+  f"{CH('626', '2-3')} ; {HA('259-262')} ; {BOU}", "")
 
 # ---- V. Guide, recruteur et tavernier (1839-1850)
 L(33, "Fort Pierre : chef des hommes de Nicollet et Frémont (1er-3 juillet 1839)", 'guide', '1839-07-01/1839-07-03', -100.385, 44.395, 'c',
@@ -186,8 +190,8 @@ L(34, "Lac du Diable : terme de l'expédition Nicollet (29 juillet-7 août 1839)
   "Par le coteau du Missouri et la rivière à Jacques (James), le convoi atteint le 29 juillet 1839 le lac du Diable (Mini-wakan), où il reste neuf jours, près d'un camp que viennent de quitter les Métis de la rivière Rouge, avant de redescendre vers le sud-est.",
   f"{NIC} ; {TYU}", "Point au lac du Diable (Dakota du Nord).")
 L(35, "Saint-Louis : recruteur et convoyeur de l'American Fur Company (1839-1849)", 'traite', '1839/1849', -90.1835, 38.6290, 'a',
-  "De 1839 à sa mort, Provost recrute chaque hiver les nouveaux engagés de la compagnie et les conduit au printemps à leurs postes du Missouri. La compagnie loue aussi ses services de guide à des expéditions privées : officiers britanniques chassant le bison en 1840, Audubon en 1843, la troupe du comte d'Otrante, fils du ministre de la Police de Napoléon, en 1844, sans doute son client le plus exigeant.",
-  f"{TYU} ; {VA}", "Point sur la levée de Saint-Louis.")
+  "De 1839 à sa mort, Provost recrute chaque hiver les nouveaux engagés de la compagnie et les conduit au printemps à leurs postes du Missouri. La compagnie loue aussi ses services de guide à des expéditions privées : officiers britanniques en garnison à Montréal qu'il mène chasser le bison jusqu'aux plaines du Texas en 1840, Audubon en 1843, la troupe du comte d'Otrante, fils du ministre de la Police de Napoléon, en 1844, sans doute son client le plus exigeant.",
+  f"{TYU} ; {VA} ; {BOU}", "Point sur la levée de Saint-Louis. Selon Bouchard et Lévesque, le St. Louis Weekly Reveille signale le retour du comte d'Otrante, chargé de trophées.")
 L(36, "Saint-Louis : le Frenchtown de la rue Second", 'vie', '1840/1847', -90.1890, 38.6165, 'a',
   "Gilles Havard situe Provost dans le Frenchtown, au sud de la vieille cathédrale (rues Second et Third, entre Poplar et Lombard), d'après l'annuaire de 1847 et le recensement municipal de 1845. Les annuaires de 1840-1841 et 1845 placent un « H. N. Provost », épicier, à l'angle sud-ouest des rues Second et Lombard, en face du café de Clément Lambert ; mais l'annuaire de 1851 inscrit encore un « Henry N. Provost, mountain trader » : sans doute un parent.",
   f"{HAV}, notes 87, 130 et 138 ; Green's St. Louis Directory for 1845, p. 103 et 144 ; Green's St. Louis Directory for 1851, p. 281 ; {AA}",
@@ -199,11 +203,11 @@ L(38, "Saint-Charles : « le vieux Provost » rentre à pied (18 octobre 1843)",
   "Au retour, à Saint-Charles, Audubon note le départ à pied de Provost, complètement ivre, pour Saint-Louis, où l'attendent sa femme, sa fille et son beau-frère Clément Salle dit Lajoie. Pour près de cinq mois de service, cet « homme fort respectable » reçoit 214 $ d'Audubon et 78,33 $ de l'Upper Missouri Outfit.",
   f"{VA} ; {AUD}", "")
 L(39, "Fort Pierre : les dernières remontées du Missouri (1845-1849)", 'guide', '1845/1849', -100.385, 44.395, 'a',
-  "Jusqu'à la fin des années 1840, Provost remonte chaque printemps le Missouri jusqu'aux postes de la compagnie ; Vaugeois le dit encore actif comme guide entre Fort Pierre et Saint-Louis. Son dernier voyage dans le haut pays date de 1849.",
-  f"{TYU} ; {VA} ; {HF(384)}", "")
+  "Jusqu'à la fin des années 1840, Provost remonte chaque printemps le Missouri jusqu'aux postes de la compagnie ; Vaugeois le dit encore actif comme guide entre Fort Pierre et Saint-Louis. Son dernier voyage dans le haut pays, en 1848 ou 1849, se fait à bord du vapeur de son ami le capitaine Joseph LaBarge ; LaBarge et Henri Picotte entretiendront sa légende.",
+  f"{TYU} ; {VA} ; {HF(384)} ; {BOU}", "")
 L(40, "Saint-Louis : mort et inhumation (3-4 juillet 1850)", 'mort', '1850-07-03/1850-07-04', -90.1857, 38.6243, 'c',
-  "Étienne Provost meurt à Saint-Louis le 3 juillet 1850, à 64 ans, sans savoir que les Mormons viennent de donner son nom à une ville de l'Utah. Il est inhumé le lendemain depuis la vieille cathédrale, dont le registre l'inscrit comme époux de « Maria Rose Lombard ».",
-  f"{TYU} ; {UTG} ; {HAV} ; registre des sépultures de la vieille cathédrale, 4 juillet 1850, d'après {AA}",
+  "Rentré en 1849 dans sa maison de la rue Lombard, Étienne Provost meurt subitement, d'une crise cardiaque selon Bouchard et Lévesque, à Saint-Louis le 3 juillet 1850, à 64 ans, sans savoir que les Mormons viennent de donner son nom à une ville de l'Utah. Il est inhumé le lendemain depuis la vieille cathédrale, dont le registre l'inscrit comme époux de « Maria Rose Lombard ».",
+  f"{TYU} ; {UTG} ; {HAV} ; {BOU} ; registre des sépultures de la vieille cathédrale, 4 juillet 1850, d'après {AA}",
   "Point à la vieille cathédrale (basilique Saint-Louis-Roi-de-France).")
 
 # ---- VI. Postérité
@@ -235,9 +239,9 @@ def T(n, nom, mode, edtf, coords, cert, desc, src, note=''):
                                 'date_edtf': edtf, 'certitude': CERT[cert], 'mode': mode, 'description': desc,
                                 'sources': src, 'note': note, 'type': 'trajet'}})
 P = {f['properties']['id']: f['geometry']['coordinates'] for f in lieux}
-T(1, "De Chambly à Saint-Louis par les Grands Lacs", 'canot', '1805~/1814', [P['L01'], [-73.55, 45.51], [-79.0, 43.25], [-83.05, 42.33], [-87.62, 41.88], [-88.9, 41.2], [-90.18, 38.95], P['L03']], 'h',
-  "Le jeune Provost quitte la vallée du Richelieu pour la traite, sans doute par la route des voyageurs : Montréal, les Grands Lacs, Détroit, Chicago, l'Illinois et le Mississippi.",
-  f"{VA} ; {TYU}", "Date et itinéraire inconnus ; tracé schématique.")
+T(1, "De Chambly à Saint-Louis par le saut Sainte-Marie, Détroit et Chicago", 'canot', '1806~/1810~', [P['L01'], [-73.55, 45.51], [-76.0, 45.6], [-79.4, 46.3], [-81.5, 46.0], [-84.35, 46.5], [-84.0, 45.3], [-82.5, 43.0], [-83.05, 42.33], [-86.4, 41.9], [-87.62, 41.88], [-88.9, 41.2], [-89.6, 40.7], [-90.18, 38.95], P['L03']], 'h',
+  "Entre 1806 et 1810, Provost aurait quitté la vallée du Saint-Laurent avec une brigade de canots par l'Outaouais jusqu'au saut Sainte-Marie, puis bifurqué vers Détroit, le portage de Chicago, la rivière des Illinois et Peoria, et enfin le Mississippi jusqu'à Saint-Louis, où vivaient déjà des oncles et cousins Provost et Ménard.",
+  f"{BOU} ; {VA} ; {TYU}", "Itinéraire proposé par Bouchard et Lévesque ; tracé schématique.")
 T(2, "Avec Philibert vers le haut Arkansas", 'cheval', '1814', [P['L03'], [-94.4, 38.9], [-98.6, 38.35], [-101.2, 37.93], P['L04']], 'h',
   "La troupe de Joseph Philibert gagne le haut Arkansas, par le Missouri puis les plaines du Kansas.", TYU, "Tracé schématique.")
 T(3, "L'expédition Chouteau-De Mun", 'cheval', '1815-09/1816', [P['L03'], [-94.4, 38.9], [-98.6, 38.35], P['L06'], [-103.5, 38.05], [-104.61, 38.26], [-105.0, 37.17], P['L05']], 'a',

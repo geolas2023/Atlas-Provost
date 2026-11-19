@@ -19,8 +19,8 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "naissance",
-    "description": "Étienne Provost naît à Chambly, sur le Richelieu, le 21 décembre 1785. Sa mère est Marie-Anne Mainard (Ménard). On ne sait presque rien de sa jeunesse ; il n'a pas vingt ans, écrit Denis Vaugeois, quand il choisit la traite des fourrures et le Far West, avec Saint-Louis pour base.",
-    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf)",
+    "description": "Étienne Provost naît à Chambly, sur le Richelieu, le 21 décembre 1785. Il est le premier enfant du troisième mariage d'Albert Provost, cultivateur prospère, père d'une quinzaine d'enfants, et de Marie-Anne Mainard (Ménard). Son père meurt quand il a onze ans ; il ne saura jamais lire ni écrire. On ne sait presque rien de sa jeunesse ; il n'a pas vingt ans, écrit Denis Vaugeois, quand il choisit la traite des fourrures et le Far West, avec Saint-Louis pour base.",
+    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf)",
     "note": "Date du jour d'après Vaugeois ; Tykal et Hafen donnent seulement 1785. La photothèque de la Utah State Historical Society propose 1782. Point à l'église Saint-Joseph de Chambly.",
     "type": "lieu"
    }
@@ -91,9 +91,33 @@
     "precision": "annee",
     "certitude": "hypothetique",
     "categorie": "prison",
-    "description": "Dès 1814, Provost remonte l'Arkansas avec la troupe de trappeurs de Joseph Philibert, aux confins de la Louisiane américaine et du Nouveau-Mexique espagnol. Selon Tykal, l'expédition se termine, comme la suivante, par un emprisonnement à Santa Fe.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "description": "En 1814, Provost fait partie de la brigade de Joseph Philibert, Montréalais établi à Saint-Louis, qui compte dix-huit Canadiens et se joint sur l'Arkansas à la troupe d'Ezekiel Williams ; le journal de Williams nomme Provost, Pierre Lespérance, Joseph Bissonnette dit Bijou, François Leclerc, Joseph Livernois, Charles Beaubien, Duchesne, Grenier, Lalande, Ledoux, Leroux et Nolan. En septembre, à Taos, ils sont arrêtés, emprisonnés à Santa Fe et expulsés, sans leurs marchandises. Philibert rentre à Saint-Louis en laissant neuf hommes, dont Provost, chasser dans les montagnes.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
     "note": "Point schématique sur le haut Arkansas (près de l'actuelle Pueblo). L'emprisonnement de 1814-1815 n'est connu que par Tykal ; les hommes de Philibert passent ensuite au service de Chouteau et De Mun.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.83,
+     37.73
+    ]
+   },
+   "properties": {
+    "id": "L47",
+    "nom": "Huerfano : le rendez-vous manqué de 1815",
+    "debut": 1815.0,
+    "fin": 1815.0,
+    "date_edtf": "1815",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "Philibert avait donné rendez-vous à ses neuf hommes, pour 1815, au Huerfano, près de la Purgatoire. Revenu avec Auguste-Pierre Chouteau et Jules de Mun, à qui il vend sa compagnie en route, il ne les y trouve pas : affamés, ils s'étaient réfugiés à Taos des mois plus tôt. Chouteau et De Mun gardent ce noyau d'hommes dans les montagnes ; la troupe de Provost est attaquée par les Arapahos.",
+    "sources": "Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
+    "note": "Point à la butte du Huerfano (Colorado), schématique.",
     "type": "lieu"
    }
   },
@@ -163,8 +187,8 @@
     "precision": "mois",
     "certitude": "certaine",
     "categorie": "prison",
-    "description": "En mai 1817, la troupe est arrêtée par les soldats espagnols, qui l'accusent de chasser et de commercer sur leur territoire. Les hommes sont conduits à Santa Fe et enfermés plusieurs semaines ; leurs fourrures et leurs marchandises, d'une valeur de 30 000 $ selon De Mun, sont confisquées. « Ettinne Provott » signe la déclaration des prisonniers avant d'être relâché et renvoyé aux États-Unis.",
-    "sources": "Old Santa Fe: A Magazine of History, Archaeology, Genealogy and Biography, vol. 1, Santa Fe, 1913-1914, p. 375 (archive.org) ; Roy, Alain, « Sur la piste de Santa Fe, 1721-1880 », dans Frenette, Yves, Étienne Rivard et Marc St-Hilaire (dir.) (2012), La francophonie nord-américaine, Québec, PUL, coll. « Atlas historique du Québec », p. 103 ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
+    "description": "En mai 1817, la troupe est arrêtée par les soldats espagnols, qui l'accusent de chasser et de commercer sur leur territoire. Les hommes sont conduits à Santa Fe et enfermés plusieurs semaines ; leurs fourrures et leurs marchandises, d'une valeur de 30 000 $ selon De Mun, sont confisquées. Les vingt et un Canadiens restent captifs quarante-huit jours ; la liste des archives militaires de Santa Fe compte parmi eux Toussaint Charbonneau, l'ancien guide de Lewis et Clark. « Ettinne Provott » signe la déclaration des prisonniers avant d'être relâché et renvoyé aux États-Unis.",
+    "sources": "Old Santa Fe: A Magazine of History, Archaeology, Genealogy and Biography, vol. 1, Santa Fe, 1913-1914, p. 375 (archive.org) ; Roy, Alain, « Sur la piste de Santa Fe, 1721-1880 », dans Frenette, Yves, Étienne Rivard et Marc St-Hilaire (dir.) (2012), La francophonie nord-américaine, Québec, PUL, coll. « Atlas historique du Québec », p. 103 ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
     "note": "Montant et durée de la détention d'après la plainte de Chouteau et De Mun, résumée par l'Atlas historique du Québec et Old Santa Fe. Point au palais des gouverneurs.",
     "type": "lieu"
    }
@@ -547,8 +571,8 @@
     "precision": "circa",
     "certitude": "hypothetique",
     "categorie": "famille",
-    "description": "Avant son mariage à Saint-Louis, Provost aurait eu d'une femme autochtone, crow selon la tradition familiale, un fils nommé Nicolas ; un petit-fils, Michel, serait né au Canada.",
-    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf)",
+    "description": "Avant son mariage à Saint-Louis, Provost aurait eu d'une femme autochtone, crow selon la tradition familiale, un fils nommé Nicolas ; Bouchard et Lévesque placent cette liaison à l'hiver 1828. Un petit-fils, Michel, serait né au Canada.",
+    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf)",
     "note": "Union attestée seulement par la tradition rapportée par Vaugeois et De remarquables oubliés ; date et lieu inconnus. Point placé par l'atlas dans le pays crow (Bighorn-Yellowstone), que parcouraient les trappeurs libres recherchés en 1828-1829.",
     "type": "lieu"
    }
@@ -571,8 +595,8 @@
     "precision": "annee",
     "certitude": "approximative",
     "categorie": "famille",
-    "description": "En 1829, Provost épouse à Saint-Louis Marie-Rose Salle dit Lajoie, que les documents nomment aussi Lambert ou Lombard. Le couple aura une fille, Marie-Rose. Après 1830, il cesse de trapper lui-même.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf) ; registre des sépultures de la vieille cathédrale de Saint-Louis, 4 juillet 1850, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)",
+    "description": "En 1829, Provost épouse à Saint-Louis Marie-Rose Salle dit Lajoie, que les documents nomment aussi Lambert ou Lombard. Le couple aura une fille, Marie-Rose. Selon Bouchard et Lévesque, il apprend à l'été 1829, au retour du nord-est du Grand Lac Salé, que Marie-Rose est veuve depuis dix mois, l'épouse quelques semaines plus tard et repart un mois après les noces. Après 1830, il cesse de trapper lui-même.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf) ; registre des sépultures de la vieille cathédrale de Saint-Louis, 4 juillet 1850, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)",
     "note": "Vaugeois donne à l'épouse 31 ans et à Provost 46, ce qui placerait le mariage vers 1831-1832. Les noms varient : « Marie Rose Salle Dupuis » (Vaugeois), « Marie-Rose La Salle » (De remarquables oubliés), « Maria Rose Lombard » (registre de 1850). Point à la vieille cathédrale, paroisse des Canadiens.",
     "type": "lieu"
    }
@@ -667,8 +691,8 @@
     "precision": "mois",
     "certitude": "approximative",
     "categorie": "rendezvous",
-    "description": "En juillet 1834, Provost mène une troupe de l'American Fur Company au rendez-vous de la Ham's Fork, affluent de la Black's Fork (Green River). Jusqu'en 1838, il convoie ainsi les caravanes de la compagnie vers les rendez-vous annuels.",
-    "sources": "Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 379-380 ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "description": "En juillet 1834, Provost mène une troupe de l'American Fur Company au rendez-vous de la Ham's Fork, affluent de la Black's Fork (Green River). Jusqu'en 1838, il convoie ainsi les caravanes de la compagnie vers les rendez-vous annuels. Le voyageur William Marshall Anderson, qu'il guide en 1834, gardera en mémoire ses ordres en français, « Fumez la pipe ! » pour la halte, « Gardez aux rames ! », et lui fait ses adieux à la fin de son journal.",
+    "sources": "Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 379-380 ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Morgan, Dale L. et Eleanor T. Harris (éd.) (1967), The Rocky Mountain Journals of William Marshall Anderson",
     "note": "Point près de Granger (Wyoming).",
     "type": "lieu"
    }
@@ -739,8 +763,8 @@
     "precision": "mois",
     "certitude": "certaine",
     "categorie": "rendezvous",
-    "description": "Au rendez-vous de 1837, le peintre Alfred Jacob Miller, venu avec la caravane de Drips et du capitaine Stewart, croque Provost, chef en second de la caravane. On le reconnaît dans Threatened Attack, sur une mule, et dans Catching Up, debout près du feu, les mains en porte-voix. Miller lui prête un corps « rond comme un marsouin » ; un autre voyageur le dit « adipeux et rotond, engraissant la terre maigre où il passe ».",
-    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "description": "Au printemps 1837, Provost dirige une caravane d'une trentaine de charrettes où voyage le peintre Alfred Jacob Miller, engagé par le capitaine écossais William Drummond Stewart. Au rendez-vous, Miller croque Provost, toujours sur sa mule, chapeau à large bord et carabine Hawken. On le reconnaît dans Threatened Attack, sur une mule, et dans Catching Up, debout près du feu, les mains en porte-voix. Miller lui prête un corps « rond comme un marsouin » ; un autre voyageur le dit « adipeux et rotond, engraissant la terre maigre où il passe ».",
+    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
     "note": "Point au confluent de Horse Creek et de la Green River (près de Daniel, Wyoming).",
     "type": "lieu"
    }
@@ -763,8 +787,8 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "traite",
-    "description": "Le 24 février 1838, Provost arrive à Saint-Louis, tard en saison, du haut pays : il apporte la nouvelle de l'épidémie de variole qui ravage depuis l'été 1837 les nations du haut Missouri (Mandans, Arikaras, Assiniboines, Pieds-Noirs).",
-    "sources": "Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 2-3, p. 626 (archive.org) ; Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org)",
+    "description": "Le 24 février 1838, Provost arrive à Saint-Louis, tard en saison, du haut pays : il apporte la nouvelle de l'épidémie de variole qui ravage depuis l'été 1837 les nations du haut Missouri (Mandans, Arikaras, Assiniboines, Pieds-Noirs), dont la compagnie l'avait chargé de constater l'étendue. Au printemps 1838, il assiste à son dernier rendez-vous et ne retournera plus dans les Rocheuses.",
+    "sources": "Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 2-3, p. 626 (archive.org) ; Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
     "note": "",
     "type": "lieu"
    }
@@ -835,9 +859,9 @@
     "precision": "annee",
     "certitude": "approximative",
     "categorie": "traite",
-    "description": "De 1839 à sa mort, Provost recrute chaque hiver les nouveaux engagés de la compagnie et les conduit au printemps à leurs postes du Missouri. La compagnie loue aussi ses services de guide à des expéditions privées : officiers britanniques chassant le bison en 1840, Audubon en 1843, la troupe du comte d'Otrante, fils du ministre de la Police de Napoléon, en 1844, sans doute son client le plus exigeant.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
-    "note": "Point sur la levée de Saint-Louis.",
+    "description": "De 1839 à sa mort, Provost recrute chaque hiver les nouveaux engagés de la compagnie et les conduit au printemps à leurs postes du Missouri. La compagnie loue aussi ses services de guide à des expéditions privées : officiers britanniques en garnison à Montréal qu'il mène chasser le bison jusqu'aux plaines du Texas en 1840, Audubon en 1843, la troupe du comte d'Otrante, fils du ministre de la Police de Napoléon, en 1844, sans doute son client le plus exigeant.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
+    "note": "Point sur la levée de Saint-Louis. Selon Bouchard et Lévesque, le St. Louis Weekly Reveille signale le retour du comte d'Otrante, chargé de trophées.",
     "type": "lieu"
    }
   },
@@ -931,8 +955,8 @@
     "precision": "annee",
     "certitude": "approximative",
     "categorie": "guide",
-    "description": "Jusqu'à la fin des années 1840, Provost remonte chaque printemps le Missouri jusqu'aux postes de la compagnie ; Vaugeois le dit encore actif comme guide entre Fort Pierre et Saint-Louis. Son dernier voyage dans le haut pays date de 1849.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 384",
+    "description": "Jusqu'à la fin des années 1840, Provost remonte chaque printemps le Missouri jusqu'aux postes de la compagnie ; Vaugeois le dit encore actif comme guide entre Fort Pierre et Saint-Louis. Son dernier voyage dans le haut pays, en 1848 ou 1849, se fait à bord du vapeur de son ami le capitaine Joseph LaBarge ; LaBarge et Henri Picotte entretiendront sa légende.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 384 ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
     "note": "",
     "type": "lieu"
    }
@@ -955,8 +979,8 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "mort",
-    "description": "Étienne Provost meurt à Saint-Louis le 3 juillet 1850, à 64 ans, sans savoir que les Mormons viennent de donner son nom à une ville de l'Utah. Il est inhumé le lendemain depuis la vieille cathédrale, dont le registre l'inscrit comme époux de « Maria Rose Lombard ».",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost » ; registre des sépultures de la vieille cathédrale, 4 juillet 1850, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)",
+    "description": "Rentré en 1849 dans sa maison de la rue Lombard, Étienne Provost meurt subitement, d'une crise cardiaque selon Bouchard et Lévesque, à Saint-Louis le 3 juillet 1850, à 64 ans, sans savoir que les Mormons viennent de donner son nom à une ville de l'Utah. Il est inhumé le lendemain depuis la vieille cathédrale, dont le registre l'inscrit comme époux de « Maria Rose Lombard ».",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost » ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; registre des sépultures de la vieille cathédrale, 4 juillet 1850, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)",
     "note": "Point à la vieille cathédrale (basilique Saint-Louis-Roi-de-France).",
     "type": "lieu"
    }

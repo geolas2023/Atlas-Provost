@@ -15,12 +15,36 @@
       45.51
      ],
      [
-      -79.0,
-      43.25
+      -76.0,
+      45.6
+     ],
+     [
+      -79.4,
+      46.3
+     ],
+     [
+      -81.5,
+      46.0
+     ],
+     [
+      -84.35,
+      46.5
+     ],
+     [
+      -84.0,
+      45.3
+     ],
+     [
+      -82.5,
+      43.0
      ],
      [
       -83.05,
       42.33
+     ],
+     [
+      -86.4,
+      41.9
      ],
      [
       -87.62,
@@ -29,6 +53,10 @@
      [
       -88.9,
       41.2
+     ],
+     [
+      -89.6,
+      40.7
      ],
      [
       -90.18,
@@ -42,15 +70,15 @@
    },
    "properties": {
     "id": "T01",
-    "nom": "De Chambly à Saint-Louis par les Grands Lacs",
-    "debut": 1805.0,
-    "fin": 1814.999,
-    "date_edtf": "1805~/1814",
+    "nom": "De Chambly à Saint-Louis par le saut Sainte-Marie, Détroit et Chicago",
+    "debut": 1806.0,
+    "fin": 1810.999,
+    "date_edtf": "1806~/1810~",
     "certitude": "hypothetique",
     "mode": "canot",
-    "description": "Le jeune Provost quitte la vallée du Richelieu pour la traite, sans doute par la route des voyageurs : Montréal, les Grands Lacs, Détroit, Chicago, l'Illinois et le Mississippi.",
-    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
-    "note": "Date et itinéraire inconnus ; tracé schématique.",
+    "description": "Entre 1806 et 1810, Provost aurait quitté la vallée du Saint-Laurent avec une brigade de canots par l'Outaouais jusqu'au saut Sainte-Marie, puis bifurqué vers Détroit, le portage de Chicago, la rivière des Illinois et Peoria, et enfin le Mississippi jusqu'à Saint-Louis, où vivaient déjà des oncles et cousins Provost et Ménard.",
+    "sources": "Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Itinéraire proposé par Bouchard et Lévesque ; tracé schématique.",
     "type": "trajet"
    }
   },
