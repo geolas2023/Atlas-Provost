@@ -182,3 +182,7 @@ body:not(.fond-parchemin) .parchemin::before, body:not(.fond-parchemin) .parchem
   .parchemin .rose, .parchemin .coin { display: none; }
   .legende-carte { width: 180px; }
 }
+
+/* Lien de langue English / Français (pages jumelles index.html / index-en.html) */
+.barre .lien-reseau + .lien-langue { margin-left: .6rem; }
+.barre .lien-langue + .credit { margin-left: .9rem; }

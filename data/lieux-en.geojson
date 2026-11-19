@@ -1,0 +1,1133 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.2858,
+     45.4486
+    ]
+   },
+   "properties": {
+    "id": "L01",
+    "nom": "Chambly: birth of Étienne Provost",
+    "debut": 1785.9699,
+    "fin": 1785.9699,
+    "date_edtf": "1785-12-21",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "naissance",
+    "description": "Étienne Provost is born in Chambly, on the Richelieu River, on December 21, 1785. He is the first child of Albert Provost's third marriage, to Marie-Anne Mainard (Ménard); Albert was a prosperous farmer and father of some fifteen children. His father dies when he is eleven, and he will never learn to read or write. Almost nothing is known of his youth; he is not yet twenty, writes Denis Vaugeois, when he chooses the fur trade and the Far West, with St. Louis as his base.",
+    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Étienne Provost et le Grand Lac Salé”, entry in the series De remarquables oubliés (Serge Bouchard), document in the author's Drive (etienne_provost.pdf)",
+    "note": "Exact day from Vaugeois; Tykal and Hafen give only 1785. The Utah State Historical Society photo collection suggests 1782. Point at the Saint-Joseph church in Chambly.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.2074,
+     46.8139
+    ]
+   },
+   "properties": {
+    "id": "L02",
+    "nom": "Quebec City: the ancestor Martin Prévost and Marie-Olivier Manitouabeouich (1644)",
+    "debut": 1644.0,
+    "fin": 1644.0,
+    "date_edtf": "1644",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "Vaugeois links Étienne to Martin Prévost, the first of the name in New France, who married Marie-Olivier Sylvestre Manitouabeouich in Quebec City in 1644. She was Champlain's adopted daughter, from a Huron-Wendat and Algonquin family: one of the very first French-Indigenous marriages solemnized in the colony.",
+    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON)",
+    "note": "Genealogical entry, outside Étienne's lifetime: it appears from the start of the timeline. The detailed line of descent from Martin to Étienne has yet to be established in the parish registers.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.186,
+     38.627
+    ]
+   },
+   "properties": {
+    "id": "L03",
+    "nom": "St. Louis: a Canadien in the capital of the fur trade",
+    "debut": 1814.0,
+    "fin": 1850.999,
+    "date_edtf": "1814~/1850",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "vie",
+    "description": "Provost makes St. Louis his base for some thirty-five years, between campaigns in the West. He arrives there by 1814-1815 at the latest, in a town still largely French-speaking and dominated by the Chouteaus, Prattes and Bertholds, for whom he will work.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Étienne Provost et le Grand Lac Salé”, entry in the series De remarquables oubliés (Serge Bouchard), document in the author's Drive (etienne_provost.pdf); Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (author's Drive)",
+    "note": "The De remarquables oubliés sheet dates his arrival to 1815; Tykal has him leaving for the Arkansas as early as 1814. Point on the riverfront of the old town.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.61,
+     38.26
+    ]
+   },
+   "properties": {
+    "id": "L04",
+    "nom": "Upper Arkansas: the Joseph Philibert expedition (1814)",
+    "debut": 1814.0,
+    "fin": 1814.0,
+    "date_edtf": "1814",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "prison",
+    "description": "In 1814, Provost belongs to the brigade of Joseph Philibert, a Montrealer settled in St. Louis. The brigade numbers eighteen Canadiens and joins Ezekiel Williams's party on the Arkansas; Williams's journal names Provost, Pierre Lespérance, Joseph Bissonnette dit Bijou, François Leclerc, Joseph Livernois, Charles Beaubien, Duchesne, Grenier, Lalande, Ledoux, Leroux and Nolan. In September, at Taos, they are arrested, jailed in Santa Fe and expelled without their goods. Philibert returns to St. Louis, leaving nine men, Provost among them, to hunt in the mountains.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive)",
+    "note": "Schematic point on the upper Arkansas (near present-day Pueblo). The 1814-1815 imprisonment is known only from Tykal; Philibert's men later pass into the service of Chouteau and De Mun.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.83,
+     37.73
+    ]
+   },
+   "properties": {
+    "id": "L47",
+    "nom": "Huerfano: the missed rendezvous of 1815",
+    "debut": 1815.0,
+    "fin": 1815.0,
+    "date_edtf": "1815",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "Philibert had arranged to meet his nine men in 1815 at the Huerfano, near the Purgatoire. He returns with Auguste-Pierre Chouteau and Jules de Mun, to whom he sells his company along the way, but does not find them: starving, they had taken refuge in Taos months earlier. Chouteau and De Mun keep this core of men in the mountains; Provost's party is attacked by the Arapaho.",
+    "sources": "Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive)",
+    "note": "Point at Huerfano Butte (Colorado), schematic.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.5745,
+     36.4075
+    ]
+   },
+   "properties": {
+    "id": "L05",
+    "nom": "Taos: Chouteau and De Mun in Spanish territory (1816)",
+    "debut": 1816.0,
+    "fin": 1816.0,
+    "date_edtf": "1816",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "Leaving St. Louis in September 1815, Auguste-Pierre Chouteau and Jules de Mun go up to trap on the upper Arkansas with some forty men, including Provost. At first they obtain permission from the Spanish authorities to hunt, notably around Taos.",
+    "sources": "Roy, Alain, “Sur la piste de Santa Fe, 1721-1880”, in Frenette, Yves, Étienne Rivard and Marc St-Hilaire (ed.) (2012), La francophonie nord-américaine, Québec, PUL, series “Atlas historique du Québec”, p. 103; Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org)",
+    "note": "Point at Taos.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -101.2,
+     37.93
+    ]
+   },
+   "properties": {
+    "id": "L06",
+    "nom": "Chouteau's Island: refuge on the Arkansas",
+    "debut": 1816.0,
+    "fin": 1816.0,
+    "date_edtf": "1816",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "combat",
+    "description": "On the way back, the party of Chouteau, Provost and De Mun is attacked and entrenches itself on an island in the Arkansas, since renamed Chouteau's Island. The spot becomes a landmark on the future Santa Fe Trail.",
+    "sources": "Roy, Alain, “Sur la piste de Santa Fe, 1721-1880”, in Frenette, Yves, Étienne Rivard and Marc St-Hilaire (ed.) (2012), La francophonie nord-américaine, Québec, PUL, series “Atlas historique du Québec”, p. 103",
+    "note": "The island has disappeared as the riverbed shifted; point near present-day Lakin (Kansas).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.9384,
+     35.6875
+    ]
+   },
+   "properties": {
+    "id": "L07",
+    "nom": "Santa Fe: “Ettinne Provott” in prison (1817)",
+    "debut": 1817.3333,
+    "fin": 1817.5823,
+    "date_edtf": "1817-05/1817-07",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "prison",
+    "description": "In May 1817, the party is arrested by Spanish soldiers, who accuse it of hunting and trading on their territory. The men are taken to Santa Fe and locked up for several weeks; their furs and goods, worth $30,000 according to De Mun, are confiscated. The twenty-one Canadiens remain captive for forty-eight days; the list in the Santa Fe military archives includes Toussaint Charbonneau, the former guide of Lewis and Clark. “Ettinne Provott” signs the prisoners' declaration before being released and sent back to the United States.",
+    "sources": "Old Santa Fe: A Magazine of History, Archaeology, Genealogy and Biography, vol. 1, Santa Fe, 1913-1914, p. 375 (archive.org); Roy, Alain, “Sur la piste de Santa Fe, 1721-1880”, in Frenette, Yves, Étienne Rivard and Marc St-Hilaire (ed.) (2012), La francophonie nord-américaine, Québec, PUL, series “Atlas historique du Québec”, p. 103; Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive)",
+    "note": "Amount and length of detention from the complaint of Chouteau and De Mun, as summarized by the Atlas historique du Québec and Old Santa Fe. Point at the Palace of the Governors.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.5745,
+     36.4075
+    ]
+   },
+   "properties": {
+    "id": "L08",
+    "nom": "Taos: the return, just after Mexican independence",
+    "debut": 1822.0,
+    "fin": 1822.0,
+    "date_edtf": "1822~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "Drawing on what he has learned of the country, Provost returns to New Mexico around 1822, as soon as independent Mexico opens the Santa Fe trade. Taos becomes his base: there he meets Antoine Robidoux, with whom he will later work in the Uinta country.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Nelson, Jack William (2003), Forgotten Pathfinders Along the North Branch of the Old Spanish Trail, 1650-1850, PDF p. 41 (author's Drive); “Etienne Provost”, historytogo.utah.gov (Utah State Historical Society), accessed November 2026",
+    "note": "Vaugeois dates the return to 1821, Nelson to 1823. The De remarquables oubliés sheet credits him with founding the Rocky Mountain Fur Company in 1822: this is a confusion with the enterprise of Ashley and Henry, to which Provost never belonged.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.5745,
+     36.4075
+    ]
+   },
+   "properties": {
+    "id": "L09",
+    "nom": "Taos: “Provoe & Leclere” (letter of Céran St. Vrain, April 21, 1824)",
+    "debut": 1824.3041,
+    "fin": 1824.3041,
+    "date_edtf": "1824-04-21",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "traite",
+    "description": "Having reached Taos in March 1824, Céran St. Vrain writes to Bernard Pratte on April 21 that business is bad, but that he expects to sell his goods to “Provoe & Leclere” when they return from their hunt. This is the first written trace of Provost's partnership with François Leclerc.",
+    "sources": "Hafen, LeRoy R. (1954), “When Was Bent's Fort Built?”, The Colorado Magazine, vol. 31, no. 2, p. 107-108; letter published by Dale L. Morgan, Provo, Pioneer Mormon City (1942), p. 24-25",
+    "note": "The identification of Leclerc (François?) is proposed by Hafen.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.67,
+     40.08
+    ]
+   },
+   "properties": {
+    "id": "L10",
+    "nom": "Uinta Basin: the hunt of Provost and Leclerc (1824)",
+    "debut": 1824.0,
+    "fin": 1825.3323,
+    "date_edtf": "1824/1825-04",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "As partners, Provost and Leclerc leave Taos by the north branch of the Old Spanish Trail to trap the Uinta Basin and the Green River. After the October massacre, Provost spends the winter of 1824-1825 in the region of the White and Green rivers.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Nelson, Jack William (1996), “The North Branch of the “Old Spanish Trail””, Journal of the Western Slope, vol. 11, no. 4, PDF p. 37 (author's Drive); Dale, Harrison C. (1918), The Ashley-Smith Explorations and the Discovery of a Central Route to the Pacific, 1822-1829, Cleveland, Arthur H. Clark, p. 94-95, 103 (archive.org)",
+    "note": "Point at the confluence of the White and the Green (present-day Ouray, Utah).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92,
+     40.55
+    ]
+   },
+   "properties": {
+    "id": "L11",
+    "nom": "Jordan River: the Bad Gocha massacre (October 1824)",
+    "debut": 1824.75,
+    "fin": 1824.75,
+    "date_edtf": "1824-10",
+    "precision": "mois",
+    "certitude": "hypothetique",
+    "categorie": "combat",
+    "description": "In October 1824, the party camps near Utah Lake, probably on the Jordan. A Shoshone chief whom the whites call “Bad Gocha” offers to smoke the pipe, on condition that no weapons or metal objects be within reach. The trappers lay down their rifles; at a signal, the Shoshone draw hidden knives. Provost escapes with two to four companions through the Wasatch Mountains, toward the northeast.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Etienne Provost”, historytogo.utah.gov (Utah State Historical Society), accessed November 2026; Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 261-280 (archive.org); Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org)",
+    "note": "The number of dead varies by source: eight (Tykal), eight to ten (Vaugeois), fifteen (Nelson 1996), seventeen (Harris). So does the place: the Jordan near the Great Salt Lake (Tykal), the mouth of the Provo (Harris). Peter Skene Ogden would learn in 1825 that Alexander Ross's party had earlier robbed and killed Shoshone, which would explain this revenge.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.25,
+     41.05
+    ]
+   },
+   "properties": {
+    "id": "L12",
+    "nom": "Great Salt Lake: “the first white man”? (1824)",
+    "debut": 1824.75,
+    "fin": 1824.75,
+    "date_edtf": "1824-10~",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "Provost is said to be the first white man to have seen the Great Salt Lake, in the fall of 1824, a few weeks before Jim Bridger, who is traditionally credited with the discovery (winter 1824-1825). The evidence is indirect but consistent.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Etienne Provost”, historytogo.utah.gov (Utah State Historical Society), accessed November 2026; Dolin, Eric Jay (2010), Fur, Fortune, and Empire: The Epic History of the Fur Trade in America, New York, W. W. Norton, PDF p. note 47 (author's Drive); Dale, Harrison C. (1918), The Ashley-Smith Explorations and the Discovery of a Central Route to the Pacific, 1822-1829, Cleveland, Arthur H. Clark, p. 94-95, 103 (archive.org)",
+    "note": "Disputed discovery: Bancroft even suggests a visit before 1824, without proof. Schematic point on the east shore of the lake.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.76,
+     40.24
+    ]
+   },
+   "properties": {
+    "id": "L13",
+    "nom": "Utah Lake: temporary trading posts (1824-1825)",
+    "debut": 1824.8333,
+    "fin": 1825.3323,
+    "date_edtf": "1824-11~/1825-04",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "Having survived the massacre, Provost sets up temporary trading posts on the shores of Utah Lake and the Great Salt Lake. The river that flows into Utah Lake, and later the town founded on its banks, will bear his name.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Étienne Provost et le Grand Lac Salé”, entry in the series De remarquables oubliés (Serge Bouchard), document in the author's Drive (etienne_provost.pdf); Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 2-3, p. 626, 796 (archive.org)",
+    "note": "Locations unknown. The De remarquables oubliés sheet speaks of eight posts, a figure the biographers do not repeat.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.79,
+     41.14
+    ]
+   },
+   "properties": {
+    "id": "L14",
+    "nom": "Mountain Green (Weber Canyon): Ogden against the Americans (May 1825)",
+    "debut": 1825.3333,
+    "fin": 1825.3333,
+    "date_edtf": "1825-05",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "In May 1825, in Weber Canyon, Provost meets the Hudson's Bay Company brigade led by Peter Skene Ogden and witnesses the clash between Ogden and Johnson Gardner, Ashley's lieutenant, who urges Ogden's engagés to desert. An irony noted by Tykal: of all the men present, only Provost, who had come from Taos under a Mexican license, had the right to hunt in this territory, which was still Mexican.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Etienne Provost”, historytogo.utah.gov (Utah State Historical Society), accessed November 2026; Dale, Harrison C. (1918), The Ashley-Smith Explorations and the Discovery of a Central Route to the Pacific, 1822-1829, Cleveland, Arthur H. Clark, p. 94-95, 103 (archive.org)",
+    "note": "Point at Mountain Green (Utah).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.83,
+     40.21
+    ]
+   },
+   "properties": {
+    "id": "L15",
+    "nom": "Fruitland: Provost meets William Ashley (June 1825)",
+    "debut": 1825.4167,
+    "fin": 1825.4167,
+    "date_edtf": "1825-06",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "After a disastrous descent of the Green River in bullboats, William H. Ashley comes upon some of Provost's trappers, who take him to their camp. In June 1825, near present-day Fruitland, Provost agrees to guide him by the Duchesne and Strawberry Creek, then north to the site of the first rendezvous. He does not, however, become one of Ashley's employees.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Nelson, Jack William (2003), Forgotten Pathfinders Along the North Branch of the Old Spanish Trail, 1650-1850, PDF p. 40 (author's Drive); Nichols, Jeffrey D. (1995), “Fellow Trappers Called Etienne Provost “The Man of the Mountains””, History Blazer, Utah State Historical Society, August 1995 (historytogo.utah.gov); Contributions to the Historical Society of Montana, vol. 9 (1923), p. 324-325",
+    "note": "Dellenbaugh (1902) and Dale (1918) also report a Provost camp at Brown's Hole, well stocked with food and horses when Ashley's starving men arrived; Dale considers this account doubtful.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.93,
+     41.02
+    ]
+   },
+   "properties": {
+    "id": "L16",
+    "nom": "Henry's Fork: the first Rocky Mountain rendezvous (July 1825)",
+    "debut": 1825.5,
+    "fin": 1825.5,
+    "date_edtf": "1825-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Guided by Provost, Ashley reaches Henry's Fork of the Green River, where the first annual trappers' rendezvous is held in early July 1825: Ashley trades his goods there for the furs of hunters scattered through the mountains. The Canadiens present look to Provost as their natural guide.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Nichols, Jeffrey D. (1995), “Fellow Trappers Called Etienne Provost “The Man of the Mountains””, History Blazer, Utah State Historical Society, August 1995 (historytogo.utah.gov); Hebard, Grace Raymond and E. A. Brininstool (1922), The Bozeman Trail, vol. 1, p. 38",
+    "note": "Point near Burntfork (Wyoming).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.9,
+     42.35
+    ]
+   },
+   "properties": {
+    "id": "L17",
+    "nom": "South Pass: a discovery attributed to Provost",
+    "debut": 1824.0,
+    "fin": 1824.0,
+    "date_edtf": "1824~",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "Several early writers credit Provost with discovering South Pass, the easy crossing of the Rockies later followed by emigrants bound for Oregon and California: the Annals of Wyoming date it to 1822, Chittenden and Harris to 1823, Bartlett to 1824. Historians today accept the “rediscovery” of the pass by Jedediah Smith and Thomas Fitzpatrick in the spring of 1824, on the advice of the Crow.",
+    "sources": "Annals of Wyoming, vol. 1 (1923), p. 756; Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 261-280 (archive.org); Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org); Bartlett, I. S. (ed.) (1918), History of Wyoming, vol. 1, p. 478; “Étienne Provost et le Grand Lac Salé”, entry in the series De remarquables oubliés (Serge Bouchard), document in the author's Drive (etienne_provost.pdf)",
+    "note": "Traditional attribution, unproven; no contemporary source places Provost at the pass.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.8,
+     40.2
+    ]
+   },
+   "properties": {
+    "id": "L18",
+    "nom": "Utah Lake: did Provost resupply Jedediah Smith's men?",
+    "debut": 1825.0,
+    "fin": 1826.999,
+    "date_edtf": "1825~/1826~",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "rendezvous",
+    "description": "Bancroft reports that a party led by Provost fed Jedediah Smith's starving men and gave them fresh horses near Utah Lake.",
+    "sources": "Bancroft, Hubert Howe (1889), History of Utah, 1540-1886, San Francisco, The History Company, p. 22, n. 4 (archive.org)",
+    "note": "Isolated episode of uncertain date; to be checked in Morgan (1953).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.4,
+     43.95
+    ]
+   },
+   "properties": {
+    "id": "L19",
+    "nom": "Fort Lookout: down the Missouri (1826)",
+    "debut": 1826.5833,
+    "fin": 1826.5833,
+    "date_edtf": "1826-08~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "After the 1826 rendezvous, where Jim Beckwourth places him, though not with certainty, Provost heads back to the United States by the Missouri; Hafen's biographical sketch records him at Fort Lookout, a post in the Missouri valley.",
+    "sources": "Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 376; Hafen, LeRoy R. (1968), “Etienne Provost, Mountain Man and Utah Pioneer”, Utah Historical Quarterly, vol. 36, no. 2",
+    "note": "Point at Fort Lookout (South Dakota).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.184,
+     38.628
+    ]
+   },
+   "properties": {
+    "id": "L20",
+    "nom": "St. Louis: “the soul of the hunters in the mountains” (September 1826)",
+    "debut": 1826.6667,
+    "fin": 1826.6667,
+    "date_edtf": "1826-09",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "traite",
+    "description": "In September 1826, Provost is back in St. Louis and trading with B. Pratte & Company. Barthélemy Berthold, a partner in the firm, writes that year that he is “the soul of the hunters in the mountains.” He enters the service of Astor's American Fur Company, whose Western Department is the Pratte-Chouteau firm.",
+    "sources": "Hafen, LeRoy R. (1968), “Etienne Provost, Mountain Man and Utah Pioneer”, Utah Historical Quarterly, vol. 36, no. 2; Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org)",
+    "note": "Point near the levee, where the Chouteau and Pratte warehouses stood.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1895,
+     38.618
+    ]
+   },
+   "properties": {
+    "id": "L21",
+    "nom": "St. Louis: the tavern and the grocery",
+    "debut": 1827.0,
+    "fin": 1850.999,
+    "date_edtf": "1827~/1850",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "From about 1827, between his seasons in the West, Provost keeps a tavern and a grocery in St. Louis. According to Vaugeois, he is in partnership with his brother-in-law Clément Salle dit Lajoie. A bon vivant, he is famous for his love of good food and drink.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (author's Drive); research by O. J. Caron for the Aubry Atlas (2026), added to the atlas “Les Canadiens français de l'Ouest” (entries PV-01 to PV-05)",
+    "note": "Address unknown; point in the Second Street Frenchtown, where Havard places Provost. The 1845 directory lists a “Clement Lambert, coffee-house” at the corner of Second and Lombard streets (see L36).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.0405,
+     47.9994
+    ]
+   },
+   "properties": {
+    "id": "L22",
+    "nom": "Fort Floyd (later Fort Union): McKenzie sends Provost to find the free trappers (fall 1828)",
+    "debut": 1828.6667,
+    "fin": 1828.6667,
+    "date_edtf": "1828-09~",
+    "precision": "circa",
+    "certitude": "certaine",
+    "categorie": "guide",
+    "description": "In the fall of 1828, Kenneth McKenzie, charged by Astor with opening the Rocky Mountain trade, sends Provost, “a former Ashley man,” into the mountains to tell the free trappers that the American Fur Company will buy their furs at a good price. Provost brings Rocky Mountain Fur Company trappers back to the post at the mouth of the Yellowstone.",
+    "sources": "Dolin, Eric Jay (2010), Fur, Fortune, and Empire: The Epic History of the Fur Trade in America, New York, W. W. Norton, PDF p. 325 (author's Drive); Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 305-306, 328 (archive.org); Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 377",
+    "note": "Fort Floyd was renamed Fort Union around 1830.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.6,
+     45.6
+    ]
+   },
+   "properties": {
+    "id": "L23",
+    "nom": "Crow country: the first wife and the son Nicolas (hypothesis)",
+    "debut": 1828.0,
+    "fin": 1828.0,
+    "date_edtf": "1828~",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "famille",
+    "description": "Before his marriage in St. Louis, Provost is said to have had a son named Nicolas with an Indigenous woman, a Crow according to family tradition; Bouchard and Lévesque place this union in the winter of 1828. A grandson, Michel, is said to have been born in Canada.",
+    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); “Étienne Provost et le Grand Lac Salé”, entry in the series De remarquables oubliés (Serge Bouchard), document in the author's Drive (etienne_provost.pdf)",
+    "note": "Union attested only by the tradition reported by Vaugeois and De remarquables oubliés; date and place unknown. The atlas places the point in Crow country (Bighorn-Yellowstone), where the free trappers sought in 1828-1829 roamed.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1857,
+     38.6243
+    ]
+   },
+   "properties": {
+    "id": "L24",
+    "nom": "St. Louis: marriage to Marie-Rose Salle dit Lajoie (1829)",
+    "debut": 1829.0,
+    "fin": 1829.0,
+    "date_edtf": "1829",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "famille",
+    "description": "In 1829, Provost marries Marie-Rose Salle dit Lajoie in St. Louis; documents also call her Lambert or Lombard. The couple will have a daughter, Marie-Rose. According to Bouchard and Lévesque, he learns in the summer of 1829, on returning from northeast of the Great Salt Lake, that Marie-Rose has been widowed for ten months; he marries her a few weeks later and sets out again a month after the wedding. After 1830, he no longer traps himself.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); “Étienne Provost et le Grand Lac Salé”, entry in the series De remarquables oubliés (Serge Bouchard), document in the author's Drive (etienne_provost.pdf); burial register of the Old Cathedral of St. Louis, 4 July 1850, according to research by O. J. Caron for the Aubry Atlas (2026), added to the atlas “Les Canadiens français de l'Ouest” (entries PV-01 to PV-05)",
+    "note": "Vaugeois gives the bride's age as 31 and Provost's as 46, which would put the marriage around 1831-1832. The names vary: “Marie Rose Salle Dupuis” (Vaugeois), “Marie-Rose La Salle” (De remarquables oubliés), “Maria Rose Lombard” (1850 register). Point at the Old Cathedral, the Canadiens' parish.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.186,
+     38.6255
+    ]
+   },
+   "properties": {
+    "id": "L25",
+    "nom": "St. Louis: birth of Mary Rose, “daughter of Étienne Provo” (May 1, 1830)",
+    "debut": 1830.3288,
+    "fin": 1830.3288,
+    "date_edtf": "1830-05-01",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "famille",
+    "description": "The death certificate of Mary Rose Pillsbury (1913) states that she was born in St. Louis on May 1, 1830, the daughter of “Etienne Provo,” born in Canada. The date falls one year after the marriage: she would be the couple's only known daughter, whom Audubon sees aboard the steamboat in 1843.",
+    "sources": "Missouri State Board of Health, death certificate no. 27938, Mary Rose Pillsbury, St. Louis, 8 August 1913 (author's Drive); Audubon, Maria R. (ed.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65",
+    "note": "The certificate names the mother “Madelin Delor,” a name that matches no known form of the wife's name. Parentage to be checked in the Old Cathedral baptismal registers. Schematic point in the old town.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.0405,
+     47.9994
+    ]
+   },
+   "properties": {
+    "id": "L26",
+    "nom": "Fort Union: hunter and boatman for the company (1830-1831)",
+    "debut": 1830.0,
+    "fin": 1831.999,
+    "date_edtf": "1830/1831",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "In 1830, Provost is among the hunters at Fort Union; in 1831, the American Fur Company roll lists him as a boatman. The fort, built by McKenzie at the confluence of the Yellowstone and the Missouri, becomes the hub of the upper Missouri trade.",
+    "sources": "Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 378-379",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.85,
+     39.1
+    ]
+   },
+   "properties": {
+    "id": "L27",
+    "nom": "Bayou Salade: guide to Fontenelle and Drips (1834)",
+    "debut": 1834.3333,
+    "fin": 1834.3333,
+    "date_edtf": "1834-05~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "guide",
+    "description": "In the spring of 1834, Provost guides Lucien Fontenelle and Andrew Drips, American Fur Company brigade leaders, to the Bayou Salade (South Park, Colorado), a vast high-altitude park rich in game.",
+    "sources": "Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 379",
+    "note": "Hafen dates the episode to 1833-1834; the 1834 date follows Hafen's biographical summary as reproduced by Prabook.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.0,
+     41.65
+    ]
+   },
+   "properties": {
+    "id": "L28",
+    "nom": "Ham's Fork: the 1834 rendezvous",
+    "debut": 1834.5,
+    "fin": 1834.5,
+    "date_edtf": "1834-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "In July 1834, Provost leads an American Fur Company party to the rendezvous on Ham's Fork, a tributary of Black's Fork (Green River). Until 1838 he escorts the company's caravans to the annual rendezvous in this way. The traveler William Marshall Anderson, whom he guides in 1834, remembers his orders in French, “Fumez la pipe!” (smoke the pipe) for a halt, “Gardez aux rames!” (mind the oars), and bids him farewell at the end of his journal.",
+    "sources": "Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 379-380; Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); Morgan, Dale L. and Eleanor T. Harris (ed.) (1967), The Rocky Mountain Journals of William Marshall Anderson",
+    "note": "Point near Granger (Wyoming).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.89,
+     41.137
+    ]
+   },
+   "properties": {
+    "id": "L29",
+    "nom": "Bellevue: the fur barge (1834)",
+    "debut": 1834.6667,
+    "fin": 1834.6667,
+    "date_edtf": "1834-09~",
+    "precision": "circa",
+    "certitude": "certaine",
+    "categorie": "traite",
+    "description": "At the end of the 1834 season, Provost takes the barge carrying the company's furs down the Missouri to the Bellevue post, kept by Lucien Fontenelle and later Peter Sarpy, on its way to St. Louis.",
+    "sources": "Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 475 (archive.org); Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 380",
+    "note": "Point at Bellevue (Nebraska).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.558,
+     42.203
+    ]
+   },
+   "properties": {
+    "id": "L30",
+    "nom": "Fort William (Laramie): with the caravans of 1836",
+    "debut": 1836.0,
+    "fin": 1836.0,
+    "date_edtf": "1836",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "guide",
+    "description": "In 1836, Provost passes through Fort William, on the Laramie, which the American Fur Company has just bought, with the caravan going up from Liberty (Missouri) and the Council Bluffs post toward the rendezvous.",
+    "sources": "Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 381",
+    "note": "Point at Fort Laramie (Wyoming).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.07,
+     42.87
+    ]
+   },
+   "properties": {
+    "id": "L31",
+    "nom": "Horse Creek (Green River): Alfred Jacob Miller paints “Proveau” (1837 rendezvous)",
+    "debut": 1837.5,
+    "fin": 1837.5,
+    "date_edtf": "1837-07",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "rendezvous",
+    "description": "In the spring of 1837, Provost leads a caravan of some thirty carts in which the painter Alfred Jacob Miller travels, hired by the Scottish captain William Drummond Stewart. At the rendezvous, Miller sketches Provost, always on his mule, with a broad-brimmed hat and a Hawken rifle. He can be recognized in Threatened Attack, on a mule, and in Catching Up, standing by the fire with his hands cupped around his mouth. Miller describes his body as “round as a porpoise”; another traveler calls him “adipose and rotund, fattening the lean land he passes over.”",
+    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive)",
+    "note": "Point at the confluence of Horse Creek and the Green River (near Daniel, Wyoming).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.184,
+     38.6285
+    ]
+   },
+   "properties": {
+    "id": "L32",
+    "nom": "St. Louis: Provost brings news of the smallpox epidemic (February 24, 1838)",
+    "debut": 1838.1479,
+    "fin": 1838.1479,
+    "date_edtf": "1838-02-24",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "traite",
+    "description": "On February 24, 1838, Provost reaches St. Louis from the upper country, late in the season. He brings news of the smallpox epidemic that has been ravaging the nations of the upper Missouri (Mandan, Arikara, Assiniboine, Blackfoot) since the summer of 1837; the company had sent him to assess its extent. In the spring of 1838 he attends his last rendezvous and will never return to the Rockies.",
+    "sources": "Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 2-3, p. 626 (archive.org); Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive)",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.385,
+     44.395
+    ]
+   },
+   "properties": {
+    "id": "L33",
+    "nom": "Fort Pierre: head of Nicollet and Frémont's men (July 1-3, 1839)",
+    "debut": 1839.4959,
+    "fin": 1839.5014,
+    "date_edtf": "1839-07-01/1839-07-03",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "guide",
+    "description": "In 1839, the American Fur Company lends Provost to Joseph-Nicolas Nicollet, who is mapping the plateaus between the Missouri and the upper Mississippi with the young John C. Frémont. Nicollet writes that he brought from St. Louis five men who “were certainly worth ten,” including “Étienne Provost, known as the man of the mountains,” whom he promotes to head of his men. On July 1, Provost comes to report that the outfit is ready; the caravan, nineteen people, ten carts and thirty horses, crosses the swollen Missouri on July 1 and 2 and climbs onto the Coteau du Missouri on the 3rd.",
+    "sources": "Nicollet, Joseph-Nicolas (1841), Report Intended to Illustrate a Map of the Hydrographical Basin of the Upper Mississippi River, Senate, 26th Congress, 2nd session, doc. 237, p. 42-50 (author's Drive); Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Etienne Provost”, historytogo.utah.gov (Utah State Historical Society), accessed November 2026; Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 382",
+    "note": "Point at Fort Pierre.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.95,
+     48.05
+    ]
+   },
+   "properties": {
+    "id": "L34",
+    "nom": "Devils Lake: end of the Nicollet expedition (July 29-August 7, 1839)",
+    "debut": 1839.5726,
+    "fin": 1839.5973,
+    "date_edtf": "1839-07-29/1839-08-07~",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "guide",
+    "description": "By way of the Coteau du Missouri and the Rivière à Jacques (James River), the convoy reaches Devils Lake (Mini-wakan) on July 29, 1839. It stays nine days, near a camp just vacated by the Red River Métis, before heading back to the southeast.",
+    "sources": "Nicollet, Joseph-Nicolas (1841), Report Intended to Illustrate a Map of the Hydrographical Basin of the Upper Mississippi River, Senate, 26th Congress, 2nd session, doc. 237, p. 42-50 (author's Drive); Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org)",
+    "note": "Point at Devils Lake (North Dakota).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1835,
+     38.629
+    ]
+   },
+   "properties": {
+    "id": "L35",
+    "nom": "St. Louis: recruiter and escort for the American Fur Company (1839-1849)",
+    "debut": 1839.0,
+    "fin": 1849.999,
+    "date_edtf": "1839/1849",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "From 1839 until his death, Provost recruits the company's new engagés every winter and takes them to their Missouri posts in the spring. The company also hires out his services as a guide to private expeditions: British officers garrisoned in Montreal, whom he takes buffalo hunting as far as the plains of Texas in 1840; Audubon in 1843; and in 1844 the party of the Count of Otranto, son of Napoleon's Minister of Police, no doubt his most demanding client.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive)",
+    "note": "Point on the St. Louis levee. According to Bouchard and Lévesque, the St. Louis Weekly Reveille reports the return of the Count of Otranto, laden with trophies.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.189,
+     38.6165
+    ]
+   },
+   "properties": {
+    "id": "L36",
+    "nom": "St. Louis: the Second Street Frenchtown",
+    "debut": 1840.0,
+    "fin": 1847.999,
+    "date_edtf": "1840/1847",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "vie",
+    "description": "Gilles Havard places Provost in Frenchtown, south of the Old Cathedral (Second and Third streets, between Poplar and Lombard), based on the 1847 directory and the 1845 municipal census. The 1840-1841 and 1845 directories list an “H. N. Provost,” grocer, at the southwest corner of Second and Lombard, across from Clément Lambert's coffee-house; but the 1851 directory still lists a “Henry N. Provost, mountain trader”: no doubt a relative.",
+    "sources": "Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 “L'homme des montagnes: Étienne Provost”, notes 87, 130 and 138; Green's St. Louis Directory for 1845, p. 103 and 144; Green's St. Louis Directory for 1851, p. 281; research by O. J. Caron for the Aubry Atlas (2026), added to the atlas “Les Canadiens français de l'Ouest” (entries PV-01 to PV-05)",
+    "note": "To be checked: Étienne's entry in the 1847 directory (p. 153). The neighborhood is also that of Moïse Lamoureux, a native of Chambly.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.0405,
+     47.9994
+    ]
+   },
+   "properties": {
+    "id": "L37",
+    "nom": "Fort Union: old Provost, Audubon's hunter (June-August 1843)",
+    "debut": 1843.4438,
+    "fin": 1843.6219,
+    "date_edtf": "1843-06-12/1843-08-16",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "guide",
+    "description": "Arriving at Fort Union on June 12, 1843, with Audubon aboard the steamboat Omega, “old” Provost, who has brought his daughter, leads the expedition's hunters: he sets out before dawn across the Missouri, brings back deer and antelope, prepares the brine for the skins, carries messages to the rival fort and makes calls that imitate the bleating of fawns. Audubon admires the skill of his Canadien hunters, Bonaventure Le Brun, Charles Primeau and Alexis Bombardier, and notes down their Canadianisms.",
+    "sources": "Audubon, Maria R. (ed.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65; Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON)",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.4812,
+     38.7839
+    ]
+   },
+   "properties": {
+    "id": "L38",
+    "nom": "St. Charles: “old Provost” walks home (October 18, 1843)",
+    "debut": 1843.7945,
+    "fin": 1843.7945,
+    "date_edtf": "1843-10-18",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "vie",
+    "description": "On the way back, at St. Charles, Audubon notes that Provost, thoroughly drunk, set off on foot for St. Louis, where his wife, his daughter and his brother-in-law Clément Salle dit Lajoie await him. For nearly five months of service, this “very respectable man” receives $214 from Audubon and $78.33 from the Upper Missouri Outfit.",
+    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Audubon, Maria R. (ed.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.385,
+     44.395
+    ]
+   },
+   "properties": {
+    "id": "L39",
+    "nom": "Fort Pierre: the last trips up the Missouri (1845-1849)",
+    "debut": 1845.0,
+    "fin": 1849.999,
+    "date_edtf": "1845/1849",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "guide",
+    "description": "Until the end of the 1840s, Provost goes up the Missouri every spring to the company's posts; Vaugeois says he was still active as a guide between Fort Pierre and St. Louis. His last journey to the upper country, in 1848 or 1849, is aboard the steamboat of his friend Captain Joseph LaBarge; LaBarge and Henri Picotte will keep his legend alive.",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Hafen, LeRoy R., “Etienne Provost”, in Hafen (ed.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386; mentioned p. 384; Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive)",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1857,
+     38.6243
+    ]
+   },
+   "properties": {
+    "id": "L40",
+    "nom": "St. Louis: death and burial (July 3-4, 1850)",
+    "debut": 1850.5014,
+    "fin": 1850.5041,
+    "date_edtf": "1850-07-03/1850-07-04",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "mort",
+    "description": "Back in his house on Lombard Street in 1849, Étienne Provost dies suddenly, of a heart attack according to Bouchard and Lévesque, in St. Louis on July 3, 1850, aged 64, without knowing that the Mormons have just given his name to a town in Utah. He is buried the next day from the Old Cathedral, whose register records him as the husband of “Maria Rose Lombard.”",
+    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Etienne Provost”, historytogo.utah.gov (Utah State Historical Society), accessed November 2026; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 “L'homme des montagnes: Étienne Provost”; Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); burial register of the Old Cathedral, 4 July 1850, according to research by O. J. Caron for the Aubry Atlas (2026), added to the atlas “Les Canadiens français de l'Ouest” (entries PV-01 to PV-05)",
+    "note": "Point at the Old Cathedral (Basilica of Saint Louis, King of France).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.73,
+     40.24
+    ]
+   },
+   "properties": {
+    "id": "L41",
+    "nom": "Provo River: the “Provost Fork” on Frémont's maps (1845)",
+    "debut": 1845.0,
+    "fin": 1845.0,
+    "date_edtf": "1845",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "The account of Frémont's expedition published in 1845, for which Kit Carson served as guide, names the river flowing down to Utah Lake “Provost Fork.” The trapper's name is thus printed on maps before the Mormons arrive; the Jordan was also called Proveau's Fork.",
+    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON)",
+    "note": "Point at the mouth of the Provo in Utah Lake.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.6585,
+     40.2338
+    ]
+   },
+   "properties": {
+    "id": "L42",
+    "nom": "Provo: the town bears Provost's name, shortened (1849)",
+    "debut": 1849.1667,
+    "fin": 1849.8323,
+    "date_edtf": "1849-03/1849-10",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "posterite",
+    "description": "In the spring of 1849, some thirty Mormon families led by John S. Higbee build Fort Utah on the river of Utah Valley. The trapper Barney Ward tells them it is also called the Provo, after Provost; in October 1849, the Church conference orders the founding of the town of Provo there. Provost left behind, Vaugeois notes, the last two letters of his name.",
+    "sources": "“Etienne Provost”, historytogo.utah.gov (Utah State Historical Society), accessed November 2026; Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (author's Drive); Dolin, Eric Jay (2010), Fur, Fortune, and Empire: The Epic History of the Fur Trade in America, New York, W. W. Norton, PDF p. 325 (author's Drive)",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.2585,
+     38.5845
+    ]
+   },
+   "properties": {
+    "id": "L43",
+    "nom": "St. Louis: death of Mary Rose Pillsbury, Provost's daughter (1913)",
+    "debut": 1913.6,
+    "fin": 1913.6,
+    "date_edtf": "1913-08-08",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "famille",
+    "description": "Mary Rose Pillsbury, a widow, probably of James A. Pillsbury, dies aged 83 at 4231 South 37th Street; she is buried in Calvary Cemetery on August 11, 1913. Her death certificate names her as the daughter of “Etienne Provo,” born in Canada.",
+    "sources": "Missouri State Board of Health, death certificate no. 27938, Mary Rose Pillsbury, 8 August 1913 (author's Drive)",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.8155,
+     40.7527
+    ]
+   },
+   "properties": {
+    "id": "L44",
+    "nom": "Salt Lake City: Provost on the This Is the Place Monument (1947)",
+    "debut": 1947.5589,
+    "fin": 1947.5589,
+    "date_edtf": "1947-07-24",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "posterite",
+    "description": "For the centennial of the Mormons' arrival, the This Is the Place Monument, at the mouth of Emigration Canyon, honors the explorers who came before them: Provost appears among the trappers.",
+    "sources": "Wikipedia, “Étienne Provost”, accessed November 2026; National Park Service (1964), The Fur Trade: Significant Sites, National Survey of Historic Sites and Buildings, vol. 1, PDF p. 49 (author's Drive)",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.5617,
+     45.5089
+    ]
+   },
+   "properties": {
+    "id": "L45",
+    "nom": "Montreal: Denis Vaugeois gives Provost back to Quebecers (Le Devoir, 2002)",
+    "debut": 2002.126,
+    "fin": 2002.126,
+    "date_edtf": "2002-02-16",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "posterite",
+    "description": "In Le Devoir, the historian and publisher Denis Vaugeois tells Provost's life story, from the Richelieu to the Great Salt Lake, and is amused that the Mormon city keeps the name of a jovial Catholic tavern keeper whose first union was with an Indigenous woman.",
+    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON)",
+    "note": "The atlas Les Canadiens français de l'Ouest dates a similar article to 2008 (entry PVM-01); the Drive clipping, which mentions the year 2002, appears to be the same one. Point at the Le Devoir offices.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.0405,
+     47.9994
+    ]
+   },
+   "properties": {
+    "id": "L46",
+    "nom": "Fort Union: Les Crépuscules de la Yellowstone (Louis Hamelin, 2020)",
+    "debut": 2020.0,
+    "fin": 2020.0,
+    "date_edtf": "2020",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "posterite",
+    "description": "The Quebec novelist Louis Hamelin turns Audubon's 1843 journey up the Missouri into a sweeping novel, in which Étienne Provost serves as guide and as a counterpoint to the naturalist.",
+    "sources": "Hamelin, Louis (2020), Les Crépuscules de la Yellowstone, novel, Montreal, Boréal (author's Drive)",
+    "note": "Work of fiction.",
+    "type": "lieu"
+   }
+  }
+ ]
+}

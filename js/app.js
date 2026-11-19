@@ -6,20 +6,32 @@
 //   - 1785 à 1813, par année (jeunesse, peu documentée), en segment compressé ;
 //   - 1814 à 1850, par mois.
 // La dernière position (max) = « toutes les dates ».
+// Langue de la page : <html lang="en"> (index-en.html) affiche l'interface et les données en anglais.
+const EN = document.documentElement.lang === 'en';
+const L = (fr, en) => EN ? en : fr;
 const AN_DEBUT = 1785, AN_DETAIL = 1814, AN_FIN = 1851;
 const NB_ANNEES = AN_DETAIL - AN_DEBUT;                       // 29 positions annuelles
 const POS_MAX = NB_ANNEES + (AN_FIN - AN_DETAIL) * 12;        // 29 + 444 = 473
-const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+const MOIS = EN ? ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+             : ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+const TOUTES = L('Toutes les dates', 'All dates');
 function lirePosition(v) {
   v = Number(v);
-  if (v >= POS_MAX) return { libelle: 'Toutes les dates', borne: null };
+  if (v >= POS_MAX) return { libelle: TOUTES, borne: null };
   if (v < NB_ANNEES) return { libelle: `${AN_DEBUT + v}`, borne: AN_DEBUT + v + 1 };
   const m = v - NB_ANNEES;
   return { libelle: `${MOIS[m % 12]} ${AN_DETAIL + Math.floor(m / 12)}`, borne: AN_DETAIL + (m + 1) / 12 };
 }
 
 // Grandes périodes de la vie d'Étienne Provost, pour situer chaque entrée du journal
-const CHAPITRES = [
+const CHAPITRES = EN ? [
+  [1814.0, 'I · Chambly, a Canadien youth'],
+  [1821.5, 'II · St. Louis and the Spanish prisons'],
+  [1826.6, 'III · Taos and the Great Basin: the man of the Salt Lake'],
+  [1838.5, 'IV · The American Fur Company, the rendezvous'],
+  [1850.6, 'V · Guide, recruiter and St. Louis tavern keeper'],
+  [9999, 'VI · Legacy']
+] : [
   [1814.0, 'I · Chambly, la jeunesse canadienne'],
   [1821.5, 'II · Saint-Louis et les prisons espagnoles'],
   [1826.6, 'III · Taos et le Grand Bassin : l\'homme du lac Salé'],
@@ -51,16 +63,19 @@ new ResizeObserver(() => carte.resize()).observe(document.getElementById('carte'
 const COULEURS = { combat: '#9a3322', prison: '#2f4d63', rendezvous: '#7a4f16', traite: '#6b5a3c', guide: '#3f5a2a',
                    famille: '#6d3f5c', posterite: '#5b6a66', naissance: '#1f2f3a', vie: '#1f2f3a', mort: '#1f2f3a' };
 const couleurCategorie = ['match', ['get', 'categorie'], ...Object.entries(COULEURS).flat(), '#1f2f3a'];
-const NOMS_CATEGORIE = { combat: 'combat, massacre', prison: 'arrestation, prison', rendezvous: 'rendez-vous, rencontre', traite: 'traite, commerce',
-                         guide: 'guide, expédition', famille: 'famille', posterite: 'postérité, mémoire', naissance: 'naissance', vie: 'vie', mort: 'mort' };
-const NOMS_MODE = { cheval: 'à cheval, à pied', canot: 'canot, barge, bateau', vapeur: 'bateau à vapeur' };
+const NOMS_CATEGORIE = EN ? { combat: 'battle, massacre', prison: 'arrest, prison', rendezvous: 'rendezvous, meeting', traite: 'fur trade, commerce',
+                              guide: 'guide, expedition', famille: 'family', posterite: 'legacy, memory', naissance: 'birth', vie: 'life', mort: 'death' }
+  : { combat: 'combat, massacre', prison: 'arrestation, prison', rendezvous: 'rendez-vous, rencontre', traite: 'traite, commerce',
+      guide: 'guide, expédition', famille: 'famille', posterite: 'postérité, mémoire', naissance: 'naissance', vie: 'vie', mort: 'mort' };
+const NOMS_MODE = EN ? { cheval: 'on horseback, on foot', canot: 'canoe, barge, boat', vapeur: 'steamboat' }
+                     : { cheval: 'à cheval, à pied', canot: 'canot, barge, bateau', vapeur: 'bateau à vapeur' };
 const ENCRE_MER = '#9a3322', ENCRE_TERRE = '#1f2f3a';
 const estMer = ['in', ['get', 'mode'], ['literal', ['canot', 'vapeur']]];
 
 carte.on('load', async () => {
   const [lieux, trajets] = await Promise.all([
-    fetch(`data/lieux.geojson?v=${VERSION}`).then(r => r.json()),
-    fetch(`data/trajets.geojson?v=${VERSION}`).then(r => r.json())
+    fetch(`data/lieux${L('', '-en')}.geojson?v=${VERSION}`).then(r => r.json()),
+    fetch(`data/trajets${L('', '-en')}.geojson?v=${VERSION}`).then(r => r.json())
   ]);
   window.DONNEES = { lieux, trajets }; // utilisé par la visite animée (visite.js)
   const couchesDeBase = carte.getStyle().layers.map(l => l.id);
@@ -71,7 +86,7 @@ carte.on('load', async () => {
   carte.addSource('satellite', {
     type: 'raster', tileSize: 256, maxzoom: 19,
     tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
-    attribution: 'Imagerie © Esri, Maxar, Earthstar Geographics et contributeurs'
+    attribution: L('Imagerie © Esri, Maxar, Earthstar Geographics et contributeurs', 'Imagery © Esri, Maxar, Earthstar Geographics and contributors')
   });
   carte.addLayer({ id: 'satellite', type: 'raster', source: 'satellite', layout: { visibility: 'none' } });
 
@@ -190,14 +205,14 @@ curseur.addEventListener('input', () => appliquerDate(curseur.value));
   const annee = (v, texte) => {
     const a = document.createElement('span');
     a.className = 'annee'; a.textContent = texte; a.style.left = position(v);
-    a.title = `Aller à ${texte}`;
+    a.title = L(`Aller à ${texte}`, `Go to ${texte}`);
     a.addEventListener('click', () => { curseur.value = v; appliquerDate(v); });
     g.appendChild(a);
   };
   const bande = document.createElement('span');
   bande.className = 'segment-compresse'; bande.style.left = position(0);
   bande.style.width = `calc(${(NB_ANNEES - 0.5) / POS_MAX} * (100% - ${POUCE}px))`;
-  bande.title = '1785-1813 : échelle compressée (une position par année)';
+  bande.title = L('1785-1813 : échelle compressée (une position par année)', '1785-1813: compressed scale (one step per year)');
   g.appendChild(bande);
   for (let v = 0; v < NB_ANNEES; v++) trait(v, (AN_DEBUT + v) % 5 === 0 || v === 0 ? 'trait' : 'trait mineur');
   annee(0, '1785'); annee(15, '1800');
@@ -235,14 +250,15 @@ document.getElementById('c-trajets').addEventListener('change', e => {
 
 // ---------- Journal de bord (panneau documentaire) ----------
 const echapper = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const NOMS_CERTITUDE = { certaine: 'localisation certaine', approximative: 'approximative', hypothetique: 'hypothétique' };
+const NOMS_CERTITUDE = EN ? { certaine: 'location certain', approximative: 'approximate', hypothetique: 'hypothetical' }
+                         : { certaine: 'localisation certaine', approximative: 'approximative', hypothetique: 'hypothétique' };
 // Date EDTF -> date lisible (« 1697-09-05 » -> « 5 septembre 1697 » ; « ~ » = vers)
 function dateLisible(edtf) {
   if (!edtf) return '';
   return String(edtf).split('/').map(d => {
     const approx = /[~?]/.test(d), [a, m, j] = d.replace(/[~?]/g, '').split('-').map(Number);
-    const txt = j ? `${j === 1 ? '1er' : j} ${MOIS[m - 1]} ${a}` : m ? `${MOIS[m - 1]} ${a}` : `${a}`;
-    return approx ? `vers ${txt}` : txt;
+    const txt = j ? (EN ? `${MOIS[m - 1]} ${j}, ${a}` : `${j === 1 ? '1er' : j} ${MOIS[m - 1]} ${a}`) : m ? `${MOIS[m - 1]} ${a}` : `${a}`;
+    return approx ? `${L('vers', 'c.')} ${txt}` : txt;
   }).join(' – ');
 }
 
@@ -260,10 +276,10 @@ function zoomerSur(f) {
 function afficherFiche(p, geom) {
   const estTrajet = geom === 'LineString' || p.type === 'trajet';
   if (carte.getLayer('trajet-actif')) carte.setFilter('trajet-actif', ['==', ['get', 'id'], estTrajet ? p.id : '']);
-  const genre = estTrajet ? (NOMS_MODE[p.mode] || 'route') : (NOMS_CATEGORIE[p.categorie] || '');
+  const genre = estTrajet ? (NOMS_MODE[p.mode] || L('route', 'route')) : (NOMS_CATEGORIE[p.categorie] || '');
   const panneau = document.getElementById('panneau');
   panneau.innerHTML = `
-    <button type="button" class="fermer" aria-label="Fermer le journal" title="Fermer (Échap)">✕</button>
+    <button type="button" class="fermer" aria-label="${L('Fermer le journal', 'Close the journal')}" title="${L('Fermer (Échap)', 'Close (Esc)')}">✕</button>
     <p class="chapitre">${echapper(chapitre(Number(p.debut)))}</p>
     <h2>${echapper(p.nom)}</h2>
     <div class="filet" aria-hidden="true">★</div>
@@ -273,8 +289,8 @@ function afficherFiche(p, geom) {
       <span class="badge ${echapper(p.certitude)}">${echapper(NOMS_CERTITUDE[p.certitude] || p.certitude)}</span>
     </p>
     ${p.description ? `<p class="description">${echapper(p.description)}</p>` : ''}
-    ${p.note ? `<p class="note"><strong>Note critique :</strong> ${echapper(p.note)}</p>` : ''}
-    <div class="sources"><strong>Source :</strong> ${echapper(p.sources)}</div>`;
+    ${p.note ? `<p class="note"><strong>${L('Note critique :', 'Critical note:')}</strong> ${echapper(p.note)}</p>` : ''}
+    <div class="sources"><strong>${L('Source :', 'Source:')}</strong> ${echapper(p.sources)}</div>`;
   panneau.querySelector('.fermer').addEventListener('click', fermerFiche);
   panneau.classList.add('ouvert');
   panneau.scrollTop = 0;
@@ -283,7 +299,14 @@ function afficherFiche(p, geom) {
 function afficherApropos() {
   if (carte.getLayer('trajet-actif')) carte.setFilter('trajet-actif', ['==', ['get', 'id'], '']);
   const panneau = document.getElementById('panneau');
-  panneau.innerHTML = `
+  panneau.innerHTML = EN ? `
+    <button type="button" class="fermer" aria-label="Close" title="Close (Esc)">✕</button>
+    <h2>The Man of the Mountains</h2>
+    <div class="filet" aria-hidden="true">★</div>
+    <p class="description">Étienne Provost (Chambly, 1785 – St. Louis, 1850): this atlas follows his whole life, from the Richelieu valley to St. Louis, from the prisons of Santa Fe to the Great Salt Lake basin, where the river and the city of Provo bear his name, then from the Rocky Mountain rendezvous to the American Fur Company forts on the upper Missouri, where he guided Nicollet and Audubon, and finally to his St. Louis tavern.</p>
+    <p>Click a place or a route to open its entry. The timeline moves by year from 1785 to 1813 (his youth, poorly documented), then by month from 1814 to 1850; legacy entries (after 1850) appear only under “All dates.” The ▶ button starts the journey: the rider or the canoe follows each route and the map stops at each place.</p>
+    <p class="avertissement">Routes are schematic; dotted lines mark a hypothetical route. Many episodes (Philibert 1814, the 1824 massacre, the discovery of the Great Salt Lake, South Pass, the first Crow wife) are debated: each entry cites its sources (Tykal 1989 and his Utah History Encyclopedia article, Hafen, Chittenden, Dale, Morgan, Audubon, Vaugeois…) and flags the uncertainties. The descriptions are summaries written for the atlas and translated from the French. The atlas is part of the <a href="https://geolas2023.github.io/atlas-les-canadiens-fran-ais-de-l-ouest/provost-en.html">French Canadians of the West</a> network.</p>
+    <div class="sources">Olivier J. Caron, Department of Geography, UQAM.</div>` : `
     <button type="button" class="fermer" aria-label="Fermer" title="Fermer (Échap)">✕</button>
     <h2>L'homme des montagnes</h2>
     <div class="filet" aria-hidden="true">★</div>
