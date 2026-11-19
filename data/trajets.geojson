@@ -1,0 +1,1079 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.2858,
+      45.4486
+     ],
+     [
+      -73.55,
+      45.51
+     ],
+     [
+      -79.0,
+      43.25
+     ],
+     [
+      -83.05,
+      42.33
+     ],
+     [
+      -87.62,
+      41.88
+     ],
+     [
+      -88.9,
+      41.2
+     ],
+     [
+      -90.18,
+      38.95
+     ],
+     [
+      -90.186,
+      38.627
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T01",
+    "nom": "De Chambly à Saint-Louis par les Grands Lacs",
+    "debut": 1805.0,
+    "fin": 1814.999,
+    "date_edtf": "1805~/1814",
+    "certitude": "hypothetique",
+    "mode": "canot",
+    "description": "Le jeune Provost quitte la vallée du Richelieu pour la traite, sans doute par la route des voyageurs : Montréal, les Grands Lacs, Détroit, Chicago, l'Illinois et le Mississippi.",
+    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Date et itinéraire inconnus ; tracé schématique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -90.186,
+      38.627
+     ],
+     [
+      -94.4,
+      38.9
+     ],
+     [
+      -98.6,
+      38.35
+     ],
+     [
+      -101.2,
+      37.93
+     ],
+     [
+      -104.61,
+      38.26
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T02",
+    "nom": "Avec Philibert vers le haut Arkansas",
+    "debut": 1814.0,
+    "fin": 1814.0,
+    "date_edtf": "1814",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "La troupe de Joseph Philibert gagne le haut Arkansas, par le Missouri puis les plaines du Kansas.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Tracé schématique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -90.186,
+      38.627
+     ],
+     [
+      -94.4,
+      38.9
+     ],
+     [
+      -98.6,
+      38.35
+     ],
+     [
+      -101.2,
+      37.93
+     ],
+     [
+      -103.5,
+      38.05
+     ],
+     [
+      -104.61,
+      38.26
+     ],
+     [
+      -105.0,
+      37.17
+     ],
+     [
+      -105.5745,
+      36.4075
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T03",
+    "nom": "L'expédition Chouteau-De Mun",
+    "debut": 1815.6667,
+    "fin": 1816.999,
+    "date_edtf": "1815-09/1816",
+    "certitude": "approximative",
+    "mode": "cheval",
+    "description": "Partis de Saint-Louis en septembre 1815, Chouteau et De Mun suivent l'Arkansas jusqu'aux montagnes, puis descendent vers Taos.",
+    "sources": "Roy, Alain, « Sur la piste de Santa Fe, 1721-1880 », dans Frenette, Yves, Étienne Rivard et Marc St-Hilaire (dir.) (2012), La francophonie nord-américaine, Québec, PUL, coll. « Atlas historique du Québec », p. 103 ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Tracé schématique le long de l'Arkansas.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -104.61,
+      38.26
+     ],
+     [
+      -105.0,
+      37.17
+     ],
+     [
+      -105.5745,
+      36.4075
+     ],
+     [
+      -105.9384,
+      35.6875
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T04",
+    "nom": "Prisonniers jusqu'à Santa Fe",
+    "debut": 1817.3333,
+    "fin": 1817.3333,
+    "date_edtf": "1817-05",
+    "certitude": "approximative",
+    "mode": "cheval",
+    "description": "Arrêtés en mai 1817, les hommes de Chouteau et De Mun sont conduits sous escorte à Santa Fe.",
+    "sources": "Roy, Alain, « Sur la piste de Santa Fe, 1721-1880 », dans Frenette, Yves, Étienne Rivard et Marc St-Hilaire (dir.) (2012), La francophonie nord-américaine, Québec, PUL, coll. « Atlas historique du Québec », p. 103 ; Old Santa Fe: A Magazine of History, Archaeology, Genealogy and Biography, vol. 1, Santa Fe, 1913-1914, p. 375 (archive.org)",
+    "note": "Le lieu exact de l'arrestation, sur le haut Arkansas, est approximatif.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.9384,
+      35.6875
+     ],
+     [
+      -104.6,
+      37.0
+     ],
+     [
+      -103.0,
+      37.6
+     ],
+     [
+      -101.2,
+      37.93
+     ],
+     [
+      -98.6,
+      38.35
+     ],
+     [
+      -94.4,
+      38.9
+     ],
+     [
+      -90.186,
+      38.627
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T05",
+    "nom": "Relâchés : le retour à Saint-Louis",
+    "debut": 1817.5,
+    "fin": 1817.749,
+    "date_edtf": "1817-07/1817-09",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "Dépouillés de leurs fourrures, les prisonniers libérés regagnent Saint-Louis par les plaines.",
+    "sources": "Roy, Alain, « Sur la piste de Santa Fe, 1721-1880 », dans Frenette, Yves, Étienne Rivard et Marc St-Hilaire (dir.) (2012), La francophonie nord-américaine, Québec, PUL, coll. « Atlas historique du Québec », p. 103",
+    "note": "Tracé schématique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -90.186,
+      38.627
+     ],
+     [
+      -94.4,
+      38.9
+     ],
+     [
+      -96.5,
+      38.66
+     ],
+     [
+      -98.6,
+      38.35
+     ],
+     [
+      -101.2,
+      37.93
+     ],
+     [
+      -103.5,
+      38.05
+     ],
+     [
+      -104.6,
+      37.0
+     ],
+     [
+      -105.5745,
+      36.4075
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T06",
+    "nom": "De Saint-Louis à Taos par la piste de Santa Fe",
+    "debut": 1822.0,
+    "fin": 1822.0,
+    "date_edtf": "1822~",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "Vers 1822, Provost revient au Nouveau-Mexique par la piste de Santa Fe, que Becknell vient d'ouvrir.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Tracé schématique (branche de la montagne).",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.5745,
+      36.4075
+     ],
+     [
+      -106.0,
+      37.47
+     ],
+     [
+      -106.9,
+      38.5
+     ],
+     [
+      -108.0,
+      38.7
+     ],
+     [
+      -108.55,
+      39.06
+     ],
+     [
+      -109.3,
+      39.55
+     ],
+     [
+      -109.67,
+      40.08
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T07",
+    "nom": "De Taos au bassin de la Uinta par la branche nord de la Vieille Piste espagnole",
+    "debut": 1824.3333,
+    "fin": 1824.6657,
+    "date_edtf": "1824-05~/1824-08~",
+    "certitude": "approximative",
+    "mode": "cheval",
+    "description": "Provost et Leclerc gagnent le pays de la Uinta par la vallée de San Luis, le Gunnison et la vallée du Colorado, la route des trappeurs de Taos.",
+    "sources": "Nelson, Jack William (1996), « The North Branch of the “Old Spanish Trail” », Journal of the Western Slope, vol. 11, n° 4, PDF p. 37 (Drive de l'auteur) ; Nelson, Jack William (2003), Forgotten Pathfinders Along the North Branch of the Old Spanish Trail, 1650-1850, PDF p. 40-41 (Drive de l'auteur)",
+    "note": "Tracé schématique de la branche nord.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -109.67,
+      40.08
+     ],
+     [
+      -110.4,
+      40.17
+     ],
+     [
+      -111.0,
+      40.17
+     ],
+     [
+      -111.35,
+      40.3
+     ],
+     [
+      -111.6,
+      40.33
+     ],
+     [
+      -111.76,
+      40.24
+     ],
+     [
+      -111.92,
+      40.55
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T08",
+    "nom": "De la Uinta au lac Utah",
+    "debut": 1824.6667,
+    "fin": 1824.8323,
+    "date_edtf": "1824-09~/1824-10",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "La troupe passe à l'ouest par la Duchesne et le Strawberry, puis descend vers le lac Utah et la Jordan.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026",
+    "note": "Tracé hypothétique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -111.92,
+      40.55
+     ],
+     [
+      -111.7,
+      40.75
+     ],
+     [
+      -111.4,
+      40.95
+     ],
+     [
+      -110.9,
+      40.75
+     ],
+     [
+      -110.2,
+      40.4
+     ],
+     [
+      -109.67,
+      40.08
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T09",
+    "nom": "La fuite par les Wasatch",
+    "debut": 1824.75,
+    "fin": 1824.9157,
+    "date_edtf": "1824-10/1824-11",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "Les survivants du massacre s'échappent vers le nord-est par les Wasatch, puis regagnent la région de la Green et de la White pour l'hiver.",
+    "sources": "« Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Nelson, Jack William (1996), « The North Branch of the “Old Spanish Trail” », Journal of the Western Slope, vol. 11, n° 4, PDF p. 37 (Drive de l'auteur)",
+    "note": "Tracé hypothétique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -109.67,
+      40.08
+     ],
+     [
+      -110.4,
+      40.6
+     ],
+     [
+      -111.0,
+      40.85
+     ],
+     [
+      -111.4,
+      41.05
+     ],
+     [
+      -111.79,
+      41.14
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T10",
+    "nom": "Printemps 1825 : vers la Weber",
+    "debut": 1825.25,
+    "fin": 1825.4157,
+    "date_edtf": "1825-04/1825-05",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "Au printemps, Provost reprend la chasse vers la Weber, où il croise Ogden.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Tracé hypothétique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -111.79,
+      41.14
+     ],
+     [
+      -111.4,
+      40.95
+     ],
+     [
+      -111.0,
+      40.5
+     ],
+     [
+      -110.83,
+      40.21
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T11",
+    "nom": "De la Weber à Fruitland",
+    "debut": 1825.3333,
+    "fin": 1825.499,
+    "date_edtf": "1825-05/1825-06",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "Provost revient vers le sud-est, dans le bassin de la Duchesne, où il rencontre Ashley.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Tracé hypothétique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -110.83,
+      40.21
+     ],
+     [
+      -110.5,
+      40.5
+     ],
+     [
+      -110.3,
+      40.7
+     ],
+     [
+      -110.05,
+      40.85
+     ],
+     [
+      -109.93,
+      41.02
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T12",
+    "nom": "Avec Ashley vers le premier rendez-vous",
+    "debut": 1825.4167,
+    "fin": 1825.5823,
+    "date_edtf": "1825-06/1825-07",
+    "certitude": "approximative",
+    "mode": "cheval",
+    "description": "Provost guide Ashley par la Duchesne et le Strawberry, puis au nord à travers les Uinta, jusqu'à l'Henry's Fork.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Nelson, Jack William (2003), Forgotten Pathfinders Along the North Branch of the Old Spanish Trail, 1650-1850, PDF p. 40 (Drive de l'auteur)",
+    "note": "Tracé schématique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -109.93,
+      41.02
+     ],
+     [
+      -108.9,
+      42.35
+     ],
+     [
+      -106.3,
+      42.85
+     ],
+     [
+      -104.0,
+      43.9
+     ],
+     [
+      -102.0,
+      44.2
+     ],
+     [
+      -99.4,
+      43.95
+     ],
+     [
+      -97.4,
+      42.87
+     ],
+     [
+      -95.9,
+      41.26
+     ],
+     [
+      -94.6,
+      39.1
+     ],
+     [
+      -92.2,
+      38.6
+     ],
+     [
+      -90.184,
+      38.628
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T13",
+    "nom": "Le retour par le Missouri",
+    "debut": 1826.5,
+    "fin": 1826.749,
+    "date_edtf": "1826-07~/1826-09",
+    "certitude": "hypothetique",
+    "mode": "canot",
+    "description": "De la Green River, Provost gagne le Missouri et le descend jusqu'à Saint-Louis, où il est de retour en septembre 1826.",
+    "sources": "Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 376 ; Hafen, LeRoy R. (1968), « Etienne Provost, Mountain Man and Utah Pioneer », Utah Historical Quarterly, vol. 36, n° 2",
+    "note": "Tracé hypothétique ; le passage par le fort Lookout vient de la notice de Hafen.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -90.184,
+      38.628
+     ],
+     [
+      -92.2,
+      38.6
+     ],
+     [
+      -94.6,
+      39.1
+     ],
+     [
+      -95.9,
+      41.26
+     ],
+     [
+      -97.4,
+      42.87
+     ],
+     [
+      -99.4,
+      43.95
+     ],
+     [
+      -100.38,
+      44.4
+     ],
+     [
+      -101.4,
+      47.3
+     ],
+     [
+      -104.0405,
+      47.9994
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T14",
+    "nom": "Saint-Louis – fort Floyd : au service de McKenzie",
+    "debut": 1828.25,
+    "fin": 1828.6657,
+    "date_edtf": "1828-04~/1828-08~",
+    "certitude": "approximative",
+    "mode": "canot",
+    "description": "Provost remonte le Missouri jusqu'au poste de McKenzie à l'embouchure de la Yellowstone.",
+    "sources": "Dolin, Eric Jay (2010), Fur, Fortune, and Empire: The Epic History of the Fur Trade in America, New York, W. W. Norton, PDF p. 325 (Drive de l'auteur) ; Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 377",
+    "note": "Tracé schématique le long du Missouri.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -104.0405,
+      47.9994
+     ],
+     [
+      -105.8,
+      46.4
+     ],
+     [
+      -107.5,
+      45.6
+     ],
+     [
+      -108.4,
+      43.2
+     ],
+     [
+      -108.9,
+      42.35
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T15",
+    "nom": "À la recherche des trappeurs libres",
+    "debut": 1828.6667,
+    "fin": 1829.3323,
+    "date_edtf": "1828-09~/1829-04~",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "De l'embouchure de la Yellowstone, Provost remonte vers le pays crow et les montagnes pour rallier les trappeurs libres à l'American Fur Company.",
+    "sources": "Dolin, Eric Jay (2010), Fur, Fortune, and Empire: The Epic History of the Fur Trade in America, New York, W. W. Norton, PDF p. 325 (Drive de l'auteur) ; Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 305-306 (archive.org)",
+    "note": "Tracé hypothétique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -95.89,
+      41.137
+     ],
+     [
+      -98.4,
+      40.7
+     ],
+     [
+      -101.0,
+      41.1
+     ],
+     [
+      -103.0,
+      40.6
+     ],
+     [
+      -104.99,
+      39.74
+     ],
+     [
+      -105.85,
+      39.1
+     ],
+     [
+      -106.5,
+      40.8
+     ],
+     [
+      -107.8,
+      41.6
+     ],
+     [
+      -109.2,
+      41.6
+     ],
+     [
+      -110.0,
+      41.65
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T16",
+    "nom": "Avec Fontenelle et Drips : Bayou Salade et Ham's Fork",
+    "debut": 1834.25,
+    "fin": 1834.5823,
+    "date_edtf": "1834-04~/1834-07",
+    "certitude": "hypothetique",
+    "mode": "cheval",
+    "description": "Partie du Missouri, la caravane de l'American Fur Company gagne le Bayou Salade, puis le rendez-vous de la Ham's Fork.",
+    "sources": "Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 379-380",
+    "note": "Tracé hypothétique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -110.0,
+      41.65
+     ],
+     [
+      -108.9,
+      42.35
+     ],
+     [
+      -106.3,
+      42.85
+     ],
+     [
+      -104.56,
+      42.2
+     ],
+     [
+      -102.0,
+      41.1
+     ],
+     [
+      -99.5,
+      40.7
+     ],
+     [
+      -96.5,
+      41.0
+     ],
+     [
+      -95.89,
+      41.137
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T17",
+    "nom": "La barge des fourrures descend vers Bellevue",
+    "debut": 1834.5833,
+    "fin": 1834.749,
+    "date_edtf": "1834-08~/1834-09~",
+    "certitude": "hypothetique",
+    "mode": "canot",
+    "description": "Les fourrures de la saison descendent vers Bellevue, par la Platte puis le Missouri.",
+    "sources": "Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 475 (archive.org)",
+    "note": "Tracé hypothétique ; la Platte est peu navigable et les fourrures voyagent souvent à dos de mulet jusqu'au Missouri.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -90.186,
+      38.627
+     ],
+     [
+      -94.42,
+      39.25
+     ],
+     [
+      -96.5,
+      40.4
+     ],
+     [
+      -98.6,
+      40.7
+     ],
+     [
+      -101.0,
+      41.1
+     ],
+     [
+      -103.0,
+      41.7
+     ],
+     [
+      -104.558,
+      42.203
+     ],
+     [
+      -106.3,
+      42.85
+     ],
+     [
+      -108.9,
+      42.35
+     ],
+     [
+      -110.07,
+      42.87
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T18",
+    "nom": "La caravane de 1837 vers le rendez-vous de Horse Creek",
+    "debut": 1837.3333,
+    "fin": 1837.5823,
+    "date_edtf": "1837-05/1837-07",
+    "certitude": "approximative",
+    "mode": "cheval",
+    "description": "Chef en second de la caravane de l'American Fur Company, Provost suit la route de la Platte et du col du Sud jusqu'au rendez-vous de la Green River, avec le peintre Miller.",
+    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Tracé schématique (route de l'Oregon).",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -100.385,
+      44.395
+     ],
+     [
+      -99.6,
+      45.0
+     ],
+     [
+      -98.7,
+      45.9
+     ],
+     [
+      -98.6,
+      46.9
+     ],
+     [
+      -98.95,
+      48.05
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T19",
+    "nom": "Avec Nicollet, du fort Pierre au lac du Diable",
+    "debut": 1839.5,
+    "fin": 1839.6657,
+    "date_edtf": "1839-07/1839-08",
+    "certitude": "approximative",
+    "mode": "cheval",
+    "description": "L'expédition de Nicollet et Frémont traverse le coteau du Missouri et remonte la James jusqu'au lac du Diable.",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
+    "note": "Tracé schématique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -90.186,
+      38.627
+     ],
+     [
+      -92.2,
+      38.6
+     ],
+     [
+      -94.6,
+      39.1
+     ],
+     [
+      -95.9,
+      41.26
+     ],
+     [
+      -97.4,
+      42.87
+     ],
+     [
+      -99.4,
+      43.95
+     ],
+     [
+      -100.38,
+      44.4
+     ],
+     [
+      -101.4,
+      47.3
+     ],
+     [
+      -104.0405,
+      47.9994
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T20",
+    "nom": "Avec Audubon sur l'Omega, de Saint-Louis au fort Union",
+    "debut": 1843.3123,
+    "fin": 1843.4438,
+    "date_edtf": "1843-04-25/1843-06-12",
+    "certitude": "certaine",
+    "mode": "vapeur",
+    "description": "Le vapeur Omega de l'American Fur Company emmène Audubon, ses compagnons et ses chasseurs, avec Provost et sa fille, jusqu'au fort Union en sept semaines.",
+    "sources": "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
+    "note": "Tracé schématique le long du Missouri.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -104.0405,
+      47.9994
+     ],
+     [
+      -101.4,
+      47.3
+     ],
+     [
+      -100.38,
+      44.4
+     ],
+     [
+      -99.4,
+      43.95
+     ],
+     [
+      -97.4,
+      42.87
+     ],
+     [
+      -95.9,
+      41.26
+     ],
+     [
+      -94.6,
+      39.1
+     ],
+     [
+      -92.2,
+      38.6
+     ],
+     [
+      -90.4812,
+      38.7839
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T21",
+    "nom": "La descente du Missouri en mackinaw",
+    "debut": 1843.6219,
+    "fin": 1843.7945,
+    "date_edtf": "1843-08-16/1843-10-18",
+    "certitude": "certaine",
+    "mode": "canot",
+    "description": "Audubon et sa troupe redescendent le Missouri en barque (mackinaw) jusqu'à Saint-Charles, où Provost débarque le 18 octobre.",
+    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65",
+    "note": "Tracé schématique.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -90.4812,
+      38.7839
+     ],
+     [
+      -90.33,
+      38.7
+     ],
+     [
+      -90.189,
+      38.6165
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T22",
+    "nom": "Le dernier bout de chemin, à pied",
+    "debut": 1843.7945,
+    "fin": 1843.7945,
+    "date_edtf": "1843-10-18",
+    "certitude": "certaine",
+    "mode": "cheval",
+    "description": "Ivre et joyeux, Provost fait à pied la trentaine de kilomètres de Saint-Charles à Saint-Louis.",
+    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
+    "note": "Mode : à pied.",
+    "type": "trajet"
+   }
+  }
+ ]
+}
