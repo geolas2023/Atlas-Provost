@@ -1936,6 +1936,38 @@
      }
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1893,
+     38.6255
+    ]
+   },
+   "properties": {
+    "id": "L72",
+    "nom": "Saint-Louis : Provost se porte caution pour la succession de son beau-père Lambert Salé dit Lajoie (22 février 1837)",
+    "debut": 1837.1425,
+    "fin": 1837.1425,
+    "date_edtf": "1837-02-22",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "Le 22 février 1837, devant la cour du comté de Saint-Louis, Clément Sallé dit Lajoie, frère de Marie-Rose, prend la charge d'administrateur « de bonis non, avec le testament annexé » de la succession de son père, Lambert Sallé dit Lajoie, mort en 1834. Il doit s'engager pour 1 000 $ envers l'État du Missouri, garantis par deux cautions : Étienne Provost (« Etienne Provos »), son beau-frère, et John B. Sarpy, l'un des associés de Pierre Chouteau Jr. & Co., qui emploie alors Provost. Clément signe ; Provost, qui ne sait pas écrire, trace une croix entre « his » et « mark », comme sur son acte de mariage de 1829. L'acte est enregistré le 1er mars 1837 par le greffier Henry Chouteau. La formule « de bonis non » désigne l'administration des biens qui restent à régler quand le premier exécuteur ne peut plus agir : la veuve, Madeleine Delor, avait été inhumée dix-neuf jours plus tôt, le 3 février (fiche L70). Quelques semaines plus tard, Provost repart vers les montagnes avec la caravane de la compagnie (fiche L31).",
+    "sources": "Cautionnement (« Know All Men by These Presents… ») de Clément Sallé alias Lajoie, administrateur de la succession de Lambert Sallé dit Lajoie, avec Étienne Provos et John B. Sarpy pour cautions, Saint-Louis, 22 février 1837, enregistré le 1er mars 1837 (Henry Chouteau, greffier), cour du comté de Saint-Louis ; Missouri, U.S., Wills and Probate Records, succession de Lambert Salle, Saint-Louis (dossier n° 1153), document fourni par l'auteur de l'atlas",
+    "note": "Point au palais de justice de Saint-Louis (site de l'actuel Old Courthouse, rues Fourth et Market), où siégeait la cour de comté. Le formulaire porte le mot « Execut[rix] » biffé : il visait un exécuteur précédent, sans doute la veuve. Que Madeleine Delor ait été l'exécutrice testamentaire de son mari reste une déduction, que le testament de Lambert (non lu) permettrait de vérifier. Le document confirme que Provost est le beau-frère de Clément, que l'American Fur Company soutient ses affaires de famille, et qu'il est à Saint-Louis à la fin de l'hiver 1837.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/arbre/1837-02-22-cautionnement-succession-lambert-sale.jpg",
+      "legende": "Cautionnement de Clément Sallé alias Lajoie, administrateur de la succession de Lambert Sallé dit Lajoie, avec pour cautions « Etienne Provos » (sa marque) et John B. Sarpy, Saint-Louis, 22 février 1837",
+      "article": "mere",
+      "type": "registre"
+     }
+    ]
+   }
   }
  ]
 }
