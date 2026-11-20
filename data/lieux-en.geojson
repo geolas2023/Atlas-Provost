@@ -626,17 +626,25 @@
    },
    "properties": {
     "id": "L24",
-    "nom": "St. Louis: marriage to Marie-Rose Salle dit Lajoie (1829)",
+    "nom": "St. Louis: marriage to Marie-Rose Lambert, daughter of Lambert Salé dit Lajoie (August 4, 1829)",
     "debut": 1829.0,
     "fin": 1829.0,
     "date_edtf": "1829",
     "precision": "annee",
     "certitude": "approximative",
     "categorie": "famille",
-    "description": "In 1829, Provost marries Marie-Rose Salle dit Lajoie in St. Louis; documents also call her Lambert or Lombard. The couple will have a daughter, Marie-Rose. According to Bouchard and Lévesque, he learns in the summer of 1829, on returning from northeast of the Great Salt Lake, that Marie-Rose has been widowed for ten months; he marries her a few weeks later and sets out again a month after the wedding. After 1830, he no longer traps himself.",
-    "sources": "Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); “Étienne Provost et le Grand Lac Salé”, entry in the series De remarquables oubliés (Serge Bouchard), document in the author's Drive (etienne_provost.pdf); burial register of the Old Cathedral of St. Louis, 4 July 1850, according to research by O. J. Caron for the Aubry Atlas (2026), added to the atlas “Les Canadiens français de l'Ouest” (entries PV-01 to PV-05)",
-    "note": "Vaugeois gives the bride's age as 31 and Provost's as 46, which would put the marriage around 1831-1832. The names vary: “Marie Rose Salle Dupuis” (Vaugeois), “Marie-Rose La Salle” (De remarquables oubliés), “Maria Rose Lombard” (1850 register). Point at the Old Cathedral, the Canadiens' parish.",
-    "type": "lieu"
+    "description": "Back in St. Louis on July 27, 1829, Provost learns that Marie-Rose Lambert, daughter of his partner Lambert Salé dit Lajoie and of Madeleine Delor, twelve years his junior, has been a widow since the fall; he has known her since at least 1826. The wedding is set for August 4 and blessed by the Jesuit Joseph Anthony Lutz. The record, which Provost signs with a cross, calls the bride “daughter of Lambert Salé, dit Lajoy, and Magdeleine Delor”; among the witnesses her father (“Lajoye”) and her brother Clément Lambert sign, Marie Ménard makes her mark, and “Mr J. Laberge” is probably Joseph-Marie La Barge, father of the future pilot. For the wedding Provost buys blankets, cassinette, scarlet cloth and silver lace. The marriage also has a business side: from the summer of 1829 Marie-Rose appears as a creditor in the company's books.",
+    "sources": "Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026), p. 339-340 ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; registre des sépultures de la vieille cathédrale de Saint-Louis, 4 juillet 1850, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05) ; Drouin, U.S., French Catholic Church Records (Drouin Collection), 1695-1954, Saint-Louis (vieille cathédrale), registre des mariages 1828-1836, acte du 4 août 1829 (image 15 sur 117, Ancestry, lue le 20 novembre 2026)",
+    "note": "Havard's date, taken from the parish registers and the AFC accounts, settles the question: Vaugeois, who gives the bride's age as 31 and Provost's as 46, placed the marriage around 1831-1832. Havard writes “stepdaughter” of Lambert Salé; the marriage record shows she is his daughter. Through her father she is a granddaughter of María Rosa Villalpando, the captive taken at Taos in 1760 (L71); through her mother, a granddaughter of Clément Delor de Tréget, founder of Carondelet (L70). Names vary: “Marie Rose Salle Dupuis” (Vaugeois), “Marie-Rose La Salle” (De remarquables oubliés), “Maria Rose Lombard” (1850 register). Point at the Old Cathedral.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/arbre/1829-08-04-mariage-provost-lambert.jpg",
+      "legende": "Marriage record of Étienne Provost and Marie Lambert, “daughter of Lambert Salé, dit Lajoy, and Magdeleine Delor”, St. Louis, August 4, 1829",
+      "article": "arbre-delor",
+      "type": "registre"
+     }
+    ]
    }
   },
   {
@@ -659,8 +667,16 @@
     "categorie": "famille",
     "description": "The death certificate of Mary Rose Pillsbury (1913) states that she was born in St. Louis on May 1, 1830, the daughter of “Etienne Provo,” born in Canada. The date falls one year after the marriage: she would be the couple's only known daughter, whom Audubon sees aboard the steamboat in 1843.",
     "sources": "Missouri State Board of Health, death certificate no. 27938, Mary Rose Pillsbury, St. Louis, 8 August 1913 (author's Drive); Audubon, Maria R. (ed.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65",
-    "note": "The certificate names the mother “Madelin Delor,” a name that matches no known form of the wife's name. The censuses confirm the line: in 1860 Mary Rose lives with her husband James A. H. Pillsbury and their daughter Mary Frances; in 1900 and 1910 she lives with her daughter and son-in-law Charles G. Grimm. No baptism was found in the Drouin index for St. Louis. Schematic point in the old town.",
-    "type": "lieu"
+    "note": "The certificate names the mother “Madelin Delor,” born in St. Louis. She is not Mary Rose's mother but her maternal grandmother: the 1829 marriage record calls Marie-Rose “daughter of Lambert Salé, dit Lajoy, and Magdeleine Delor.” The 1913 informant, Charles G. Grimm, husband of the deceased's granddaughter, skipped a generation (see the “Family tree” tab of the reading room). The censuses confirm the line: in 1860 Mary Rose lives with her husband James A. H. Pillsbury and their daughter Mary Frances; in 1900 and 1910 she lives with her daughter and son-in-law Charles G. Grimm. No baptism was found in the Drouin index for St. Louis. Schematic point in the old town.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/arbre/1829-08-04-mariage-provost-lambert.jpg",
+      "legende": "The 1829 marriage names Magdeleine Delor, the “Madelin Delor” of the 1913 certificate",
+      "article": "arbre-delor",
+      "type": "registre"
+     }
+    ]
    }
   },
   {
@@ -1585,6 +1601,76 @@
     "sources": "U.S. censuses of 1900 and 1910 (St. Louis), Ancestry ; St. Louis Star and Times, August 10, 1913, p. 17 ; St. Louis Post-Dispatch Obituary Index (Etienne A. Pillsbury, 1927) ; Ancestry tree “Étienne Provost (1785-1850) – Atlas Provost” (O. J. Caron, 2026)",
     "note": "Point at 4231 Virginia Avenue (Dutchtown), approximate. The 1900 14th Street address is not geocoded.",
     "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.256,
+     38.556
+    ]
+   },
+   "properties": {
+    "id": "L70",
+    "nom": "Carondelet: the Delor de Tréget, family of Provost's wife's mother (1767-1837)",
+    "debut": 1767.0,
+    "fin": 1837.0904,
+    "date_edtf": "1767/1837-02-03",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "Mary Rose Provost's grandmother was Madeleine Delor. She was the daughter of Clément Delor de Tréget, “former officer in the service of the Most Christian King,” a native of Cahors who left Sainte-Geneviève in 1767 to found, on the Mississippi south of St. Louis, the village later called Carondelet, or Vide-Poche, and of Catherine Marin. On December 31, 1781, in St. Louis, Madeleine first married François Cailhol of Marseille. She later became the wife of Lambert Salé dit Lajoie, with whom she had at least Marie-Gertrude (1794), Caroline, Clément and Marie-Rose, the future Mrs. Provost. She was buried in St. Louis on February 3, 1837, “aged 78.” In 1913 her name resurfaced, as “Madelin Delor,” on the death certificate of her great-granddaughter, as that of Mary Rose's mother.",
+    "sources": "Drouin, U.S., French Catholic Church Records (Drouin Collection), 1695-1954, Saint-Louis (vieille cathédrale) : mariage Cailhol – Delor, 31 décembre 1781 (registre des mariages 1781-1828, image 3) ; mariage Provost – Lambert, 4 août 1829 ; sépulture de « Mme Lambert Lajoie », 3 février 1837 (sépultures 1832-1847, image 27), Ancestry, lus le 20 novembre 2026 ; Missouri, U.S., Compiled Marriages, 1754-1850 ; Missouri State Board of Health, certificat de décès n° 27938 (1913) ; Chemins de la francophonie, « Carondelet, a Fathers' Rendez-vous » (en ligne)",
+    "note": "Point at the heart of old Carondelet. Madeleine's birth date is uncertain: 78 at burial would give about 1759, while online family trees give August 4, 1766, at Sainte-Geneviève, without a cited source. The date of her marriage to Lambert Salé and what became of François Cailhol remain to be found.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/arbre/1781-12-31-mariage-cailhol-delor.jpg",
+      "legende": "Marriage of François Cailhol and “demoiselle Madeleine de Lord, legitimate daughter of Clément Delord, former officer in the service of the Most Christian King, and of dame Catherine Marin,” December 31, 1781",
+      "article": "arbre-delor",
+      "type": "registre"
+     },
+     {
+      "src": "images/arbre/1837-02-03-sepulture-madeleine-delor.jpg",
+      "legende": "Burial of “the late Mme Lambert Lajoie, aged 78,” February 3, 1837",
+      "article": "arbre-delor",
+      "type": "registre"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.608,
+     36.359
+    ]
+   },
+   "properties": {
+    "id": "L71",
+    "nom": "Taos: the capture of María Rosa Villalpando, Mary Rose's great-grandmother (1760)",
+    "debut": 1760.5918,
+    "fin": 1760.5918,
+    "date_edtf": "1760-08-04",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "On August 4, 1760, Comanches attacked Pablo Villalpando's estancia near Taos, New Mexico, killed the defenders and carried off some fifty women and children. Among them was María Rosa Villalpando, whose young son escaped the raid. Traded to the Pawnees, she met the trader Jean Salé dit Lajoie, who took her to St. Louis with their son Lambert, born in 1768; they married there in 1770. Lambert was the father of Marie-Rose, Étienne Provost's wife: Mary Rose Provost was thus the great-granddaughter of the Taos captive. María Rosa died in St. Louis in July 1830; the Old Cathedral register records her burial on July 28, “wife of Jean Salé,” aged, it says, one hundred and four. Provost had married her granddaughter a year earlier. Another grandson, Antoine Leroux, son of Hélène Salé, became a famous guide of the Southwest and settled in Taos.",
+    "sources": "Tykal, Jack B. (1990), « Taos to St. Louis: The Journey of Maria Rosa Villalpando », New Mexico Historical Review, 65 (2), p. 162-167 ; Brooks, James F. (2002), Captives and Cousins, Chapel Hill, University of North Carolina Press ; Wikipédia, « Maria Rosa Villalpando » (consulté le 20 novembre 2026) ; New Mexico Historic Women, « Maria Rosa Villapando » (en ligne) ; Drouin, U.S., French Catholic Church Records (Drouin Collection), 1695-1954, Saint-Louis (vieille cathédrale), sépultures 1781-1832, acte du 28 juillet 1830 (image 168) ; mariage Provost – Lambert, 4 août 1829 ; Missouri, U.S., Compiled Marriages, 1754-1850 (Hélène Salé × Benjamin Leroux, 7 janvier 1792)",
+    "note": "Genealogical entry outside Étienne's life, like L02. Point at Ranchos de Taos. The age of 104 in the register is exaggerated: historians place her birth around 1738. Jack B. Tykal, Provost's biographer, also wrote the standard study of María Rosa Villalpando. Antoine Leroux was thus a first cousin of Provost's wife.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/arbre/1830-07-28-sepulture-maria-rosa-villalpando.jpg",
+      "legende": "Burial of “Marie Rose […] wife of Jean Salé,” aged one hundred and four, St. Louis, July 28, 1830",
+      "article": "arbre-delor",
+      "type": "registre"
+     }
+    ]
    }
   }
  ]

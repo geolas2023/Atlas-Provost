@@ -275,12 +275,15 @@ function zoomerSur(f) {
 
 // Découpures de presse liées à une fiche (propriété « presse » : liste de {src, legende, article}),
 // chacune renvoyant à son article dans la salle de lecture.
-function presseFiche(p) {
-  let pr = p.presse;
+function vignettes(liste, titre) {
+  let pr = liste;
   if (typeof pr === 'string') { try { pr = JSON.parse(pr); } catch (e) { pr = []; } }
   if (!Array.isArray(pr) || !pr.length) return '';
-  return `<div class="presse"><strong>${L('Dans les journaux :', 'In the newspapers:')}</strong>${pr.map(d =>
+  return `<div class="presse"><strong>${titre}</strong>${pr.map(d =>
     `<a href="salle-de-lecture.html#${echapper(d.article)}" target="_blank" rel="noopener" title="${echapper(d.legende)}"><img src="${echapper(d.src)}" alt="${echapper(d.legende)}" loading="lazy"><span>${echapper(d.legende)}</span></a>`).join('')}</div>`;
+}
+function presseFiche(p) {
+  return vignettes(p.registres, L('Dans les registres :', 'In the registers:')) + vignettes(p.presse, L('Dans les journaux :', 'In the newspapers:'));
 }
 function afficherFiche(p, geom) {
   const estTrajet = geom === 'LineString' || p.type === 'trajet';
