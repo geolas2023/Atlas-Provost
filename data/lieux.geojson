@@ -953,7 +953,7 @@
     "categorie": "vie",
     "description": "Gilles Havard situe Provost dans le Frenchtown, au sud de la vieille cathédrale (rues Second et Third, entre Poplar et Lombard), d'après l'annuaire de 1847 et le recensement municipal de 1845. Les annuaires de 1840-1841 et 1845 placent un « H. N. Provost », épicier, à l'angle sud-ouest des rues Second et Lombard, en face du café de Clément Lambert ; mais l'annuaire de 1851 inscrit encore un « Henry N. Provost, mountain trader » : sans doute un parent.",
     "sources": "Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026), notes 87, 130 et 138 ; Green's St. Louis Directory for 1845, p. 103 et 144 ; Green's St. Louis Directory for 1851, p. 281 ; enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
-    "note": "À vérifier : l'entrée d'Étienne dans l'annuaire de 1847 (p. 153). Le quartier est aussi celui de Moïse Lamoureux, natif de Chambly.",
+    "note": "L'emplacement exact de la maison de Provost, à l'angle sud-ouest de Second et Lombard, est établi dans la fiche L73. À vérifier : l'entrée d'Étienne dans l'annuaire de 1847 (p. 153). Le quartier est aussi celui de Moïse Lamoureux, natif de Chambly.",
     "type": "lieu",
     "presse": [
      {
@@ -1082,7 +1082,7 @@
     "categorie": "mort",
     "description": "Rentré en 1849 dans sa maison de la rue Lombard, Étienne Provost meurt subitement, d'une crise cardiaque selon Bouchard et Lévesque, à Saint-Louis le 3 juillet 1850, à 64 ans, sans savoir que les Mormons viennent de donner son nom à une ville de l'Utah. Il est inhumé le lendemain depuis la vieille cathédrale, dont le registre l'inscrit comme époux de « Maria Rose Lombard ».",
     "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; registre des sépultures de la vieille cathédrale, 4 juillet 1850, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
-    "note": "Point à la vieille cathédrale (basilique Saint-Louis-Roi-de-France). Le 29 juillet 1850, Mary Provot obtient les lettres d'administration de la succession ; l'avis aux créanciers paraît dans le Missouri Republican jusqu'au 20 septembre.",
+    "note": "Point à la vieille cathédrale (basilique Saint-Louis-Roi-de-France). La maison mortuaire, au coin des rues Lombard et Second, est la fiche L73. Le 29 juillet 1850, Mary Provot obtient les lettres d'administration de la succession ; l'avis aux créanciers paraît dans le Missouri Republican jusqu'au 20 septembre.",
     "type": "lieu",
     "presse": [
      {
@@ -1988,6 +1988,44 @@
       "src": "images/arbre/1837-02-22-cautionnement-succession-lambert-sale.jpg",
       "legende": "Cautionnement de Clément Sallé alias Lajoie, administrateur de la succession de Lambert Sallé dit Lajoie, avec pour cautions « Etienne Provos » (sa marque) et John B. Sarpy, Saint-Louis, 22 février 1837",
       "article": "mere",
+      "type": "registre"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.19038,
+     38.61662
+    ]
+   },
+   "properties": {
+    "id": "L73",
+    "nom": "Saint-Louis : la maison du coin des rues Lombard et Second (vers 1840-1916)",
+    "debut": 1843.0,
+    "fin": 1916.999,
+    "date_edtf": "1843/1916",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "vie",
+    "description": "La maison où Étienne Provost meurt le 3 juillet 1850 se trouvait « au coin des rues Lombard et Second », dans le Frenchtown, au sud de la vieille ville. Le rôle d'impôt de 1843 le place à l'extrémité est de l'îlot 49, du côté sud de la rue Lombard ; les annuaires de 1840-1845 inscrivent un « H. N. Provost », épicier, à l'angle sud-ouest de Second et Lombard ; le plan de Hutawa (1850) montre l'îlot 49 à cet angle précis. Après la numérotation de 1866, la maison d'angle devient le 901 South Second Street : la famille y reste au moins jusqu'en 1889. Mary Frances Grimm, petite-fille d'Étienne, y perd un enfant en 1882 ; des Maskow, parents de Mary Rose, y vivent en 1884 et 1888 ; James A. H. Pillsbury, son mari, y meurt en 1889. La carte Sanborn de 1908 y montre un immeuble de brique de deux étages avec commerce au rez-de-chaussée ; il est encore habité en 1916. L'angle est aujourd'hui traversé par la voie ferrée d'accès au pont MacArthur, dans le quartier de Chouteau's Landing.",
+    "sources": "St. Louis Republic, liste fiscale, 24 octobre 1843 (îlots 49 et 76) ; Green's St. Louis Directory, 1840-1845, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05) ; Tri-Weekly Missouri Republican, 4 juillet 1850 ; Hutawa, Julius (1850), Plan of the City of St. Louis, Missouri Historical Society, version géoréférencée de la St. Louis Genealogical Society ; St. Louis Post-Dispatch, 21 juillet 1882 ; St. Louis Republic, 13 septembre 1884 ; St. Louis Globe-Democrat, 24 septembre 1888 et 19 novembre 1889 ; Sanborn Map Co., St. Louis, décembre 1908, feuilles 74 et 76 (MU Digital Library) ; St. Louis Republic, 30 mai 1916 ; OpenStreetMap (2026)",
+    "note": "Point à l'angle sud-ouest de l'intersection actuelle de Lombard Street et South 2nd Street (38,61662 N ; 90,19038 O ; intersection : 38,616765 N ; 90,190243 O). On ignore si l'immeuble de 1908 est la maison de Provost ou un bâtiment plus récent, et la date exacte de sa démolition, sans doute liée aux approches ferroviaires du pont MacArthur, mises en service en 1928. Voir l'onglet « La maison de la rue Lombard » de la salle de lecture.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/maison/1908-sanborn-feuille-74-ilot-49-901-s-2nd.jpg",
+      "legende": "Carte Sanborn, décembre 1908, feuille 74 : le 901 South 2nd Street, à l'angle de Lombard",
+      "article": "maison",
+      "type": "registre"
+     },
+     {
+      "src": "images/maison/1850-plan-hutawa-geo-stlgs-lombard-second.jpg",
+      "legende": "Plan de Hutawa (1850) géoréférencé : l'îlot 49 à l'angle sud-ouest de Second et Lombard",
+      "article": "maison",
       "type": "registre"
      }
     ]

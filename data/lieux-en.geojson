@@ -1728,6 +1728,44 @@
      }
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.19038,
+     38.61662
+    ]
+   },
+   "properties": {
+    "id": "L73",
+    "nom": "St. Louis: the house at the corner of Lombard and Second streets (c. 1840-1916)",
+    "debut": 1843.0,
+    "fin": 1916.999,
+    "date_edtf": "1843/1916",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "vie",
+    "description": "The house where Étienne Provost died on July 3, 1850, stood “on the corner of Lombard and Second streets,” in Frenchtown south of the old town. The 1843 tax list places him at the east end of city block 49, on the south side of Lombard; the 1840-1845 directories list an “H. N. Provost,” grocer, at the southwest corner of Second and Lombard; Hutawa's 1850 plan shows block 49 at that exact corner. After the 1866 numbering the corner house became 901 South Second Street, and the family stayed there until at least 1889: Étienne's granddaughter Mary Frances Grimm lost a child there in 1882, Maskow relatives lived there in 1884 and 1888, and Mary Rose's husband James A. H. Pillsbury died there in 1889. The 1908 Sanborn map shows a two-story brick building with a store on the ground floor; it was still occupied in 1916. The corner is now crossed by the MacArthur Bridge railway approach, in the Chouteau's Landing district.",
+    "sources": "St. Louis Republic, liste fiscale, 24 octobre 1843 (îlots 49 et 76) ; Green's St. Louis Directory, 1840-1845, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05) ; Tri-Weekly Missouri Republican, 4 juillet 1850 ; Hutawa, Julius (1850), Plan of the City of St. Louis, Missouri Historical Society, version géoréférencée de la St. Louis Genealogical Society ; St. Louis Post-Dispatch, 21 juillet 1882 ; St. Louis Republic, 13 septembre 1884 ; St. Louis Globe-Democrat, 24 septembre 1888 et 19 novembre 1889 ; Sanborn Map Co., St. Louis, décembre 1908, feuilles 74 et 76 (MU Digital Library) ; St. Louis Republic, 30 mai 1916 ; OpenStreetMap (2026)",
+    "note": "Point at the southwest corner of today's Lombard Street and South 2nd Street (38.61662 N, 90.19038 W; intersection 38.616765 N, 90.190243 W). Whether the 1908 building was Provost's house or a later one, and the exact date of its demolition—probably linked to the MacArthur Bridge rail approaches, in service from 1928—are unknown. See the reading room tab on the Lombard Street house.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/maison/1908-sanborn-feuille-74-ilot-49-901-s-2nd.jpg",
+      "legende": "Sanborn map, December 1908, sheet 74: 901 South 2nd Street at the corner of Lombard",
+      "article": "maison",
+      "type": "registre"
+     },
+     {
+      "src": "images/maison/1850-plan-hutawa-geo-stlgs-lombard-second.jpg",
+      "legende": "Hutawa's 1850 plan, georeferenced: block 49 at the southwest corner of Second and Lombard",
+      "article": "maison",
+      "type": "registre"
+     }
+    ]
+   }
   }
  ]
 }
