@@ -64,6 +64,16 @@ table.chrono th { background: var(--parchemin-fonce); font-weight: normal; font-
 table.chrono td:first-child { white-space: nowrap; color: var(--rouge); }
 ul.biblio li { font-size: .93rem; margin-bottom: .3rem; }
 .maplibregl-popup-content { font-family: Georgia, serif; font-size: .86rem; background: #fbfcf7; }
+.arbre { background: #fbfcf7; border: 1px solid var(--parchemin-fonce); padding: .8rem 1rem; overflow-x: auto; }
+.arbre ul { list-style: none; margin: 0; padding-left: 1.3rem; border-left: 1px dashed var(--sepia); }
+.arbre > ul { border-left: 0; padding-left: 0; }
+.arbre li { margin: .35rem 0; font-size: .98rem; line-height: 1.45; }
+.arbre .pers { font-family: 'IM Fell English SC', Georgia, serif; font-size: 1.08rem; color: var(--bois); }
+.arbre .pers.centre { color: var(--rouge); font-size: 1.2rem; }
+.arbre .dt { color: var(--encre-pale); font-size: .88rem; }
+.arbre .ep { color: var(--vert); font-size: .93rem; }
+.arbre .hyp { font-style: italic; opacity: .8; }
+.fiches-gen a { white-space: nowrap; }
 footer { font-size: .82rem; color: var(--encre-pale); text-align: center; padding: 1rem; border-top: 1px solid var(--sepia); }
 @media (max-width: 760px) { .onglets { top: 0; position: relative; } .barre { position: relative; } main { padding: 1rem 16px 3rem; } .carte-tab { height: 330px; } .art-jx { grid-template-columns: 1fr; } }
 </style>
@@ -80,6 +90,7 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
 <nav class="onglets" role="tablist" aria-label="Documents de la salle de lecture">
   <button type="button" role="tab" data-onglet="accueil" class="actif">La salle<small>Présentation</small></button>
   <button type="button" role="tab" data-onglet="journaux">Dans les journaux<small>Presse, 1827-1963</small></button>
+  <button type="button" role="tab" data-onglet="arbre">L'arbre de la famille<small>Chambly et Saint-Louis</small></button>
 </nav>
 
 <main>
@@ -91,6 +102,10 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
     <div class="carte-salle" data-ouvrir="journaux">
       <b>Dans les journaux</b>
       <span>Vingt-six découpures de 1827 à 1960 : le tavernier de Saint-Louis, la nouvelle du rendez-vous de 1834, l'avis de décès de 1850, les souvenirs de Joseph La Barge, l'origine du nom de Provo, la statue du monument This Is the Place.</span>
+    </div>
+    <div class="carte-salle" data-ouvrir="arbre">
+      <b>L'arbre de la famille</b>
+      <span>Les trois mariages d'Albert Provost à Chambly, les quatorze frères et sœurs d'Étienne, son mariage avec Marie-Rose Lambert, puis la descendance Pillsbury et Grimm à Saint-Louis jusqu'en 1913.</span>
     </div>
   </div>
 </section>
@@ -364,6 +379,95 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
     <li><i>The Daily Herald</i> (Provo), 26 févr. 1924 ; <i>Salt Lake Tribune</i>, 27 févr. 1924, 26 août 1926, 27 mai 1960 ; <i>Sunday Herald</i> (Provo), 15 déc. 1946 ; <i>Ogden Standard-Examiner</i>, 13 juillet 1941.</li>
     <li>E. S. Watson, « Fifty Famous Frontiersmen : Two Names on Utah's Map », <i>JG-TC</i> (Mattoon, Illinois), 24 janv. 1934 et autres journaux ; N. Marsh, <i>Dan'l Hale</i>, <i>Idaho State Journal</i>, 8 déc. 1955 et autres journaux.</li>
     <li>Tous les articles ont été consultés sur Newspapers.com (abonnement de l'auteur), le 20 novembre 2026. Les découpures sont des captures d'écran des pages numérisées.</li>
+  </ul>
+</section>
+
+<!-- ============================ L'ARBRE ============================ -->
+<section class="panneau" id="arbre" role="tabpanel" hidden>
+  <h2>L'arbre de la famille</h2>
+  <p class="date">Registres de Chambly, de Saint-Louis et recensements américains · arbre Ancestry « Étienne Provost (1785-1850) – Atlas Provost », novembre 2026</p>
+  <p class="chapo">Étienne Provost est le fils d'un cultivateur de Chambly marié trois fois, l'aîné d'un dernier lit de six garçons. Il quitte la vallée du Richelieu sans savoir écrire et n'y revient pas. À Saint-Louis, il épouse à 43 ans la belle-fille de son associé ; une seule de leurs filles vit, et sa lignée se poursuit chez les Pillsbury, puis chez les Grimm, dans le sud de la ville.</p>
+
+  <h3>Comment l'arbre a été établi</h3>
+  <p>J'ai repris un à un, dans la collection Drouin sur Ancestry, les actes de la paroisse Saint-Joseph de Chambly qui nomment Albert Provost : ses trois mariages, les baptêmes et sépultures de ses enfants, sa propre sépulture. Pour Saint-Louis, j'ai croisé les registres français de la collection Drouin (mariage de 1829, baptême de Marianne), le livre de Gilles Havard, l'avis de décès de 1850 et les recensements fédéraux de 1860, 1880, 1900 et 1910, qui suivent Mary Rose de foyer en foyer jusqu'à sa mort en 1913. L'arbre complet, avec la source de chaque date en note, est déposé sur Ancestry ; il est privé pour l'instant.</p>
+
+  <div class="arbre">
+  <ul>
+   <li><span class="pers">Gabriel Provost</span> <span class="ep">× Marie-Anne Bourassa</span>
+    <ul>
+     <li><span class="pers">Albert Provost</span> <span class="dt">vers 1750 – inhumé à Chambly le 5 mars 1796, 46 ans · cultivateur</span>
+      <ul>
+       <li><span class="ep">× (1) Marie-Louise Paquet, Chambly, 29 janvier 1770</span>
+        <ul>
+         <li>Marie-Louise <span class="dt">b. 14 août 1771 – 1er juillet 1773</span></li>
+         <li>Isabelle <span class="dt">b. 1er mars 1773</span></li>
+         <li>Albert <span class="dt">b. 22 décembre 1774</span></li>
+         <li>Joseph <span class="dt">b. 13 mai 1776</span></li>
+         <li>Charles <span class="dt">b. 26 avril 1778</span></li>
+         <li>Marie-Angélique <span class="dt">b. 25 octobre 1779</span></li>
+         <li>Pierre <span class="dt">b. 13 janvier 1781</span></li>
+         <li>François-Marie <span class="dt">b. 21 avril 1782 – 13 mai 1784</span></li>
+        </ul></li>
+       <li><span class="ep">× (2) Magdeleine Lebeau, Chambly, 2 juin 1783</span> <span class="dt">· aucun enfant retrouvé</span></li>
+       <li><span class="ep">× (3) Marie-Anne Mainard (Ménard), Chambly, 25 janvier 1785</span>
+        <ul>
+         <li><span class="pers centre">Étienne Provost</span> <span class="dt">né et b. à Chambly le 21 décembre 1785 – mort à Saint-Louis le 3 juillet 1850</span>
+          <ul>
+           <li><span class="ep hyp">× une femme crow, vers 1828 ? (tradition rapportée par Vaugeois)</span>
+            <ul><li class="hyp">Nicolas ? <span class="dt">non documenté</span></li></ul></li>
+           <li><span class="ep">× Marie-Rose Lambert (Salé dit Lajoie), vieille cathédrale de Saint-Louis, 4 août 1829</span> <span class="dt">vers 1797 – 1873</span>
+            <ul>
+             <li><span class="pers">Mary Rose Provost</span> <span class="dt">1er mai 1830 – 8 août 1913, inhumée au cimetière Calvary</span>
+              <ul>
+               <li><span class="ep">× James A. H. Pillsbury, 1857</span> <span class="dt">né vers 1827 au New Hampshire · épicier (1860), courtier retiré (1880)</span>
+                <ul>
+                 <li><span class="pers">Mary Frances Pillsbury</span> <span class="dt">vers 1860</span>
+                  <ul><li><span class="ep">× Charles G. Grimm, vers 1881</span> <span class="dt">né vers 1858 au Missouri · caissier de brasserie (1910)</span>
+                   <ul><li>Mary E. <span class="dt">vers 1885</span></li><li>Clara E. <span class="dt">vers 1888</span></li><li>Margaret M. A. <span class="dt">vers 1894</span></li><li>Ferdinand <span class="dt">vers 1898</span></li><li>Agnes Maria <span class="dt">1900</span></li></ul></li></ul></li>
+                 <li><span class="pers">Etienne A. Pillsbury</span> <span class="dt">vers 1862 – 1927</span></li>
+                </ul></li>
+              </ul></li>
+             <li>Marianne <span class="dt">21 septembre 1833 – juin 1834 (choléra)</span></li>
+            </ul></li>
+          </ul></li>
+         <li>Toussaint <span class="dt">b. 26 juin 1787 · × Émilie Robert, Chambly, 29 septembre 1806</span></li>
+         <li>Julien <span class="dt">b. 15 janvier 1789 · × Josephte Fréchette, Chambly, 9 août 1813</span></li>
+         <li>Antoine <span class="dt">b. 9 juin 1790</span></li>
+         <li>Raphaël <span class="dt">b. 3 juin 1791 – 22 juillet 1791</span></li>
+         <li>François <span class="dt">b. 7 septembre 1792 – 1er octobre 1792</span></li>
+        </ul></li>
+      </ul></li>
+    </ul></li>
+  </ul>
+  </div>
+  <p class="note">b. : baptême. Les dates de naissance « vers » viennent de l'âge déclaré aux recensements. Une Celestine Pillsbury de 12 ans vit chez James et Mary Rose en 1860 : nièce ou fille d'un premier lit de James, son lien n'est pas établi et elle n'est pas placée dans l'arbre.</p>
+
+  <h3>Ce que l'arbre apprend</h3>
+  <p><b>Un fils du troisième lit.</b> Les biographes parlaient d'un père « d'une quinzaine d'enfants » : les registres en donnent quatorze, nés de deux mères sur vingt-deux ans. Étienne est l'aîné du dernier mariage ; ses six demi-frères et demi-sœurs aînés encore vivants ont entre quatre et douze ans à sa naissance. Quand Albert meurt en mars 1796, à 46 ans, Étienne en a dix, et sa mère reste avec quatre garçons de moins de onze ans. Cette situation de cadet d'une famille recomposée, sans terre à attendre, éclaire son départ précoce vers la traite.</p>
+  <p><b>Des frères restés sur le Richelieu.</b> Toussaint se marie à Chambly en 1806, Julien en 1813. Leurs actes nomment bien « Albert Provôt » et « Marie-Anne Ménard » (ou Minard) : ce sont les seuls frères d'Étienne dont la vie adulte est attestée. C'est par l'un d'eux, sans doute, que descend l'évêque E. Orval Provost, qui se disait petit-neveu du trappeur en 1947 (onglet « Dans les journaux »).</p>
+  <p><b>Une descendance urbaine et catholique.</b> À Saint-Louis, la lignée passe par les femmes. Mary Rose épouse un épicier yankee du New Hampshire, puis vit chez sa fille, mariée à Charles G. Grimm, caissier de brasserie né au Missouri. Le prénom d'Étienne survit chez son petit-fils, Etienne A. Pillsbury, mort en 1927. En 1913, les journaux de Saint-Louis présentent encore Mary Rose comme la fille d'« un explorateur audacieux » de l'American Fur Company.</p>
+
+  <h3>Les lieux de la famille dans l'atlas</h3>
+  <p class="fiches-gen">Chambly : <a href="index.html#lieu=L01">L01</a> (naissance d'Étienne) et <a href="index.html#lieu=L67">L67</a> (la famille d'Albert Provost) · Saint-Louis : <a href="index.html#lieu=L24">L24</a> (mariage de 1829), <a href="index.html#lieu=L25">L25</a> (naissance de Mary Rose), <a href="index.html#lieu=L68">L68</a> (les Pillsbury, 1857-1880), <a href="index.html#lieu=L69">L69</a> (les Grimm, 1881-1913), <a href="index.html#lieu=L43">L43</a> (mort de Mary Rose, 1913).</p>
+
+  <h3>Questions ouvertes</h3>
+  <ul>
+   <li>Le premier mari de Marie-Rose Lambert, mort à l'automne 1828, reste à identifier ; on ignore aussi les parents de Marie-Rose.</li>
+   <li>Le baptême de Mary Rose (1830) n'apparaît pas dans l'index Drouin de Saint-Louis, et son certificat de décès donne pour mère une « Madelin Delor » inconnue.</li>
+   <li>La date de mort de Marie-Louise Paquet et de Magdeleine Lebeau, et la date et le lieu de mort de Marie-Anne Mainard, mère d'Étienne.</li>
+   <li>L'union crow et le fils Nicolas ne reposent que sur la tradition.</li>
+   <li>Le destin des demi-frères Albert, Joseph, Charles et Pierre, et des frères Antoine, Toussaint et Julien après 1813.</li>
+  </ul>
+
+  <h3>Sources</h3>
+  <ul class="biblio">
+   <li><i>Drouin, Quebec, Canada, Vital and Church Records (Drouin Collection), 1621-1968</i>, paroisse Saint-Joseph de Chambly : mariages du 29 janvier 1770, du 2 juin 1783, du 25 janvier 1785, du 29 septembre 1806 et du 9 août 1813 ; baptêmes de 1771 à 1792 ; sépultures de 1773, 1784, 1791, 1792 et du 5 mars 1796. Ancestry, consulté le 20 novembre 2026.</li>
+   <li><i>Drouin, U.S., French Catholic Church Records (Drouin Collection), 1695-1954</i>, Saint-Louis : mariage Étienne Provost – Marie Lambert (1829) ; baptême de « Maryanne Provots » (1833). Ancestry.</li>
+   <li>Recensements fédéraux des États-Unis, Saint-Louis (Missouri) : 1860 (Ward 3), 1880, 1900, 1910. Ancestry.</li>
+   <li>Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, 8 août 1913 (Drive de l'auteur) ; <i>St. Louis Star and Times</i>, 10 août 1913 ; <i>St. Louis Globe-Democrat</i>, 31 août 1913 ; <i>St. Louis Post-Dispatch</i> Obituary Index (Etienne A. Pillsbury, 1927).</li>
+   <li><i>Tri-Weekly Missouri Republican</i>, 4 juillet 1850, p. 2 (avis de décès d'Étienne Provost). Newspapers.com.</li>
+   <li>Havard, Gilles (2019), <i>L'Amérique fantôme</i>, Paris, Flammarion, ch. 8 ; Vaugeois, Denis, <i>Le Devoir</i>, 16 février 2002.</li>
+   <li>Arbre Ancestry « Étienne Provost (1785-1850) – Atlas Provost » (O. J. Caron, 2026), 37 personnes, privé.</li>
   </ul>
 </section>
 </main>
