@@ -2112,17 +2112,75 @@
    },
    "properties": {
     "id": "L74",
-    "nom": "Baronnie de Longueuil, près de Chambly : les deux terres concédées à Albert Provost (1781)",
+    "nom": "Baronnie de Longueuil, sur la Petite rivière de Montréal : la ferme d'Albert Provost, où grandit Étienne (avant 1783-1796)",
+    "debut": 1783.5342,
+    "fin": 1783.5342,
+    "date_edtf": "1783-07-15",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "famille",
+    "description": "L'inventaire dressé le 15 juillet 1783 par le notaire Antoine Grisé, après la mort de Marie-Louise Paquet, décrit la ferme d'Albert Provost, père d'Étienne : « une terre de trois arpents de front sur quarante-six [lecture à confirmer] de profondeur, sise en la baronnie de Longueuil, sur la petite rivière de Montréal, bâtie d'une maison de pièce sur pièce de trente pieds sur vingt-huit, bien logeable, avec deux granges aussi bien logeables et en état, avec une écurie de quinze pieds sur onze ». La Petite rivière de Montréal est l'actuelle rivière L'Acadie, qui se jette dans le bassin de Chambly. Albert y élève les enfants de son premier mariage (Élisabeth, Joseph, Charles, Pierre, François), avec deux chevaux, deux juments et leurs poulains, dix-sept cochons et des poules. C'est là, selon toute vraisemblance, que naît Étienne en décembre 1785, du troisième mariage d'Albert avec Marie-Anne Mainard ; la famille fait baptiser ses enfants à Chambly, dont la ferme relève alors pour le culte.",
+    "sources": "Inventaire des biens de la communauté d'Albert Provost et de Marie-Louise Paquet, 15 juillet 1783, greffe d'Antoine Grisé dit Villefranche, acte no 2493, BAnQ CN601,S189, microfilm FamilySearch 1420479 (DGS 008326749), images 2702-2712 ; concession no 2036 du 15 juin 1781 (Albert « demeurant à Chambly ») ; Bouchette, Joseph (1815), Topographical Map of the Province of Lower Canada, David Rumsey Map Collection",
+    "note": "Point approximatif, sur la rivière L'Acadie entre le bassin de Chambly et Carignan (le « Haut de la rivière »), partie de la baronnie de Longueuil voisine de Chambly : l'inventaire nomme la baronnie et la rivière, pas les voisins. Le numéro de lot actuel reste à établir par la succession d'Albert (1796) et le cadastre de la baronnie. Voir l'onglet « Chambly » de la salle de lecture.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/chambly/1783-07-15-inventaire-2493-immeubles.jpg",
+      "legende": "Inventaire du 15 juillet 1783 : la terre d'Albert Provost sur la petite rivière de Montréal, maison de pièce sur pièce de 30 × 28 pieds, deux granges, écurie",
+      "article": "chambly",
+      "type": "registre"
+     },
+     {
+      "src": "images/chambly/1815-bouchette-chambly-longueuil-petite-riviere.jpg",
+      "legende": "Bouchette, 1815 : la baronnie de Longueuil, le bassin de Chambly et la Petite rivière de Montréal",
+      "article": "chambly",
+      "type": "registre"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.353,
+     45.3
+    ]
+   },
+   "properties": {
+    "id": "L75",
+    "nom": "La Petite-Cadie (L'Acadie) : les deux terres concédées à Albert Provost (15 juin 1781)",
     "debut": 1781.4521,
     "fin": 1781.4521,
     "date_edtf": "1781-06-15",
     "precision": "jour",
-    "certitude": "hypothetique",
+    "certitude": "approximative",
     "categorie": "famille",
-    "description": "Le 15 juin 1781, devant le notaire Antoine Grisé dit Villefranche, de Chambly, le sieur Deschambault, c'est-à-dire Joseph Fleury Deschambault, qui gérait alors la baronnie de Longueuil comme fiduciaire de sa famille (une sentence de la même année 1781 le remplace par David Alexander Grant, mari de l'héritière), concède deux terres à Albert Provost, père d'Étienne, dans la seigneurie (baronnie) de Longueuil : actes nos 2036 et 2037, « Concession par le Sr Dechambault à Albert Provost d'une terre, seigneurie de Longueuil » et « Idem à Albert Provost, d'une terre, seigneurie de Longueuil ». La baronnie de Longueuil touchait la seigneurie de Chambly à l'ouest : sa partie la plus proche, le « Haut de la rivière » L'Acadie (alors la Petite rivière de Montréal), le long des chemins Bellerive et de Salaberry, aujourd'hui à Carignan et dans l'ouest de Chambly, s'ouvrait justement à la colonisation, avec un moulin seigneurial bâti vers 1781. Ses habitants fréquentaient l'église de Chambly, où Étienne est baptisé en 1785. Deux ans après la concession, le 15 juillet 1783, le même notaire dresse l'inventaire des biens de la communauté d'Albert Provost et de feu Marie-Louise Paquet (acte no 2493) ; en 1790, Albert achète un bien de Jean-Baptiste Oligny, et en 1794 un différend avec son voisin Michel Lamoureux est réglé par sentence arbitrale.",
-    "sources": "Répertoire du notaire Antoine Grisé dit Villefranche (1756-1785), actes nos 2036-2037 (15 juin 1781) et 2493 (15 juillet 1783) ; répertoire de Jean-Baptiste Grisé (1785-1796), actes nos 758 (27 mars 1790), 867 (18 novembre 1790) et 1423 (2 septembre 1794) ; répertoire de François Leguay, acte no 73 (25 juillet 1794) ; BAnQ, CN601,S189 et suivants, via Quebec, Canada, Notarial Records, 1637-1935 (Ancestry, consulté le 20 novembre 2026) ; Société d'histoire de la seigneurie de Chambly, « Les chemins de Chambly au Haut de la rivière » (histoireseigneuriechambly.org) ; Dictionnaire biographique du Canada, « Fleury Deschambault, Joseph »",
-    "note": "Point hypothétique, au milieu du « Haut de la rivière » L'Acadie, entre Chambly et Carignan. Seul le répertoire a été consulté : il donne la seigneurie, pas l'emplacement. Les actes eux-mêmes (bobines BAnQ 2133 à 2136, ou FamilySearch) donneront la côte, les dimensions et les voisins. Voir l'onglet « Chambly » de la salle de lecture.",
-    "type": "lieu"
+    "description": "Le 15 juin 1781, devant le notaire Antoine Grisé dit Villefranche, de Chambly, « messire Joseph Fleury, écuyer, sieur Deschambault, au nom et comme tuteur de dame la baronne de Longueuil, sa petite-fille », concède à « Albert Proveau, demeurant à Chambly », deux terres de trois arpents de front sur trente de profondeur, dans la seigneurie de Longueuil, « à la petite Cadie », « tenant par devant à la rivière de Montréal, par derrière à terres non concédées » ; la première joint d'un côté Étienne Dumas et de l'autre Joseph Tremblay, la seconde joint Dumas et des terres non concédées. Rente : deux sols de cens, un sol par arpent et un demi-minot de blé par vingt arpents, payables à la Saint-Martin. En 1783, les deux terres sont encore « toutes en bois debout ». La Petite-Cadie est la colonie fondée sur la rivière L'Acadie par les Acadiens déportés arrivés en 1768, autour de l'actuel village de L'Acadie, paroisse Sainte-Marguerite-de-Blairfindie depuis 1784.",
+    "sources": "Actes de concession nos 2036 et 2037 du 15 juin 1781, greffe d'Antoine Grisé dit Villefranche, BAnQ CN601,S189, microfilm FamilySearch 1420479 (DGS 008326749), images 962-967 ; répertoire du notaire (Quebec, Canada, Notarial Records, 1637-1935, Ancestry) ; inventaire no 2493 du 15 juillet 1783 ; Musée du Haut-Richelieu, Le Vieux-L'Acadie (2023) ; Dictionnaire biographique du Canada, « Fleury Deschambault, Joseph »",
+    "note": "Point approximatif près de l'église de L'Acadie, sur la rivière L'Acadie (Saint-Jean-sur-Richelieu). Les voisins nommés (Étienne Dumas, Joseph Tremblay) permettront de retrouver les lots dans le terrier de la baronnie. Le concédant, Joseph Fleury Deschambault, fiduciaire de la baronnie, est remplacé la même année par David Alexander Grant.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/chambly/1781-06-15-concession-2036-albert-provost-p1.jpg",
+      "legende": "Concession du 15 juin 1781 à « Albert Proveau, demeurant à Chambly » : 3 arpents sur 30, seigneurie de Longueuil, « à la Cadie », sur la rivière de Montréal",
+      "article": "chambly",
+      "type": "registre"
+     },
+     {
+      "src": "images/chambly/1781-06-15-concession-2037-petite-cadie-p1.jpg",
+      "legende": "Seconde concession du même jour, « à la petite Cadie »",
+      "article": "chambly",
+      "type": "registre"
+     },
+     {
+      "src": "images/chambly/1815-bouchette-lacadie-riviere-montreal.jpg",
+      "legende": "Bouchette, 1815 : la « River Montreal » et l'église de L'Acadie, dans la baronnie de Longueuil",
+      "article": "chambly",
+      "type": "registre"
+     }
+    ]
    }
   }
  ]
