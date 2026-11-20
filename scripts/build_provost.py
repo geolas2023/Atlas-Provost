@@ -159,7 +159,7 @@ L(24, "Saint-Louis : mariage avec Marie-Rose Lambert, fille de Lambert Salé dit
 L(25, "Saint-Louis : naissance de Mary Rose, « fille d'Étienne Provo » (1er mai 1830)", 'famille', '1830-05-01', -90.1860, 38.6255, 'a',
   "Le certificat de décès de Mary Rose Pillsbury (1913) la dit née à Saint-Louis le 1er mai 1830, fille d'« Etienne Provo », né au Canada. La date tombe un an après le mariage : ce serait la fille unique connue du couple, qu'Audubon voit à bord du vapeur en 1843.",
   "Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, Saint-Louis, 8 août 1913 (Drive de l'auteur) ; " + AUD,
-  "Le certificat nomme la mère « Madelin Delor », née à Saint-Louis. Ce n'est pas la mère de Mary Rose mais sa grand-mère maternelle : l'acte de mariage de 1829 dit Marie-Rose « fille de Lambert Salé, dit Lajoy, et Magdeleine Delor ». L'informateur de 1913, Charles G. Grimm, mari de la petite-fille de la défunte, a sauté une génération (voir l'onglet « L'arbre de la famille » de la salle de lecture). Les recensements confirment la lignée : en 1860, Mary Rose vit avec son mari James A. H. Pillsbury et leur fille Mary Frances ; en 1900 et 1910, elle habite chez sa fille et son gendre Charles G. Grimm. Le baptême n'a pas été trouvé dans l'index Drouin de Saint-Louis. Point schématique dans la vieille ville.")
+  "Le certificat nomme la mère « Madelin Delor », née à Saint-Louis. Ce n'est pas la mère de Mary Rose mais sa grand-mère maternelle : l'acte de mariage de 1829 dit Marie-Rose « fille de Lambert Salé, dit Lajoy, et Magdeleine Delor ». L'informateur de 1913, Charles G. Grimm, mari de la petite-fille de la défunte, a sauté une génération (voir l'onglet « L'arbre de la famille » de la salle de lecture). Les recensements confirment la lignée : en 1860, Mary Rose vit avec son mari James A. H. Pillsbury et leur fille Mary Frances ; en 1900 et 1910, elle habite chez sa fille et son gendre Charles G. Grimm. Le baptême a été retrouvé (registre de Saint-Louis, 1823-1835) : baptisée à la maison, Marie reçoit le supplément des cérémonies le 11 septembre 1831, avec pour parrain Clément Lambert, son oncle, et pour marraine Pélagie Sarpy. Point schématique dans la vieille ville.")
 L(26, "Fort Union : chasseur et batelier de la compagnie (1830-1831)", 'traite', '1830/1831', -104.0405, 47.9994, 'a',
   "En 1830, Provost compte parmi les chasseurs du fort Union ; en 1831, le rôle de l'American Fur Company l'inscrit comme batelier. Le fort, bâti par McKenzie au confluent de la Yellowstone et du Missouri, devient le pivot de la traite du haut Missouri.",
   HF('378-379'), "")
@@ -278,6 +278,17 @@ L(46, "Fort Union : Les Crépuscules de la Yellowstone (Louis Hamelin, 2020)", '
   "Le romancier québécois Louis Hamelin fait de la remontée du Missouri par Audubon en 1843 un roman-fleuve, où Étienne Provost sert de guide et de contrepoint au naturaliste.",
   "Hamelin, Louis (2020), Les Crépuscules de la Yellowstone, roman, Montréal, Boréal (Drive de l'auteur)", "Œuvre de fiction.")
 
+# ---- Parenté et départ (salle de lecture, onglet « parente », 20 novembre 2026)
+SHSB = "Société historique de Saint-Boniface, base de données des contrats des voyageurs (archivesshsb.mb.ca), fiche « Provost, Etienne », contrat du 25 janvier 1805 devant le notaire Jonathan A. Gray (BAnQ, microfilm M620/1535), consultée le 20 novembre 2026"
+L(76, "Michilimackinac : Étienne Provost, voyageur engagé pour les « Dépendances du Sud » (1805)", 'traite', '1805-01-25/1806', -84.6155, 45.8516, 'a',
+  "Le 25 janvier 1805, à Montréal, devant le notaire Jonathan A. Gray, « Etienne Provost », de la paroisse de L'Acadie, s'engage pour un an envers la société Parker, Gerrard, Ogilvy & Co. comme « milieu » (rameur du centre) et hivernant, pour Michilimackinac et les « Dépendances du Sud ». Il a 19 ans. Gages : 500 livres ; avance de 8 piastres à la signature et de 8 au départ ; il reçoit « un équipement double ordinaire ». Les « Dépendances du Sud » désignent les postes au sud-ouest de Michilimackinac : baie des Puants (Green Bay), rivières Fox et Wisconsin, Prairie du Chien et le haut Mississippi, la route de Saint-Louis. C'est le premier document connu de sa vie de voyageur.",
+  SHSB + " ; " + VA,
+  "Point au fort de l'île Mackinac, où la garnison et le poste sont établis depuis 1781 (américains depuis 1796). Le nom de la paroisse, L'Acadie, est celui de la Petite-Cadie où Albert Provost avait reçu deux terres en 1781.")
+L(77, "Prairie du Chien : la porte du Mississippi sur la route de Saint-Louis (1805-1814, hypothèse)", 'traite', '1805~/1814', -91.1412, 43.0517, 'h',
+  "Au confluent de la Wisconsin et du Mississippi, Prairie du Chien est le grand rendez-vous des traiteurs de Michilimackinac qui descendent vers Saint-Louis. Engagé en 1805 pour les « Dépendances du Sud », Provost a dû y passer. Aucune pièce ne le place encore entre 1805 et 1814, l'année où il part de Saint-Louis avec Joseph Philibert.",
+  SHSB + " ; " + HAV,
+  "Lieu de passage probable, non documenté pour Provost.")
+
 # ---- Trajets
 traj = []
 def T(n, nom, mode, edtf, coords, cert, desc, src, note=''):
@@ -368,6 +379,8 @@ def JX(fichier, legende, article):
     return {"src": f"images/journaux/{fichier}", "legende": legende, "article": article}
 def RG(fichier, legende):
     return {"src": f"images/arbre/{fichier}", "legende": legende, "article": "mere", "type": "registre"}
+def PA(fichier, legende):
+    return {"src": f"images/parente/{fichier}", "legende": legende, "article": "parente", "type": "registre"}
 def TS(fichier, legende):
     return {"src": f"images/testament/{fichier}", "legende": legende, "article": "testament", "type": "registre"}
 def RU(fichier, legende):
@@ -397,9 +410,12 @@ REGISTRES = {
           TS("1850-08-01-inventaire-a.jpg", "Inventaire de la succession, 1er août 1850 : îlot 49, 50 pieds sur Second, 150 sur Lombard, borné à l'ouest par Papin et au sud par Pilcher")],
   'L40': [TS("1850-07-24-rejet-du-testament.jpg", "Le juge des successions rejette le testament d'Étienne, ses trois témoins étant morts, 24 juillet 1850"),
           TS("1850-07-04-facture-cercueil-lynch.jpg", "Facture des pompes funèbres Wm. A. Lynch & Co. : cercueil de velours, corbillard et cinq voitures, 4 juillet 1850")],
+  'L76': [PA("1785-01-25-mariage-albert-provost-marie-anne-mainard-temoins.jpg", "Mariage d'Albert Provost et de Marie-Anne Mainard, Chambly, 25 janvier 1785 : témoins Toussaint Provost, Joseph Mainard frère et Joseph Mainard oncle de l'épouse, Michel Laroque")],
+  'L25': [RG("1829-08-04-mariage-provost-lambert.jpg", "Le mariage de 1829 nomme Magdeleine Delor, la « Madelin Delor » du certificat de 1913"),
+          PA("1831-09-11-saint-louis-bapteme-marie-rose-provot.jpg", "Baptême de Marie, « fille de Étienne Provot et de Marie [Rose] Salé », née le 1er mai 1830 ; supplément des cérémonies le 11 septembre 1831 ; parrain Clément Lambert, marraine Pélagie Sarpy"),
+          PA("1834-03-saint-louis-bapteme-marianne-provot.jpg", "Baptême de Marianne, fille d'Étienne Provot et de Marie Lajoie, née le 21 septembre 1833 (mars 1834)")],
   'L60': [TS("1850-08-01-inventaire-b.jpg", "Inventaire de 1850 : plus de 600 acres et une douzaine de lots à Keokuk et Nashville, comté de Lee (Iowa), issus de la réserve métisse")],
   'L24': [RG("1829-08-04-mariage-provost-lambert.jpg", "Acte de mariage d'Étienne Provost et de Marie Lambert, « fille de Lambert Salé, dit Lajoy, et Magdeleine Delor », Saint-Louis, 4 août 1829")],
-  'L25': [RG("1829-08-04-mariage-provost-lambert.jpg", "Le mariage de 1829 nomme Magdeleine Delor, la « Madelin Delor » du certificat de 1913")],
   'L70': [RG("1781-12-31-mariage-cailhol-delor.jpg", "Mariage de François Cailhol et de « demoiselle Madeleine de Lord, fille légitime de Clément Delord, ancien officier au service du roi très chrétien, et de dame Catherine Marin », 31 décembre 1781"),
           RG("1837-02-03-sepulture-madeleine-delor.jpg", "Sépulture de « feue Mme Lambert Lajoie, âgée de 78 ans », 3 février 1837")],
   'L72': [RG("1837-02-22-cautionnement-succession-lambert-sale.jpg", "Cautionnement de Clément Sallé alias Lajoie, administrateur de la succession de Lambert Sallé dit Lajoie, avec pour cautions « Etienne Provos » (sa marque) et John B. Sarpy, Saint-Louis, 22 février 1837")],
@@ -462,9 +478,12 @@ for f_ in lieux:
         p['sources'] += f" ; presse : {NP}"
 
 P = {f['properties']['id']: f['geometry']['coordinates'] for f in lieux}
-T(1, "De Chambly à Saint-Louis par le saut Sainte-Marie, Détroit et Chicago", 'canot', '1806~/1810~', [P['L01'], [-73.55, 45.51], [-76.0, 45.6], [-79.4, 46.3], [-81.5, 46.0], [-84.35, 46.5], [-84.0, 45.3], [-82.5, 43.0], [-83.05, 42.33], [-86.4, 41.9], [-87.62, 41.88], [-88.9, 41.2], [-89.6, 40.7], [-90.18, 38.95], P['L03']], 'h',
-  "Entre 1806 et 1810, Provost aurait quitté la vallée du Saint-Laurent avec une brigade de canots par l'Outaouais jusqu'au saut Sainte-Marie, puis bifurqué vers Détroit, le portage de Chicago, la rivière des Illinois et Peoria, et enfin le Mississippi jusqu'à Saint-Louis, où vivaient déjà des oncles et cousins Provost et Ménard.",
-  f"{BOU} ; {VA} ; {TYU}", "Itinéraire proposé par Bouchard et Lévesque ; tracé schématique.")
+T(1, "De Chambly à Michilimackinac : le voyage d'un engagé (1805)", 'canot', '1805-05~/1805-06~', [P['L01'], [-73.55, 45.51], [-73.67, 45.43], [-74.38, 45.57], [-75.70, 45.42], [-77.11, 45.83], [-78.70, 46.32], [-79.46, 46.31], [-80.60, 45.95], [-81.60, 45.95], [-83.40, 45.95], P['L76']], 'a',
+  "Engagé le 25 janvier 1805 pour Michilimackinac, Provost part au printemps avec les canots de Parker, Gerrard, Ogilvy & Co. : de Lachine, la brigade remonte l'Outaouais jusqu'à Mattawa, gagne le lac Nipissing, descend la rivière des Français jusqu'à la baie Georgienne et longe la rive nord du lac Huron jusqu'à l'île Mackinac, soit environ 1 500 km et une trentaine de portages en cinq à six semaines.",
+  f"{SHSB} ; {VA}", "Itinéraire classique des canots de Montréal ; le contrat donne la destination, le trajet est restitué.")
+T(23, "De Michilimackinac à Saint-Louis par la baie des Puants, la Fox, la Wisconsin et le Mississippi", 'canot', '1805-07~/1814', [P['L76'], [-86.0, 45.6], [-88.0, 44.52], [-88.45, 44.0], [-89.46, 43.54], [-90.2, 43.15], P['L77'], [-90.66, 42.5], [-90.58, 41.51], [-91.39, 40.4], [-90.9, 39.4], [-90.18, 38.89], P['L03']], 'h',
+  "Les « Dépendances du Sud » de son contrat ouvrent la route du Mississippi : le lac Michigan, la baie des Puants (Green Bay), la rivière Fox, le portage de la Wisconsin, Prairie du Chien, puis la descente du Mississippi jusqu'à Saint-Louis. Provost l'a suivie entre 1805, date de son engagement, et 1814, où il est à Saint-Louis. Cet itinéraire remplace celui que proposaient Bouchard et Lévesque (par Détroit et Chicago, vers 1806-1810).",
+  f"{SHSB} ; {BOU} ; {HAV}", "Tracé schématique ; date d'arrivée à Saint-Louis inconnue.")
 T(2, "Avec Philibert vers le haut Arkansas", 'cheval', '1814', [P['L03'], [-94.4, 38.9], [-98.6, 38.35], [-101.2, 37.93], P['L04']], 'h',
   "La troupe de Joseph Philibert gagne le haut Arkansas, par le Missouri puis les plaines du Kansas.", TYU, "Tracé schématique.")
 T(3, "L'expédition Chouteau-De Mun", 'cheval', '1815-09/1816', [P['L03'], [-94.4, 38.9], [-98.6, 38.35], P['L06'], [-103.5, 38.05], [-104.61, 38.26], [-105.0, 37.17], P['L05']], 'a',

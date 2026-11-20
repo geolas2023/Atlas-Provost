@@ -7,78 +7,66 @@
     "type": "LineString",
     "coordinates": [
      [
-      -73.2858,
-      45.4486
+      -73.29192,
+      45.45152
      ],
      [
       -73.55,
       45.51
      ],
      [
-      -76.0,
-      45.6
+      -73.67,
+      45.43
      ],
      [
-      -79.4,
-      46.3
+      -74.38,
+      45.57
      ],
      [
-      -81.5,
-      46.0
+      -75.7,
+      45.42
      ],
      [
-      -84.35,
-      46.5
+      -77.11,
+      45.83
      ],
      [
-      -84.0,
-      45.3
+      -78.7,
+      46.32
      ],
      [
-      -82.5,
-      43.0
+      -79.46,
+      46.31
      ],
      [
-      -83.05,
-      42.33
+      -80.6,
+      45.95
      ],
      [
-      -86.4,
-      41.9
+      -81.6,
+      45.95
      ],
      [
-      -87.62,
-      41.88
+      -83.4,
+      45.95
      ],
      [
-      -88.9,
-      41.2
-     ],
-     [
-      -89.6,
-      40.7
-     ],
-     [
-      -90.18,
-      38.95
-     ],
-     [
-      -90.186,
-      38.627
+      -84.6155,
+      45.8516
      ]
     ]
    },
    "properties": {
     "id": "T01",
-    "nom": "From Chambly to St. Louis by Sault Ste. Marie, Detroit and Chicago",
-    "debut": 1806.0,
-    "fin": 1810.999,
-    "date_edtf": "1806~/1810~",
-    "certitude": "hypothetique",
+    "nom": "From Chambly to Michilimackinac: an engagé's journey (1805)",
+    "debut": 1805.3333,
+    "fin": 1805.499,
+    "date_edtf": "1805-05~/1805-06~",
+    "certitude": "approximative",
     "mode": "canot",
-    "description": "Between 1806 and 1810, Provost is thought to have left the St. Lawrence valley with a canoe brigade by the Ottawa River to Sault Ste. Marie, then turned toward Detroit, the Chicago portage, the Illinois River and Peoria, and finally down the Mississippi to St. Louis, where Provost and Ménard uncles and cousins already lived.",
-    "sources": "Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org)",
-    "note": "Route proposed by Bouchard and Lévesque; schematic line.",
+    "description": "Hired on 25 January 1805 for Michilimackinac, Provost left in the spring with the canoes of Parker, Gerrard, Ogilvy & Co.: from Lachine the brigade went up the Ottawa to Mattawa, crossed Lake Nipissing, ran down the French River to Georgian Bay and followed the north shore of Lake Huron to Mackinac Island — about 1,500 km and some thirty portages in five to six weeks.",
+    "sources": "Société historique de Saint-Boniface, base de données des contrats des voyageurs (archivesshsb.mb.ca), fiche « Provost, Etienne », contrat du 25 janvier 1805 devant le notaire Jonathan A. Gray (BAnQ, microfilm M620/1535), consultée le 20 novembre 2026 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
+    "note": "Classic route of the Montreal canoes; the contract gives the destination, the route is reconstructed.",
     "type": "trajet"
    }
   },
@@ -1100,6 +1088,79 @@
     "description": "Drunk and cheerful, Provost walks the twenty-odd miles from St. Charles to St. Louis.",
     "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON)",
     "note": "Mode: on foot.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -84.6155,
+      45.8516
+     ],
+     [
+      -86.0,
+      45.6
+     ],
+     [
+      -88.0,
+      44.52
+     ],
+     [
+      -88.45,
+      44.0
+     ],
+     [
+      -89.46,
+      43.54
+     ],
+     [
+      -90.2,
+      43.15
+     ],
+     [
+      -91.1412,
+      43.0517
+     ],
+     [
+      -90.66,
+      42.5
+     ],
+     [
+      -90.58,
+      41.51
+     ],
+     [
+      -91.39,
+      40.4
+     ],
+     [
+      -90.9,
+      39.4
+     ],
+     [
+      -90.18,
+      38.89
+     ],
+     [
+      -90.186,
+      38.627
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T23",
+    "nom": "From Michilimackinac to St. Louis by Green Bay, the Fox, the Wisconsin and the Mississippi",
+    "debut": 1805.5,
+    "fin": 1814.999,
+    "date_edtf": "1805-07~/1814",
+    "certitude": "hypothetique",
+    "mode": "canot",
+    "description": "The « Southern Dependencies » of his contract opened the Mississippi road: Lake Michigan, Green Bay, the Fox River, the Wisconsin portage, Prairie du Chien, then down the Mississippi to St. Louis. Provost followed it between 1805, when he was hired, and 1814, when he was in St. Louis. This route replaces the one proposed by Bouchard and Lévesque (via Detroit and Chicago, about 1806-1810).",
+    "sources": "Société historique de Saint-Boniface, base de données des contrats des voyageurs (archivesshsb.mb.ca), fiche « Provost, Etienne », contrat du 25 janvier 1805 devant le notaire Jonathan A. Gray (BAnQ, microfilm M620/1535), consultée le 20 novembre 2026 ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026)",
+    "note": "Schematic route; date of arrival in St. Louis unknown.",
     "type": "trajet"
    }
   }

@@ -672,8 +672,20 @@
     "registres": [
      {
       "src": "images/arbre/1829-08-04-mariage-provost-lambert.jpg",
-      "legende": "The 1829 marriage names Magdeleine Delor, the “Madelin Delor” of the 1913 certificate",
+      "legende": "The 1829 marriage names Magdeleine Delor, the « Madelin Delor » of the 1913 certificate",
       "article": "mere",
+      "type": "registre"
+     },
+     {
+      "src": "images/parente/1831-09-11-saint-louis-bapteme-marie-rose-provot.jpg",
+      "legende": "Baptism of Marie, « daughter of Étienne Provot and Marie [Rose] Salé », born 1 May 1830; ceremonies supplied 11 September 1831; godfather Clément Lambert, godmother Pélagie Sarpy",
+      "article": "parente",
+      "type": "registre"
+     },
+     {
+      "src": "images/parente/1834-03-saint-louis-bapteme-marianne-provot.jpg",
+      "legende": "Baptism of Marianne, daughter of Étienne Provot and Marie Lajoie, born 21 September 1833 (March 1834)",
+      "article": "parente",
       "type": "registre"
      }
     ]
@@ -1935,6 +1947,62 @@
       "type": "registre"
      }
     ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.6155,
+     45.8516
+    ]
+   },
+   "properties": {
+    "id": "L76",
+    "nom": "Michilimackinac: Étienne Provost hired as a voyageur for the « Southern Dependencies » (1805)",
+    "debut": 1805.0658,
+    "fin": 1806.999,
+    "date_edtf": "1805-01-25/1806",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "On 25 January 1805, in Montreal, before notary Jonathan A. Gray, « Etienne Provost » of the parish of L'Acadie signed on for one year with Parker, Gerrard, Ogilvy & Co. as a « milieu » (middle paddler) and winterer, bound for Michilimackinac and the « Dépendances du Sud ». He was 19. Wages: 500 livres, with advances of 8 piastres at signing and 8 at departure, plus « an ordinary double outfit ». The « Southern Dependencies » were the posts south-west of Michilimackinac: Green Bay, the Fox and Wisconsin rivers, Prairie du Chien and the upper Mississippi — the road to St. Louis. It is the earliest known document of his life as a voyageur.",
+    "sources": "Société historique de Saint-Boniface, voyageur contracts database (archivesshsb.mb.ca), entry « Provost, Etienne », contract of 25 January 1805 before notary Jonathan A. Gray (BAnQ, microfilm M620/1535), consulted 20 November 2026 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
+    "note": "Point at the Mackinac Island fort, where the post stood from 1781 (American from 1796). L'Acadie is the « Petite-Cadie » where Albert Provost was granted two farms in 1781.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/parente/1785-01-25-mariage-albert-provost-marie-anne-mainard-temoins.jpg",
+      "legende": "Marriage of Albert Provost and Marie-Anne Mainard, Chambly, 25 January 1785: witnesses Toussaint Provost, Joseph Mainard (bride's brother), Joseph Mainard (her uncle), Michel Laroque",
+      "article": "parente",
+      "type": "registre"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.1412,
+     43.0517
+    ]
+   },
+   "properties": {
+    "id": "L77",
+    "nom": "Prairie du Chien: gateway to the Mississippi on the road to St. Louis (1805-1814, hypothesis)",
+    "debut": 1805.0,
+    "fin": 1814.999,
+    "date_edtf": "1805~/1814",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "At the mouth of the Wisconsin, Prairie du Chien was the great meeting place of Michilimackinac traders heading down to St. Louis. Hired in 1805 for the « Southern Dependencies », Provost must have passed through. No document yet places him between 1805 and 1814, when he left St. Louis with Joseph Philibert.",
+    "sources": "Société historique de Saint-Boniface, voyageur contracts database (archivesshsb.mb.ca), entry « Provost, Etienne », contract of 25 January 1805 before notary Jonathan A. Gray (BAnQ, microfilm M620/1535), consulted 20 November 2026 ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026)",
+    "note": "Probable stop, not documented for Provost.",
+    "type": "lieu"
    }
   }
  ]

@@ -667,13 +667,25 @@
     "categorie": "famille",
     "description": "Le certificat de décès de Mary Rose Pillsbury (1913) la dit née à Saint-Louis le 1er mai 1830, fille d'« Etienne Provo », né au Canada. La date tombe un an après le mariage : ce serait la fille unique connue du couple, qu'Audubon voit à bord du vapeur en 1843.",
     "sources": "Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, Saint-Louis, 8 août 1913 (Drive de l'auteur) ; Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65",
-    "note": "Le certificat nomme la mère « Madelin Delor », née à Saint-Louis. Ce n'est pas la mère de Mary Rose mais sa grand-mère maternelle : l'acte de mariage de 1829 dit Marie-Rose « fille de Lambert Salé, dit Lajoy, et Magdeleine Delor ». L'informateur de 1913, Charles G. Grimm, mari de la petite-fille de la défunte, a sauté une génération (voir l'onglet « L'arbre de la famille » de la salle de lecture). Les recensements confirment la lignée : en 1860, Mary Rose vit avec son mari James A. H. Pillsbury et leur fille Mary Frances ; en 1900 et 1910, elle habite chez sa fille et son gendre Charles G. Grimm. Le baptême n'a pas été trouvé dans l'index Drouin de Saint-Louis. Point schématique dans la vieille ville.",
+    "note": "Le certificat nomme la mère « Madelin Delor », née à Saint-Louis. Ce n'est pas la mère de Mary Rose mais sa grand-mère maternelle : l'acte de mariage de 1829 dit Marie-Rose « fille de Lambert Salé, dit Lajoy, et Magdeleine Delor ». L'informateur de 1913, Charles G. Grimm, mari de la petite-fille de la défunte, a sauté une génération (voir l'onglet « L'arbre de la famille » de la salle de lecture). Les recensements confirment la lignée : en 1860, Mary Rose vit avec son mari James A. H. Pillsbury et leur fille Mary Frances ; en 1900 et 1910, elle habite chez sa fille et son gendre Charles G. Grimm. Le baptême a été retrouvé (registre de Saint-Louis, 1823-1835) : baptisée à la maison, Marie reçoit le supplément des cérémonies le 11 septembre 1831, avec pour parrain Clément Lambert, son oncle, et pour marraine Pélagie Sarpy. Point schématique dans la vieille ville.",
     "type": "lieu",
     "registres": [
      {
       "src": "images/arbre/1829-08-04-mariage-provost-lambert.jpg",
       "legende": "Le mariage de 1829 nomme Magdeleine Delor, la « Madelin Delor » du certificat de 1913",
       "article": "mere",
+      "type": "registre"
+     },
+     {
+      "src": "images/parente/1831-09-11-saint-louis-bapteme-marie-rose-provot.jpg",
+      "legende": "Baptême de Marie, « fille de Étienne Provot et de Marie [Rose] Salé », née le 1er mai 1830 ; supplément des cérémonies le 11 septembre 1831 ; parrain Clément Lambert, marraine Pélagie Sarpy",
+      "article": "parente",
+      "type": "registre"
+     },
+     {
+      "src": "images/parente/1834-03-saint-louis-bapteme-marianne-provot.jpg",
+      "legende": "Baptême de Marianne, fille d'Étienne Provot et de Marie Lajoie, née le 21 septembre 1833 (mars 1834)",
+      "article": "parente",
       "type": "registre"
      }
     ]
@@ -1558,6 +1570,62 @@
     "description": "Le romancier québécois Louis Hamelin fait de la remontée du Missouri par Audubon en 1843 un roman-fleuve, où Étienne Provost sert de guide et de contrepoint au naturaliste.",
     "sources": "Hamelin, Louis (2020), Les Crépuscules de la Yellowstone, roman, Montréal, Boréal (Drive de l'auteur)",
     "note": "Œuvre de fiction.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.6155,
+     45.8516
+    ]
+   },
+   "properties": {
+    "id": "L76",
+    "nom": "Michilimackinac : Étienne Provost, voyageur engagé pour les « Dépendances du Sud » (1805)",
+    "debut": 1805.0658,
+    "fin": 1806.999,
+    "date_edtf": "1805-01-25/1806",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "Le 25 janvier 1805, à Montréal, devant le notaire Jonathan A. Gray, « Etienne Provost », de la paroisse de L'Acadie, s'engage pour un an envers la société Parker, Gerrard, Ogilvy & Co. comme « milieu » (rameur du centre) et hivernant, pour Michilimackinac et les « Dépendances du Sud ». Il a 19 ans. Gages : 500 livres ; avance de 8 piastres à la signature et de 8 au départ ; il reçoit « un équipement double ordinaire ». Les « Dépendances du Sud » désignent les postes au sud-ouest de Michilimackinac : baie des Puants (Green Bay), rivières Fox et Wisconsin, Prairie du Chien et le haut Mississippi, la route de Saint-Louis. C'est le premier document connu de sa vie de voyageur.",
+    "sources": "Société historique de Saint-Boniface, base de données des contrats des voyageurs (archivesshsb.mb.ca), fiche « Provost, Etienne », contrat du 25 janvier 1805 devant le notaire Jonathan A. Gray (BAnQ, microfilm M620/1535), consultée le 20 novembre 2026 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
+    "note": "Point au fort de l'île Mackinac, où la garnison et le poste sont établis depuis 1781 (américains depuis 1796). Le nom de la paroisse, L'Acadie, est celui de la Petite-Cadie où Albert Provost avait reçu deux terres en 1781.",
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/parente/1785-01-25-mariage-albert-provost-marie-anne-mainard-temoins.jpg",
+      "legende": "Mariage d'Albert Provost et de Marie-Anne Mainard, Chambly, 25 janvier 1785 : témoins Toussaint Provost, Joseph Mainard frère et Joseph Mainard oncle de l'épouse, Michel Laroque",
+      "article": "parente",
+      "type": "registre"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.1412,
+     43.0517
+    ]
+   },
+   "properties": {
+    "id": "L77",
+    "nom": "Prairie du Chien : la porte du Mississippi sur la route de Saint-Louis (1805-1814, hypothèse)",
+    "debut": 1805.0,
+    "fin": 1814.999,
+    "date_edtf": "1805~/1814",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "Au confluent de la Wisconsin et du Mississippi, Prairie du Chien est le grand rendez-vous des traiteurs de Michilimackinac qui descendent vers Saint-Louis. Engagé en 1805 pour les « Dépendances du Sud », Provost a dû y passer. Aucune pièce ne le place encore entre 1805 et 1814, l'année où il part de Saint-Louis avec Joseph Philibert.",
+    "sources": "Société historique de Saint-Boniface, base de données des contrats des voyageurs (archivesshsb.mb.ca), fiche « Provost, Etienne », contrat du 25 janvier 1805 devant le notaire Jonathan A. Gray (BAnQ, microfilm M620/1535), consultée le 20 novembre 2026 ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026)",
+    "note": "Lieu de passage probable, non documenté pour Provost.",
     "type": "lieu"
    }
   },

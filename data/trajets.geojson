@@ -15,52 +15,113 @@
       45.51
      ],
      [
-      -76.0,
+      -73.67,
+      45.43
+     ],
+     [
+      -74.38,
+      45.57
+     ],
+     [
+      -75.7,
+      45.42
+     ],
+     [
+      -77.11,
+      45.83
+     ],
+     [
+      -78.7,
+      46.32
+     ],
+     [
+      -79.46,
+      46.31
+     ],
+     [
+      -80.6,
+      45.95
+     ],
+     [
+      -81.6,
+      45.95
+     ],
+     [
+      -83.4,
+      45.95
+     ],
+     [
+      -84.6155,
+      45.8516
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T01",
+    "nom": "De Chambly à Michilimackinac : le voyage d'un engagé (1805)",
+    "debut": 1805.3333,
+    "fin": 1805.499,
+    "date_edtf": "1805-05~/1805-06~",
+    "certitude": "approximative",
+    "mode": "canot",
+    "description": "Engagé le 25 janvier 1805 pour Michilimackinac, Provost part au printemps avec les canots de Parker, Gerrard, Ogilvy & Co. : de Lachine, la brigade remonte l'Outaouais jusqu'à Mattawa, gagne le lac Nipissing, descend la rivière des Français jusqu'à la baie Georgienne et longe la rive nord du lac Huron jusqu'à l'île Mackinac, soit environ 1 500 km et une trentaine de portages en cinq à six semaines.",
+    "sources": "Société historique de Saint-Boniface, base de données des contrats des voyageurs (archivesshsb.mb.ca), fiche « Provost, Etienne », contrat du 25 janvier 1805 devant le notaire Jonathan A. Gray (BAnQ, microfilm M620/1535), consultée le 20 novembre 2026 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
+    "note": "Itinéraire classique des canots de Montréal ; le contrat donne la destination, le trajet est restitué.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -84.6155,
+      45.8516
+     ],
+     [
+      -86.0,
       45.6
      ],
      [
-      -79.4,
-      46.3
+      -88.0,
+      44.52
      ],
      [
-      -81.5,
-      46.0
+      -88.45,
+      44.0
      ],
      [
-      -84.35,
-      46.5
+      -89.46,
+      43.54
      ],
      [
-      -84.0,
-      45.3
+      -90.2,
+      43.15
      ],
      [
-      -82.5,
-      43.0
+      -91.1412,
+      43.0517
      ],
      [
-      -83.05,
-      42.33
+      -90.66,
+      42.5
      ],
      [
-      -86.4,
-      41.9
+      -90.58,
+      41.51
      ],
      [
-      -87.62,
-      41.88
+      -91.39,
+      40.4
      ],
      [
-      -88.9,
-      41.2
-     ],
-     [
-      -89.6,
-      40.7
+      -90.9,
+      39.4
      ],
      [
       -90.18,
-      38.95
+      38.89
      ],
      [
       -90.186,
@@ -69,16 +130,16 @@
     ]
    },
    "properties": {
-    "id": "T01",
-    "nom": "De Chambly à Saint-Louis par le saut Sainte-Marie, Détroit et Chicago",
-    "debut": 1806.0,
-    "fin": 1810.999,
-    "date_edtf": "1806~/1810~",
+    "id": "T23",
+    "nom": "De Michilimackinac à Saint-Louis par la baie des Puants, la Fox, la Wisconsin et le Mississippi",
+    "debut": 1805.5,
+    "fin": 1814.999,
+    "date_edtf": "1805-07~/1814",
     "certitude": "hypothetique",
     "mode": "canot",
-    "description": "Entre 1806 et 1810, Provost aurait quitté la vallée du Saint-Laurent avec une brigade de canots par l'Outaouais jusqu'au saut Sainte-Marie, puis bifurqué vers Détroit, le portage de Chicago, la rivière des Illinois et Peoria, et enfin le Mississippi jusqu'à Saint-Louis, où vivaient déjà des oncles et cousins Provost et Ménard.",
-    "sources": "Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org)",
-    "note": "Itinéraire proposé par Bouchard et Lévesque ; tracé schématique.",
+    "description": "Les « Dépendances du Sud » de son contrat ouvrent la route du Mississippi : le lac Michigan, la baie des Puants (Green Bay), la rivière Fox, le portage de la Wisconsin, Prairie du Chien, puis la descente du Mississippi jusqu'à Saint-Louis. Provost l'a suivie entre 1805, date de son engagement, et 1814, où il est à Saint-Louis. Cet itinéraire remplace celui que proposaient Bouchard et Lévesque (par Détroit et Chicago, vers 1806-1810).",
+    "sources": "Société historique de Saint-Boniface, base de données des contrats des voyageurs (archivesshsb.mb.ca), fiche « Provost, Etienne », contrat du 25 janvier 1805 devant le notaire Jonathan A. Gray (BAnQ, microfilm M620/1535), consultée le 20 novembre 2026 ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026)",
+    "note": "Tracé schématique ; date d'arrivée à Saint-Louis inconnue.",
     "type": "trajet"
    }
   },
