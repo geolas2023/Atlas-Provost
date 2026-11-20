@@ -143,6 +143,10 @@ body:not(.fond-parchemin) .parchemin::before, body:not(.fond-parchemin) .parchem
 .badge.genre.canot, .badge.genre.vapeur { background: #8b2a17; border-color: #8b2a17; }
 #panneau .note { background: rgba(90, 120, 130, .13); border-left: 3px double var(--sepia); font-style: italic; font-size: .93rem; padding: .45rem .65rem; }
 #panneau .note strong { font-style: normal; font-family: var(--fell-sc); font-weight: normal; }
+#panneau .presse { margin-top: .9rem; font-size: .88rem; }
+#panneau .presse a { display: flex; gap: .55rem; align-items: center; margin-top: .45rem; color: var(--encre); text-decoration: none; background: var(--velin); border: 1px solid var(--parchemin-fonce); padding: .3rem; }
+#panneau .presse a:hover { border-color: var(--rouge); }
+#panneau .presse img { width: 72px; height: 54px; object-fit: cover; object-position: top; border: 1px solid var(--sepia); flex: none; }
 #panneau .sources { border-top: 1px solid var(--sepia); margin-top: 1rem; padding-top: .5rem; font-size: .88rem; color: var(--encre-pale); }
 #panneau .sources strong { font-family: var(--fell-sc); font-weight: normal; }
 #panneau .avertissement { background: rgba(90, 120, 130, .1); border: 1px dashed var(--sepia); padding: .5rem; font-style: italic; font-size: .9rem; }
@@ -184,5 +188,5 @@ body:not(.fond-parchemin) .parchemin::before, body:not(.fond-parchemin) .parchem
 }
 
 /* Lien de langue English / Français (pages jumelles index.html / index-en.html) */
-.barre .lien-reseau + .lien-langue { margin-left: .6rem; }
+.barre .lien-reseau + .lien-reseau, .barre .lien-reseau + .lien-langue { margin-left: .6rem; }
 .barre .lien-langue + .credit { margin-left: .9rem; }

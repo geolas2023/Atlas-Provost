@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salle de lecture — Atlas Étienne Provost</title>
+<meta name="author" content="Olivier J. Caron, Département de géographie, UQAM">
+<link rel="icon" href="images/castor.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Rye&display=swap">
+<style>
+:root { --encre: #1f2f3a; --encre-pale: #43606e; --sepia: #7f9496; --rouge: #9a3322; --or: #e3c983; --velin: #eff0e4;
+  --parchemin: #dde8e4; --parchemin-fonce: #c8d8d4; --bois: #2c4558; --vert: #4f7a4a; --orange: #c8903e; }
+* { box-sizing: border-box; }
+html, body { margin: 0; font-family: 'IM Fell English', Georgia, 'Times New Roman', serif; color: var(--encre); background: var(--velin); }
+a { color: var(--rouge); }
+.barre { display: flex; align-items: center; gap: .8rem; padding: .4rem 1rem; background: var(--bois); color: var(--velin); border-bottom: 3px double var(--or); flex-wrap: wrap; position: sticky; top: 0; z-index: 20; }
+.barre img { height: 40px; filter: invert(88%) sepia(30%) saturate(500%) hue-rotate(350deg) brightness(.95); }
+.barre h1 { font-family: 'Rye', Georgia, serif; font-weight: normal; font-size: 1.45rem; margin: 0; color: var(--or); letter-spacing: .03em; }
+.barre h1 span { font-family: 'IM Fell English', Georgia, serif; font-size: 1rem; color: var(--velin); opacity: .8; }
+.barre .esp { flex: 1; }
+.barre a { color: var(--or); font-size: .92rem; text-decoration: none; border: 1px solid var(--or); border-radius: 3px; padding: .12rem .55rem; white-space: nowrap; }
+.barre a:hover { background: var(--or); color: var(--bois); }
+.onglets { position: sticky; top: 55px; z-index: 15; background: var(--parchemin-fonce); border-bottom: 1px solid var(--sepia); display: flex; gap: .25rem; overflow-x: auto; padding: .45rem .6rem 0; }
+.onglets button { flex: 0 0 auto; font: inherit; font-size: .95rem; background: var(--parchemin); color: var(--encre-pale); border: 1px solid var(--sepia); border-bottom: 0; border-radius: 5px 5px 0 0; padding: .35rem .85rem .4rem; cursor: pointer; text-align: left; line-height: 1.15; }
+.onglets button small { display: block; font-size: .74rem; color: var(--encre-pale); opacity: .85; }
+.onglets button.actif { background: var(--velin); color: var(--encre); font-weight: bold; position: relative; top: 1px; }
+main { max-width: 66rem; margin: 0 auto; padding: 1.2rem 1.2rem 4rem; }
+.panneau[hidden] { display: none; }
+h2 { font-family: 'Rye', Georgia, serif; font-weight: normal; font-size: 1.75rem; margin: .4rem 0 .3rem; color: var(--bois); }
+h3 { font-family: 'IM Fell English SC', Georgia, serif; font-weight: normal; font-size: 1.3rem; margin: 2rem 0 .6rem; border-bottom: 1px solid var(--sepia); padding-bottom: .2rem; }
+p, li { line-height: 1.65; font-size: 1.04rem; }
+.chapo { font-size: 1.12rem; font-style: italic; border-left: 3px solid var(--orange); padding: .2rem 0 .2rem .9rem; }
+.date { color: var(--encre-pale); margin: 0 0 .8rem; }
+.cartes-salle { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.carte-salle { background: #fbfcf7; border: 1px solid var(--parchemin-fonce); border-left: 4px solid var(--rouge); padding: .8rem 1rem; cursor: pointer; }
+.carte-salle:hover { background: var(--parchemin); }
+.carte-salle b { font-family: 'IM Fell English SC', Georgia, serif; font-weight: normal; font-size: 1.25rem; display: block; color: var(--bois); }
+.carte-salle span { font-size: .9rem; color: var(--encre-pale); }
+.carte-tab { height: 440px; border: 1px solid var(--sepia); background: var(--parchemin); margin: .4rem 0 .6rem; }
+.note { font-size: .9rem; background: var(--parchemin); border-left: 3px solid var(--orange); padding: .5rem .8rem; }
+.legende-carte span { display: inline-flex; align-items: center; gap: .3rem; margin-right: 1rem; }
+.legende-carte i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+.art-jx { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 1rem 1.2rem; background: #fbfcf7; border: 1px solid var(--parchemin-fonce); border-left: 4px solid var(--rouge); padding: 1rem; margin: 1rem 0 1.4rem; scroll-margin-top: 120px; }
+.art-jx.ouest { border-left-color: var(--orange); }
+.art-jx.posterite { border-left-color: var(--vert); }
+.art-jx.large { grid-template-columns: 1fr; }
+.art-jx.large .jx-figs { display: flex; flex-wrap: wrap; gap: .8rem; align-items: flex-start; }
+.art-jx.large figure img { width: auto; max-width: 100%; }
+.art-jx figure { margin: 0 0 .6rem; }
+.art-jx figure img { width: 100%; height: auto; display: block; border: 1px solid var(--sepia); background: #fff; box-shadow: 0 1px 3px rgba(20,40,50,.18); }
+.art-jx figcaption { font-size: .8rem; color: var(--encre-pale); margin-top: .3rem; }
+.art-jx p { margin: 0 0 .65rem; }
+.art-jx .jx-tete { font-size: .93rem; border-bottom: 1px solid var(--parchemin-fonce); padding-bottom: .45rem; }
+.art-jx .jx-tete b { font-family: 'IM Fell English SC', Georgia, serif; font-weight: normal; font-size: 1.15rem; color: var(--rouge); display: block; }
+.art-jx .jx-lieu { font-size: .86rem; color: var(--vert); }
+.art-jx ul li { font-size: .96rem; }
+.art-jx.cible { box-shadow: 0 0 0 3px var(--orange); }
+table.chrono { border-collapse: collapse; width: 100%; font-size: .93rem; background: #fbfcf7; margin: .5rem 0 1rem; }
+table.chrono th, table.chrono td { border-bottom: 1px solid var(--parchemin-fonce); padding: .45rem .55rem; text-align: left; vertical-align: top; line-height: 1.45; }
+table.chrono th { background: var(--parchemin-fonce); font-weight: normal; font-family: 'IM Fell English SC', Georgia, serif; }
+table.chrono td:first-child { white-space: nowrap; color: var(--rouge); }
+ul.biblio li { font-size: .93rem; margin-bottom: .3rem; }
+.maplibregl-popup-content { font-family: Georgia, serif; font-size: .86rem; background: #fbfcf7; }
+footer { font-size: .82rem; color: var(--encre-pale); text-align: center; padding: 1rem; border-top: 1px solid var(--sepia); }
+@media (max-width: 760px) { .onglets { top: 0; position: relative; } .barre { position: relative; } main { padding: 1rem 16px 3rem; } .carte-tab { height: 330px; } .art-jx { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header class="barre">
+  <img src="images/castor.svg" alt="" width="40" height="40">
+  <h1>Atlas Étienne Provost <span>· Salle de lecture</span></h1>
+  <span class="esp"></span>
+  <a href="index.html">🗺 Carte de l'atlas</a>
+  <a href="https://geolas2023.github.io/Atlas-Les-Canadiens-Fran-ais-de-l-Ouest/">⚜ Atlas de l'Amérique française</a>
+</header>
+
+<nav class="onglets" role="tablist" aria-label="Documents de la salle de lecture">
+  <button type="button" role="tab" data-onglet="accueil" class="actif">La salle<small>Présentation</small></button>
+  <button type="button" role="tab" data-onglet="journaux">Dans les journaux<small>Presse, 1827-1963</small></button>
+</nav>
+
+<main>
+<!-- ============================ ACCUEIL ============================ -->
+<section class="panneau" id="accueil" role="tabpanel">
+  <h2>La salle de lecture</h2>
+  <p class="chapo">Étienne Provost n'a laissé ni journal ni lettre. On le connaît par les registres, les livres de compte de la traite, les souvenirs des autres. Cette salle réunit ces témoignages, un onglet par corpus, avec leur contexte, leurs découpures et les lieux dont ils parlent.</p>
+  <div class="cartes-salle">
+    <div class="carte-salle" data-ouvrir="journaux">
+      <b>Dans les journaux</b>
+      <span>Vingt-six découpures de 1827 à 1960 : le tavernier de Saint-Louis, la nouvelle du rendez-vous de 1834, l'avis de décès de 1850, les souvenirs de Joseph La Barge, l'origine du nom de Provo, la statue du monument This Is the Place.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ DANS LES JOURNAUX ============================ -->
+<section class="panneau" id="journaux" role="tabpanel" hidden>
+  <h2>« Provot » dans les journaux</h2>
+  <p class="date">Dépouillement de Newspapers.com · 1800-1963 · Missouri, Iowa, Dakota, Utah et presse nationale</p>
+  <p class="chapo">De son vivant, Étienne Provost n'apparaît dans la presse de Saint-Louis que par les petites colonnes de la vie civique : une lettre qui l'attend à la poste, une licence de taverne, un lot de terrain, un procès, un avis de décès. Une seule fois, en 1834, on parle de lui comme d'un homme des montagnes. Sa célébrité vient ensuite, quand l'Utah se cherche des fondateurs d'avant les pionniers mormons : le trappeur canadien de Saint-Louis devient l'homme qui a donné son nom à Provo, le découvreur possible du col du Sud et du Grand Lac Salé, et finit statue de bronze. Voici les articles retrouvés, avec leur découpure, leur contexte et le lieu dont ils parlent.</p>
+
+  <h3>La méthode</h3>
+  <p>J'ai interrogé l'index de Newspapers.com (abonnement de l'auteur) de 1800 à 1963 avec les graphies connues du nom : « Etienne Provost », « Etienne Provot », « Etienne Provo », « Etienne Proveau », « Etienne Prevost », « E. Provost » et « E. Provot » (avant 1851), « Stephen Provost », « Provost Fork », « Old Provost », « Provost and Leclerc », ainsi que Provost, Provot, Provo, Proveau et Provaut seuls dans la presse du Missouri d'avant 1851 et de l'Utah. Cela représente environ 5 000 pages. J'ai lu le passage autour du mot trouvé pour toutes les pages américaines et canadiennes (plus de 2 300), puis la page entière pour les articles pertinents. Les homonymes sont très nombreux : le prévôt des marchands Étienne Marcel, les maréchaux prévôts (<i>provost marshal</i>), les Provost du Québec, de la Nouvelle-Angleterre et de l'Australie, et la ville albertaine de Provost.</p>
+
+  <div id="carte-jx" class="carte-tab" role="img" aria-label="Carte des lieux évoqués par les articles"></div>
+  <p class="note legende-carte"><span><i style="background:#9a3322"></i>Saint-Louis et la vie civique</span><span><i style="background:#c8903e"></i>les montagnes et le Missouri</span><span><i style="background:#4f7a4a"></i>la postérité (Utah)</span> Pastille vide : position approximative ou hypothétique. Cliquez une pastille pour aller à l'article.</p>
+
+  <h3>De son vivant : le Canadien de Saint-Louis (1827-1850)</h3>
+
+  <article class="art-jx" id="jx-1827">
+    <div class="jx-figs"><figure><a href="images/journaux/1827-11-08-missouri-republican-lettres-etienne-proveau.jpg" target="_blank" rel="noopener"><img src="images/journaux/1827-11-08-missouri-republican-lettres-etienne-proveau.jpg" alt="Liste de lettres du Missouri Republican, 8 novembre 1827, avec Gabriel Philibert et Etienne Proveau" loading="lazy"></a>
+      <figcaption>Missouri Republican, 8 nov. 1827, p. 3.</figcaption></figure></div>
+    <div>
+      <p class="jx-tete"><b>Novembre 1827 · Saint-Louis</b> — <i>The Missouri Republican</i>, 8 et 15 novembre 1827, p. 3 · <a href="https://www.newspapers.com/image/1368982320/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que dit l'article.</b> La liste des lettres en souffrance au bureau de poste de Saint-Louis porte, à la lettre P, « Etienne Proveau », juste sous « Gabriel Philibert », de la famille de Joseph Philibert avec qui Provost était parti vers l'Arkansas en 1814.</p>
+      <p><b>Contexte.</b> C'est la plus ancienne mention sûre de Provost dans la presse. Il est revenu des montagnes en septembre 1826 ; à l'automne 1827, il est de nouveau à Saint-Louis, entre deux engagements. La graphie « Proveau » est celle qu'emploieront aussi Joseph La Barge et le peintre Miller.</p>
+      <p class="jx-lieu">Lieu : bureau de poste de Saint-Louis (fiche L03) · position approximative.</p>
+    </div>
+  </article>
+
+  <article class="art-jx" id="jx-1834">
+    <div class="jx-figs"><figure><a href="images/journaux/1834-05-01-missouri-republican-licence-taverne-provost.jpg" target="_blank" rel="noopener"><img src="images/journaux/1834-05-01-missouri-republican-licence-taverne-provost.jpg" alt="Liste des licences municipales : Provost, Etien, vendeur de marchandises et taverne" loading="lazy"></a>
+      <figcaption>Missouri Republican, 1er mai 1834, p. 3.</figcaption></figure></div>
+    <div>
+      <p class="jx-tete"><b>1833-1834 · Saint-Louis</b> — <i>Missouri Republican</i>, 17 mai 1833, p. 3, et 1er mai 1834, p. 3 · <a href="https://www.newspapers.com/image/1367709850/" target="_blank" rel="noopener">1833 ↗</a> · <a href="https://www.newspapers.com/image/1367430195/" target="_blank" rel="noopener">1834 ↗</a></p>
+      <p><b>Ce que dit l'article.</b> Le compte rendu des recettes de la ville énumère les licences payées. « Provost, Etien » y figure deux fois : comme vendeur de marchandises (7,50 $) et pour une « taverne ou débit de boissons » (50 $). La liste de 1833 donne la même chose sous « Provost E. ».</p>
+      <p><b>Contexte.</b> Ces deux lignes confirment ce que disaient les historiens à partir d'actes notariés : entre ses campagnes, Provost tient une épicerie-taverne à Saint-Louis (fiche L21). C'est l'année où il part avec la caravane de Fontenelle et Drips vers le rendez-vous de la Ham's Fork : la taverne tourne sans lui, sans doute grâce à Marie-Rose Lambert.</p>
+      <p class="jx-lieu">Lieu : Saint-Louis, premier quartier (fiche L21) · position approximative.</p>
+    </div>
+  </article>
+
+  <article class="art-jx ouest" id="jx-1834b">
+    <div class="jx-figs"><figure><a href="images/journaux/1834-08-26-missouri-republican-from-the-mountains.jpg" target="_blank" rel="noopener"><img src="images/journaux/1834-08-26-missouri-republican-from-the-mountains.jpg" alt="Missouri Republican, 26 août 1834 : From the Mountains" loading="lazy"></a>
+      <figcaption>Missouri Republican, 26 août 1834, p. 3.</figcaption></figure></div>
+    <div>
+      <p class="jx-tete"><b>Été 1834 · Ham's Fork, Independence</b> — <i>Missouri Republican</i>, 26 août 1834, p. 3 (« From the Mountains ») ; repris par le <i>Missouri Intelligencer</i>, 30 août 1834 · <a href="https://www.newspapers.com/image/1367430466/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que dit l'article.</b> Un voyageur arrivé la veille des montagnes fait savoir, « pour l'information des amis de ceux qui accompagnent M. Provost (de l'American Fur Company) », que son parti n'a pas été attaqué par les Pawnees au printemps, contrairement à la rumeur. Sublette et le capitaine Cerré arrivent avec leurs ballots de castor. Provost comptait quitter le rendez-vous de la Ham's Fork du Rio Colorado six ou sept jours après l'auteur, parti vers le 10 juillet. L'informateur venait de Fort Vancouver, quitté le 31 mai, et a atteint Independence le 16 août.</p>
+      <p><b>Contexte.</b> C'est le seul article d'époque qui parle de Provost comme d'un chef de parti dans les montagnes. Il montre que des familles de Saint-Louis s'inquiétaient pour les engagés qu'il conduisait, et confirme sa présence au rendez-vous de 1834 (fiche L28).</p>
+      <p class="jx-lieu">Lieux : rendez-vous de la Ham's Fork (fiche L28) · position approximative ; Independence (Missouri) · position certaine.</p>
+    </div>
+  </article>
+
+  <article class="art-jx" id="jx-quartier">
+    <div class="jx-figs">
+      <figure><a href="images/journaux/1843-listes-fiscales-lots-provost-lombard-cedar.jpg" target="_blank" rel="noopener"><img src="images/journaux/1843-listes-fiscales-lots-provost-lombard-cedar.jpg" alt="Listes fiscales de 1843 : îlots 49 Lombard et 76 Cedar, lots bornés à l'est par Provo" loading="lazy"></a>
+        <figcaption>St Louis Republic, 21 oct. 1843, et Weekly Jefferson Inquirer, 29 juin 1843.</figcaption></figure>
+      <figure><a href="images/journaux/1873-02-05-st-louis-republic-acte-1835-provot-marie-rose.jpg" target="_blank" rel="noopener"><img src="images/journaux/1873-02-05-st-louis-republic-acte-1835-provot-marie-rose.jpg" alt="St Louis Republic, 5 février 1873 : vente de fiduciaire citant l'acte de 1835 d'Etienne Provot et Marie Rose" loading="lazy"></a>
+        <figcaption>St Louis Republic, 5 févr. 1873, p. 7.</figcaption></figure>
+      <figure><a href="images/journaux/1846-01-14-st-louis-republic-cour-de-circuit-provost.jpg" target="_blank" rel="noopener"><img src="images/journaux/1846-01-14-st-louis-republic-cour-de-circuit-provost.jpg" alt="St Louis Republic, 14 janvier 1846 : cour de circuit, Hector Moore contre Etienne Provost et autres" loading="lazy"></a>
+        <figcaption>St Louis Republic, 14 janv. 1846, p. 2.</figcaption></figure>
+    </div>
+    <div>
+      <p class="jx-tete"><b>1831-1873 · le premier quartier de Saint-Louis</b> — listes fiscales et rôles de la cour</p>
+      <p><b>Ce que disent les articles.</b> Les listes de taxes impayées publiées par la ville situent ses terrains :</p>
+      <ul>
+        <li>1831 et 1834 : un lot de la rue Third, au voisinage d'un certain Gardhausen, est borné au sud par « Provost » (<i>Missouri Republican</i>, 8 mars et 19 avril 1831 ; 14 oct. 1834).</li>
+        <li>1843 : dans l'îlot 49 (rue Lombard), le lot de Francis Cailloux est borné « à l'est par Provost, au sud par Papin » ; dans l'îlot 76 (rue Cedar), un autre lot est borné à l'est par « Provo » (<i>Weekly Jefferson Inquirer</i>, 29 juin 1843 ; <i>St Louis Republic</i>, 21, 24 et 27 oct. 1843).</li>
+        <li>1845-1846 : Hector Moore, puis William Horine et Victoire Dabin poursuivent ensemble une dizaine de voisins créoles du quartier, dont Antoine et Michel Cailloux, les Dufresne, Francis Hernandez, Louis Martin et « Etienne Provost » ; les causes sont abandonnées ou reportées (<i>St Louis Republic</i>, 14 janv., 5 févr. et 11 mars 1846). En décembre 1845, la cour mentionne aussi « State vs Etienne Provot & Felix Lafre ».</li>
+        <li>1873 : une vente de fiduciaire décrit un lot de l'îlot 76 comme la moitié ouest d'un lot « vendu à Sarah Ann Langley par Etienne Provot et Marie Rose, sa femme, par acte du 18 mai 1835 » (<i>St Louis Republic</i>, 2-25 févr. 1873).</li>
+      </ul>
+      <p><b>Contexte.</b> Ces bribes dessinent le Frenchtown où Provost vit de 1830 à sa mort : quelques îlots au sud du vieux centre, entre les rues Second, Third, Lombard et Cedar, peuplés de familles créoles et canadiennes. Les procès de 1845-1846, qui visent tout un groupe de voisins à la fois, portent probablement sur un terrain ou une clôture communs.</p>
+      <p class="jx-lieu">Lieux : îlots 49 et 76 du premier quartier, près de l'angle Lombard-Second (nouvelle fiche L59 ; fiche L36) · positions approximatives.</p>
+    </div>
+  </article>
+
+  <article class="art-jx ouest" id="jx-1840">
+    <div class="jx-figs"><figure><a href="images/journaux/1840-hawk-eye-burlington-half-breed-tract.jpg" target="_blank" rel="noopener"><img src="images/journaux/1840-hawk-eye-burlington-half-breed-tract.jpg" alt="Hawk-Eye and Iowa Patriot, 1840 : Josiah Spalding et al. contre Euphrosyne Antayer, requête en partage de la Half Breed tract" loading="lazy"></a>
+      <figcaption>The Hawk-Eye and Iowa Patriot (Burlington), 23 juillet 1840, p. 4.</figcaption></figure></div>
+    <div>
+      <p class="jx-tete"><b>1840-1852 · comté de Lee (Iowa)</b> — <i>The Hawk-Eye and Iowa Patriot</i>, Burlington, 2 juillet-10 sept. 1840 (sept parutions) ; <i>Democratic Banner</i>, Davenport, mars-nov. 1852 · <a href="https://www.newspapers.com/image/842699614/" target="_blank" rel="noopener">page 1840 ↗</a> · <a href="https://www.newspapers.com/image/36886326/" target="_blank" rel="noopener">page 1852 ↗</a></p>
+      <p><b>Ce que dit l'article.</b> Avis légal de la cour de district du comté de Lee, dans le territoire de l'Iowa : le 14 avril 1840, Josiah Spalding, Archibald Gamble, Patrick Walsh, « Etienne Prevost », John et Edward Walsh, John B. Sarpy, Antoine Leclaire et une vingtaine d'autres demandent le partage de « la Half Breed tract », environ 119 000 acres entre le Mississippi et la rivière Des Moines. Les défendeurs et tous les intéressés sont sommés de comparaître en octobre. En 1852, une vente du shérif exécute encore un jugement en faveur des mêmes requérants, Provost compris.</p>
+      <p><b>Contexte.</b> La « Half-Breed Tract » avait été réservée en 1824 aux Métis des Sauks et des Renards. Dans les années 1830, spéculateurs et marchands de Saint-Louis rachètent les parts des Métis ou se les font céder en paiement de dettes. Ce document, inconnu des biographes, montre Provost parmi les ayants droit, au côté de bourgeois de la traite comme Sarpy et Gamble. Comment il a acquis ces droits, comme créancier ou par un lien familial, reste à chercher.</p>
+      <p class="jx-lieu">Lieu : ancienne réserve des Métis, entre Keokuk et Fort Madison (nouvelle fiche L60) · position approximative.</p>
+    </div>
+  </article>
+
+  <article class="art-jx ouest" id="jx-1843">
+    <div class="jx-figs">
+      <figure><a href="images/journaux/1891-04-12-post-dispatch-la-barge-trip-in-43.jpg" target="_blank" rel="noopener"><img src="images/journaux/1891-04-12-post-dispatch-la-barge-trip-in-43.jpg" alt="St. Louis Post-Dispatch, 12 avril 1891 : A Trip in '43, Capt. Jos. La Barge" loading="lazy"></a>
+        <figcaption>St. Louis Post-Dispatch, 12 avril 1891, p. 33 (titre et dernier paragraphe).</figcaption></figure>
+      <figure><a href="images/journaux/1919-12-25-montana-provost-et-le-savant-prou.jpg" target="_blank" rel="noopener"><img src="images/journaux/1919-12-25-montana-provost-et-le-savant-prou.jpg" alt="Dépêche de 1919 : Etienne Provost, guide, joue un tour au savant Prou avec une feuille de maïs" loading="lazy"></a>
+        <figcaption>Cascade Courier (Montana), 26 déc. 1919.</figcaption></figure>
+    </div>
+    <div>
+      <p class="jx-tete"><b>1843 · avec Audubon sur le haut Missouri</b> — <i>St. Louis Post-Dispatch</i>, 12 avril 1891, p. 33 (« A Trip in '43 ») · <a href="https://www.newspapers.com/image/138123049/" target="_blank" rel="noopener">page ↗</a> — et récit syndiqué dans une vingtaine d'hebdos du Montana et de l'Utah, 25 déc. 1919-23 janv. 1920 · <a href="https://www.newspapers.com/image/951349466/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que disent les articles.</b> Le capitaine Joseph La Barge, pilote de l'<i>Omega</i>, raconte le voyage d'avril-juin 1843 avec Audubon et ses compagnons. Il termine en notant qu'Audubon resta à l'embouchure de la Yellowstone jusqu'à l'automne et redescendit en mackinaw « accompagné d'Etienne Proveau, le célèbre trappeur et chasseur ». Vingt-huit ans plus tard, une dépêche reprend une anecdote du même voyage : un assistant d'Audubon, appelé « Prou », se vantait de reconnaître toute plante à sa feuille ; Provost, « qui servait de guide », lui présente une feuille de maïs cueillie près d'un camp de Mandans. Le savant cherche en vain dans ses livres et devient la risée de l'équipage quand Provost dégage le grain à la racine.</p>
+      <p><b>Contexte.</b> Le journal d'Audubon confirme que Provost chassa pour lui au fort Union et redescendit avec lui jusqu'à Saint-Charles (fiches L37 et L38). L'anecdote du maïs, absente du journal, vient sans doute de La Barge, qui aimait raconter. L'identité de l'« assistant » ainsi surnommé reste incertaine.</p>
+      <p class="jx-lieu">Lieux : fort Union (fiche L37) · position certaine ; villages mandans près de Fort Clark (nouvelle fiche L62) · position hypothétique.</p>
+    </div>
+  </article>
+
+  <article class="art-jx ouest large" id="jx-1847">
+    <div class="jx-figs"><figure><a href="images/journaux/1903-09-07-minneapolis-journal-row-with-redskins.jpg" target="_blank" rel="noopener"><img src="images/journaux/1903-09-07-minneapolis-journal-row-with-redskins.jpg" alt="Minneapolis Journal, 7 septembre 1903 : Row with Redskins, Captain La Barge et Etienne Provost à Crow Creek" loading="lazy"></a>
+      <figcaption>Minneapolis Journal, 7 sept. 1903, p. 11.</figcaption></figure></div>
+    <div>
+      <p class="jx-tete"><b>1847 · Crow Creek (Dakota du Sud)</b> — <i>Minneapolis Journal</i>, 7 sept. 1903, p. 11 (« Row with Redskins ») ; repris par l'<i>Argus-Leader</i> (Sioux Falls) et quatre hebdos du Wisconsin · <a href="https://www.newspapers.com/image/76305310/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que dit l'article.</b> La société historique du Dakota du Sud vient de retrouver le récit d'un épisode oublié. En 1847, lors de son premier voyage comme maître de son propre vapeur, avec sa femme à bord, Joseph La Barge s'arrête à Crow Creek pour prendre le bois coupé par le commis Colin Campbell. Les Yanktons, mécontents de l'agent Matlock, interdisent aux bateliers de le charger et les frappent de leurs fouets de cuir cru jusqu'à ce qu'ils jettent le bois en désordre sur le pont. C'est alors qu'intervient « Etienne Provost, un frontalier intrépide dont les Indiens avaient peur » : le bois est chargé sans autre résistance. Le soir, les Yanktons envahissent le pont, tuent le batelier Charles Smith, et La Barge doit tirer au canon chargé de rivets.</p>
+      <p><b>Contexte.</b> Provost a alors plus de soixante ans et remonte chaque printemps le Missouri pour l'American Fur Company (fiche L39). Le récit, publié un demi-siècle plus tard et tiré des souvenirs de La Barge, est le seul qui le montre en action dans ses dernières années.</p>
+      <p class="jx-lieu">Lieu : embouchure du Crow Creek sur le Missouri, comté de Buffalo (nouvelle fiche L61) · position approximative.</p>
+    </div>
+  </article>
+
+  <article class="art-jx" id="jx-1850">
+    <div class="jx-figs">
+      <figure><a href="images/journaux/1850-07-04-tri-weekly-missouri-republican-avis-de-deces.jpg" target="_blank" rel="noopener"><img src="images/journaux/1850-07-04-tri-weekly-missouri-republican-avis-de-deces.jpg" alt="Tri-Weekly Missouri Republican, 4 juillet 1850 : DIED, Mr. Etienne Provot, an old resident of this city" loading="lazy"></a>
+        <figcaption>Tri-Weekly Missouri Republican, 4 juillet 1850, p. 2.</figcaption></figure>
+      <figure><a href="images/journaux/1850-07-30-missouri-republican-succession-etienne-provot.jpg" target="_blank" rel="noopener"><img src="images/journaux/1850-07-30-missouri-republican-succession-etienne-provot.jpg" alt="Administratrix's Notice : succession d'Etienne Provot, Mary Provot administratrice" loading="lazy"></a>
+        <figcaption>Tri-Weekly Missouri Republican, 30 juillet 1850, p. 2.</figcaption></figure>
+    </div>
+    <div>
+      <p class="jx-tete"><b>3 juillet 1850 · Saint-Louis</b> — <i>Tri-Weekly Missouri Republican</i>, 4 juillet 1850, p. 2 · <a href="https://www.newspapers.com/image/1368619309/" target="_blank" rel="noopener">page ↗</a> — et 30 juillet 1850, p. 2, puis <i>The Missouri Republican</i>, 2 août-20 sept. 1850 (sept parutions) · <a href="https://www.newspapers.com/image/1368619353/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que disent les articles.</b> Sous « Died », entre deux faire-part, une ligne : « Hier après-midi, vers 4 heures, M. Etienne Provot, un vieux résident de cette ville. » Amis et connaissances sont invités aux funérailles le jour même à 16 h, depuis sa maison du coin des rues Lombard et Second, jusqu'au cimetière catholique. Quatre semaines plus tard, un avis informe les créanciers que les lettres d'administration de la succession d'« Etienne Provot » ont été accordées le 29 juillet 1850 par le juge de la Cour des successions de Saint-Louis à « Mary Provot », administratrice.</p>
+      <p><b>Contexte.</b> Ces deux textes, cités en 1909 par l'abbé W. R. Harris (voir plus bas), fixent la date de la mort (3 juillet 1850), l'adresse de la maison et la graphie qu'employait la famille. L'administratrice est sa veuve, Marie-Rose. L'avis ne dit rien de la cause du décès.</p>
+      <p class="jx-lieu">Lieux : maison du coin des rues Lombard et Second (nouvelle fiche L59) · position approximative ; cimetière catholique (fiches L40, L55).</p>
+    </div>
+  </article>
+
+  <h3>Les souvenirs (1880-1913)</h3>
+
+  <article class="art-jx" id="jx-1880">
+    <div class="jx-figs"><figure><a href="images/journaux/1880-07-18-globe-democrat-mort-de-louis-st-onge.jpg" target="_blank" rel="noopener"><img src="images/journaux/1880-07-18-globe-democrat-mort-de-louis-st-onge.jpg" alt="St. Louis Globe-Democrat, 18 juillet 1880 : Death of Louis St. Onge" loading="lazy"></a>
+      <figcaption>St. Louis Globe-Democrat, 18 juillet 1880, p. 12.</figcaption></figure></div>
+    <div>
+      <p class="jx-tete"><b>1880 · Saint-Louis et le haut Missouri</b> — <i>St. Louis Globe-Democrat</i>, 18 juillet 1880, p. 12 (« Death of Louis St. Onge ») · <a href="https://www.newspapers.com/image/571027187/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que dit l'article.</b> La nécrologie du voyageur Louis St. Onge, mort à Sioux City, le range dans « cette héroïque bande de pionniers qui ouvrit au commerce, sous la direction de Pierre Chouteau, les sources du Missouri », avec William Archambault, Etienne Provost, Fred Dupuis, Joseph Picot, Charles Guérin, J. Pacquenolles, le capitaine Guion, Germain Pelletier et Paul Guitar.</p>
+      <p><b>Contexte.</b> Trente ans après sa mort, la mémoire de Saint-Louis classe encore Provost parmi les engagés canadiens de la maison Chouteau, et non parmi les découvreurs. C'est le Provost du recruteur de l'American Fur Company (fiche L35).</p>
+      <p class="jx-lieu">Lieu : Saint-Louis (fiche L35) · position approximative.</p>
+    </div>
+  </article>
+
+  <article class="art-jx posterite" id="jx-colsud">
+    <div class="jx-figs">
+      <figure><a href="images/journaux/1902-06-24-nebraska-city-weekly-morton-col-du-sud.jpg" target="_blank" rel="noopener"><img src="images/journaux/1902-06-24-nebraska-city-weekly-morton-col-du-sud.jpg" alt="Nebraska City Weekly, 24 juin 1902 : Incidents of Western History, the Discovery of the Great Road" loading="lazy"></a>
+        <figcaption>Nebraska City Weekly, 24 juin 1902, p. 1.</figcaption></figure>
+      <figure><a href="images/journaux/1904-12-25-salt-lake-herald-monument-bridger-provost.jpg" target="_blank" rel="noopener"><img src="images/journaux/1904-12-25-salt-lake-herald-monument-bridger-provost.jpg" alt="Salt Lake Herald, 25 décembre 1904 : Tribute to the Discoverer of Salt Lake, monument de Bridger et parti d'Etienne Provost en 1823" loading="lazy"></a>
+        <figcaption>Salt Lake Herald, 25 déc. 1904, p. 17.</figcaption></figure>
+    </div>
+    <div>
+      <p class="jx-tete"><b>1823 · le col du Sud</b> — <i>The Nebraska City Weekly</i> (<i>The Conservative</i> de J. Sterling Morton), 24 juin 1902, p. 1 · <a href="https://www.newspapers.com/image/728119904/" target="_blank" rel="noopener">page ↗</a> — et <i>Salt Lake Herald</i>, 25 déc. 1904, p. 17 · <a href="https://www.newspapers.com/image/80909204/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que disent les articles.</b> Dans sa série « Incidents of Western History », l'ancien secrétaire à l'Agriculture J. Sterling Morton se demande qui a ouvert la grande route de l'Ouest. Il note que la tradition des trappeurs attribuait depuis longtemps le passage du col du Sud à « Etienne Provost, d'après qui la ville de Provo en Utah fut nommée », qui y aurait conduit un parti d'Ashley et d'Henry en 1823 ; et puisqu'on ne peut ni le prouver ni le réfuter, conclut-il, « il n'y a pas de raison de lui refuser la gloire ». En décembre 1904, à l'occasion du monument de Jim Bridger à Kansas City, le <i>Salt Lake Herald</i> écrit qu'à l'automne 1823 Ashley envoya un nouveau parti sous Étienne Provost, « trappeur et traiteur réputé », par la Bighorn et la Wind jusqu'à la Green, et que ce parti, où se trouvait Bridger, découvrit le col.</p>
+      <p><b>Contexte.</b> Ces textes lancent une idée que la presse répétera pendant soixante ans : Provost, découvreur probable du col du Sud. Les historiens donnent plutôt la traversée de 1824 au parti de Jedediah Smith et Thomas Fitzpatrick, guidé par des Crows (fiche L17). Le même article de 1904 paraît aussi dans le <i>Globe-Democrat</i>, le <i>Kansas City Star</i> et l'<i>Omaha Bee</i>.</p>
+      <p class="jx-lieu">Lieux : col du Sud (fiche L17) · position certaine ; monument de Bridger, cimetière Mount Washington (nouvelle fiche L63).</p>
+    </div>
+  </article>
+
+  <article class="art-jx posterite" id="jx-nom">
+    <div class="jx-figs">
+      <figure><a href="images/journaux/1909-01-30-intermountain-catholic-etienne-provot.jpg" target="_blank" rel="noopener"><img src="images/journaux/1909-01-30-intermountain-catholic-etienne-provot.jpg" alt="Intermountain Catholic, 30 janvier 1909 : Catholic Church in Utah, Etienne Provot guide, trappeur, chasseur" loading="lazy"></a>
+        <figcaption>Intermountain Catholic, 30 janv. 1909, p. 1 et suite.</figcaption></figure>
+      <figure><a href="images/journaux/1924-02-26-provo-daily-herald-he-named-provo.jpg" target="_blank" rel="noopener"><img src="images/journaux/1924-02-26-provo-daily-herald-he-named-provo.jpg" alt="The Daily Herald de Provo, 26 février 1924 : He Named Provo, portrait dessiné d'Etienne Provot, et Salt Lake Tribune : Historian Tells How Provo Derived Name" loading="lazy"></a>
+        <figcaption>The Daily Herald (Provo), 26 févr. 1924, et Salt Lake Tribune, 27 févr. 1924.</figcaption></figure>
+      <figure><a href="images/journaux/1934-01-24-watson-two-names-on-utahs-map.jpg" target="_blank" rel="noopener"><img src="images/journaux/1934-01-24-watson-two-names-on-utahs-map.jpg" alt="Elmo Scott Watson, Fifty Famous Frontiersmen : Two Names on Utah's Map" loading="lazy"></a>
+        <figcaption>JG-TC (Illinois), 24 janv. 1934.</figcaption></figure>
+    </div>
+    <div>
+      <p class="jx-tete"><b>Provo, Provot, Provost · le nom</b> — <i>The Intermountain Catholic</i> (Salt Lake City), 30 janv. 1909 · <a href="https://www.newspapers.com/image/46660351/" target="_blank" rel="noopener">page ↗</a> ; <i>The Daily Herald</i> (Provo), 26 févr. 1924 · <a href="https://www.newspapers.com/image/468619864/" target="_blank" rel="noopener">page ↗</a> ; <i>Salt Lake Tribune</i>, 27 févr. 1924 · <a href="https://www.newspapers.com/image/542114768/" target="_blank" rel="noopener">page ↗</a> ; E. S. Watson, « Two Names on Utah's Map », 1934-1937 · <a href="https://www.newspapers.com/image/73003373/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que disent les articles.</b></p>
+      <ul>
+        <li><b>1909.</b> Dans sa série « Catholic Church in Utah », l'abbé W. R. Harris consacre un long article à « Etienne Provot, guide, trappeur, chasseur ». Il a fouillé le dossier de la succession à Saint-Louis : le nom y est « Provot, et non Provost ». Il cite l'avis de décès du 4 juillet 1850, nomme la veuve, « Marie Rose Salle dit Lajoie », et en conclut que le <i>t</i> muet explique la forme « Provo » donnée à la ville, à la vallée et à la rivière.</li>
+        <li><b>1924.</b> La parution du livre de J. M. Jensen, <i>The Early History of Provo</i>, est saluée par le <i>Daily Herald</i> de Provo d'un encadré « He Named Provo » orné d'un portrait dessiné de fantaisie, et par une dépêche reprise dans tout l'Utah : employé en 1822 par la Rocky Mountain Fur Company, Provot aurait été le premier Blanc à passer le col du Sud et à pénétrer dans la région du Grand Lac Salé, où son parti fut décimé par les Indiens en 1824.</li>
+        <li><b>1934-1937.</b> Dans sa série syndiquée « Fifty Famous Frontiersmen », reprise par une vingtaine de journaux, le journaliste Elmo Scott Watson présente « deux noms sur la carte de l'Utah » : Provot et Ogden. Il note que Provot a peut-être vu le lac avant Bridger et passé le col avant Fitzpatrick, et que le site de la ville qui porte son nom fut « baptisé dans le sang ».</li>
+      </ul>
+      <p><b>Contexte.</b> C'est la presse de l'Utah, catholique puis mormone, qui fait de Provost un personnage public. L'article de Harris est le premier à établir la filiation entre le nom de la ville et la graphie familiale « Provot ». Le portrait de 1924, repris ensuite, est une invention : aucun portrait de Provost n'est connu.</p>
+      <p class="jx-lieu">Lieux : Provo (fiche L42) · position certaine ; rivière Provo (fiche L41).</p>
+    </div>
+  </article>
+
+  <article class="art-jx posterite" id="jx-massacre">
+    <div class="jx-figs">
+      <figure><a href="images/journaux/1912-07-24-deseret-news-the-coming-of-provot.jpg" target="_blank" rel="noopener"><img src="images/journaux/1912-07-24-deseret-news-the-coming-of-provot.jpg" alt="Deseret News, 24 juillet 1912 : The Coming of Provot, le guet-apens de Mauvaise Gauche" loading="lazy"></a>
+        <figcaption>Deseret News, 24 juillet 1912 (recomposé en trois colonnes).</figcaption></figure>
+      <figure><a href="images/journaux/1955-12-08-idaho-state-journal-bd-frontier-scout-provot.jpg" target="_blank" rel="noopener"><img src="images/journaux/1955-12-08-idaho-state-journal-bd-frontier-scout-provot.jpg" alt="Bande dessinée Dan'l Hale, 1955 : près des braises du feu du conseil, les corps des dix-sept trappeurs" loading="lazy"></a>
+        <figcaption>Idaho State Journal, 8 déc. 1955 : <i>Dan'l Hale</i>, par Norman Marsh.</figcaption></figure>
+    </div>
+    <div>
+      <p class="jx-tete"><b>Octobre 1824 · le guet-apens</b> — <i>Deseret News</i>, 24 juillet 1912 · <a href="https://www.newspapers.com/image/593590200/" target="_blank" rel="noopener">page ↗</a> ; <i>Salt Lake Tribune</i>, 25 juillet 1912 (« Instance of Treachery ») ; bande dessinée <i>Frontier Scout / Dan'l Hale</i>, février-décembre 1955 et 1956-1958 · <a href="https://www.newspapers.com/image/15880965/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que disent les articles.</b> Pour le Pioneer Day de 1912, le <i>Deseret News</i> publie « The Coming of Provot » : venu de Saint-Louis par le Colorado, Provot entre en Utah par la Green en 1823 ; campé près de l'embouchure de la Provo, il reçoit un chef snake-ute nommé Mauvaise Gauche et une trentaine de guerriers ; le chef propose de fumer le calumet, mais exige qu'on dépose les armes, le fer chassant son esprit gardien ; au signal, ses hommes tirent couteaux et tomahawks ; Provot et quelques hommes s'échappent. En 1955, la bande dessinée <i>Dan'l Hale</i> de Norman Marsh, publiée dans une dizaine de quotidiens, consacre plusieurs mois à « Etienne Provot et François Leclerc » : départ de Saint-Louis en 1822, hiver sur la Strawberry, descente du canyon de la Provo, puis le massacre, avec cette légende : « sur ce sol se dresse aujourd'hui la ville de Provo, nommée d'après Étienne Provot, qui survécut au massacre ».</p>
+      <p><b>Contexte.</b> Le récit reprend pour l'essentiel celui des historiens (fiche L11). La presse le situe au bord de la Provo, alors que les sources anciennes parlent plutôt de la rivière Jordan. La bande dessinée de 1955 est la forme la plus populaire jamais donnée à la vie de Provost.</p>
+      <p class="jx-lieu">Lieux : rivière Jordan (fiche L11) · position approximative ; Provo (fiche L42).</p>
+    </div>
+  </article>
+
+  <article class="art-jx" id="jx-1913">
+    <div class="jx-figs"><figure><a href="images/journaux/1913-08-31-globe-democrat-mort-de-mary-rose-pillsbury.jpg" target="_blank" rel="noopener"><img src="images/journaux/1913-08-31-globe-democrat-mort-de-mary-rose-pillsbury.jpg" alt="St. Louis Globe-Democrat, 31 août 1913 : Death Recalls Pioneer Days, Mrs. Mary Rose Pillsbury" loading="lazy"></a>
+      <figcaption>St. Louis Globe-Democrat, 31 août 1913.</figcaption></figure></div>
+    <div>
+      <p class="jx-tete"><b>Août 1913 · Saint-Louis</b> — <i>St. Louis Globe-Democrat</i>, 31 août 1913 (« Death Recalls Pioneer Days ») · <a href="https://www.newspapers.com/image/571909922/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que dit l'article.</b> La mort de Mary Rose Pillsbury, 83 ans, attire de nombreuses condoléances chez son gendre Charles G. Grimm, 4231 South 37th Street. Veuve de James A. H. Pillsbury, épousé à la Vieille Cathédrale en 1857, elle était « Miss Mary Rose Provost, fille d'Étienne Provost, attaché à l'American Fur Company, qui avait la réputation d'un explorateur audacieux des Rocheuses ». Le journal la dit arrière-petite-fille de Clément Delor de Treget, premier commandant de Carondelet. Le sermon funèbre est prononcé par le père Jones, curé de Saint-Thomas-d'Aquin.</p>
+      <p><b>Contexte.</b> Cette nécrologie, qui complète la fiche L43, est la seule trace de presse de la descendance directe de Provost. Elle rattache la famille de Marie-Rose aux Delor de Treget, fondateurs de Carondelet, un lien à vérifier dans les registres.</p>
+      <p class="jx-lieu">Lieu : maison de Charles G. Grimm, sud de Saint-Louis (fiche L43) · position approximative.</p>
+    </div>
+  </article>
+
+  <h3>La statue (1926-1960)</h3>
+
+  <article class="art-jx posterite" id="jx-ogden">
+    <div class="jx-figs"><figure><a href="images/journaux/1941-07-13-ogden-standard-examiner-refuge-hiver-1824.jpg" target="_blank" rel="noopener"><img src="images/journaux/1941-07-13-ogden-standard-examiner-refuge-hiver-1824.jpg" alt="Ogden Standard-Examiner, 13 juillet 1941 : Ogden Locale for Trapper Confabs" loading="lazy"></a>
+      <figcaption>Ogden Standard-Examiner, 13 juillet 1941.</figcaption></figure></div>
+    <div>
+      <p class="jx-tete"><b>Hiver 1824-1825 · Ogden</b> — <i>Ogden Standard-Examiner</i>, 13 juillet 1941 (« Ogden Locale for Trapper Confabs »), repris en 1942 et 1946 · <a href="https://www.newspapers.com/image/597220067/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que dit l'article.</b> D'après J. Cecil Alter, auteur d'une biographie de Jim Bridger, une alcôve abritée juste au nord du site actuel d'Ogden aurait été le refuge d'hiver d'Étienne Provot et de ses hommes en 1824-1825, puis le quartier d'hiver des trappeurs d'Ashley en 1825-1826 et le lieu du rendez-vous d'été de 1826.</p>
+      <p><b>Contexte.</b> C'est l'hypothèse d'Alter ; la plupart des historiens placent l'hiver de Provost au bord du lac Utah (fiche L13). L'article montre comment chaque ville de l'Utah cherche à s'approprier le passage des trappeurs.</p>
+      <p class="jx-lieu">Lieu : au nord d'Ogden (nouvelle fiche L65) · position hypothétique.</p>
+    </div>
+  </article>
+
+  <article class="art-jx posterite" id="jx-monuments">
+    <div class="jx-figs">
+      <figure><a href="images/journaux/1926-08-26-salt-lake-tribune-monument-trail-breakers.jpg" target="_blank" rel="noopener"><img src="images/journaux/1926-08-26-salt-lake-tribune-monument-trail-breakers.jpg" alt="Salt Lake Tribune, 26 août 1926 : Honor Is Given in Monument to Trail Breakers" loading="lazy"></a>
+        <figcaption>Salt Lake Tribune, 26 août 1926.</figcaption></figure>
+      <figure><a href="images/journaux/1946-12-15-sunday-herald-statue-this-is-the-place.jpg" target="_blank" rel="noopener"><img src="images/journaux/1946-12-15-sunday-herald-statue-this-is-the-place.jpg" alt="Sunday Herald de Provo, 15 décembre 1946 : Statue of Provot to Be Placed in This is the Place Monument" loading="lazy"></a>
+        <figcaption>Sunday Herald (Provo), 15 déc. 1946, p. 3.</figcaption></figure>
+      <figure><a href="images/journaux/1947-07-24-deseret-news-devoilement-petit-neveu.jpg" target="_blank" rel="noopener"><img src="images/journaux/1947-07-24-deseret-news-devoilement-petit-neveu.jpg" alt="Deseret News, 24 juillet 1947 : Bishop E. Orval Provost, petit-neveu d'Etienne Provost, au dévoilement" loading="lazy"></a>
+        <figcaption>Deseret News, 24 juillet 1947, p. 1.</figcaption></figure>
+      <figure><a href="images/journaux/1960-05-27-salt-lake-tribune-statue-banque-provo.jpg" target="_blank" rel="noopener"><img src="images/journaux/1960-05-27-salt-lake-tribune-statue-banque-provo.jpg" alt="Salt Lake Tribune, 27 mai 1960 : statue d'Etienne Provot dans le hall de la State Bank of Provo" loading="lazy"></a>
+        <figcaption>Salt Lake Tribune, 27 mai 1960.</figcaption></figure>
+    </div>
+    <div>
+      <p class="jx-tete"><b>1926-1960 · Salt Lake City et Provo</b> — <i>Salt Lake Tribune</i>, 26 août 1926 · <a href="https://www.newspapers.com/image/542042364/" target="_blank" rel="noopener">page ↗</a> ; <i>Sunday Herald</i> (Provo), 15 déc. 1946 · <a href="https://www.newspapers.com/image/281140078/" target="_blank" rel="noopener">page ↗</a> ; <i>Deseret News</i>, 24 juillet 1947 · <a href="https://www.newspapers.com/image/594881362/" target="_blank" rel="noopener">page ↗</a> ; <i>Salt Lake Tribune</i>, 27 mai 1960 · <a href="https://www.newspapers.com/image/599300022/" target="_blank" rel="noopener">page ↗</a></p>
+      <p><b>Ce que disent les articles.</b></p>
+      <ul>
+        <li><b>1926.</b> Pour le centenaire de leur entrée dans la vallée, le chapitre Spirit of Liberty des Daughters of the American Revolution dévoile un monument avec plaque en l'honneur de James Bridger, Jedediah Smith et Étienne Provot, au nouveau parc municipal en face de l'hôpital St. Mark's ; la femme du gouverneur Dern le dévoile, l'historien J. Cecil Alter fait le discours.</li>
+        <li><b>1946.</b> Le monument This Is the Place, prévu pour le centenaire de l'arrivée des Mormons, recevra sur sa face est une statue de bronze de sept pieds d'Étienne Provot, l'une de six figures d'avant les pionniers. Pour lui faire place, explique le secrétaire John D. Giles, on a retiré Kit Carson du projet : Provot était « plus étroitement associé à l'histoire de l'Utah ».</li>
+        <li><b>1947.</b> Au dévoilement du 24 juillet 1947, le groupe de la face est est dévoilé par Charles Washakie, fils du chef shoshone, et par « l'évêque E. Orval Provost, petit-neveu d'Étienne Provost ».</li>
+        <li><b>1960.</b> La State Bank of Provo inaugure un immeuble moderniste dont le hall abrite une statue contemporaine d'Étienne Provot.</li>
+      </ul>
+      <p><b>Contexte.</b> En vingt ans, le trappeur de Saint-Louis devient l'un des « pères » non mormons de l'Utah. La présence d'un petit-neveu au dévoilement de 1947 suggère qu'une branche de la famille Provost de Chambly s'était établie en Utah, une piste généalogique à suivre. La statue de 1947 se voit toujours au monument (fiche L44) ; celle de la banque n'a pas été retrouvée.</p>
+      <p class="jx-lieu">Lieux : plaque de 1926 (nouvelle fiche L64) · position hypothétique ; monument This Is the Place (fiche L44) · position certaine ; State Bank of Provo (nouvelle fiche L66) · position approximative.</p>
+    </div>
+  </article>
+
+  <h3>L'écho dans la presse, décennie par décennie</h3>
+  <p>Au-delà des articles ci-dessus, Provost revient sans cesse dans la presse de l'Utah et dans les séries syndiquées. Ces mentions, souvent brèves, montrent comment son image se fixe.</p>
+  <table class="chrono">
+    <tr><th>Années</th><th>Ce que répète la presse</th><th>Exemples</th></tr>
+    <tr><td>1907-1911</td><td>Un article syndiqué sur les pionniers du Missouri le dit « découvreur probable du col du Sud ». Le <i>Globe-Democrat</i> revendique pour un « autre Saint-Louisien » la gloire d'avoir ouvert la région du Lac Salé.</td><td>Buffalo Enquirer, Inter Ocean, Idaho Press, LA Times (1907-1909) ; St. Louis Globe-Democrat, 30 août 1908</td></tr>
+    <tr><td>1919-1931</td><td>Dépêches nationales sur les hommes d'Ashley : « Etienne Provot » figure parmi les « cent jeunes gens entreprenants » de 1822, avec Bridger, Fitzpatrick et les Sublette ; « la ville de Provo perpétue sa renommée ».</td><td>Une quarantaine d'hebdos en 1925-1926, autant en 1927 et en 1931</td></tr>
+    <tr><td>1928-1949</td><td>Débats sur le premier Blanc au Grand Lac Salé et au lac Utah ; spectacles historiques à Provo (1932, 1936), questionnaires scolaires, chroniques du centenaire de Provo (1949) : « Etienne Provot (prononcez Provo) entra dans la vallée en 1824 ».</td><td>SL Telegram, 8-9 nov. 1928 ; Daily Herald, 28-30 juin 1932 ; Deseret News, 30 juin 1949</td></tr>
+    <tr><td>1937</td><td>La presse danoise d'Omaha explique à ses lecteurs que la ville de Provo porte le nom d'Étienne Provot.</td><td>Den Danske Pioneer, 11 nov. 1937</td></tr>
+    <tr><td>1955-1958</td><td>Bande dessinée <i>Frontier Scout / Dan'l Hale</i> : Provot et François Leclerc, l'hiver sur la Strawberry, le massacre, la rencontre avec Ogden (« M'sieu Ogden, je suis Étienne Provot ! »).</td><td>Daily Herald, Ogden Standard-Examiner, Herald-Journal, Arizona Republic, Montgomery Advertiser…</td></tr>
+    <tr><td>1958-1963</td><td>Dépêches dans une quarantaine d'hebdos de l'Utah : Bridger et Provost, « deux des trappeurs les plus célèbres de l'Ouest », premiers à voir le Grand Lac Salé à l'hiver 1824-1825.</td><td>Hebdos de l'Utah, févr.-mars 1960</td></tr>
+  </table>
+
+  <h3>Ce que la presse ne dit pas</h3>
+  <ul>
+    <li><b>Rien de ses grandes campagnes, sur le moment.</b> Aucun journal de Saint-Louis ne rapporte, au moment des faits, ses prisons de Santa Fe, le massacre de 1824, la rencontre avec Ashley en 1825 ou l'expédition Nicollet de 1839. Seul l'article d'août 1834 parle de lui comme d'un homme des montagnes.</li>
+    <li><b>Les mentions de 1833-1849 sont peu nombreuses et éparses.</b> La presse de Saint-Louis d'avant 1850 n'est numérisée que partiellement, et la reconnaissance de texte y est souvent mauvaise.</li>
+    <li><b>Environ 740 pages de l'Utah ne répondent qu'à « Provot » seul.</b> C'est souvent une mauvaise lecture de « Provo ». Elles n'ont pas été lues une à une.</li>
+  </ul>
+
+  <h3>Homonymes écartés</h3>
+  <p>Étienne Marcel, « prévôt des marchands » de Paris (des centaines de pages, jusqu'à une pièce de théâtre à Brooklyn en 1926) ; Étienne Boileau, prévôt de Paris ; les maréchaux prévôts (<i>provost marshal</i>) ; Sir George Prevost ; Baptiste Janot Provost de Saint-Charles (1816-1818) ; un juge Provost de Valparaiso (1818-1820) ; Joseph Provo, journalier de la ville de Saint-Louis (1827) ; la maison de pickles Wells, Miller &amp; Provost de New York, dont les réclames inondent la presse de 1850 ; Gen. A. M. Provost de Philadelphie ; E. J. Provot de Beaver Dam (Wisconsin), assidu de la chronique mondaine de 1927 à 1937 ; L. Vane Provost d'American Fork (Utah), annonceur de 1960 ; les nombreux Provost du Québec et de l'Ontario ; et la ville de Provost (Alberta).</p>
+
+  <h3>Sources</h3>
+  <ul class="biblio">
+    <li><i>The Missouri Republican</i> (Saint-Louis), 8 et 15 nov. 1827 ; 8 mars et 19 avril 1831 ; 17 mai 1833 ; 1er mai, 26 août et 14 oct. 1834 ; 2 août-20 sept. 1850. <i>Tri-Weekly Missouri Republican</i>, 4 et 30 juillet 1850.</li>
+    <li><i>The St Louis Republic</i>, 21-27 oct. 1843 ; 1er-25 déc. 1845 ; 14 janv., 5 févr., 11 mars 1846 ; 2-25 févr. 1873. <i>Weekly Jefferson Inquirer</i>, 29 juin 1843.</li>
+    <li><i>The Hawk-Eye and Iowa Patriot</i> (Burlington), 2 juillet-10 sept. 1840 ; <i>Democratic Banner</i> (Davenport), 26 mars-19 nov. 1852.</li>
+    <li><i>St. Louis Globe-Democrat</i>, 18 juillet 1880 ; 18 déc. 1904 ; 30 août 1908 ; 31 août 1913. <i>St. Louis Post-Dispatch</i>, 12 avril 1891.</li>
+    <li><i>The Nebraska City Weekly</i>, 24 juin 1902 ; <i>Minneapolis Journal</i>, 7 sept. 1903 ; <i>Salt Lake Herald</i>, 25 déc. 1904.</li>
+    <li><i>The Intermountain Catholic</i>, 30 janv. 1909 ; <i>Deseret News</i>, 24 juillet 1912, 24 juillet 1947 ; <i>Cascade Courier</i>, 26 déc. 1919 (et autres hebdos du Montana).</li>
+    <li><i>The Daily Herald</i> (Provo), 26 févr. 1924 ; <i>Salt Lake Tribune</i>, 27 févr. 1924, 26 août 1926, 27 mai 1960 ; <i>Sunday Herald</i> (Provo), 15 déc. 1946 ; <i>Ogden Standard-Examiner</i>, 13 juillet 1941.</li>
+    <li>E. S. Watson, « Fifty Famous Frontiersmen : Two Names on Utah's Map », <i>JG-TC</i> (Mattoon, Illinois), 24 janv. 1934 et autres journaux ; N. Marsh, <i>Dan'l Hale</i>, <i>Idaho State Journal</i>, 8 déc. 1955 et autres journaux.</li>
+    <li>Tous les articles ont été consultés sur Newspapers.com (abonnement de l'auteur), le 20 novembre 2026. Les découpures sont des captures d'écran des pages numérisées.</li>
+  </ul>
+</section>
+</main>
+
+<footer>Atlas Étienne Provost · Olivier J. Caron, Département de géographie, UQAM</footer>
+
+<script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script>
+const boutons = [...document.querySelectorAll('.onglets button')];
+function ouvrir(id) {
+  if (!document.getElementById(id) || !document.getElementById(id).classList.contains('panneau')) {
+    const art = document.getElementById(id);
+    if (art && art.closest('.panneau')) { ouvrir(art.closest('.panneau').id); setTimeout(() => art.scrollIntoView({ block: 'start' }), 300); return; }
+    id = 'accueil';
+  }
+  boutons.forEach(b => b.classList.toggle('actif', b.dataset.onglet === id));
+  document.querySelectorAll('.panneau').forEach(p => p.hidden = p.id !== id);
+  history.replaceState(null, '', id === 'accueil' ? location.pathname : '#' + id);
+  if (id === 'journaux') initCarteJx();
+  window.scrollTo({ top: 0 });
+}
+boutons.forEach(b => b.addEventListener('click', () => ouvrir(b.dataset.onglet)));
+document.querySelectorAll('[data-ouvrir]').forEach(c => c.addEventListener('click', () => ouvrir(c.dataset.ouvrir)));
+
+// Lieux évoqués par les articles (s : Saint-Louis ; o : Ouest ; p : postérité).
+const JX = [
+  { nom: 'Saint-Louis : bureau de poste', c: [-90.186, 38.627], f: 's', a: 'jx-1827', approx: true, txt: "1827 : lettre en souffrance pour « Etienne Proveau »." },
+  { nom: 'Saint-Louis : la taverne', c: [-90.1895, 38.618], f: 's', a: 'jx-1834', approx: true, txt: "1833-1834 : licences de marchand et de taverne." },
+  { nom: 'Coin Lombard et Second', c: [-90.1885, 38.619], f: 's', a: 'jx-1850', approx: true, txt: "La maison où Provost meurt le 3 juillet 1850 ; ses lots des îlots 49 et 76." },
+  { nom: 'Cimetière catholique', c: [-90.256, 38.622], f: 's', a: 'jx-1850', approx: true, txt: "4 juillet 1850 : funérailles." },
+  { nom: 'Ham\'s Fork', c: [-110.0, 41.65], f: 'o', a: 'jx-1834b', approx: true, txt: "Juillet 1834 : Provost doit quitter le rendez-vous." },
+  { nom: 'Independence', c: [-94.415, 39.091], f: 'o', a: 'jx-1834b', txt: "Août 1834 : arrivée de l'informateur." },
+  { nom: 'Half-Breed Tract (comté de Lee)', c: [-91.40, 40.52], f: 'o', a: 'jx-1840', approx: true, txt: "1840 : « Etienne Prevost » parmi les requérants." },
+  { nom: 'Fort Union', c: [-104.0405, 47.9994], f: 'o', a: 'jx-1843', txt: "1843 : avec Audubon (La Barge, 1891)." },
+  { nom: 'Villages mandans', c: [-101.27, 47.26], f: 'o', a: 'jx-1843', approx: true, txt: "1843 : le tour du maïs (dépêche de 1919)." },
+  { nom: 'Saint-Charles', c: [-90.4812, 38.7839], f: 'o', a: 'jx-1843', txt: "Oct. 1843 : retour d'Audubon et de Provost." },
+  { nom: 'Crow Creek', c: [-99.33, 44.03], f: 'o', a: 'jx-1847', approx: true, txt: "1847 : Provost en impose aux Yanktons." },
+  { nom: 'Col du Sud', c: [-108.9, 42.35], f: 'p', a: 'jx-colsud', txt: "1823 selon la tradition (Morton 1902, Salt Lake Herald 1904)." },
+  { nom: 'Monument de Bridger (Kansas City)', c: [-94.474, 39.082], f: 'p', a: 'jx-colsud', txt: "1904 : son inauguration rappelle le parti de Provost." },
+  { nom: 'Rivière Jordan', c: [-111.92, 40.55], f: 'p', a: 'jx-massacre', approx: true, txt: "Le massacre de 1824, raconté en 1912 et en bande dessinée en 1955." },
+  { nom: 'Provo', c: [-111.6585, 40.2338], f: 'p', a: 'jx-nom', txt: "Le nom de la ville (Harris 1909, Jensen 1924, Watson 1934)." },
+  { nom: 'State Bank of Provo', c: [-111.659, 40.2343], f: 'p', a: 'jx-monuments', approx: true, txt: "1960 : statue dans le hall." },
+  { nom: 'Ogden', c: [-111.96, 41.27], f: 'p', a: 'jx-ogden', approx: true, txt: "Hiver 1824-1825 selon Alter (1941)." },
+  { nom: 'Plaque des DAR (Salt Lake City)', c: [-111.8975, 40.7855], f: 'p', a: 'jx-monuments', approx: true, txt: "26 août 1926 : plaque Bridger, Smith, Provot." },
+  { nom: 'Monument This Is the Place', c: [-111.8155, 40.7527], f: 'p', a: 'jx-monuments', txt: "1947 : statue de bronze de Provot." },
+  { nom: 'Saint-Louis : Mary Rose Pillsbury', c: [-90.2585, 38.5845], f: 's', a: 'jx-1913', approx: true, txt: "1913 : mort de la fille de Provost." }
+];
+const COUL = { s: '#9a3322', o: '#c8903e', p: '#4f7a4a' };
+let carteJx = null;
+function initCarteJx() {
+  if (carteJx || typeof maplibregl === 'undefined') return;
+  const B = [[-113.5, 37.5], [-89.5, 48.5]];
+  carteJx = new maplibregl.Map({ container: 'carte-jx', style: 'https://tiles.openfreemap.org/styles/positron', bounds: B, fitBoundsOptions: { padding: 30 }, attributionControl: { compact: true } });
+  carteJx.addControl(new maplibregl.NavigationControl({ showCompass: false }));
+  carteJx.on('load', () => {
+    carteJx.resize(); carteJx.fitBounds(B, { padding: 30, duration: 0 });
+    JX.forEach(e => {
+      const el = document.createElement('div'), k = COUL[e.f];
+      el.style.cssText = `width:13px;height:13px;border-radius:50%;border:2px solid ${k};background:${e.approx ? '#eff0e4' : k};box-shadow:0 0 0 2px #fbfcf7;cursor:pointer`;
+      const pop = new maplibregl.Popup({ offset: 10 }).setHTML(`<b>${e.nom}</b><br>${e.txt}<br><a href="#${e.a}" class="vers-art" data-art="${e.a}">Voir l'article ↓</a>`);
+      new maplibregl.Marker({ element: el }).setLngLat(e.c).setPopup(pop).addTo(carteJx);
+    });
+  });
+}
+document.addEventListener('click', e => {
+  const a = e.target.closest('.vers-art'); if (!a) return;
+  e.preventDefault();
+  const art = document.getElementById(a.dataset.art); if (!art) return;
+  art.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  art.classList.add('cible'); setTimeout(() => art.classList.remove('cible'), 2200);
+});
+ouvrir(location.hash.slice(1) || 'accueil');
+</script>
+</body>
+</html>

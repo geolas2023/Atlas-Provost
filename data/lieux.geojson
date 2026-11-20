@@ -68,9 +68,16 @@
     "certitude": "approximative",
     "categorie": "vie",
     "description": "Provost fait de Saint-Louis sa base pendant trente-cinq ans environ, entre deux campagnes dans l'Ouest. Il y arrive au plus tard en 1814-1815, dans une ville encore largement francophone, dominée par les Chouteau, les Pratte et les Berthold, pour qui il travaillera.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf) ; Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (Drive de l'auteur)",
-    "note": "La fiche De remarquables oubliés date l'installation de 1815 ; Tykal le fait partir pour l'Arkansas dès 1814. Point sur le front de rivière de la vieille ville.",
-    "type": "lieu"
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf) ; Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (Drive de l'auteur) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
+    "note": "La fiche De remarquables oubliés date l'installation de 1815 ; Tykal le fait partir pour l'Arkansas dès 1814. Point sur le front de rivière de la vieille ville. Dès novembre 1827, le Missouri Republican annonce une lettre en souffrance à la poste pour « Etienne Proveau ».",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1827-11-08-missouri-republican-lettres-etienne-proveau.jpg",
+      "legende": "Missouri Republican, 8 nov. 1827 : lettre en souffrance pour « Etienne Proveau »",
+      "article": "jx-1827"
+     }
+    ]
    }
   },
   {
@@ -284,9 +291,21 @@
     "certitude": "hypothetique",
     "categorie": "combat",
     "description": "En octobre 1824, la troupe campe près du lac Utah, sans doute sur la Jordan. Un chef shoshone que les Blancs nomment « Bad Gocha » propose de fumer le calumet, à condition qu'aucune arme ni objet de métal ne soit à portée. Les trappeurs déposent leurs fusils ; à un signal, les Shoshones tirent les couteaux cachés. Provost s'échappe avec deux à quatre compagnons par les monts Wasatch, vers le nord-est.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 261-280 (archive.org) ; Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org)",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 261-280 (archive.org) ; Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "Le nombre de morts varie selon les sources : huit (Tykal), huit à dix (Vaugeois), quinze (Nelson 1996), dix-sept (Harris). Le lieu aussi : Jordan près du Grand Lac Salé (Tykal), embouchure de la Provo (Harris). Peter Skene Ogden apprendra en 1825 que la troupe d'Alexander Ross avait auparavant volé et tué des Shoshones, ce qui expliquerait cette vengeance.",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1912-07-24-deseret-news-the-coming-of-provot.jpg",
+      "legende": "Deseret News, 24 juillet 1912 : « The Coming of Provot »",
+      "article": "jx-massacre"
+     },
+     {
+      "src": "images/journaux/1955-12-08-idaho-state-journal-bd-frontier-scout-provot.jpg",
+      "legende": "Idaho State Journal, 8 déc. 1955 : la bande dessinée Dan'l Hale",
+      "article": "jx-massacre"
+     }
+    ]
    }
   },
   {
@@ -428,9 +447,21 @@
     "certitude": "hypothetique",
     "categorie": "traite",
     "description": "Plusieurs auteurs anciens font de Provost le découvreur du col du Sud (South Pass), le passage facile des Rocheuses que suivront les émigrants vers l'Oregon et la Californie : les Annals of Wyoming le datent de 1822, Chittenden et Harris de 1823, Bartlett de 1824. Les historiens retiennent aujourd'hui la « redécouverte » du col par Jedediah Smith et Thomas Fitzpatrick au printemps 1824, sur l'indication des Crows.",
-    "sources": "Annals of Wyoming, vol. 1 (1923), p. 756 ; Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 261-280 (archive.org) ; Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org) ; Bartlett, I. S. (dir.) (1918), History of Wyoming, vol. 1, p. 478 ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf)",
+    "sources": "Annals of Wyoming, vol. 1 (1923), p. 756 ; Chittenden, Hiram Martin (1902), The American Fur Trade of the Far West, New York, Francis P. Harper, vol. 1, p. 261-280 (archive.org) ; Harris, W. R. (1909), The Catholic Church in Utah, Salt Lake City, Intermountain Catholic Press, p. 259-262 (archive.org) ; Bartlett, I. S. (dir.) (1918), History of Wyoming, vol. 1, p. 478 ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "Attribution traditionnelle, non démontrée ; aucune source contemporaine ne place Provost au col.",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1902-06-24-nebraska-city-weekly-morton-col-du-sud.jpg",
+      "legende": "Nebraska City Weekly, 24 juin 1902 : la tradition attribue le col du Sud à Provost",
+      "article": "jx-colsud"
+     },
+     {
+      "src": "images/journaux/1904-12-25-salt-lake-herald-monument-bridger-provost.jpg",
+      "legende": "Salt Lake Herald, 25 déc. 1904 : le parti de Provost, 1823",
+      "article": "jx-colsud"
+     }
+    ]
    }
   },
   {
@@ -524,9 +555,16 @@
     "certitude": "hypothetique",
     "categorie": "traite",
     "description": "À partir de 1827 environ, Provost tient à Saint-Louis une taverne et une épicerie (« grocery »), entre ses saisons dans l'Ouest. Il est associé, selon Vaugeois, à son beau-frère Clément Salle dit Lajoie. Bon vivant, il est célèbre pour son goût de la bonne chère et de la bouteille.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (Drive de l'auteur) ; enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)",
-    "note": "Adresse inconnue ; point dans le Frenchtown de la rue Second, où Havard situe Provost. L'annuaire de 1845 place un « Clement Lambert, coffee-house » à l'angle des rues Second et Lombard (voir L36).",
-    "type": "lieu"
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (Drive de l'auteur) ; enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
+    "note": "Adresse inconnue ; point dans le Frenchtown de la rue Second, où Havard situe Provost. L'annuaire de 1845 place un « Clement Lambert, coffee-house » à l'angle des rues Second et Lombard (voir L36). Les listes de licences municipales publiées par le Missouri Republican (17 mai 1833, 1er mai 1834) inscrivent « Provost, E. » ou « Provost, Etien » comme vendeur de marchandises et tenancier de taverne.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1834-05-01-missouri-republican-licence-taverne-provost.jpg",
+      "legende": "Missouri Republican, 1er mai 1834 : licences de « Provost, Etien », marchand et tavernier",
+      "article": "jx-1834"
+     }
+    ]
    }
   },
   {
@@ -692,9 +730,16 @@
     "certitude": "approximative",
     "categorie": "rendezvous",
     "description": "En juillet 1834, Provost mène une troupe de l'American Fur Company au rendez-vous de la Ham's Fork, affluent de la Black's Fork (Green River). Jusqu'en 1838, il convoie ainsi les caravanes de la compagnie vers les rendez-vous annuels. Le voyageur William Marshall Anderson, qu'il guide en 1834, gardera en mémoire ses ordres en français, « Fumez la pipe ! » pour la halte, « Gardez aux rames ! », et lui fait ses adieux à la fin de son journal.",
-    "sources": "Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 379-380 ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Morgan, Dale L. et Eleanor T. Harris (éd.) (1967), The Rocky Mountain Journals of William Marshall Anderson",
-    "note": "Point près de Granger (Wyoming).",
-    "type": "lieu"
+    "sources": "Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 379-380 ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Morgan, Dale L. et Eleanor T. Harris (éd.) (1967), The Rocky Mountain Journals of William Marshall Anderson ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
+    "note": "Point près de Granger (Wyoming). Le Missouri Republican du 26 août 1834 rassure les familles : le parti de « M. Provost (de l'American Fur Company) » n'a pas été attaqué par les Pawnees ; il comptait quitter le rendez-vous de la Ham's Fork vers la mi-juillet.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1834-08-26-missouri-republican-from-the-mountains.jpg",
+      "legende": "Missouri Republican, 26 août 1834 : « From the Mountains »",
+      "article": "jx-1834b"
+     }
+    ]
    }
   },
   {
@@ -860,9 +905,16 @@
     "certitude": "approximative",
     "categorie": "traite",
     "description": "De 1839 à sa mort, Provost recrute chaque hiver les nouveaux engagés de la compagnie et les conduit au printemps à leurs postes du Missouri. La compagnie loue aussi ses services de guide à des expéditions privées : officiers britanniques en garnison à Montréal qu'il mène chasser le bison jusqu'aux plaines du Texas en 1840, Audubon en 1843, la troupe du comte d'Otrante, fils du ministre de la Police de Napoléon, en 1844, sans doute son client le plus exigeant.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "Point sur la levée de Saint-Louis. Selon Bouchard et Lévesque, le St. Louis Weekly Reveille signale le retour du comte d'Otrante, chargé de trophées.",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1880-07-18-globe-democrat-mort-de-louis-st-onge.jpg",
+      "legende": "St. Louis Globe-Democrat, 18 juillet 1880 : Provost parmi les pionniers du haut Missouri",
+      "article": "jx-1880"
+     }
+    ]
    }
   },
   {
@@ -884,9 +936,21 @@
     "certitude": "approximative",
     "categorie": "vie",
     "description": "Gilles Havard situe Provost dans le Frenchtown, au sud de la vieille cathédrale (rues Second et Third, entre Poplar et Lombard), d'après l'annuaire de 1847 et le recensement municipal de 1845. Les annuaires de 1840-1841 et 1845 placent un « H. N. Provost », épicier, à l'angle sud-ouest des rues Second et Lombard, en face du café de Clément Lambert ; mais l'annuaire de 1851 inscrit encore un « Henry N. Provost, mountain trader » : sans doute un parent.",
-    "sources": "Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026), notes 87, 130 et 138 ; Green's St. Louis Directory for 1845, p. 103 et 144 ; Green's St. Louis Directory for 1851, p. 281 ; enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)",
+    "sources": "Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026), notes 87, 130 et 138 ; Green's St. Louis Directory for 1845, p. 103 et 144 ; Green's St. Louis Directory for 1851, p. 281 ; enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "À vérifier : l'entrée d'Étienne dans l'annuaire de 1847 (p. 153). Le quartier est aussi celui de Moïse Lamoureux, natif de Chambly.",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1843-listes-fiscales-lots-provost-lombard-cedar.jpg",
+      "legende": "Listes fiscales de 1843 : les lots voisins de Provost, rues Lombard et Cedar",
+      "article": "jx-quartier"
+     },
+     {
+      "src": "images/journaux/1846-01-14-st-louis-republic-cour-de-circuit-provost.jpg",
+      "legende": "St Louis Republic, 14 janv. 1846 : procès contre Provost et ses voisins",
+      "article": "jx-quartier"
+     }
+    ]
    }
   },
   {
@@ -908,9 +972,16 @@
     "certitude": "certaine",
     "categorie": "guide",
     "description": "Arrivé au fort Union le 12 juin 1843 avec Audubon sur le vapeur Omega, le « vieux » Provost, qui a emmené sa fille, dirige les chasseurs de l'expédition : il part avant l'aube de l'autre côté du Missouri, rapporte cerfs et antilopes, prépare la saumure des peaux, porte des messages au fort rival et fabrique des appeaux imitant le bêlement des faons. Audubon admire l'habileté de ses chasseurs canadiens, Bonaventure Le Brun, Charles Primeau, Alexis Bombardier, et note leurs canadianismes.",
-    "sources": "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON)",
-    "note": "",
-    "type": "lieu"
+    "sources": "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
+    "note": "Joseph La Barge, dans le Post-Dispatch du 12 avril 1891, rappelle qu'Audubon redescendit le Missouri en mackinaw « accompagné d'Etienne Proveau, le célèbre trappeur et chasseur ».",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1891-04-12-post-dispatch-la-barge-trip-in-43.jpg",
+      "legende": "St. Louis Post-Dispatch, 12 avril 1891 : La Barge, « A Trip in '43 »",
+      "article": "jx-1843"
+     }
+    ]
    }
   },
   {
@@ -932,9 +1003,16 @@
     "certitude": "certaine",
     "categorie": "vie",
     "description": "Au retour, à Saint-Charles, Audubon note le départ à pied de Provost, complètement ivre, pour Saint-Louis, où l'attendent sa femme, sa fille et son beau-frère Clément Salle dit Lajoie. Pour près de cinq mois de service, cet « homme fort respectable » reçoit 214 $ d'Audubon et 78,33 $ de l'Upper Missouri Outfit.",
-    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65",
+    "sources": "Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 30-65 ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1891-04-12-post-dispatch-la-barge-trip-in-43.jpg",
+      "legende": "St. Louis Post-Dispatch, 12 avril 1891 : Audubon redescend accompagné d'« Etienne Proveau »",
+      "article": "jx-1843"
+     }
+    ]
    }
   },
   {
@@ -956,9 +1034,16 @@
     "certitude": "approximative",
     "categorie": "guide",
     "description": "Jusqu'à la fin des années 1840, Provost remonte chaque printemps le Missouri jusqu'aux postes de la compagnie ; Vaugeois le dit encore actif comme guide entre Fort Pierre et Saint-Louis. Son dernier voyage dans le haut pays, en 1848 ou 1849, se fait à bord du vapeur de son ami le capitaine Joseph LaBarge ; LaBarge et Henri Picotte entretiendront sa légende.",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 384 ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur)",
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Hafen, LeRoy R., « Etienne Provost », dans Hafen (dir.), The Mountain Men and the Fur Trade of the Far West, Glendale, Arthur H. Clark, vol. 6 (1968), p. 371-386 ; mention p. 384 ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1903-09-07-minneapolis-journal-row-with-redskins.jpg",
+      "legende": "Minneapolis Journal, 7 sept. 1903 : « Row with Redskins »",
+      "article": "jx-1847"
+     }
+    ]
    }
   },
   {
@@ -980,9 +1065,21 @@
     "certitude": "certaine",
     "categorie": "mort",
     "description": "Rentré en 1849 dans sa maison de la rue Lombard, Étienne Provost meurt subitement, d'une crise cardiaque selon Bouchard et Lévesque, à Saint-Louis le 3 juillet 1850, à 64 ans, sans savoir que les Mormons viennent de donner son nom à une ville de l'Utah. Il est inhumé le lendemain depuis la vieille cathédrale, dont le registre l'inscrit comme époux de « Maria Rose Lombard ».",
-    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; registre des sépultures de la vieille cathédrale, 4 juillet 1850, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05)",
-    "note": "Point à la vieille cathédrale (basilique Saint-Louis-Roi-de-France).",
-    "type": "lieu"
+    "sources": "Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Havard, Gilles (2019), L'Amérique fantôme. Les aventuriers francophones du Nouveau Monde, Paris, Flammarion, ch. 8 « L'homme des montagnes : Étienne Provost », p. 323-379 (PDF du Drive de l'auteur, dossier GILLES_HAVARD, lu intégralement le 19 nov. 2026) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; registre des sépultures de la vieille cathédrale, 4 juillet 1850, d'après enquête d'O. J. Caron pour l'Atlas Aubry (2026), versée dans l'atlas « Les Canadiens français de l'Ouest » (fiches PV-01 à PV-05) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
+    "note": "Point à la vieille cathédrale (basilique Saint-Louis-Roi-de-France). Le Tri-Weekly Missouri Republican du 4 juillet 1850 annonce la mort, la veille vers 16 h, d'« Etienne Provot, an old resident of this city », et ses funérailles le jour même depuis sa maison du coin des rues Lombard et Second. Le 29 juillet, Mary Provot obtient les lettres d'administration de la succession (avis publié jusqu'au 20 septembre).",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1850-07-04-tri-weekly-missouri-republican-avis-de-deces.jpg",
+      "legende": "Tri-Weekly Missouri Republican, 4 juillet 1850 : avis de décès",
+      "article": "jx-1850"
+     },
+     {
+      "src": "images/journaux/1850-07-30-missouri-republican-succession-etienne-provot.jpg",
+      "legende": "Missouri Republican, 30 juillet 1850 : avis de l'administratrice Mary Provot",
+      "article": "jx-1850"
+     }
+    ]
    }
   },
   {
@@ -1292,9 +1389,26 @@
     "certitude": "certaine",
     "categorie": "posterite",
     "description": "Au printemps 1849, une trentaine de familles mormones conduites par John S. Higbee bâtissent le fort Utah sur la rivière de la vallée d'Utah. Le trappeur Barney Ward leur apprend qu'on l'appelle aussi la Provo, d'après Provost ; en octobre 1849, la conférence de l'Église ordonne d'y fonder la ville de Provo. Provost y a laissé, note Vaugeois, les deux dernières lettres de son nom.",
-    "sources": "« Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (Drive de l'auteur) ; Dolin, Eric Jay (2010), Fur, Fortune, and Empire: The Epic History of the Fur Trade in America, New York, W. W. Norton, PDF p. 325 (Drive de l'auteur)",
+    "sources": "« Etienne Provost », historytogo.utah.gov (Utah State Historical Society), consulté en novembre 2026 ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Gitlin, Jay (2010), The Bourgeois Frontier: French Towns, French Traders, and American Expansion, New Haven, Yale University Press, PDF p. 139 (Drive de l'auteur) ; Dolin, Eric Jay (2010), Fur, Fortune, and Empire: The Epic History of the Fur Trade in America, New York, W. W. Norton, PDF p. 325 (Drive de l'auteur) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1909-01-30-intermountain-catholic-etienne-provot.jpg",
+      "legende": "Intermountain Catholic, 30 janv. 1909 : Provot, et non Provost",
+      "article": "jx-nom"
+     },
+     {
+      "src": "images/journaux/1924-02-26-provo-daily-herald-he-named-provo.jpg",
+      "legende": "The Daily Herald (Provo), 26 févr. 1924 : « He Named Provo »",
+      "article": "jx-nom"
+     },
+     {
+      "src": "images/journaux/1934-01-24-watson-two-names-on-utahs-map.jpg",
+      "legende": "Elmo Scott Watson, « Two Names on Utah's Map », 1934",
+      "article": "jx-nom"
+     }
+    ]
    }
   },
   {
@@ -1316,9 +1430,16 @@
     "certitude": "approximative",
     "categorie": "famille",
     "description": "Mary Rose Pillsbury, veuve, sans doute de James A. Pillsbury, meurt à 83 ans au 4231 South 37th Street ; elle est inhumée au cimetière Calvary le 11 août 1913. Son certificat de décès la dit fille d'« Etienne Provo », né au Canada. L'avis de décès du St. Louis Star and Times la dit mère de Mme Chas. G. Grimm et d'un fils prénommé Étienne Pillsbury (le prénom du grand-père), grand-mère d'une religieuse du couvent du Bon-Pasteur ; les funérailles partent le lundi 11 août de sa résidence du 4221 South Thirty-seventh pour l'église St. Thomas of Aquin, puis le cimetière Calvary.",
-    "sources": "Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, 8 août 1913 (Drive de l'auteur) ; avis de décès « Pillsbury », The St. Louis Star and Times, 10 août 1913, p. 17 (coupure du Drive de l'auteur, clipping_7501912.pdf)",
-    "note": "Le certificat donne le 4231, l'avis le 4221 South 37th Street ; les débuts de lignes de l'avis sont coupés sur la coupure.",
-    "type": "lieu"
+    "sources": "Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, 8 août 1913 (Drive de l'auteur) ; avis de décès « Pillsbury », The St. Louis Star and Times, 10 août 1913, p. 17 (coupure du Drive de l'auteur, clipping_7501912.pdf) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
+    "note": "Le certificat donne le 4231, l'avis le 4221 South 37th Street ; les débuts de lignes de l'avis sont coupés sur la coupure. Nécrologie dans le St. Louis Globe-Democrat du 31 août 1913 : « Miss Mary Rose Provost, daughter of Etienne Provost, an attaché of the American Fur Company with the reputation of being a daring explorer ».",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1913-08-31-globe-democrat-mort-de-mary-rose-pillsbury.jpg",
+      "legende": "St. Louis Globe-Democrat, 31 août 1913 : mort de Mary Rose Pillsbury",
+      "article": "jx-1913"
+     }
+    ]
    }
   },
   {
@@ -1340,9 +1461,21 @@
     "certitude": "certaine",
     "categorie": "posterite",
     "description": "Pour le centenaire de l'arrivée des Mormons, le monument This Is the Place, à l'entrée du canyon d'Emigration, rend hommage aux explorateurs qui les ont précédés : Provost y figure parmi les trappeurs.",
-    "sources": "Wikipédia, « Étienne Provost », consulté en novembre 2026 ; National Park Service (1964), The Fur Trade: Significant Sites, National Survey of Historic Sites and Buildings, vol. 1, PDF p. 49 (Drive de l'auteur)",
-    "note": "",
-    "type": "lieu"
+    "sources": "Wikipédia, « Étienne Provost », consulté en novembre 2026 ; National Park Service (1964), The Fur Trade: Significant Sites, National Survey of Historic Sites and Buildings, vol. 1, PDF p. 49 (Drive de l'auteur) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
+    "note": "Selon le Sunday Herald de Provo (15 déc. 1946), la statue de Provot a pris la place prévue pour Kit Carson, jugé moins lié à l'histoire de l'Utah. Au dévoilement du 24 juillet 1947, un petit-neveu, l'évêque E. Orval Provost, officie avec Charles Washakie.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1946-12-15-sunday-herald-statue-this-is-the-place.jpg",
+      "legende": "Sunday Herald (Provo), 15 déc. 1946 : la statue remplace Kit Carson",
+      "article": "jx-monuments"
+     },
+     {
+      "src": "images/journaux/1947-07-24-deseret-news-devoilement-petit-neveu.jpg",
+      "legende": "Deseret News, 24 juillet 1947 : un petit-neveu au dévoilement",
+      "article": "jx-monuments"
+     }
+    ]
    }
   },
   {
@@ -1391,6 +1524,259 @@
     "sources": "Hamelin, Louis (2020), Les Crépuscules de la Yellowstone, roman, Montréal, Boréal (Drive de l'auteur)",
     "note": "Œuvre de fiction.",
     "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1885,
+     38.619
+    ]
+   },
+   "properties": {
+    "id": "L59",
+    "nom": "Saint-Louis : la maison du coin des rues Lombard et Second (1843-1850)",
+    "debut": 1831.0,
+    "fin": 1850.5014,
+    "date_edtf": "1831/1850-07-03",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "vie",
+    "description": "Les listes fiscales de la ville situent les terrains de Provost dans le premier quartier : un lot bordant la rue Third dès 1831, puis des lots dans les îlots 49 (rue Lombard) et 76 (rue Cedar), voisins de ceux des Cailloux, Dufresne, Papin et Hernandez. Le 18 mai 1835, Étienne Provot et Marie Rose, sa femme, vendent la moitié d'un lot de l'îlot 76 à Sarah Ann Langley. L'avis de décès de 1850 confirme qu'il vivait « au coin des rues Lombard et Second ».",
+    "sources": "Missouri Republican, 8 mars et 19 avril 1831 ; 14 oct. 1834 ; Weekly Jefferson Inquirer, 29 juin 1843 ; St Louis Republic, 21-27 oct. 1843 ; déc. 1845 ; 5-25 févr. 1873 ; Tri-Weekly Missouri Republican, 4 juillet 1850 ; Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026.",
+    "note": "Position approximative de l'angle des rues Lombard et Second dans l'ancien Frenchtown, aujourd'hui sous les échangeurs au sud de l'arche.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1850-07-04-tri-weekly-missouri-republican-avis-de-deces.jpg",
+      "legende": "4 juillet 1850 : « from his late residence on the corner of Lombard and Second streets »",
+      "article": "jx-1850"
+     },
+     {
+      "src": "images/journaux/1873-02-05-st-louis-republic-acte-1835-provot-marie-rose.jpg",
+      "legende": "St Louis Republic, 5 févr. 1873 : l'acte de 1835 d'Étienne Provot et Marie Rose",
+      "article": "jx-quartier"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.4,
+     40.52
+    ]
+   },
+   "properties": {
+    "id": "L60",
+    "nom": "Comté de Lee (Iowa) : Provost parmi les requérants de la « Half-Breed Tract » (1840-1852)",
+    "debut": 1840.2849,
+    "fin": 1852.9157,
+    "date_edtf": "1840-04-14/1852-11",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "Le 14 avril 1840, Josiah Spalding, Archibald Gamble, Patrick Walsh, « Etienne Prevost », John B. Sarpy, Antoine Leclaire et d'autres demandent à la cour de district du comté de Lee le partage de la « Half-Breed tract », 119 000 acres entre le Mississippi et la rivière Des Moines réservées en 1824 aux Métis sauks et renards. Provost y détenait donc des droits, sans doute acquis comme créancier ou par sa famille. En 1852, après sa mort, une vente du shérif exécute encore un jugement en faveur des mêmes requérants.",
+    "sources": "The Hawk-Eye and Iowa Patriot (Burlington), 2 juillet-10 sept. 1840 ; Democratic Banner (Davenport), 26 mars-19 nov. 1852 ; Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026.",
+    "note": "Point au centre de l'ancienne réserve (entre Keokuk et Fort Madison). L'origine des droits de Provost reste à établir.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1840-hawk-eye-burlington-half-breed-tract.jpg",
+      "legende": "Hawk-Eye and Iowa Patriot, juillet 1840 : la requête en partage",
+      "article": "jx-1840"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.33,
+     44.03
+    ]
+   },
+   "properties": {
+    "id": "L61",
+    "nom": "Crow Creek : Provost impose le respect aux Yanktons (1847)",
+    "debut": 1847.4167,
+    "fin": 1847.4167,
+    "date_edtf": "1847-06~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "guide",
+    "description": "Lors du premier voyage de Joseph La Barge comme capitaine de son propre vapeur, en 1847, les Yanktons de Crow Creek refusent le bois préparé pour le bateau et fouettent les hommes d'équipage qui tentent de le charger. Selon le récit publié en 1903 par la société historique du Dakota du Sud, Étienne Provost, « un frontalier intrépide dont les Indiens avaient peur », intervient et le bois est chargé. Le soir, l'attaque reprend et un batelier est tué.",
+    "sources": "Minneapolis Journal, 7 sept. 1903, p. 11 (« Row with Redskins », dépêche de Pierre) ; repris par l'Argus-Leader et d'autres ; Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026.",
+    "note": "Embouchure du Crow Creek sur le Missouri (comté de Buffalo, Dakota du Sud), position approximative.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1903-09-07-minneapolis-journal-row-with-redskins.jpg",
+      "legende": "Minneapolis Journal, 7 sept. 1903 : « Row with Redskins »",
+      "article": "jx-1847"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -101.27,
+     47.26
+    ]
+   },
+   "properties": {
+    "id": "L62",
+    "nom": "Village mandan : le tour du maïs joué au savant d'Audubon (1843)",
+    "debut": 1843.4167,
+    "fin": 1843.4167,
+    "date_edtf": "1843-06~",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "guide",
+    "description": "Joseph La Barge raconte qu'un des assistants d'Audubon se vantait de reconnaître n'importe quelle plante à sa feuille et à sa tige. Provost, qui servait de guide, cueille près d'un camp de Mandans une jeune pousse de maïs, n'en montre qu'une feuille et laisse le savant chercher en vain dans ses livres avant de lui révéler le grain resté à la racine. L'homme devient la risée de l'équipage.",
+    "sources": "Récit syndiqué dans une vingtaine d'hebdos du Montana et de l'Utah, 25 déc. 1919-23 janv. 1920 (ex. Cascade Courier, 26 déc. 1919) ; Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026.",
+    "note": "Point aux villages mandans près de Fort Clark ; l'anecdote ne précise pas le lieu exact.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1919-12-25-montana-provost-et-le-savant-prou.jpg",
+      "legende": "Dépêche de décembre 1919 : Provost et le savant",
+      "article": "jx-1843"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.474,
+     39.082
+    ]
+   },
+   "properties": {
+    "id": "L63",
+    "nom": "Kansas City : le monument de Jim Bridger rappelle le parti de Provost (1904)",
+    "debut": 1904.9167,
+    "fin": 1904.9167,
+    "date_edtf": "1904-12",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "posterite",
+    "description": "En décembre 1904, l'inauguration du monument de Jim Bridger au cimetière Mount Washington est l'occasion d'articles dans plusieurs grands journaux : à l'automne 1823, Ashley envoie un nouveau parti sous Étienne Provost, « trappeur et traiteur réputé », par la Bighorn et la Wind jusqu'à la Green ; Bridger en fait partie et ce parti découvre le col du Sud.",
+    "sources": "St. Louis Globe-Democrat, 18 déc. 1904 ; Kansas City Star, 23 déc. 1904 ; Salt Lake Herald et Omaha Bee, 25 déc. 1904 ; Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026.",
+    "note": "Cimetière Mount Washington, Independence (Missouri).",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1904-12-25-salt-lake-herald-monument-bridger-provost.jpg",
+      "legende": "Salt Lake Herald, 25 déc. 1904 : « Tribute to the Discoverer of Salt Lake »",
+      "article": "jx-colsud"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.8975,
+     40.7855
+    ]
+   },
+   "properties": {
+    "id": "L64",
+    "nom": "Salt Lake City : plaque des Filles de la Révolution américaine (1926)",
+    "debut": 1926.6493,
+    "fin": 1926.6493,
+    "date_edtf": "1926-08-26",
+    "precision": "jour",
+    "certitude": "hypothetique",
+    "categorie": "posterite",
+    "description": "Pour le centenaire de l'arrivée des premiers trappeurs, le chapitre Spirit of Liberty des Daughters of the American Revolution dévoile un monument avec plaque en l'honneur de James Bridger, Jedediah Smith et Étienne Provot, « au nouveau parc municipal en face de l'hôpital St. Mark's ». La femme du gouverneur Dern dévoile le monument et J. Cecil Alter retrace la vie des trois hommes.",
+    "sources": "Salt Lake Tribune, 26-27 août 1926 ; Ogden Standard-Examiner, 27 août 1926 ; Deseret News, 28 août 1926 ; dépêche United Press, 16-18 sept. 1926 ; Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026.",
+    "note": "Position hypothétique : en face de l'ancien hôpital St. Mark's (803 North 200 West). L'emplacement actuel de la plaque reste à vérifier.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1926-08-26-salt-lake-tribune-monument-trail-breakers.jpg",
+      "legende": "Salt Lake Tribune, 26 août 1926 : « Honor Is Given in Monument to Trail Breakers »",
+      "article": "jx-monuments"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.96,
+     41.27
+    ]
+   },
+   "properties": {
+    "id": "L65",
+    "nom": "Ogden : l'alcôve où Provost aurait hiverné (1824-1825)",
+    "debut": 1824.8333,
+    "fin": 1825.249,
+    "date_edtf": "1824-11~/1825-03~",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "traite",
+    "description": "D'après J. Cecil Alter, cité par l'Ogden Standard-Examiner en 1941, une alcôve abritée juste au nord du site actuel d'Ogden aurait servi de refuge d'hiver à Étienne Provot et à ses hommes en 1824-1825, puis de quartier d'hiver aux trappeurs d'Ashley en 1825-1826 et de site au rendez-vous de 1826.",
+    "sources": "Ogden Standard-Examiner, 13 juillet 1941 (« Ogden Locale for Trapper Confabs »), repris en 1942 et 1946 ; Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026.",
+    "note": "Hypothèse d'Alter ; la plupart des historiens placent l'hiver de Provost près du lac Utah (L13). Point schématique au nord d'Ogden.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1941-07-13-ogden-standard-examiner-refuge-hiver-1824.jpg",
+      "legende": "Ogden Standard-Examiner, 13 juillet 1941 : « Ogden Locale for Trapper Confabs »",
+      "article": "jx-ogden"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.659,
+     40.2343
+    ]
+   },
+   "properties": {
+    "id": "L66",
+    "nom": "Provo : une statue de Provot dans le hall de la State Bank (1960)",
+    "debut": 1960.3333,
+    "fin": 1960.3333,
+    "date_edtf": "1960-05",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "En 1960, la State Bank of Provo, fondée en 1902, inaugure un immeuble moderniste dont le hall abrite une statue contemporaine d'Étienne Provot, « le trappeur canadien-français dont la rivière et la ville de Provo tiennent leur nom ».",
+    "sources": "Salt Lake Tribune, 27 mai 1960 ; Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026.",
+    "note": "Position approximative au centre-ville de Provo ; on ignore si la statue existe encore.",
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1960-05-27-salt-lake-tribune-statue-banque-provo.jpg",
+      "legende": "Salt Lake Tribune, 27 mai 1960 : la statue de la State Bank of Provo",
+      "article": "jx-monuments"
+     }
+    ]
    }
   }
  ]

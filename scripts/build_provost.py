@@ -286,6 +286,94 @@ def T(n, nom, mode, edtf, coords, cert, desc, src, note=''):
                  'properties': {'id': f'T{n:02d}', 'nom': nom, 'debut': dec(a), 'fin': dec(b, True) if '/' in edtf else dec(a),
                                 'date_edtf': edtf, 'certitude': CERT[cert], 'mode': mode, 'description': desc,
                                 'sources': src, 'note': note, 'type': 'trajet'}})
+
+# ---- Presse ancienne (Newspapers.com, dépouillement du 20 novembre 2026 ; voir salle-de-lecture.html#journaux)
+NP = "Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026"
+L(59, "Saint-Louis : la maison du coin des rues Lombard et Second (1843-1850)", 'vie', '1831/1850-07-03', -90.1885, 38.6190, 'a',
+  "Les listes fiscales de la ville situent les terrains de Provost dans le premier quartier : un lot bordant la rue Third dès 1831, puis des lots dans les îlots 49 (rue Lombard) et 76 (rue Cedar), voisins de ceux des Cailloux, Dufresne, Papin et Hernandez. Le 18 mai 1835, Étienne Provot et Marie Rose, sa femme, vendent la moitié d'un lot de l'îlot 76 à Sarah Ann Langley. L'avis de décès de 1850 confirme qu'il vivait « au coin des rues Lombard et Second ».",
+  f"Missouri Republican, 8 mars et 19 avril 1831 ; 14 oct. 1834 ; Weekly Jefferson Inquirer, 29 juin 1843 ; St Louis Republic, 21-27 oct. 1843 ; déc. 1845 ; 5-25 févr. 1873 ; Tri-Weekly Missouri Republican, 4 juillet 1850 ; {NP}.",
+  "Position approximative de l'angle des rues Lombard et Second dans l'ancien Frenchtown, aujourd'hui sous les échangeurs au sud de l'arche.")
+L(60, "Comté de Lee (Iowa) : Provost parmi les requérants de la « Half-Breed Tract » (1840-1852)", 'traite', '1840-04-14/1852-11', -91.40, 40.52, 'a',
+  "Le 14 avril 1840, Josiah Spalding, Archibald Gamble, Patrick Walsh, « Etienne Prevost », John B. Sarpy, Antoine Leclaire et d'autres demandent à la cour de district du comté de Lee le partage de la « Half-Breed tract », 119 000 acres entre le Mississippi et la rivière Des Moines réservées en 1824 aux Métis sauks et renards. Provost y détenait donc des droits, sans doute acquis comme créancier ou par sa famille. En 1852, après sa mort, une vente du shérif exécute encore un jugement en faveur des mêmes requérants.",
+  f"The Hawk-Eye and Iowa Patriot (Burlington), 2 juillet-10 sept. 1840 ; Democratic Banner (Davenport), 26 mars-19 nov. 1852 ; {NP}.",
+  "Point au centre de l'ancienne réserve (entre Keokuk et Fort Madison). L'origine des droits de Provost reste à établir.")
+L(61, "Crow Creek : Provost impose le respect aux Yanktons (1847)", 'guide', '1847-06~', -99.33, 44.03, 'a',
+  "Lors du premier voyage de Joseph La Barge comme capitaine de son propre vapeur, en 1847, les Yanktons de Crow Creek refusent le bois préparé pour le bateau et fouettent les hommes d'équipage qui tentent de le charger. Selon le récit publié en 1903 par la société historique du Dakota du Sud, Étienne Provost, « un frontalier intrépide dont les Indiens avaient peur », intervient et le bois est chargé. Le soir, l'attaque reprend et un batelier est tué.",
+  f"Minneapolis Journal, 7 sept. 1903, p. 11 (« Row with Redskins », dépêche de Pierre) ; repris par l'Argus-Leader et d'autres ; {NP}.",
+  "Embouchure du Crow Creek sur le Missouri (comté de Buffalo, Dakota du Sud), position approximative.")
+L(62, "Village mandan : le tour du maïs joué au savant d'Audubon (1843)", 'guide', '1843-06~', -101.27, 47.26, 'h',
+  "Joseph La Barge raconte qu'un des assistants d'Audubon se vantait de reconnaître n'importe quelle plante à sa feuille et à sa tige. Provost, qui servait de guide, cueille près d'un camp de Mandans une jeune pousse de maïs, n'en montre qu'une feuille et laisse le savant chercher en vain dans ses livres avant de lui révéler le grain resté à la racine. L'homme devient la risée de l'équipage.",
+  f"Récit syndiqué dans une vingtaine d'hebdos du Montana et de l'Utah, 25 déc. 1919-23 janv. 1920 (ex. Cascade Courier, 26 déc. 1919) ; {NP}.",
+  "Point aux villages mandans près de Fort Clark ; l'anecdote ne précise pas le lieu exact.")
+L(63, "Kansas City : le monument de Jim Bridger rappelle le parti de Provost (1904)", 'posterite', '1904-12', -94.474, 39.082, 'c',
+  "En décembre 1904, l'inauguration du monument de Jim Bridger au cimetière Mount Washington est l'occasion d'articles dans plusieurs grands journaux : à l'automne 1823, Ashley envoie un nouveau parti sous Étienne Provost, « trappeur et traiteur réputé », par la Bighorn et la Wind jusqu'à la Green ; Bridger en fait partie et ce parti découvre le col du Sud.",
+  f"St. Louis Globe-Democrat, 18 déc. 1904 ; Kansas City Star, 23 déc. 1904 ; Salt Lake Herald et Omaha Bee, 25 déc. 1904 ; {NP}.",
+  "Cimetière Mount Washington, Independence (Missouri).")
+L(64, "Salt Lake City : plaque des Filles de la Révolution américaine (1926)", 'posterite', '1926-08-26', -111.8975, 40.7855, 'h',
+  "Pour le centenaire de l'arrivée des premiers trappeurs, le chapitre Spirit of Liberty des Daughters of the American Revolution dévoile un monument avec plaque en l'honneur de James Bridger, Jedediah Smith et Étienne Provot, « au nouveau parc municipal en face de l'hôpital St. Mark's ». La femme du gouverneur Dern dévoile le monument et J. Cecil Alter retrace la vie des trois hommes.",
+  f"Salt Lake Tribune, 26-27 août 1926 ; Ogden Standard-Examiner, 27 août 1926 ; Deseret News, 28 août 1926 ; dépêche United Press, 16-18 sept. 1926 ; {NP}.",
+  "Position hypothétique : en face de l'ancien hôpital St. Mark's (803 North 200 West). L'emplacement actuel de la plaque reste à vérifier.")
+L(65, "Ogden : l'alcôve où Provost aurait hiverné (1824-1825)", 'traite', '1824-11~/1825-03~', -111.96, 41.27, 'h',
+  "D'après J. Cecil Alter, cité par l'Ogden Standard-Examiner en 1941, une alcôve abritée juste au nord du site actuel d'Ogden aurait servi de refuge d'hiver à Étienne Provot et à ses hommes en 1824-1825, puis de quartier d'hiver aux trappeurs d'Ashley en 1825-1826 et de site au rendez-vous de 1826.",
+  f"Ogden Standard-Examiner, 13 juillet 1941 (« Ogden Locale for Trapper Confabs »), repris en 1942 et 1946 ; {NP}.",
+  "Hypothèse d'Alter ; la plupart des historiens placent l'hiver de Provost près du lac Utah (L13). Point schématique au nord d'Ogden.")
+L(66, "Provo : une statue de Provot dans le hall de la State Bank (1960)", 'posterite', '1960-05', -111.6590, 40.2343, 'a',
+  "En 1960, la State Bank of Provo, fondée en 1902, inaugure un immeuble moderniste dont le hall abrite une statue contemporaine d'Étienne Provot, « le trappeur canadien-français dont la rivière et la ville de Provo tiennent leur nom ».",
+  f"Salt Lake Tribune, 27 mai 1960 ; {NP}.",
+  "Position approximative au centre-ville de Provo ; on ignore si la statue existe encore.")
+
+def JX(fichier, legende, article):
+    return {"src": f"images/journaux/{fichier}", "legende": legende, "article": article}
+PRESSE = {
+  'L03': [JX("1827-11-08-missouri-republican-lettres-etienne-proveau.jpg", "Missouri Republican, 8 nov. 1827 : lettre en souffrance pour « Etienne Proveau »", "jx-1827")],
+  'L21': [JX("1834-05-01-missouri-republican-licence-taverne-provost.jpg", "Missouri Republican, 1er mai 1834 : licences de « Provost, Etien », marchand et tavernier", "jx-1834")],
+  'L28': [JX("1834-08-26-missouri-republican-from-the-mountains.jpg", "Missouri Republican, 26 août 1834 : « From the Mountains »", "jx-1834b")],
+  'L36': [JX("1843-listes-fiscales-lots-provost-lombard-cedar.jpg", "Listes fiscales de 1843 : les lots voisins de Provost, rues Lombard et Cedar", "jx-quartier"),
+          JX("1846-01-14-st-louis-republic-cour-de-circuit-provost.jpg", "St Louis Republic, 14 janv. 1846 : procès contre Provost et ses voisins", "jx-quartier")],
+  'L37': [JX("1891-04-12-post-dispatch-la-barge-trip-in-43.jpg", "St. Louis Post-Dispatch, 12 avril 1891 : La Barge, « A Trip in '43 »", "jx-1843")],
+  'L38': [JX("1891-04-12-post-dispatch-la-barge-trip-in-43.jpg", "St. Louis Post-Dispatch, 12 avril 1891 : Audubon redescend accompagné d'« Etienne Proveau »", "jx-1843")],
+  'L39': [JX("1903-09-07-minneapolis-journal-row-with-redskins.jpg", "Minneapolis Journal, 7 sept. 1903 : « Row with Redskins »", "jx-1847")],
+  'L40': [JX("1850-07-04-tri-weekly-missouri-republican-avis-de-deces.jpg", "Tri-Weekly Missouri Republican, 4 juillet 1850 : avis de décès", "jx-1850"),
+          JX("1850-07-30-missouri-republican-succession-etienne-provot.jpg", "Missouri Republican, 30 juillet 1850 : avis de l'administratrice Mary Provot", "jx-1850")],
+  'L17': [JX("1902-06-24-nebraska-city-weekly-morton-col-du-sud.jpg", "Nebraska City Weekly, 24 juin 1902 : la tradition attribue le col du Sud à Provost", "jx-colsud"),
+          JX("1904-12-25-salt-lake-herald-monument-bridger-provost.jpg", "Salt Lake Herald, 25 déc. 1904 : le parti de Provost, 1823", "jx-colsud")],
+  'L11': [JX("1912-07-24-deseret-news-the-coming-of-provot.jpg", "Deseret News, 24 juillet 1912 : « The Coming of Provot »", "jx-massacre"),
+          JX("1955-12-08-idaho-state-journal-bd-frontier-scout-provot.jpg", "Idaho State Journal, 8 déc. 1955 : la bande dessinée Dan'l Hale", "jx-massacre")],
+  'L42': [JX("1909-01-30-intermountain-catholic-etienne-provot.jpg", "Intermountain Catholic, 30 janv. 1909 : Provot, et non Provost", "jx-nom"),
+          JX("1924-02-26-provo-daily-herald-he-named-provo.jpg", "The Daily Herald (Provo), 26 févr. 1924 : « He Named Provo »", "jx-nom"),
+          JX("1934-01-24-watson-two-names-on-utahs-map.jpg", "Elmo Scott Watson, « Two Names on Utah's Map », 1934", "jx-nom")],
+  'L43': [JX("1913-08-31-globe-democrat-mort-de-mary-rose-pillsbury.jpg", "St. Louis Globe-Democrat, 31 août 1913 : mort de Mary Rose Pillsbury", "jx-1913")],
+  'L44': [JX("1946-12-15-sunday-herald-statue-this-is-the-place.jpg", "Sunday Herald (Provo), 15 déc. 1946 : la statue remplace Kit Carson", "jx-monuments"),
+          JX("1947-07-24-deseret-news-devoilement-petit-neveu.jpg", "Deseret News, 24 juillet 1947 : un petit-neveu au dévoilement", "jx-monuments")],
+  'L35': [JX("1880-07-18-globe-democrat-mort-de-louis-st-onge.jpg", "St. Louis Globe-Democrat, 18 juillet 1880 : Provost parmi les pionniers du haut Missouri", "jx-1880")],
+  'L59': [JX("1850-07-04-tri-weekly-missouri-republican-avis-de-deces.jpg", "4 juillet 1850 : « from his late residence on the corner of Lombard and Second streets »", "jx-1850"),
+          JX("1873-02-05-st-louis-republic-acte-1835-provot-marie-rose.jpg", "St Louis Republic, 5 févr. 1873 : l'acte de 1835 d'Étienne Provot et Marie Rose", "jx-quartier")],
+  'L60': [JX("1840-hawk-eye-burlington-half-breed-tract.jpg", "Hawk-Eye and Iowa Patriot, juillet 1840 : la requête en partage", "jx-1840")],
+  'L61': [JX("1903-09-07-minneapolis-journal-row-with-redskins.jpg", "Minneapolis Journal, 7 sept. 1903 : « Row with Redskins »", "jx-1847")],
+  'L62': [JX("1919-12-25-montana-provost-et-le-savant-prou.jpg", "Dépêche de décembre 1919 : Provost et le savant", "jx-1843")],
+  'L63': [JX("1904-12-25-salt-lake-herald-monument-bridger-provost.jpg", "Salt Lake Herald, 25 déc. 1904 : « Tribute to the Discoverer of Salt Lake »", "jx-colsud")],
+  'L64': [JX("1926-08-26-salt-lake-tribune-monument-trail-breakers.jpg", "Salt Lake Tribune, 26 août 1926 : « Honor Is Given in Monument to Trail Breakers »", "jx-monuments")],
+  'L65': [JX("1941-07-13-ogden-standard-examiner-refuge-hiver-1824.jpg", "Ogden Standard-Examiner, 13 juillet 1941 : « Ogden Locale for Trapper Confabs »", "jx-ogden")],
+  'L66': [JX("1960-05-27-salt-lake-tribune-statue-banque-provo.jpg", "Salt Lake Tribune, 27 mai 1960 : la statue de la State Bank of Provo", "jx-monuments")],
+}
+NOTE_PRESSE = {
+  'L03': " Dès novembre 1827, le Missouri Republican annonce une lettre en souffrance à la poste pour « Etienne Proveau ».",
+  'L21': " Les listes de licences municipales publiées par le Missouri Republican (17 mai 1833, 1er mai 1834) inscrivent « Provost, E. » ou « Provost, Etien » comme vendeur de marchandises et tenancier de taverne.",
+  'L28': " Le Missouri Republican du 26 août 1834 rassure les familles : le parti de « M. Provost (de l'American Fur Company) » n'a pas été attaqué par les Pawnees ; il comptait quitter le rendez-vous de la Ham's Fork vers la mi-juillet.",
+  'L40': " Le Tri-Weekly Missouri Republican du 4 juillet 1850 annonce la mort, la veille vers 16 h, d'« Etienne Provot, an old resident of this city », et ses funérailles le jour même depuis sa maison du coin des rues Lombard et Second. Le 29 juillet, Mary Provot obtient les lettres d'administration de la succession (avis publié jusqu'au 20 septembre).",
+  'L43': " Nécrologie dans le St. Louis Globe-Democrat du 31 août 1913 : « Miss Mary Rose Provost, daughter of Etienne Provost, an attaché of the American Fur Company with the reputation of being a daring explorer ».",
+  'L44': " Selon le Sunday Herald de Provo (15 déc. 1946), la statue de Provot a pris la place prévue pour Kit Carson, jugé moins lié à l'histoire de l'Utah. Au dévoilement du 24 juillet 1947, un petit-neveu, l'évêque E. Orval Provost, officie avec Charles Washakie.",
+  'L37': " Joseph La Barge, dans le Post-Dispatch du 12 avril 1891, rappelle qu'Audubon redescendit le Missouri en mackinaw « accompagné d'Etienne Proveau, le célèbre trappeur et chasseur ».",
+}
+for f_ in lieux:
+    p = f_['properties']
+    if p['id'] in PRESSE:
+        p['presse'] = PRESSE[p['id']]
+    if p['id'] in NOTE_PRESSE:
+        p['note'] = (p['note'] + NOTE_PRESSE[p['id']]).strip()
+    if p['id'] in PRESSE and 'Newspapers.com' not in p['sources']:
+        p['sources'] += f" ; presse : {NP}"
+
 P = {f['properties']['id']: f['geometry']['coordinates'] for f in lieux}
 T(1, "De Chambly à Saint-Louis par le saut Sainte-Marie, Détroit et Chicago", 'canot', '1806~/1810~', [P['L01'], [-73.55, 45.51], [-76.0, 45.6], [-79.4, 46.3], [-81.5, 46.0], [-84.35, 46.5], [-84.0, 45.3], [-82.5, 43.0], [-83.05, 42.33], [-86.4, 41.9], [-87.62, 41.88], [-88.9, 41.2], [-89.6, 40.7], [-90.18, 38.95], P['L03']], 'h',
   "Entre 1806 et 1810, Provost aurait quitté la vallée du Saint-Laurent avec une brigade de canots par l'Outaouais jusqu'au saut Sainte-Marie, puis bifurqué vers Détroit, le portage de Chicago, la rivière des Illinois et Peoria, et enfin le Mississippi jusqu'à Saint-Louis, où vivaient déjà des oncles et cousins Provost et Ménard.",

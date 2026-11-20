@@ -273,6 +273,15 @@ function zoomerSur(f) {
   carte.fitBounds(b, { padding: { top: 60, bottom: 60, left: 60, right: 260 }, maxZoom: 7, essential: true });
 }
 
+// Découpures de presse liées à une fiche (propriété « presse » : liste de {src, legende, article}),
+// chacune renvoyant à son article dans la salle de lecture.
+function presseFiche(p) {
+  let pr = p.presse;
+  if (typeof pr === 'string') { try { pr = JSON.parse(pr); } catch (e) { pr = []; } }
+  if (!Array.isArray(pr) || !pr.length) return '';
+  return `<div class="presse"><strong>${L('Dans les journaux :', 'In the newspapers:')}</strong>${pr.map(d =>
+    `<a href="salle-de-lecture.html#${echapper(d.article)}" target="_blank" rel="noopener" title="${echapper(d.legende)}"><img src="${echapper(d.src)}" alt="${echapper(d.legende)}" loading="lazy"><span>${echapper(d.legende)}</span></a>`).join('')}</div>`;
+}
 function afficherFiche(p, geom) {
   const estTrajet = geom === 'LineString' || p.type === 'trajet';
   if (carte.getLayer('trajet-actif')) carte.setFilter('trajet-actif', ['==', ['get', 'id'], estTrajet ? p.id : '']);
@@ -290,6 +299,7 @@ function afficherFiche(p, geom) {
     </p>
     ${p.description ? `<p class="description">${echapper(p.description)}</p>` : ''}
     ${p.note ? `<p class="note"><strong>${L('Note critique :', 'Critical note:')}</strong> ${echapper(p.note)}</p>` : ''}
+    ${presseFiche(p)}
     <div class="sources"><strong>${L('Source :', 'Source:')}</strong> ${echapper(p.sources)}</div>`;
   panneau.querySelector('.fermer').addEventListener('click', fermerFiche);
   panneau.classList.add('ouvert');
