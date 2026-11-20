@@ -379,7 +379,9 @@ def MS(fichier, legende):
 REGISTRES = {
   'L74': [CHB("1868-plan-officiel-chambly-petite-riviere-montreal-lots.jpg", "Plan officiel de la paroisse de Chambly (J.-O. Beaubien, 1868) : les lots des concessions de la Petite rivière Montréal, côté baronnie de Longueuil"),
           CHB("1783-07-15-inventaire-2493-immeubles.jpg", "Inventaire du 15 juillet 1783 : la terre d'Albert Provost sur la petite rivière de Montréal, maison de pièce sur pièce de 30 × 28 pieds, deux granges, écurie"),
-          CHB("1815-bouchette-chambly-longueuil-petite-riviere.jpg", "Bouchette, 1815 : la baronnie de Longueuil, le bassin de Chambly et la Petite rivière de Montréal")],
+          CHB("1815-bouchette-chambly-longueuil-petite-riviere.jpg", "Bouchette, 1815 : la baronnie de Longueuil, le bassin de Chambly et la Petite rivière de Montréal"),
+          CHB("1834-09-15-bardy-1296-vente-frechette-julien-provost-p1.jpg", "Notaire Bardy, 15 septembre 1834 : Julien Provost, frère d'Étienne, rachète les droits des héritiers Fréchette dans une terre de 3 × 30 arpents de la baronnie de Longueuil"),
+          CHB("1835-10-10-lanctot-6207-vente-frechette-julien-provost.jpg", "Notaire Lanctôt, 10 octobre 1835 : bornes de la terre Fréchette, « à l'arrière de la terre de Jacques Paquet et Larivière » (deuxième rang)")],
   'L75': [CHB("1781-06-15-concession-2036-albert-provost-p1.jpg", "Concession du 15 juin 1781 à « Albert Proveau, demeurant à Chambly » : 3 arpents sur 30, seigneurie de Longueuil, « à la Cadie », sur la rivière de Montréal"),
           CHB("1781-06-15-concession-2037-petite-cadie-p1.jpg", "Seconde concession du même jour, « à la petite Cadie »"),
           CHB("1815-bouchette-lacadie-riviere-montreal.jpg", "Bouchette, 1815 : la « River Montreal » et l'église de L'Acadie, dans la baronnie de Longueuil")],
