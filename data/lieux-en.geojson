@@ -1182,7 +1182,7 @@
     "certitude": "approximative",
     "categorie": "famille",
     "description": "Mary Rose Pillsbury, a widow, probably of James A. Pillsbury, dies aged 83 at 4231 South 37th Street; she is buried in Calvary Cemetery on August 11, 1913. Her death certificate names her as the daughter of “Etienne Provo,” born in Canada. The death notice in the St. Louis Star and Times names her as the mother of Mrs. Chas. G. Grimm and of a son named Etienne Pillsbury (after his grandfather), and grandmother of a nun of the Good Shepherd convent (probably one of the four Grimm daughters listed in 1900 and 1910: Mary E., Clara E., Margaret M. A. or Agnes Maria); the funeral left on Monday, August 11, from her home at 4221 South Thirty-seventh for St. Thomas of Aquin church, then Calvary Cemetery.",
-    "sources": "Missouri State Board of Health, death certificate no. 27938, Mary Rose Pillsbury, 8 August 1913 (author's Drive) ; death notice “Pillsbury”, The St. Louis Star and Times, August 10, 1913, p. 17 (clipping in the author's Drive) ; press: Newspapers.com (author's subscription), accessed November 20, 2026",
+    "sources": "Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, 8 août 1913 (Drive de l'auteur) ; avis de décès « Pillsbury », The St. Louis Star and Times, 10 août 1913, p. 17 (coupure du Drive de l'auteur, clipping_7501912.pdf) ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "",
     "type": "lieu",
     "presse": [
@@ -1190,6 +1190,11 @@
       "src": "images/journaux/1913-08-31-globe-democrat-mort-de-mary-rose-pillsbury.jpg",
       "legende": "St. Louis Globe-Democrat, 31 août 1913 : mort de Mary Rose Pillsbury",
       "article": "jx-1913"
+     },
+     {
+      "src": "images/journaux/1913-08-09-globe-democrat-avis-deces-mary-rose-pillsbury.jpg",
+      "legende": "St. Louis Globe-Democrat, 9 août 1913 : avis de décès de Mary Rose Pillsbury",
+      "article": "mere"
      }
     ]
    }
@@ -1573,10 +1578,22 @@
     "precision": "annee",
     "certitude": "hypothetique",
     "categorie": "famille",
-    "description": "In 1857 Mary Rose, Étienne's daughter, married James A. H. Pillsbury, born about 1827 in New Hampshire, at the Old Cathedral. The 1860 census finds them in St. Louis Ward 3: he is a grocer; with them live their daughter Mary Frances, born about 1860, and a twelve-year-old Celestine Pillsbury whose relationship is unknown. A son, Etienne A., was born about 1862, named after his grandfather. In 1880 James, a retired broker, and his family lived at 900 Third Street.",
-    "sources": "U.S. censuses of 1860 (St. Louis Ward 3) and 1880 (St. Louis), Ancestry ; St. Louis Globe-Democrat, August 31, 1913 (1857 marriage) ; Ancestry tree “Étienne Provost (1785-1850) – Atlas Provost” (O. J. Caron, 2026)",
+    "description": "On May 27, 1857, Mary Rose, Étienne's daughter, married James A. H. Pillsbury, born about 1827 in New Hampshire, at the Cathedral before Rev. S. A. Paris; the Missouri Republican announced the marriage of “Miss Mary R. Provat.” The 1860 census finds them in St. Louis Ward 3: he is a grocer; with them live their daughter Mary Frances, born about 1860, and a twelve-year-old Celestine Pillsbury whose relationship is unknown. A son, Etienne A., was born about 1862, named after his grandfather. In 1880 James, a retired broker, and his family lived at 900 Third Street. Etienne A. married Elizabeth Amplemen in December 1883. James died on November 18, 1889, aged 62, at their home at 901 South Second Street, a short walk from the old Provost house at Lombard and Second; his funeral was held at Annunciation Church.",
+    "sources": "Recensements des États-Unis de 1860 (St. Louis Ward 3) et de 1880 (Saint-Louis), Ancestry ; Missouri Republican, 1er juin 1857 ; St. Louis Republic, 25 décembre 1883 ; St. Louis Globe-Democrat, 19 novembre 1889 et 31 août 1913 ; arbre Ancestry « Étienne Provost (1785-1850) – Atlas Provost » ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "Hypothetical point: Ward 3 in 1860 and 900 Third Street are placed in old St. Louis near the river, without precise geocoding.",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1857-06-01-missouri-republican-mariage-pillsbury-provat.jpg",
+      "legende": "Missouri Republican, 1er juin 1857 : mariage de James A. H. Pillsbury et de « Miss Mary R. Provat »",
+      "article": "mere"
+     },
+     {
+      "src": "images/journaux/1889-11-19-globe-democrat-deces-james-a-pillsbury.jpg",
+      "legende": "St. Louis Globe-Democrat, 19 novembre 1889 : mort de James A. Pillsbury",
+      "article": "mere"
+     }
+    ]
    }
   },
   {
@@ -1597,10 +1614,17 @@
     "precision": "circa",
     "certitude": "certaine",
     "categorie": "famille",
-    "description": "About 1881 Mary Frances Pillsbury, Étienne's granddaughter, married Charles G. Grimm, born about 1858 in Missouri, a brewery cashier in 1910. The couple had five children in the censuses: Mary E. (c. 1885), Clara E. (c. 1888), Margaret M. A. (c. 1894), Ferdinand (c. 1898) and Agnes Maria (1900). In 1900 they lived at 1322 14th Street; in 1910 at 4231 Virginia Avenue in south St. Louis. The widowed Mary Rose lived with them and died in 1913 nearby, at 4231 South 37th Street (L43). Her son Etienne A. Pillsbury died in St. Louis in 1927.",
-    "sources": "U.S. censuses of 1900 and 1910 (St. Louis), Ancestry ; St. Louis Star and Times, August 10, 1913, p. 17 ; St. Louis Post-Dispatch Obituary Index (Etienne A. Pillsbury, 1927) ; Ancestry tree “Étienne Provost (1785-1850) – Atlas Provost” (O. J. Caron, 2026)",
+    "description": "About 1881 Mary Frances Pillsbury, Étienne's granddaughter, married Charles G. Grimm, born about 1858 in Missouri, a brewery cashier in 1910. The couple had five children in the censuses: Mary E. (c. 1885), Clara E. (c. 1888), Margaret M. A. (c. 1894), Ferdinand (c. 1898) and Agnes Maria (1900). In 1900 they lived at 1322 14th Street; in 1910 at 4231 Virginia Avenue in south St. Louis. The widowed Mary Rose lived with them and died in 1913 nearby, at 4231 South 37th Street (L43). The 1913 death notice names her grandchildren: Sister Mary of the Visitation, Sister Lucy of the Good Shepherd Convent, Margaret, Ferdinand and Agnes Grimm. Her son Etienne A. Pillsbury died in St. Louis on October 6, 1927, leaving two sons, Charles and Philip Pillsbury.",
+    "sources": "Recensements des États-Unis de 1900 et de 1910 (Saint-Louis), Ancestry ; St. Louis Star and Times, 10 août 1913, p. 17 ; St. Louis Globe-Democrat, 9 août 1913 ; St. Louis Post-Dispatch, 7 octobre 1927 ; arbre Ancestry « Étienne Provost (1785-1850) – Atlas Provost » ; presse : Newspapers.com (abonnement de l'auteur), consulté le 20 novembre 2026",
     "note": "Point at 4231 Virginia Avenue (Dutchtown), approximate. The 1900 14th Street address is not geocoded.",
-    "type": "lieu"
+    "type": "lieu",
+    "presse": [
+     {
+      "src": "images/journaux/1927-10-07-post-dispatch-deces-etienne-pillsbury.jpg",
+      "legende": "St. Louis Post-Dispatch, 7 octobre 1927 : mort d'Etienne Pillsbury",
+      "article": "mere"
+     }
+    ]
    }
   },
   {
