@@ -1058,7 +1058,7 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
 
   <h3>Où était la terre de la famille ?</h3>
   <div id="carte-chambly" class="carte-tab" role="img" aria-label="Carte de Chambly, de la rivière L'Acadie et de la Petite-Cadie"></div>
-  <p class="date">Carte : en rouge, l'église Saint-Joseph de Chambly (baptême d'Étienne) ; en vert, le secteur probable de la ferme familiale, sur la Petite rivière de Montréal, dans la baronnie de Longueuil (le « Haut de la rivière ») ; en orange, la Petite-Cadie, autour de l'église de L'Acadie, où se trouvaient les deux terres de 1781. Fond © OpenFreeMap, OpenStreetMap.</p>
+  <p class="date">Carte : en rouge, l'église Saint-Joseph de Chambly (baptême d'Étienne) ; en bleu, la rivière L'Acadie (Petite rivière de Montréal) entre le Village du Bassin et la limite de Saint-Luc ; en vert, la bande des concessions de la côte sud-est et de la côte nord-ouest de la Petite rivière Montréal, telle que la montre le cadastre de 1868, avec le découpage schématique des lots de trois arpents de front (175 m) sur trente de profondeur (1,75 km) de part et d'autre de la rivière : la ferme d'Albert Provost est l'un de ces lots ; en orange, la Petite-Cadie, autour de l'église de L'Acadie, où se trouvaient les deux terres de 1781. Fond © OpenFreeMap, OpenStreetMap.</p>
   <p>Les actes répondent maintenant à la question, à l'échelle du rang :</p>
   <ul>
    <li><b>La ferme familiale</b>, où Albert vit avec Marie-Louise Paquet, puis avec Marie-Anne Mainard, et où naît sans doute Étienne en décembre 1785 : une terre de trois arpents de front (environ 175 m) donnant sur la <b>Petite rivière de Montréal</b>, l'actuelle rivière L'Acadie, dans la <b>baronnie de Longueuil</b>, avec une maison de bois de 30 pieds sur 28, deux granges et une écurie. L'acte de 1781 dit Albert « demeurant à Chambly » : la ferme est donc dans la partie de la baronnie qui touche Chambly, le long de la rivière, entre le bassin de Chambly et Carignan (les chemins Bellerive et de Salaberry).</li>
@@ -1072,7 +1072,7 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
 
   <h3>Le plan des lots : le cadastre de la paroisse de Chambly (1868)</h3>
   <div class="art-jx large"><div class="jx-figs">
-   <figure style="max-width:900px"><a href="images/chambly/1868-plan-officiel-chambly-petite-riviere-montreal-lots.jpg" target="_blank" rel="noopener"><img src="images/chambly/1868-plan-officiel-chambly-petite-riviere-montreal-lots.jpg" alt="Plan officiel de Chambly, la Petite rivière Montréal" loading="lazy"></a><figcaption>J.-O. Beaubien, <i>Plan officiel de la paroisse de Saint-Joseph de Chambly, comté de Chambly</i>, original du 20 février 1868, copie de 1911 (détail). Au centre, la rivière L'Acadie serpente vers le bassin ; de part et d'autre, les terres en lanières de la « Première concession côte sud-est de la Petite rivière Montréal » et de la « Concession nord-ouest de la Petite rivière Montréal », avec leurs numéros de cadastre (environ 140 à 215). La ligne pointillée « Longueuil / Chambly-Ouest » sépare la baronnie de la seigneurie. BAnQ, Archives nationales à Québec, E21,S555,SS3,SSS1,P120.</figcaption></figure>
+   <figure style="max-width:900px"><a href="images/chambly/1868-plan-officiel-chambly-petite-riviere-montreal-lots.jpg" target="_blank" rel="noopener"><img src="images/chambly/1868-plan-officiel-chambly-petite-riviere-montreal-lots.jpg" alt="Plan officiel de Chambly, la Petite rivière Montréal" loading="lazy"></a><figcaption>J.-O. Beaubien, <i>Plan officiel de la paroisse de Saint-Joseph de Chambly, comté de Chambly</i>, original du 20 février 1868, copie de 1911 (détail). Au centre, la rivière L'Acadie serpente vers le bassin ; de part et d'autre, les terres en lanières de la « Première concession côte sud-est de la Petite rivière Montréal » et de la « Concession nord-ouest de la Petite rivière Montréal », avec leurs numéros de cadastre (environ 140 à 215). La ligne pointillée « Longueuil / Chambly-Ouest » sépare la baronnie de la seigneurie. BAnQ, Archives nationales à Québec, E21,S555,SS3,SSS1,P120. <a href="https://img.banq.qc.ca/iiif/2/_rBzWG23Uvd28LVTyLUJtQ/full/full/0/default.jpg" target="_blank" rel="noopener">Ouvrir le plan en haute résolution (3 500 × 2 884 px)</a> · <a href="https://numerique.banq.qc.ca/patrimoine/details/52327/3142856" target="_blank" rel="noopener">notice et visionneuse zoomable de BAnQ numérique</a>.</figcaption></figure>
   </div></div>
   <div class="art-jx">
    <div><figure><a href="images/chambly/1868-plan-officiel-paroisse-chambly-beaubien.jpg" target="_blank" rel="noopener"><img src="images/chambly/1868-plan-officiel-paroisse-chambly-beaubien.jpg" alt="Le plan entier : le bassin de Chambly, le village, le Richelieu, et à droite les concessions de la Petite rivière Montréal." loading="lazy"></a><figcaption>Le plan entier : le bassin de Chambly, le village, le Richelieu, et à droite les concessions de la Petite rivière Montréal.</figcaption></figure></div>
@@ -1161,19 +1161,21 @@ const COUL = { s: '#9a3322', o: '#c8903e', p: '#4f7a4a' };
 let carteCh = null;
 function initCarteCh() {
   if (carteCh || typeof maplibregl === 'undefined') return;
-  carteCh = new maplibregl.Map({ container: 'carte-chambly', style: 'https://tiles.openfreemap.org/styles/positron', center: [-73.32, 45.38], zoom: 10.6, attributionControl: { compact: true } });
+  carteCh = new maplibregl.Map({ container: 'carte-chambly', style: 'https://tiles.openfreemap.org/styles/positron', center: [-73.325, 45.40], zoom: 11, attributionControl: { compact: true } });
   carteCh.addControl(new maplibregl.NavigationControl({ showCompass: false }));
   carteCh.on('load', () => {
     carteCh.resize();
-    carteCh.addSource('ferme', { type: 'geojson', data: { type: 'Feature', geometry: { type: 'Polygon', coordinates: [[[-73.298,45.4545],[-73.320,45.4535],[-73.381,45.409],[-73.367,45.397],[-73.328,45.430],[-73.298,45.447],[-73.298,45.4545]]] } } });
-    carteCh.addLayer({ id: 'ferme-f', type: 'fill', source: 'ferme', paint: { 'fill-color': '#3f7d4a', 'fill-opacity': 0.22 } });
-    carteCh.addLayer({ id: 'ferme-l', type: 'line', source: 'ferme', paint: { 'line-color': '#3f7d4a', 'line-width': 2, 'line-dasharray': [2, 2] } });
+    carteCh.addSource('lots', { type: 'geojson', data: 'data/chambly-lots.geojson' });
+    carteCh.addLayer({ id: 'ferme-f', type: 'fill', source: 'lots', filter: ['==', ['get', 't'], 'zone'], paint: { 'fill-color': '#3f7d4a', 'fill-opacity': 0.18 } });
+    carteCh.addLayer({ id: 'ferme-l', type: 'line', source: 'lots', filter: ['==', ['get', 't'], 'zone'], paint: { 'line-color': '#3f7d4a', 'line-width': 2, 'line-dasharray': [2, 2] } });
+    carteCh.addLayer({ id: 'lots-l', type: 'line', source: 'lots', filter: ['==', ['get', 't'], 'lot'], paint: { 'line-color': '#3f7d4a', 'line-width': 0.8, 'line-opacity': 0.7 } });
+    carteCh.addLayer({ id: 'riv-l', type: 'line', source: 'lots', filter: ['==', ['get', 't'], 'riviere'], paint: { 'line-color': '#2a6f9e', 'line-width': 3.5 } });
     carteCh.addSource('cadie', { type: 'geojson', data: { type: 'Feature', geometry: { type: 'Polygon', coordinates: [[[-73.335,45.330],[-73.360,45.330],[-73.372,45.285],[-73.350,45.275],[-73.335,45.330]]] } } });
     carteCh.addLayer({ id: 'cadie-f', type: 'fill', source: 'cadie', paint: { 'fill-color': '#c0702a', 'fill-opacity': 0.25 } });
     carteCh.addLayer({ id: 'cadie-l', type: 'line', source: 'cadie', paint: { 'line-color': '#c0702a', 'line-width': 2, 'line-dasharray': [2, 2] } });
     [[[-73.29192,45.45152],'#a23b2a','Église Saint-Joseph de Chambly','164, rue Martel. L’église actuelle (1881) repose sur les fondations de l’église de pierre de 1757, où Étienne fut baptisé le 21 décembre 1785.'],
      [[-73.2765,45.4497],'#2f5d62','Fort Chambly','Fort de pierre (1709-1711), pris par les Américains en 1775.'],
-     [[-73.3420,45.4280],'#3f7d4a','La ferme d’Albert Provost (secteur probable)','Terre de 3 arpents sur la Petite rivière de Montréal, baronnie de Longueuil : maison de pièce sur pièce de 30 × 28 pieds, deux granges, écurie (inventaire du 15 juillet 1783).'],
+     [[-73.3236,45.4399],'#3f7d4a','La ferme d’Albert Provost (l’un de ces lots)','Terre de 3 arpents sur la Petite rivière de Montréal, baronnie de Longueuil : maison de pièce sur pièce de 30 × 28 pieds, deux granges, écurie (inventaire du 15 juillet 1783).'],
      [[-73.3530,45.3000],'#c0702a','La Petite-Cadie (L’Acadie)','Les deux terres concédées le 15 juin 1781 (3 × 30 arpents chacune), voisines d’Étienne Dumas et de Joseph Tremblay, encore en bois debout en 1783.']].forEach(([c,k,n,t]) => {
       const el = document.createElement('div');
       el.style.cssText = `width:13px;height:13px;border-radius:50%;border:2px solid ${k};background:${k};box-shadow:0 0 0 2px #fbfcf7;cursor:pointer`;

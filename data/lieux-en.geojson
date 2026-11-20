@@ -1842,8 +1842,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.342,
-     45.428
+     -73.3236,
+     45.4399
     ]
    },
    "properties": {
@@ -1857,7 +1857,7 @@
     "categorie": "famille",
     "description": "The inventory drawn up on July 15, 1783 by the notary Antoine Grisé, after the death of Marie-Louise Paquet, describes the farm of Albert Provost, Étienne's father: “a lot three arpents wide by forty-six [reading to be confirmed] deep, in the barony of Longueuil, on the Petite rivière de Montréal, with a squared-log house thirty feet by twenty-eight, well habitable, two barns also in good order, and a stable fifteen feet by eleven.” The Petite rivière de Montréal is today's rivière L'Acadie, which flows into the Chambly basin. Albert raised the children of his first marriage there (Élisabeth, Joseph, Charles, Pierre, François), with two horses, two mares and their foals, seventeen pigs and hens. In all likelihood Étienne was born there in December 1785, of Albert's third marriage to Marie-Anne Mainard; the family had its children baptized at Chambly.",
     "sources": "Inventaire des biens de la communauté d'Albert Provost et de Marie-Louise Paquet, 15 juillet 1783, greffe d'Antoine Grisé dit Villefranche, acte no 2493, BAnQ CN601,S189, microfilm FamilySearch 1420479 (DGS 008326749), images 2702-2712 ; concession no 2036 du 15 juin 1781 (Albert « demeurant à Chambly ») ; Bouchette, Joseph (1815), Topographical Map of the Province of Lower Canada, David Rumsey Map Collection",
-    "note": "Approximate point on the rivière L'Acadie between the Chambly basin and Carignan (the “Haut de la rivière”), the part of the barony of Longueuil next to Chambly: the inventory names the barony and the river, not the neighbours. The present-day lot number remains to be established through Albert's estate (1796) and the barony's cadastre. See the Chambly tab in the reading room.",
+    "note": "Approximate point in the middle of the band of Petite rivière Montréal concessions (south-east and north-west côtes) shown on the official cadastral plan of the parish of Chambly (Beaubien, 1868), between the Village du Bassin and the Saint-Luc boundary; the farm is one of these lots three arpents wide. The inventory names the barony and the river, not the neighbours. See the Chambly tab in the reading room.",
     "type": "lieu",
     "registres": [
      {
