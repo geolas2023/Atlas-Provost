@@ -244,6 +244,11 @@ L(55, "Cimetière catholique de Rock Springs : la sépulture et la succession (j
   f"{HAV}, p. 378-379",
   "Le cimetière de Rock Springs a disparu ; point approximatif dans l'ancien secteur de Rock Spring (avenue Vandeventer).")
 
+L(56, "Bellevue : le beau-frère du « vieux Provost », commis chez Sarpy (9 mai 1843)", 'famille', '1843-05-09', -95.89, 41.137, 'c',
+  "Lors de l'escale de l'Omega à Bellevue, le 9 mai 1843, Audubon trouve au poste de Peter Sarpy, absent comme l'agent des Indiens, partis sur la Platte, « le beau-frère du vieux Provost », qui tient le magasin comme commis. Le poste paraît modeste mais fait un bon commerce avec les Indiens de la Platte ; Audubon voit payer huit cordes de bois avec cinq tasses de sucre et trois de café. Provost, qui voyage sur le même vapeur, retrouve ainsi un parent de sa femme.",
+  "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 1, p. 477 (PDF p. 537 ; Drive de l'auteur)",
+  "Audubon ne nomme pas ce beau-frère. Provost avait épousé en 1829 Marie-Rose Lambert, belle-fille de Lambert Salé dit Lajoie (fiche L24) ; il pourrait s'agir d'un frère ou demi-frère de Marie-Rose, mais rien ne le confirme ici.")
+
 # ---- VI. Postérité
 L(41, "Rivière Provo : la « Provost Fork » des cartes de Frémont (1845)", 'posterite', '1845', -111.73, 40.24, 'a',
   "Le récit de l'expédition de Frémont publié en 1845, auquel Kit Carson a servi de guide, nomme « Provost Fork » la rivière qui descend au lac Utah. Le nom du trappeur s'imprime ainsi sur les cartes avant l'arrivée des Mormons ; la Jordan a aussi été appelée Proveau's Fork.",
