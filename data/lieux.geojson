@@ -2100,6 +2100,30 @@
      }
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.342,
+     45.428
+    ]
+   },
+   "properties": {
+    "id": "L74",
+    "nom": "Baronnie de Longueuil, près de Chambly : les deux terres concédées à Albert Provost (1781)",
+    "debut": 1781.4521,
+    "fin": 1781.4521,
+    "date_edtf": "1781-06-15",
+    "precision": "jour",
+    "certitude": "hypothetique",
+    "categorie": "famille",
+    "description": "Le 15 juin 1781, devant le notaire Antoine Grisé dit Villefranche, de Chambly, le sieur Deschambault, c'est-à-dire Joseph Fleury Deschambault, qui gérait alors la baronnie de Longueuil comme fiduciaire de sa famille (une sentence de la même année 1781 le remplace par David Alexander Grant, mari de l'héritière), concède deux terres à Albert Provost, père d'Étienne, dans la seigneurie (baronnie) de Longueuil : actes nos 2036 et 2037, « Concession par le Sr Dechambault à Albert Provost d'une terre, seigneurie de Longueuil » et « Idem à Albert Provost, d'une terre, seigneurie de Longueuil ». La baronnie de Longueuil touchait la seigneurie de Chambly à l'ouest : sa partie la plus proche, le « Haut de la rivière » L'Acadie (alors la Petite rivière de Montréal), le long des chemins Bellerive et de Salaberry, aujourd'hui à Carignan et dans l'ouest de Chambly, s'ouvrait justement à la colonisation, avec un moulin seigneurial bâti vers 1781. Ses habitants fréquentaient l'église de Chambly, où Étienne est baptisé en 1785. Deux ans après la concession, le 15 juillet 1783, le même notaire dresse l'inventaire des biens de la communauté d'Albert Provost et de feu Marie-Louise Paquet (acte no 2493) ; en 1790, Albert achète un bien de Jean-Baptiste Oligny, et en 1794 un différend avec son voisin Michel Lamoureux est réglé par sentence arbitrale.",
+    "sources": "Répertoire du notaire Antoine Grisé dit Villefranche (1756-1785), actes nos 2036-2037 (15 juin 1781) et 2493 (15 juillet 1783) ; répertoire de Jean-Baptiste Grisé (1785-1796), actes nos 758 (27 mars 1790), 867 (18 novembre 1790) et 1423 (2 septembre 1794) ; répertoire de François Leguay, acte no 73 (25 juillet 1794) ; BAnQ, CN601,S189 et suivants, via Quebec, Canada, Notarial Records, 1637-1935 (Ancestry, consulté le 20 novembre 2026) ; Société d'histoire de la seigneurie de Chambly, « Les chemins de Chambly au Haut de la rivière » (histoireseigneuriechambly.org) ; Dictionnaire biographique du Canada, « Fleury Deschambault, Joseph »",
+    "note": "Point hypothétique, au milieu du « Haut de la rivière » L'Acadie, entre Chambly et Carignan. Seul le répertoire a été consulté : il donne la seigneurie, pas l'emplacement. Les actes eux-mêmes (bobines BAnQ 2133 à 2136, ou FamilySearch) donneront la côte, les dimensions et les voisins. Voir l'onglet « Chambly » de la salle de lecture.",
+    "type": "lieu"
+   }
   }
  ]
 }
