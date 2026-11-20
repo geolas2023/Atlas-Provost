@@ -1315,9 +1315,9 @@
     "precision": "jour",
     "certitude": "approximative",
     "categorie": "famille",
-    "description": "Mary Rose Pillsbury, veuve, sans doute de James A. Pillsbury, meurt à 83 ans au 4231 South 37th Street ; elle est inhumée au cimetière Calvary le 11 août 1913. Son certificat de décès la dit fille d'« Etienne Provo », né au Canada.",
-    "sources": "Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, 8 août 1913 (Drive de l'auteur)",
-    "note": "",
+    "description": "Mary Rose Pillsbury, veuve, sans doute de James A. Pillsbury, meurt à 83 ans au 4231 South 37th Street ; elle est inhumée au cimetière Calvary le 11 août 1913. Son certificat de décès la dit fille d'« Etienne Provo », né au Canada. L'avis de décès du St. Louis Star and Times la dit mère de Mme Chas. G. Grimm et d'un fils prénommé Étienne Pillsbury (le prénom du grand-père), grand-mère d'une religieuse du couvent du Bon-Pasteur ; les funérailles partent le lundi 11 août de sa résidence du 4221 South Thirty-seventh pour l'église St. Thomas of Aquin, puis le cimetière Calvary.",
+    "sources": "Missouri State Board of Health, certificat de décès n° 27938, Mary Rose Pillsbury, 8 août 1913 (Drive de l'auteur) ; avis de décès « Pillsbury », The St. Louis Star and Times, 10 août 1913, p. 17 (coupure du Drive de l'auteur, clipping_7501912.pdf)",
+    "note": "Le certificat donne le 4231, l'avis le 4221 South 37th Street ; les débuts de lignes de l'avis sont coupés sur la coupure.",
     "type": "lieu"
    }
   },
