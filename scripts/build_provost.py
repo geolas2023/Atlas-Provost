@@ -249,6 +249,15 @@ L(56, "Bellevue : le beau-frère du « vieux Provost », commis chez Sarpy (9 ma
   "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 1, p. 477 (PDF p. 537 ; Drive de l'auteur)",
   "Audubon ne nomme pas ce beau-frère. Provost avait épousé en 1829 Marie-Rose Lambert, belle-fille de Lambert Salé dit Lajoie (fiche L24) ; il pourrait s'agir d'un frère ou demi-frère de Marie-Rose, mais rien ne le confirme ici.")
 
+L(57, "Rivière Charbonneau (Yellowstone) : la chasse au castor manquée avec Squires (16-19 juillet 1843)", 'traite', '1843-07-16/1843-07-19', -103.96, 47.86, 'a',
+  "Pendant l'excursion d'Audubon à la Yellowstone, Provost, le rameur Basile et le jeune Lewis Squires sont laissés au camp pour chasser la loutre et le castor. Provost pilote l'esquif qui descend la Yellowstone, plus rapide et plus boueuse que le Missouri, jusqu'à l'embouchure de la rivière Charbonneau. Il enseigne à Squires à tendre les pièges : trouver une berge, couper deux perches sèches, entrer dans l'eau, creuser la vase en demi-cercle. Il conclut qu'il n'y a qu'un seul castor, un mâle, que les pièges ne prennent pas. Il tue une biche, pêche seize grosses barbues et pousse jusqu'aux Mauvaises Terres pour chasser le mouflon. Revenu à Fort Union le 19 juillet par Fort Mortimer, il est, selon Audubon, « déconfit » de l'échec.",
+  "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 95-102 (récit de Squires ; PDF p. 111-118, Drive de l'auteur)",
+  "Point placé à l'embouchure de la rivière (Charbonneau Creek), en aval de Fort Union sur la Yellowstone.")
+L(58, "Fort Mortimer : messager d'Audubon chez l'Opposition, connu des métis du Nord (juin-août 1843)", 'guide', '1843-06-17/1843-08-07', -104.025, 47.985, 'a',
+  "Audubon envoie souvent « le vieux Provost » au fort rival de l'Opposition, Fort Mortimer, voisin de Fort Union : il s'y enquiert des lettres de Cutting, d'un renard véloce venu de la Yellowstone, des nouvelles arrivées d'en bas, des bisons ou d'un porc-épic. Le 24 juillet, six métis venus du Nord-Est avec onze têtes de bétail demandent tous de ses nouvelles. En août, il va chercher Boucherville pour une chasse au mouflon. Il raconte aussi à Audubon les mœurs du castor, du loup et du bison, et l'âge d'or des trappeurs, où un paquet de soixante-dix peaux valait cinq cents dollars.",
+  "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 37-133 (PDF p. 51-151, Drive de l'auteur)",
+  "Point placé à l'emplacement approximatif de Fort Mortimer (ancien fort William), à environ 3 km en aval de Fort Union.")
+
 # ---- VI. Postérité
 L(41, "Rivière Provo : la « Provost Fork » des cartes de Frémont (1845)", 'posterite', '1845', -111.73, 40.24, 'a',
   "Le récit de l'expédition de Frémont publié en 1845, auquel Kit Carson a servi de guide, nomme « Provost Fork » la rivière qui descend au lac Utah. Le nom du trappeur s'imprime ainsi sur les cartes avant l'arrivée des Mormons ; la Jordan a aussi été appelée Proveau's Fork.",

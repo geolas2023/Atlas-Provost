@@ -1206,6 +1206,54 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -103.96,
+     47.86
+    ]
+   },
+   "properties": {
+    "id": "L57",
+    "nom": "Rivière Charbonneau (Yellowstone) : la chasse au castor manquée avec Squires (16-19 juillet 1843)",
+    "debut": 1843.537,
+    "fin": 1843.5452,
+    "date_edtf": "1843-07-16/1843-07-19",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "traite",
+    "description": "Pendant l'excursion d'Audubon à la Yellowstone, Provost, le rameur Basile et le jeune Lewis Squires sont laissés au camp pour chasser la loutre et le castor. Provost pilote l'esquif qui descend la Yellowstone, plus rapide et plus boueuse que le Missouri, jusqu'à l'embouchure de la rivière Charbonneau. Il enseigne à Squires à tendre les pièges : trouver une berge, couper deux perches sèches, entrer dans l'eau, creuser la vase en demi-cercle. Il conclut qu'il n'y a qu'un seul castor, un mâle, que les pièges ne prennent pas. Il tue une biche, pêche seize grosses barbues et pousse jusqu'aux Mauvaises Terres pour chasser le mouflon. Revenu à Fort Union le 19 juillet par Fort Mortimer, il est, selon Audubon, « déconfit » de l'échec.",
+    "sources": "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 95-102 (récit de Squires ; PDF p. 111-118, Drive de l'auteur)",
+    "note": "Point placé à l'embouchure de la rivière (Charbonneau Creek), en aval de Fort Union sur la Yellowstone.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.025,
+     47.985
+    ]
+   },
+   "properties": {
+    "id": "L58",
+    "nom": "Fort Mortimer : messager d'Audubon chez l'Opposition, connu des métis du Nord (juin-août 1843)",
+    "debut": 1843.4575,
+    "fin": 1843.5973,
+    "date_edtf": "1843-06-17/1843-08-07",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "guide",
+    "description": "Audubon envoie souvent « le vieux Provost » au fort rival de l'Opposition, Fort Mortimer, voisin de Fort Union : il s'y enquiert des lettres de Cutting, d'un renard véloce venu de la Yellowstone, des nouvelles arrivées d'en bas, des bisons ou d'un porc-épic. Le 24 juillet, six métis venus du Nord-Est avec onze têtes de bétail demandent tous de ses nouvelles. En août, il va chercher Boucherville pour une chasse au mouflon. Il raconte aussi à Audubon les mœurs du castor, du loup et du bison, et l'âge d'or des trappeurs, où un paquet de soixante-dix peaux valait cinq cents dollars.",
+    "sources": "Audubon, Maria R. (éd.) (1897), Audubon and his Journals, New York, Scribner, vol. 2, p. 37-133 (PDF p. 51-151, Drive de l'auteur)",
+    "note": "Point placé à l'emplacement approximatif de Fort Mortimer (ancien fort William), à environ 3 km en aval de Fort Union.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -111.73,
      40.24
     ]
