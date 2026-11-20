@@ -6,8 +6,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.2858,
-     45.4486
+     -73.29192,
+     45.45152
     ]
    },
    "properties": {
@@ -21,7 +21,7 @@
     "categorie": "naissance",
     "description": "Étienne Provost naît à Chambly, sur le Richelieu, le 21 décembre 1785. Il est le premier enfant du troisième mariage d'Albert Provost, cultivateur, fils de Gabriel Provost et de Marie-Anne Bourassa, et de Marie-Anne Mainard (Ménard). Albert s'est marié trois fois à Chambly : avec Marie-Louise Paquet en 1770, qui lui donne huit enfants ; avec Magdeleine Lebeau en 1783 ; avec Marie-Anne Mainard le 25 janvier 1785. Étienne grandit donc entre six demi-frères et demi-sœurs aînés et cinq frères cadets : Toussaint (1787), Julien (1789), Antoine (1790), et deux petits Raphaël et François morts au berceau. L'acte de baptême, rédigé le jour même par le curé Ménard, lui donne pour parrain Étienne Frichet, qui signe, et pour marraine Thérèse Laroque, veuve Mainard, qui déclare ne savoir signer. Son père est inhumé à Chambly le 5 mars 1796, à 46 ans : Étienne a dix ans ; il ne saura jamais lire ni écrire. On ne sait presque rien de sa jeunesse ; il n'a pas vingt ans, écrit Denis Vaugeois, quand il choisit la traite des fourrures et le Far West, avec Saint-Louis pour base.",
     "sources": "Registre de la paroisse Saint-Joseph de Chambly, baptêmes de 1785, f. 39, acte du 21 décembre 1785 (photographie au presbytère de Chambly, Etienne_Provost.jpg du Drive de l'auteur) ; Vaugeois, Denis, « Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques », Le Devoir, 16-17 février 2002 (coupure du Drive de l'auteur, dossier ETIENNE_PROVOST_AUDUBON) ; Bouchard, Serge et Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, t. 2, Montréal, Lux, chap. « Hommes des montagnes : Provost, Chalifoux, Robidoux » (epub du Drive de l'auteur) ; Tykal, Jack B., « Provost, Etienne », Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copie du Drive de l'auteur, t_000690.pdf ; uen.org) ; « Étienne Provost et le Grand Lac Salé », fiche de la série De remarquables oubliés (Serge Bouchard), document du Drive de l'auteur (etienne_provost.pdf) ; Drouin, Quebec, Canada, Vital and Church Records (Drouin Collection), 1621-1968, paroisse Saint-Joseph de Chambly (Ancestry, consulté le 20 novembre 2026) : mariages de 1770, 1783 et 1785, baptêmes de 1771-1792, sépulture d'Albert Provost du 5 mars 1796",
-    "note": "Date confirmée par l'acte de baptême (« né le même jour ») ; date du jour aussi chez Vaugeois ; Tykal et Hafen donnent seulement 1785. La photothèque de la Utah State Historical Society propose 1782. Point à l'église Saint-Joseph de Chambly. La famille complète, avec chaque acte, est dans l'arbre Ancestry « Étienne Provost (1785-1850) – Atlas Provost » et dans l'onglet « L'arbre de la famille » de la salle de lecture.",
+    "note": "Date confirmée par l'acte de baptême (« né le même jour ») ; date du jour aussi chez Vaugeois ; Tykal et Hafen donnent seulement 1785. La photothèque de la Utah State Historical Society propose 1782. Point à l'église Saint-Joseph de Chambly, 164, rue Martel : l'église actuelle (1881) est bâtie sur les fondations de l'église de pierre de 1757, celle où Étienne fut baptisé ; la première église de bois (1739) était plus près du bassin. La famille complète, avec chaque acte, est dans l'arbre Ancestry « Étienne Provost (1785-1850) – Atlas Provost » et dans l'onglet « L'arbre de la famille » de la salle de lecture.",
     "type": "lieu"
    }
   },
@@ -1827,8 +1827,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.2875,
-     45.4475
+     -73.2935,
+     45.4508
     ]
    },
    "properties": {
@@ -2124,6 +2124,12 @@
     "note": "Point approximatif, sur la rivière L'Acadie entre le bassin de Chambly et Carignan (le « Haut de la rivière »), partie de la baronnie de Longueuil voisine de Chambly : l'inventaire nomme la baronnie et la rivière, pas les voisins. Le numéro de lot actuel reste à établir par la succession d'Albert (1796) et le cadastre de la baronnie. Voir l'onglet « Chambly » de la salle de lecture.",
     "type": "lieu",
     "registres": [
+     {
+      "src": "images/chambly/1868-plan-officiel-chambly-petite-riviere-montreal-lots.jpg",
+      "legende": "Plan officiel de la paroisse de Chambly (J.-O. Beaubien, 1868) : les lots des concessions de la Petite rivière Montréal, côté baronnie de Longueuil",
+      "article": "chambly",
+      "type": "registre"
+     },
      {
       "src": "images/chambly/1783-07-15-inventaire-2493-immeubles.jpg",
       "legende": "Inventaire du 15 juillet 1783 : la terre d'Albert Provost sur la petite rivière de Montréal, maison de pièce sur pièce de 30 × 28 pieds, deux granges, écurie",

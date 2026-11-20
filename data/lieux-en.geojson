@@ -6,8 +6,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.2858,
-     45.4486
+     -73.29192,
+     45.45152
     ]
    },
    "properties": {
@@ -1563,8 +1563,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.2875,
-     45.4475
+     -73.2935,
+     45.4508
     ]
    },
    "properties": {
@@ -1860,6 +1860,12 @@
     "note": "Approximate point on the rivière L'Acadie between the Chambly basin and Carignan (the “Haut de la rivière”), the part of the barony of Longueuil next to Chambly: the inventory names the barony and the river, not the neighbours. The present-day lot number remains to be established through Albert's estate (1796) and the barony's cadastre. See the Chambly tab in the reading room.",
     "type": "lieu",
     "registres": [
+     {
+      "src": "images/chambly/1868-plan-officiel-chambly-petite-riviere-montreal-lots.jpg",
+      "legende": "Official plan of the parish of Chambly (J.-O. Beaubien, 1868): the lots of the Petite rivière Montréal concessions, barony of Longueuil side",
+      "article": "chambly",
+      "type": "registre"
+     },
      {
       "src": "images/chambly/1783-07-15-inventaire-2493-immeubles.jpg",
       "legende": "Inventory of July 15, 1783: Albert Provost's lot on the Petite rivière de Montréal, squared-log house 30 × 28 ft, two barns, stable",
