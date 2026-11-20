@@ -641,7 +641,7 @@
      {
       "src": "images/arbre/1829-08-04-mariage-provost-lambert.jpg",
       "legende": "Acte de mariage d'Étienne Provost et de Marie Lambert, « fille de Lambert Salé, dit Lajoy, et Magdeleine Delor », Saint-Louis, 4 août 1829",
-      "article": "arbre-delor",
+      "article": "mere",
       "type": "registre"
      }
     ]
@@ -673,7 +673,7 @@
      {
       "src": "images/arbre/1829-08-04-mariage-provost-lambert.jpg",
       "legende": "Le mariage de 1829 nomme Magdeleine Delor, la « Madelin Delor » du certificat de 1913",
-      "article": "arbre-delor",
+      "article": "mere",
       "type": "registre"
      }
     ]
@@ -1893,13 +1893,13 @@
      {
       "src": "images/arbre/1781-12-31-mariage-cailhol-delor.jpg",
       "legende": "Mariage de François Cailhol et de « demoiselle Madeleine de Lord, fille légitime de Clément Delord, ancien officier au service du roi très chrétien, et de dame Catherine Marin », 31 décembre 1781",
-      "article": "arbre-delor",
+      "article": "mere",
       "type": "registre"
      },
      {
       "src": "images/arbre/1837-02-03-sepulture-madeleine-delor.jpg",
       "legende": "Sépulture de « feue Mme Lambert Lajoie, âgée de 78 ans », 3 février 1837",
-      "article": "arbre-delor",
+      "article": "mere",
       "type": "registre"
      }
     ]
@@ -1931,7 +1931,7 @@
      {
       "src": "images/arbre/1830-07-28-sepulture-maria-rosa-villalpando.jpg",
       "legende": "Sépulture de « Marie Rose […] femme de Jean Salé », âgée de cent quatre ans, Saint-Louis, 28 juillet 1830",
-      "article": "arbre-delor",
+      "article": "mere",
       "type": "registre"
      }
     ]

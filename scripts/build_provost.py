@@ -348,7 +348,7 @@ L(71, "Taos : l'enlèvement de María Rosa Villalpando, arrière-grand-mère de 
 def JX(fichier, legende, article):
     return {"src": f"images/journaux/{fichier}", "legende": legende, "article": article}
 def RG(fichier, legende):
-    return {"src": f"images/arbre/{fichier}", "legende": legende, "article": "arbre-delor", "type": "registre"}
+    return {"src": f"images/arbre/{fichier}", "legende": legende, "article": "mere", "type": "registre"}
 REGISTRES = {
   'L24': [RG("1829-08-04-mariage-provost-lambert.jpg", "Acte de mariage d'Étienne Provost et de Marie Lambert, « fille de Lambert Salé, dit Lajoy, et Magdeleine Delor », Saint-Louis, 4 août 1829")],
   'L25': [RG("1829-08-04-mariage-provost-lambert.jpg", "Le mariage de 1829 nomme Magdeleine Delor, la « Madelin Delor » du certificat de 1913")],
