@@ -1095,6 +1095,20 @@
       "legende": "Missouri Republican, 30 juillet 1850 : avis de l'administratrice Mary Provot",
       "article": "jx-1850"
      }
+    ],
+    "registres": [
+     {
+      "src": "images/testament/1850-07-24-rejet-du-testament.jpg",
+      "legende": "Le juge des successions rejette le testament d'Étienne, ses trois témoins étant morts, 24 juillet 1850",
+      "article": "testament",
+      "type": "registre"
+     },
+     {
+      "src": "images/testament/1850-07-04-facture-cercueil-lynch.jpg",
+      "legende": "Facture des pompes funèbres Wm. A. Lynch & Co. : cercueil de velours, corbillard et cinq voitures, 4 juillet 1850",
+      "article": "testament",
+      "type": "registre"
+     }
     ]
    }
   },
@@ -1611,6 +1625,14 @@
       "legende": "Hawk-Eye and Iowa Patriot, juillet 1840 : la requête en partage",
       "article": "jx-1840"
      }
+    ],
+    "registres": [
+     {
+      "src": "images/testament/1850-08-01-inventaire-b.jpg",
+      "legende": "Inventaire de 1850 : plus de 600 acres et une douzaine de lots à Keokuk et Nashville, comté de Lee (Iowa), issus de la réserve métisse",
+      "article": "testament",
+      "type": "registre"
+     }
     ]
    }
   },
@@ -2026,6 +2048,18 @@
       "src": "images/maison/1850-plan-hutawa-geo-stlgs-lombard-second.jpg",
       "legende": "Plan de Hutawa (1850) géoréférencé : l'îlot 49 à l'angle sud-ouest de Second et Lombard",
       "article": "maison",
+      "type": "registre"
+     },
+     {
+      "src": "images/testament/1839-testament-p1-b.jpg",
+      "legende": "Testament d'Étienne Provot, 1er avril 1839 : « on the Corner of Lombard and Second Streets… it being the same on which I now reside »",
+      "article": "testament",
+      "type": "registre"
+     },
+     {
+      "src": "images/testament/1850-08-01-inventaire-a.jpg",
+      "legende": "Inventaire de la succession, 1er août 1850 : îlot 49, 50 pieds sur Second, 150 sur Lombard, borné à l'ouest par Papin et au sud par Pilcher",
+      "article": "testament",
       "type": "registre"
      }
     ]

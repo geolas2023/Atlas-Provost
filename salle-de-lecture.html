@@ -49,6 +49,8 @@ p, li { line-height: 1.65; font-size: 1.04rem; }
 .art-jx.large { grid-template-columns: 1fr; }
 .art-jx.large .jx-figs { display: flex; flex-wrap: wrap; gap: .8rem; align-items: flex-start; }
 .art-jx.large figure img { width: auto; max-width: 100%; }
+.art-jx.large .jx-figs figure { max-width: 100%; min-width: 0; }
+.art-jx > div { min-width: 0; } .art-jx table.chrono { width: 100%; font-size: .85rem; } .art-jx table.chrono td { overflow-wrap: anywhere; }
 .art-jx figure { margin: 0 0 .6rem; }
 .art-jx figure img { width: 100%; height: auto; display: block; border: 1px solid var(--sepia); background: #fff; box-shadow: 0 1px 3px rgba(20,40,50,.18); }
 .art-jx figcaption { font-size: .8rem; color: var(--encre-pale); margin-top: .3rem; }
@@ -92,6 +94,7 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
   <button type="button" role="tab" data-onglet="journaux">Dans les journaux<small>Presse, 1827-1963</small></button>
   <button type="button" role="tab" data-onglet="arbre">L'arbre de la famille<small>Chambly et Saint-Louis</small></button>
   <button type="button" role="tab" data-onglet="maison">La maison de la rue Lombard<small>Coin Lombard et Second, v. 1840-1916</small></button>
+  <button type="button" role="tab" data-onglet="testament">Le testament d'Étienne<small>Succession n° 3242, 1839-1853</small></button>
   <button type="button" role="tab" data-onglet="mere">La mère de Mary Rose<small>Marie-Rose Lambert, v. 1797-1873</small></button>
 </nav>
 
@@ -112,6 +115,10 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
     <div class="carte-salle" data-ouvrir="maison">
       <b>La maison de la rue Lombard</b>
       <span>Où Provost est mort : l'angle sud-ouest des rues Lombard et Second, l'îlot 49, devenu le 901 South Second Street, habité par sa descendance jusqu'en 1889, cartographié en 1908 et effacé par les voies du pont MacArthur.</span>
+    </div>
+    <div class="carte-salle" data-ouvrir="testament">
+      <b>Le testament d'Étienne</b>
+      <span>Le testament de 1839, signé d'une croix, qui lègue tout à Marie-Rose ; son rejet par le juge en 1850 ; l'inventaire de la maison, meuble par meuble ; le cercueil de velours, les terres de l'Iowa et les comptes de la veuve.</span>
     </div>
     <div class="carte-salle" data-ouvrir="mere">
       <b>La mère de Mary Rose</b>
@@ -708,6 +715,13 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
    </div>
   </div>
 
+  <h3>Le témoignage du testament et de la succession</h3>
+  <p>Le dossier de succession d'Étienne (onglet « <a href="#testament">Le testament d'Étienne</a> ») confirme tout. Le testament du 1er avril 1839 lègue à Marie-Rose <i>« one lot of ground in the City of St. Louis, on the Corner of Lombard and Second Streets, fronting fifty feet on Second Street by a depth on Lombard Street of One hundred and fifty feet, bounded South by lot of Pilcher, it being the same on which I now reside »</i>. L'inventaire du 1er août 1850 précise : îlot 49, <i>« fifty feet front on the west side of Second Street by one hundred and fifty feet in depth (all french measure), bounded East by Second Street, North by Lombard Street, West by lot of Papin, &amp; South by Pilcher »</i>. La taxe municipale de 1850 estime le terrain à 1 850 $ et la maison à 1 100 $. Provost y vivait donc dès 1839 au moins, et la maison comptait des meubles d'acajou, des tapis, une pendule et une carte des présidents des États-Unis.</p>
+  <div class="art-jx large"><div class="jx-figs">
+   <figure><img src="images/testament/1839-testament-p1-b.jpg" alt="Testament de 1839" loading="lazy"><figcaption>Testament, 1er avril 1839 : « on the Corner of Lombard and Second Streets… it being the same on which I now reside ».</figcaption></figure>
+   <figure><img src="images/testament/1850-08-01-inventaire-a.jpg" alt="Inventaire de 1850" loading="lazy"><figcaption>Inventaire, 1er août 1850 : « Block No. 49… west side of Second Street… bounded East by Second Street, North by Lombard Street ».</figcaption></figure>
+  </div></div>
+
   <h3>La disparition</h3>
   <p>Le 901 South Second est encore habité en 1916 : lors de l'explosion d'un réservoir à la tôlerie de l'îlot, le 29 mai, un passant blessé est dit « Raymond Showalter, of 901 South Second street » (<i>St. Louis Republic</i>, 30 mai 1916). En 1921, le 907 abrite la Missouri Fire Door Co. Aujourd'hui, la voie ferrée d'accès au pont MacArthur (l'ancien <i>Municipal Bridge</i>, ouvert aux voitures en 1917, aux trains en 1928) traverse l'îlot 49 en diagonale, précisément à l'angle sud-ouest de Lombard et South 2nd. La maison a sans doute disparu lors de la construction de ces approches ferroviaires, dans les années 1920 ; la date exacte de la démolition n'a pas été trouvée. L'autoroute I-55, ouverte dans les années 1960, passe une rue plus à l'ouest, le long de l'ancienne rue Third. Le quartier, aujourd'hui appelé Chouteau's Landing, conserve son quadrillage et quelques entrepôts.</p>
   <div class="art-jx large"><div class="jx-figs">
@@ -719,7 +733,7 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
    <li><b>Une photographie.</b> Aucune n'a été retrouvée : ni dans la presse numérisée, ni dans les inventaires en ligne. Les fonds à interroger sont la photothèque du Missouri Historical Society, les relevés photographiques des démolitions de la ville, et la collection Dick Lemen de l'University of Missouri–St. Louis.</li>
    <li><b>La vue cavalière de Compton et Dry (1875).</b> <i>Pictorial St. Louis</i> dessine chaque bâtiment de la ville ; la planche du quartier de Lombard reste à identifier dans la collection David Rumsey.</li>
    <li><b>Les cartes Sanborn de 1883 et Whipple des années 1870</b> (Library of Congress, Washington University), qui montreraient le bâtiment plus près de l'époque de Provost ; le <i>Block Book</i> de Guzman (1876) et l'atlas Hopkins (1883) pour les noms des propriétaires.</li>
-   <li><b>Les actes notariés</b> de l'achat du terrain de l'îlot 49 par Provost et de sa revente par la famille (registres du <i>Recorder of Deeds</i>), et la date de démolition dans les permis de la ville.</li>
+   <li><b>Les actes notariés</b> de l'achat du terrain de l'îlot 49 par Provost (avant 1839) et de sa revente par la famille (registres du <i>Recorder of Deeds</i>), et la date de démolition dans les permis de la ville.</li>
   </ul>
 
   <h3>Lieux dans l'atlas</h3>
@@ -733,6 +747,150 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
    <li>Sanborn Map Company (1908), <i>Insurance Maps of St. Louis, Missouri</i>, décembre 1908, feuilles 74 et 76, University of Missouri Digital Library.</li>
    <li>Recensement fédéral de 1850, Saint-Louis, 2e quartier (Ancestry).</li>
    <li>St. Louis Genealogical Society, « St. Louis City Streets, Now and Then » (ordonnance de numérotation du 18 décembre 1866) ; Wikipédia, « MacArthur Bridge (St. Louis) » ; <i>Riverfront Times</i>, « Why Chouteau's Landing Matters » ; OpenStreetMap (2026).</li>
+  </ul>
+</section>
+
+<!-- ============================ LE TESTAMENT ============================ -->
+<section class="panneau" id="testament" role="tabpanel" hidden>
+  <h2>Le testament d'Étienne</h2>
+  <p class="date">Cour des successions du comté de Saint-Louis, dossier n° 3242, « Etienne Provot », 1850-1853 · 42 pièces (Missouri, U.S., Wills and Probate Records, images 1262 à 1303)</p>
+  <p class="chapo">Le 1er avril 1839, Étienne Provost, qui ne sait pas écrire, fait rédiger son testament et le signe d'une croix : il lègue tout à sa femme, Marie-Rose. Onze ans plus tard, à sa mort, le juge refuse ce testament parce que ses trois témoins sont morts. La succession est alors administrée par la veuve, et le dossier qu'elle laisse à la cour fait entrer dans la maison du coin Lombard–Second : les meubles d'acajou, la carte des présidents, le cercueil de velours, les terres de l'Iowa et jusqu'aux deux dollars payés pour raser le défunt.</p>
+
+  <h3>Le dossier</h3>
+  <table class="chrono">
+   <tr><th>Date</th><th>Pièce</th><th>Image</th></tr>
+   <tr><td>1er avril 1839</td><td>Testament d'« Etienne Provot », deux pages, marque et sceau, trois témoins</td><td>1266-1267</td></tr>
+   <tr><td>4 juillet 1850</td><td>Factures des funérailles : pompes funèbres Wm. A. Lynch &amp; Co., cathédrale de Saint-Louis, cierges (E. Ellis)</td><td>1264, 1282, 1290</td></tr>
+   <tr><td>23-24 juillet 1850</td><td>Voiture (George Eberle), médicaments (F. Bollinger)</td><td>1288, 1292</td></tr>
+   <tr><td>24 juillet 1850</td><td>Déposition de Dubouffay Fremon et rejet du testament par le juge Peter Ferguson</td><td>1280-1281</td></tr>
+   <tr><td>29 juillet 1850</td><td>Affidavit de Mary Provot : les héritières ; lettres d'administration</td><td>1278-1279</td></tr>
+   <tr><td>1er août 1850</td><td>Inventaire des biens et estimation du mobilier ; serment des experts</td><td>1268-1275</td></tr>
+   <tr><td>sept.-oct. 1850, sept. 1851</td><td>Reçus des impôts de l'État, du comté et de la ville (îlot 49)</td><td>1284, 1294, 1296</td></tr>
+   <tr><td>14 décembre 1850</td><td>Citation de Felix Lafon comme témoin dans la cause William Gibson c. l'administratrice</td><td>1276-1277</td></tr>
+   <tr><td>1850-1851</td><td>Affidavit de George Knapp, imprimeur du <i>Missouri Republican</i>, sur la publication de l'avis aux créanciers</td><td>1298</td></tr>
+   <tr><td>7 septembre 1851</td><td>Premier compte de l'administratrice</td><td>1286-1287</td></tr>
+   <tr><td>décembre 1853</td><td>Règlement final et avis de règlement final</td><td>1299-1303</td></tr>
+  </table>
+
+  <h3>Le testament de 1839</h3>
+  <div class="art-jx">
+   <div><figure><a href="images/testament/1839-testament-p1-a.jpg" target="_blank" rel="noopener"><img src="images/testament/1839-testament-p1-a.jpg" alt="Testament d'Étienne Provost, 1er avril 1839, page 1 (haut). Image 1266." loading="lazy"></a><figcaption>Testament d'Étienne Provost, 1er avril 1839, page 1 (haut). Image 1266.</figcaption></figure><figure><a href="images/testament/1839-testament-p1-b.jpg" target="_blank" rel="noopener"><img src="images/testament/1839-testament-p1-b.jpg" alt="Page 1 (bas) : le legs de la maison du coin Lombard–Second." loading="lazy"></a><figcaption>Page 1 (bas) : le legs de la maison du coin Lombard–Second.</figcaption></figure></div>
+   <div>
+    <p class="jx-tete"><b>Transcription, page 1</b>Orthographe et ponctuation de l'original</p>
+    <p><i>In the name of God. Amen — I, Etienne Provot of the City and County of Saint Louis, State of Missouri, being in good bodily health, and of sound mind and memory, calling to mind the frailty and uncertainty of human life, and being desirous of settling my worldly affairs, and directing how the estate with which it has pleased God to bless me shall be disposed of after my decease, while I have strength and capacity so to do, do make and publish this my last Will and Testament, hereby revoking and making null and void all other last wills and Testaments by me heretofore made — And first I commend my immortal being to him who gave it, and my body to the earth, to be buried with little expense or ostentation by my Executrix hereinafter named.</i></p>
+    <p><i>And as to my worldly estate, and all the property, real, personal or mixed, of which I shall die seized or possessed, or to which I shall be entitled at the time of my decease, I devise, bequeath and dispose thereof in the manner following, to wit:</i></p>
+    <p><i>Imprimis. My Will is that all my just debts and funeral expenses shall by my Executrix hereinafter named, be paid out of my estate, as soon after my decease as shall by her be found convenient.</i></p>
+    <p><i>Item. I give, devise and bequeath to my beloved wife Marie Rose Provot one lot of ground in the City of St. Louis, on the Corner of Lombard and Second Streets, fronting fifty feet on Second Street by a depth on Lombard Street of One hundred and fifty feet, bounded South by lot of [John] Pilcher, it being the same on which I now reside.</i></p>
+   </div>
+  </div>
+  <div class="art-jx">
+   <div><figure><a href="images/testament/1839-testament-p2-a.jpg" target="_blank" rel="noopener"><img src="images/testament/1839-testament-p2-a.jpg" alt="Page 2 (haut) : le lot de la rue Cedar. Image 1267." loading="lazy"></a><figcaption>Page 2 (haut) : le lot de la rue Cedar. Image 1267.</figcaption></figure><figure><a href="images/testament/1839-testament-p2-b.jpg" target="_blank" rel="noopener"><img src="images/testament/1839-testament-p2-b.jpg" alt="Page 2 : les terres métisses de l'Iowa, le legs universel à Marie-Rose." loading="lazy"></a><figcaption>Page 2 : les terres métisses de l'Iowa, le legs universel à Marie-Rose.</figcaption></figure><figure><a href="images/testament/1839-testament-p2-c.jpg" target="_blank" rel="noopener"><img src="images/testament/1839-testament-p2-c.jpg" alt="Page 2 (bas) : la marque d'Étienne, son sceau et les signatures des témoins." loading="lazy"></a><figcaption>Page 2 (bas) : la marque d'Étienne, son sceau et les signatures des témoins.</figcaption></figure></div>
+   <div>
+    <p class="jx-tete"><b>Transcription, page 2</b></p>
+    <p><i>Also: One lot of ground in Block number Seventy six of the City of St. Louis, fronting sixty feet on Cedar Street, between Third and Fourth Streets, by a depth Southwardly of thirty feet more or less, bounded west by Charles Bequet, and East by Lambert Lajoie. —</i></p>
+    <p><i>Also. The equal undivided one half part of One full share, in the tract of land lying between the Mississippi and Desmoines rivers, known as the “Half Breed Sac &amp; Fox lands” in the Territory of Iowa, it being the same by me and Patrick Walsh purchased of Isidore Antaya, as by reference to the deed therefor recorded in the Recorder's office of Lee County, Territory of Iowa, will more fully appear. To have and to hold the said lots and lands to her the said Marie Rose, my wife, and to her heirs and assigns forever —</i></p>
+    <p><i>Item. I give, devise and bequeath to my beloved wife Marie Rose Provot, all the rest and residue of my estate, real, personal and mixed, of which I shall die seized and possessed, or to which I shall be entitled at the time of my decease, to her own use and behoof forever.</i></p>
+    <p><i>Lastly, I do nominate and appoint my beloved wife Marie Rose Provot, to be the sole Executrix of this my last will and testament.</i></p>
+    <p><i>In testimony whereof I the said Etienne Provot have to this my last will and testament subscribed my name and affixed my seal this first day of April Eighteen hundred and thirty nine.</i></p>
+    <p><i>Signed sealed and declared by the said Etienne Provot to be his last will and testament in presence of us, who at his request and in his presence have subscribed our names as witnesses hereto.</i> — Alphonso Wetmore · P. A. Walsh · J. W. Walsh. — <i>Etienne</i> [his × mark] <i>Provot</i> (Seal)</p>
+   </div>
+  </div>
+  <p><b>Ce que dit le testament.</b> Rédigé en anglais par un homme de loi, selon le formulaire du temps, il fait de Marie-Rose la seule héritière et la seule exécutrice. Il ne nomme ni enfant ni parent : en avril 1839, Mary Rose a huit ans et hériterait de toute façon de sa mère. Il décrit trois biens. D'abord la maison : <b>« un lot de terrain à l'angle des rues Lombard et Second, de cinquante pieds sur Second et cent cinquante sur Lombard, borné au sud par le lot de Pilcher, celui-là même où je réside »</b>. C'est la confirmation, de la main même de son notaire, que Provost habitait l'angle sud-ouest du carrefour dès 1839 (voir l'onglet « La maison de la rue Lombard »). Ensuite un lot de soixante pieds sur la rue Cedar, îlot 76, voisin à l'est de celui de son beau-père Lambert Salé dit Lajoie. Enfin une demi-part dans la réserve des Métis sacs et renards de l'Iowa (fiche <a href="index.html#lieu=L60">L60</a>), achetée avec Patrick Walsh à Isidore Antaya.</p>
+  <p><b>Les témoins.</b> Alphonso Wetmore (vers 1793-1849), ancien officier de l'armée, auteur d'un journal de la piste de Santa Fe et du <i>Gazetteer of the State of Missouri</i> (1837), et deux Walsh, Peter A. et Joseph W., de la famille de l'associé de Provost en Iowa. En 1850, tous trois sont morts.</p>
+
+  <h3>Le testament rejeté (24 juillet 1850)</h3>
+  <div class="art-jx">
+   <div><figure><a href="images/testament/1850-07-24-rejet-du-testament.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-07-24-rejet-du-testament.jpg" alt="Déposition de Dubouffay Fremon et décision du juge Peter Ferguson, 24 juillet 1850, avec le sceau de la cour des successions. Image 1280." loading="lazy"></a><figcaption>Déposition de Dubouffay Fremon et décision du juge Peter Ferguson, 24 juillet 1850, avec le sceau de la cour des successions. Image 1280.</figcaption></figure></div>
+   <div>
+    <p>Trois semaines après la mort d'Étienne, Dubouffay Fremon jure devant le juge des successions Peter Ferguson qu'il a connu les trois témoins, « all of whom he believes are now dead », qu'il reconnaît leurs écritures, et que le nom d'Étienne Provot sur le testament est de la main de Joseph W. Walsh : Provost n'a fait que la croix. Le juge conclut que l'acte <i>« is not duly proved to be the last will and testament of said Etienne Provot deceased »</i> et le rejette : <i>« and do reject the same »</i>. Sans témoin vivant pour attester la signature, la loi du Missouri ne permettait pas de l'homologuer.</p>
+    <p>La conséquence est surtout juridique : Étienne meurt <b>intestat</b>. Marie-Rose n'est plus exécutrice testamentaire mais <b>administratrice</b>, sous caution et sous le contrôle de la cour, et les biens se partagent selon la loi entre la veuve et l'enfant.</p>
+   </div>
+  </div>
+
+  <h3>Les héritières (29 juillet 1850)</h3>
+  <div class="art-jx">
+   <div><figure><a href="images/testament/1850-07-29-affidavit-heritieres.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-07-29-affidavit-heritieres.jpg" alt="Affidavit de Mary Provot devant le juge Peter Ferguson, 29 juillet 1850. Image 1278." loading="lazy"></a><figcaption>Affidavit de Mary Provot devant le juge Peter Ferguson, 29 juillet 1850. Image 1278.</figcaption></figure></div>
+   <div>
+    <p>Marie-Rose, sous le nom de <b>Mary Provot</b>, jure qu'à sa connaissance les héritiers vivants d'Étienne sont <i>« Mary Provot this affiant widow of deceased and Mary Provot daughter of deceased who reside in the county aforesaid »</i>, et que le défunt est mort sans testament, <i>« except an instrument in writing purporting to be a will of the deceased which has been rejected by the Judge of Probate »</i>. Elle signe elle aussi d'une croix : <i>Mary [her × mark] Provot</i>. Les lettres d'administration lui sont accordées le même jour ; l'avis aux créanciers paraît dans le <i>Missouri Republican</i> du 30 juillet au 20 septembre 1850.</p>
+    <p>L'affidavit ne mentionne <b>aucun autre enfant</b> : ni fils né d'une union antérieure, ni enfant crow. Le fils Nicolas de la tradition n'est pas reconnu comme héritier.</p>
+   </div>
+  </div>
+
+  <h3>L'inventaire de la maison (1er août 1850)</h3>
+  <div class="art-jx">
+   <div><figure><a href="images/testament/1850-08-01-inventaire-a.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-08-01-inventaire-a.jpg" alt="Inventaire des biens d'Étienne Provot, 1er août 1850 : l'îlot 49. Image 1272." loading="lazy"></a><figcaption>Inventaire des biens d'Étienne Provot, 1er août 1850 : l'îlot 49. Image 1272.</figcaption></figure><figure><a href="images/testament/1850-08-01-inventaire-b.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-08-01-inventaire-b.jpg" alt="Inventaire : les terres de l'Iowa, puis les biens meubles." loading="lazy"></a><figcaption>Inventaire : les terres de l'Iowa, puis les biens meubles.</figcaption></figure><figure><a href="images/testament/1850-08-01-inventaire-c.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-08-01-inventaire-c.jpg" alt="Inventaire, suite : le contenu de la maison. Image 1273." loading="lazy"></a><figcaption>Inventaire, suite : le contenu de la maison. Image 1273.</figcaption></figure></div>
+   <div>
+    <p class="jx-tete"><b>Biens immobiliers</b>Dressé par Mary Provot, administratrice, avec Chauvin, LeBeau et David Monastès</p>
+    <ol>
+     <li><i>« A lot of ground situated in Block No. 49 of the City of St. Louis, containing fifty feet front on the west side of Second Street by one hundred and fifty feet in depth (all french measure), bounded East by Second Street, North by Lombard Street, West by lot of Papin, &amp; South by Pilcher. »</i></li>
+     <li>Dans le comté de Lee, en Iowa : le quart sud-est de la section 13, township 66 N, rang 7 O (160 acres) ; le quart sud-ouest fractionnel de la même section (147,26 acres) ; la moitié sud de la section 35, township 67 N, rang 7 O (320 acres) ; à Keokuk, les lots 2 de l'îlot 19, 4 de l'îlot 20, 11 et 12 de l'îlot 35, 3 et la moitié ouest du 2 de l'îlot 38, 8 à 12 de l'îlot 75, 11 et 12 de l'îlot 76 ; à Nashville, le lot 212 ; le tout selon l'acte de partage entre Patrick Walsh et sa femme et Étienne Provot (Lee County, livre 6, p. 135).</li>
+    </ol>
+    <p>Le lot de la rue Cedar n'y figure plus : il avait été vendu entre 1839 et 1850, en partie à Sarah Ann Langley dès 1835.</p>
+    <p class="jx-tete"><b>Biens meubles</b></p>
+    <p>102,70 $ en espèces ; douze chaises d'acajou à assise cannée et un fauteuil à bascule ; une commode, trois tables à jeu, deux tabourets ; deux tapis (50 verges) ; quatre rideaux de batiste rouge ; quatre tableaux et un petit tableau à cadre doré ; deux chandeliers en métal Britannia, deux vases à fleurs, un globe de verre, un vase, <b>deux conques</b>, un crachoir ; <b>une pendule</b> ; une armoire, une table à ouvrage ; <b>« one map of Presidents of the United States »</b> ; un miroir, trois vieilles chaises, un canapé ; six cuillères à thé en argent ; douze serviettes et douze nappes.</p>
+    <p>Aucun livre, aucune arme, aucun outil de trappeur, aucun esclave : le formulaire imprimé prévoit l'estimation « des esclaves et autres biens personnels », mais la liste n'en comporte pas.</p>
+   </div>
+  </div>
+  <div class="art-jx">
+   <div><figure><a href="images/testament/1850-08-01-estimation-a.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-08-01-estimation-a.jpg" alt="Serment des experts et estimation du mobilier, 1er août 1850. Image 1268." loading="lazy"></a><figcaption>Serment des experts et estimation du mobilier, 1er août 1850. Image 1268.</figcaption></figure><figure><a href="images/testament/1850-08-01-estimation-b.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-08-01-estimation-b.jpg" alt="Estimation, fin de la page : report de 74,35 $." loading="lazy"></a><figcaption>Estimation, fin de la page : report de 74,35 $.</figcaption></figure></div>
+   <div>
+    <p>Les experts, O. V. LeBeau, David Monastès et Dubouffay Fremon, prêtent serment devant le juge de paix Frederick Kretschmar et estiment chaque objet : les douze chaises 12 $, la commode 8 $, les tables à jeu 9 $, les tapis 10 $, la pendule 8 $, l'armoire 5 $, les cuillères d'argent 2 $, la carte des présidents 10 cents… Le mobilier vaut <b>78,95 $</b> ; avec les espèces, la succession mobilière s'élève à <b>181,65 $</b>.</p>
+    <p>Le contraste est frappant avec la maison elle-même : la ville l'estime la même année 1 850 $ pour le terrain et 1 100 $ pour la maison, et le recensement de juillet 1850 attribue à la veuve 20 000 $ de biens immobiliers, terres de l'Iowa comprises. Le trappeur avait placé sa fortune dans la terre.</p>
+   </div>
+  </div>
+
+  <h3>Les funérailles (4 juillet 1850)</h3>
+  <div class="art-jx large"><div class="jx-figs">
+   <figure><a href="images/testament/1850-07-04-facture-cercueil-lynch.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-07-04-facture-cercueil-lynch.jpg" alt="Wm. A. Lynch &amp; Co. : « extra fine finished velvet coffin with handles &amp; overcase », 25 $ ; linceul, cravate et gants, 4,50 $ ; corbillard et cinq voitures, 17,50 $ ; six paires de gants et deux pièces de crêpe, 7 $. Réglé le 16 juillet 1850. Image 1264." loading="lazy"></a><figcaption>Wm. A. Lynch &amp; Co. : « extra fine finished velvet coffin with handles &amp; overcase », 25 $ ; linceul, cravate et gants, 4,50 $ ; corbillard et cinq voitures, 17,50 $ ; six paires de gants et deux pièces de crêpe, 7 $. Réglé le 16 juillet 1850. Image 1264.</figcaption></figure>
+   <figure><a href="images/testament/1850-07-04-facture-cathedrale.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-07-04-facture-cathedrale.jpg" alt="Cathédrale de Saint-Louis : service d'inhumation, 6 $ ; prêtre accompagnant le convoi au cimetière, 3 $. Reçu de P. F. Ryder, agent de la cathédrale. Image 1282." loading="lazy"></a><figcaption>Cathédrale de Saint-Louis : service d'inhumation, 6 $ ; prêtre accompagnant le convoi au cimetière, 3 $. Reçu de P. F. Ryder, agent de la cathédrale. Image 1282.</figcaption></figure>
+  </div></div>
+  <p>Le testament demandait un enterrement « with little expense or ostentation ». La veuve fait pourtant les choses bien : cercueil de velours à poignées, corbillard suivi de cinq voitures, gants et crêpe de deuil pour six proches, cierges pour l'office, service à la cathédrale et prêtre jusqu'au cimetière catholique. Les comptes ajoutent un dollar de médicaments, la voiture de George Eberle et deux dollars <i>« for shaving deceased »</i>, pour la toilette du mort.</p>
+
+  <h3>Les comptes de la veuve (1850-1853)</h3>
+  <div class="art-jx">
+   <div><figure><a href="images/testament/1851-09-07-compte-administratrice.jpg" target="_blank" rel="noopener"><img src="images/testament/1851-09-07-compte-administratrice.jpg" alt="Premier compte de Mary Provot, administratrice, 7 septembre 1851. Image 1286." loading="lazy"></a><figcaption>Premier compte de Mary Provot, administratrice, 7 septembre 1851. Image 1286.</figcaption></figure><figure><a href="images/testament/1850-09-23-taxe-municipale-ilot-49.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-09-23-taxe-municipale-ilot-49.jpg" alt="Taxe municipale de 1850, « Mrs. Etienne Provost » : îlot 49, 50 × 160 pieds, Lombard au nord, Second à l'est, Pilcher au sud, Moses à l'ouest ; terrain 1 850 $, maison 1 100 $. Reçu du 23 septembre 1850. Image 1294." loading="lazy"></a><figcaption>Taxe municipale de 1850, « Mrs. Etienne Provost » : îlot 49, 50 × 160 pieds, Lombard au nord, Second à l'est, Pilcher au sud, Moses à l'ouest ; terrain 1 850 $, maison 1 100 $. Reçu du 23 septembre 1850. Image 1294.</figcaption></figure><figure><a href="images/testament/1853-12-reglement-final.jpg" target="_blank" rel="noopener"><img src="images/testament/1853-12-reglement-final.jpg" alt="Règlement final, session de décembre 1853. Image 1302." loading="lazy"></a><figcaption>Règlement final, session de décembre 1853. Image 1302.</figcaption></figure></div>
+   <div>
+    <table class="chrono">
+     <tr><th>Recettes</th><th>$</th></tr>
+     <tr><td>Espèces selon l'inventaire</td><td>102,70</td></tr>
+     <tr><td>Mobilier selon l'estimation</td><td>78,95</td></tr>
+     <tr><th>Dépenses</th><th>$</th></tr>
+     <tr><td>Impôts de l'État et du comté, 1850</td><td>16,25</td></tr>
+     <tr><td>Taxe municipale 1850</td><td>33,93</td></tr>
+     <tr><td>Taxe municipale 1851</td><td>39,40</td></tr>
+     <tr><td>Wm. A. Lynch &amp; Co., cercueil, linceul, etc.</td><td>54,00</td></tr>
+     <tr><td>E. Ellis, cierges du service funèbre</td><td>7,20</td></tr>
+     <tr><td>P. F. Ryder, service d'inhumation</td><td>9,00</td></tr>
+     <tr><td>Médicaments</td><td>1,00</td></tr>
+     <tr><td>George Eberle, voiture</td><td>1,50</td></tr>
+     <tr><td>Experts et affidavit</td><td>3,00</td></tr>
+     <tr><td>Rasage du défunt</td><td>2,00</td></tr>
+     <tr><td><b>Solde en faveur de la succession, 7 septembre 1851</b></td><td><b>14,37</b></td></tr>
+    </table>
+    <p>Le règlement final absorbe ce solde : avis de règlement, frais de la cour, et une commission de six dollars pour l'administratrice « for paying out $102.70 ». La succession est close sans dettes ni reste. La maison et les terres, qui ne passaient pas par ces comptes, restent à la veuve et à sa fille.</p>
+    <p><b>Un procès.</b> En décembre 1850, un certain William Gibson poursuit l'administratrice devant la cour des successions ; Felix Lafon, sans doute Félix Lafont, de la famille du mari de Gertrude Salé, belle-sœur d'Étienne, est cité comme témoin du plaignant pour le 19 décembre. Le dossier ne dit ni l'objet ni l'issue de l'affaire.</p>
+   </div>
+  </div>
+  <div class="art-jx large"><div class="jx-figs">
+   <figure><a href="images/testament/1850-12-14-citation-gibson-c-provot.jpg" target="_blank" rel="noopener"><img src="images/testament/1850-12-14-citation-gibson-c-provot.jpg" alt="Citation de Felix Lafon comme témoin dans la cause William Gibson c. l'administratrice d'Etienne Provot, 14 décembre 1850. Image 1276." loading="lazy"></a><figcaption>Citation de Felix Lafon comme témoin dans la cause William Gibson c. l'administratrice d'Etienne Provot, 14 décembre 1850. Image 1276.</figcaption></figure>
+  </div></div>
+
+  <h3>Ce que le dossier apprend</h3>
+  <ul>
+   <li><b>La maison est localisée par trois actes indépendants</b> : le testament de 1839, l'inventaire de 1850 et la taxe municipale de 1850. Tous la placent à l'angle sud-ouest de Second et Lombard, îlot 49, sur 50 pieds le long de Second et 150 à 160 pieds le long de Lombard. Provost y vit dès 1839 au moins.</li>
+   <li><b>Étienne et Marie-Rose ne savaient pas écrire</b> : tous deux signent d'une croix.</li>
+   <li><b>Deux héritières seulement</b>, la veuve et Mary Rose ; aucune trace légale d'un autre enfant.</li>
+   <li><b>Une fortune foncière</b> : la maison de Saint-Louis et plus de 600 acres et une douzaine de lots en Iowa, issus de la réserve métisse, pour un mobilier modeste mais soigné.</li>
+   <li><b>Un intérieur de bourgeoisie créole</b> : chaises d'acajou, tapis, rideaux rouges, gravures dorées, pendule, argenterie, et une carte des présidents des États-Unis au mur.</li>
+  </ul>
+
+  <h3>Lieux dans l'atlas</h3>
+  <p class="fiches-gen"><a href="index.html#lieu=L73">L73</a> (la maison de l'îlot 49) · <a href="index.html#lieu=L40">L40</a> (mort et inhumation) · <a href="index.html#lieu=L60">L60</a> (la réserve métisse de l'Iowa) · <a href="index.html#lieu=L72">L72</a> (la succession de Lambert Salé, 1837).</p>
+
+  <h3>Sources</h3>
+  <ul class="biblio">
+   <li>St. Louis Probate Court, dossier n° 3242, « Etienne Provot », 1850-1853 : testament du 1er avril 1839 ; déposition et décision du 24 juillet 1850 ; affidavit du 29 juillet 1850 ; inventaire et estimation du 1er août 1850 ; factures, reçus d'impôts, citation du 14 décembre 1850, comptes du 7 septembre 1851 et de décembre 1853. <i>Missouri, U.S., Wills and Probate Records, 1766-1988</i>, St. Louis, Probate Case Files No 3233-3252, 1850, images 1262 à 1303 (Ancestry, indexé « E Provot », homologation du 12 septembre 1851). Consulté le 20 novembre 2026.</li>
+   <li><i>Missouri Republican</i>, 30 juillet-20 septembre 1850 (avis de l'administratrice), Newspapers.com.</li>
   </ul>
 </section>
 </main>
@@ -804,6 +962,7 @@ document.addEventListener('click', e => {
   art.scrollIntoView({ behavior: 'smooth', block: 'start' });
   art.classList.add('cible'); setTimeout(() => art.classList.remove('cible'), 2200);
 });
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (document.getElementById(h)?.classList.contains('panneau')) { ouvrir(h); window.scrollTo(0, 0); } });
 ouvrir(location.hash.slice(1) || 'accueil');
 </script>
 </body>

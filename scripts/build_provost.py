@@ -358,11 +358,18 @@ def JX(fichier, legende, article):
     return {"src": f"images/journaux/{fichier}", "legende": legende, "article": article}
 def RG(fichier, legende):
     return {"src": f"images/arbre/{fichier}", "legende": legende, "article": "mere", "type": "registre"}
+def TS(fichier, legende):
+    return {"src": f"images/testament/{fichier}", "legende": legende, "article": "testament", "type": "registre"}
 def MS(fichier, legende):
     return {"src": f"images/maison/{fichier}", "legende": legende, "article": "maison", "type": "registre"}
 REGISTRES = {
   'L73': [MS("1908-sanborn-feuille-74-ilot-49-901-s-2nd.jpg", "Carte Sanborn, décembre 1908, feuille 74 : le 901 South 2nd Street, à l'angle de Lombard"),
-          MS("1850-plan-hutawa-geo-stlgs-lombard-second.jpg", "Plan de Hutawa (1850) géoréférencé : l'îlot 49 à l'angle sud-ouest de Second et Lombard")],
+          MS("1850-plan-hutawa-geo-stlgs-lombard-second.jpg", "Plan de Hutawa (1850) géoréférencé : l'îlot 49 à l'angle sud-ouest de Second et Lombard"),
+          TS("1839-testament-p1-b.jpg", "Testament d'Étienne Provot, 1er avril 1839 : « on the Corner of Lombard and Second Streets… it being the same on which I now reside »"),
+          TS("1850-08-01-inventaire-a.jpg", "Inventaire de la succession, 1er août 1850 : îlot 49, 50 pieds sur Second, 150 sur Lombard, borné à l'ouest par Papin et au sud par Pilcher")],
+  'L40': [TS("1850-07-24-rejet-du-testament.jpg", "Le juge des successions rejette le testament d'Étienne, ses trois témoins étant morts, 24 juillet 1850"),
+          TS("1850-07-04-facture-cercueil-lynch.jpg", "Facture des pompes funèbres Wm. A. Lynch & Co. : cercueil de velours, corbillard et cinq voitures, 4 juillet 1850")],
+  'L60': [TS("1850-08-01-inventaire-b.jpg", "Inventaire de 1850 : plus de 600 acres et une douzaine de lots à Keokuk et Nashville, comté de Lee (Iowa), issus de la réserve métisse")],
   'L24': [RG("1829-08-04-mariage-provost-lambert.jpg", "Acte de mariage d'Étienne Provost et de Marie Lambert, « fille de Lambert Salé, dit Lajoy, et Magdeleine Delor », Saint-Louis, 4 août 1829")],
   'L25': [RG("1829-08-04-mariage-provost-lambert.jpg", "Le mariage de 1829 nomme Magdeleine Delor, la « Madelin Delor » du certificat de 1913")],
   'L70': [RG("1781-12-31-mariage-cailhol-delor.jpg", "Mariage de François Cailhol et de « demoiselle Madeleine de Lord, fille légitime de Clément Delord, ancien officier au service du roi très chrétien, et de dame Catherine Marin », 31 décembre 1781"),
