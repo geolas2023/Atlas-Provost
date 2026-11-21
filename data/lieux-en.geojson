@@ -836,10 +836,27 @@
     "precision": "mois",
     "certitude": "certaine",
     "categorie": "rendezvous",
-    "description": "In the spring of 1837, Provost leads a caravan of some thirty carts in which the painter Alfred Jacob Miller travels, hired by the Scottish captain William Drummond Stewart. At the rendezvous, Miller sketches Provost, always on his mule, with a broad-brimmed hat and a Hawken rifle. He can be recognized in Threatened Attack, on a mule, and in Catching Up, standing by the fire with his hands cupped around his mouth. Miller describes his body as “round as a porpoise”; another traveler calls him “adipose and rotund, fattening the lean land he passes over.”",
-    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive)",
+    "description": "In the spring of 1837, Provost is the sub-leader of the American Fur Company supply caravan led by Thomas Fitzpatrick, which leaves from near Westport. The painter Alfred Jacob Miller travels with it, hired by the Scottish captain William Drummond Stewart. Miller paints “Monsieur Proveau” at least three times: in Attrapez des Chevaux (c. 1855) and Catching Up (1858-1860), standing in front of his tent with his hands cupped around his mouth, calling the men to catch their horses; and in Threatened Attack, the caravan facing a party of Lakota. In his notes, Miller calls him a “subleader, with a corpus round as a porpoise”, “adipose & rotonde”, “larding the lean earth as he walks along” (a Shakespeare line about Falstaff), with “stentorian lungs”. See the “Le témoin Miller” tab in the reading room.",
+    "sources": "Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); Walters Art Museum, Catching Up (37.1940.197) and Threatened Attack (37.1940.76), art.thewalters.org; Fur Traders and Rendezvous: The Alfred Jacob Miller Online Catalogue, entries Attrapez des Chevaux, Catching Up and Threatened Attack, and J. Hardee, “A Corpus Round as a Porpoise…”, alfredjacobmiller.com (accessed 21 Nov. 2026)",
     "note": "Point at the confluence of Horse Creek and the Green River (near Daniel, Wyoming).",
-    "type": "lieu"
+    "type": "lieu",
+    "oeuvres": [
+     {
+      "src": "images/miller/miller-catching-up.jpg",
+      "legende": "Catching Up, 1858-1860 (Walters)",
+      "article": "miller-catching-up"
+     },
+     {
+      "src": "images/miller/miller-attrapez-des-chevaux.jpg",
+      "legende": "Attrapez des Chevaux, c. 1855",
+      "article": "miller-attrapez"
+     },
+     {
+      "src": "images/miller/miller-threatened-attack-gilcrease.jpg",
+      "legende": "Threatened Attack (Gilcrease)",
+      "article": "miller-attaque"
+     }
+    ]
    }
   },
   {

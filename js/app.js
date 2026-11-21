@@ -284,7 +284,7 @@ function vignettes(liste, titre) {
     `<a href="salle-de-lecture.html#${echapper(d.article)}" target="_blank" rel="noopener" title="${echapper(d.legende)}"><img src="${echapper(d.src)}" alt="${echapper(d.legende)}" loading="lazy"><span>${echapper(d.legende)}</span></a>`).join('')}</div>`;
 }
 function presseFiche(p) {
-  return vignettes(p.registres, L('Dans les registres :', 'In the registers:')) + vignettes(p.presse, L('Dans les journaux :', 'In the newspapers:'));
+  return vignettes(p.registres, L('Dans les registres :', 'In the registers:')) + vignettes(p.presse, L('Dans les journaux :', 'In the newspapers:')) + vignettes(p.oeuvres, L('Dans les tableaux :', 'In the paintings:'));
 }
 function afficherFiche(p, geom) {
   const estTrajet = geom === 'LineString' || p.type === 'trajet';
