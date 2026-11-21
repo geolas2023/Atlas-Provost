@@ -22,7 +22,15 @@
     "description": "Étienne Provost is born in Chambly, on the Richelieu River, on December 21, 1785. He is the first child of Albert Provost's third marriage, to Marie-Anne Mainard (Ménard); Albert was a prosperous farmer and father of some fifteen children. The baptismal record, written the same day by the parish priest Ménard, names as godfather Étienne Frichet, who signs, and as godmother Thérèse Laroque, widow Mainard, who declares she cannot sign. His father, Albert, son of Gabriel Provost and Marie-Anne Bourassa, married three times at Chambly (Marie-Louise Paquet in 1770, eight children; Magdeleine Lebeau in 1783; Marie-Anne Mainard in 1785), so Étienne grows up among six older half-siblings and five younger brothers. Albert is buried at Chambly on March 5, 1796, aged 46: Étienne is ten, and he will never learn to read or write. Almost nothing is known of his youth; he is not yet twenty, writes Denis Vaugeois, when he chooses the fur trade and the Far West, with St. Louis as his base.",
     "sources": "Register of Saint-Joseph parish, Chambly, baptisms of 1785, f. 39, entry of December 21, 1785 (photograph at the Chambly presbytery, Etienne_Provost.jpg in the author's Drive) ; Vaugeois, Denis, “Provost, Québec - Provo, Salt Lake, Utah ? Des liens historiques et généalogiques”, Le Devoir, 16-17 February 2002 (clipping in the author's Drive, folder ETIENNE_PROVOST_AUDUBON); Bouchard, Serge and Marie-Christine Lévesque (2014), Ils ont couru l'Amérique. De remarquables oubliés, vol. 2, Montreal, Lux, ch. “Hommes des montagnes: Provost, Chalifoux, Robidoux” (epub in the author's Drive); Tykal, Jack B., “Provost, Etienne”, Utah History Encyclopedia, Salt Lake City, University of Utah Press, 1994 (copy in the author's Drive, t_000690.pdf; uen.org); “Étienne Provost et le Grand Lac Salé”, entry in the series De remarquables oubliés (Serge Bouchard), document in the author's Drive (etienne_provost.pdf) ; Drouin, Quebec, Canada, Vital and Church Records (Drouin Collection), 1621-1968, Saint-Joseph parish, Chambly (Ancestry, accessed November 20, 2026): marriages of 1770, 1783 and 1785, baptisms 1771-1792, burial of Albert Provost on March 5, 1796",
     "note": "Exact day from Vaugeois; Tykal and Hafen give only 1785. The Utah State Historical Society photo collection suggests 1782. Point at the Saint-Joseph church in Chambly. The full family, with each record, is in the Ancestry tree and in the “Family tree” tab of the reading room.",
-    "type": "lieu"
+    "type": "lieu",
+    "registres": [
+     {
+      "src": "images/parente/1785-12-21-chambly-bapteme-etienne-provost.jpg",
+      "legende": "Baptism of Étienne, son of Albert Provost and Marie-Anne Mainard, Chambly, December 21, 1785 (right-hand page, bottom); godfather Étienne Frichet, godmother Thérèse Laroque, widow Mainard; signed Mennard, parish priest",
+      "article": "parente",
+      "type": "registre"
+     }
+    ]
    }
   },
   {
