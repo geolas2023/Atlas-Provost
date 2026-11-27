@@ -460,7 +460,7 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
 
   <h3 id="rdv-carte">Les seize rendez-vous sur la carte</h3>
   <div id="carte-rdv" class="carte-tab" style="height:520px" role="img" aria-label="Carte des rendez-vous des Rocheuses, 1825-1840"></div>
-  <p class="legende-carte"><span><i style="background:#9a3322"></i>Provost présent (attesté)</span><span><i style="background:#c8903e"></i>présence probable ou possible</span><span><i style="background:#eff0e4;border:2px solid #6b5a3e"></i>pas de trace de Provost</span><span><i style="background:#4f7a4a"></i>route des caravanes et repères</span> Emplacements d'après Gowans (1975) et les plaques historiques ; précision de l'ordre du kilomètre. Cinq rendez-vous (1835, 1836, 1837, 1839, 1840) et celui de 1833 se sont tenus au même endroit, au confluent de la Horse Creek et de la Green River ; un seul repère les regroupe.</p>
+  <p class="legende-carte"><span><i style="background:#9a3322"></i>Provost présent (attesté)</span><span><i style="background:#c8903e"></i>présence probable ou possible</span><span><i style="background:#eff0e4;border:2px solid #6b5a3e"></i>pas de trace de Provost</span><span><i style="background:#4f7a4a"></i>route des caravanes et repères</span> La carte s'ouvre sur les Rocheuses ; dézoomez pour voir la route depuis Saint-Louis. Emplacements d'après Gowans (1975) et les plaques historiques ; précision de l'ordre du kilomètre. Cinq rendez-vous (1835, 1836, 1837, 1839, 1840) et celui de 1833 se sont tenus au même endroit, au confluent de la Horse Creek et de la Green River ; un seul repère les regroupe.</p>
   <table class="chrono">
    <tr><th>Année</th><th>Lieu (aujourd'hui)</th><th>Faits marquants</th><th>Provost</th></tr>
    <tr><td>1825</td><td>Henry's Fork de la Green River, entre les ruisseaux Birch et Burnt Fork, près de McKinnon (Wyoming)</td><td>Premier rendez-vous. Le 1er juillet, environ 120 hommes sont réunis en deux camps, dont 29 transfuges de la Compagnie de la Baie d'Hudson (Ashley). Ashley avait fixé la date limite au 10 juillet.</td><td><b>Présent.</b> Il rencontre Ashley le 7 juin dans le bassin de l'Uinta, va chercher ses marchandises cachées sur la Green River et le guide vers le lieu du rendez-vous.</td></tr>
@@ -1786,11 +1786,11 @@ function initCarteJx() {
 // p : 'oui' (Provost attesté), 'prob' (probable/possible), 'non'
 const RDV = [
   { a: '1825', c: [-109.93, 41.02], n: 'Henry\'s Fork (McKinnon)', p: 'oui', t: "Premier rendez-vous, début juillet 1825 : environ 120 hommes réunis le 1er juillet. Provost guide Ashley jusqu'ici." },
-  { a: '1826', c: [-111.84, 41.75], n: 'Cache Valley (Willow Valley)', p: 'prob', t: "Ashley vend à Smith, Jackson et Sublette. Provost y est selon Beckwourth ; Hafen hésite." },
+  { a: '1826', g: 1, c: [-111.84, 41.75], n: 'Cache Valley (Willow Valley)', p: 'prob', t: "Ashley vend à Smith, Jackson et Sublette. Provost y est selon Beckwourth ; Hafen hésite." },
   { a: '1827 · 1828', c: [-111.33, 41.83], n: 'Lac de l\'Ours (Sweet Lake), Laketown', p: 'non', t: "Deux rendez-vous de Smith, Jackson et Sublette ; combats avec les Pieds-Noirs." },
-  { a: '1829', c: [-108.73, 42.83], n: 'Popo Agie (Lander)', p: 'non', t: "Premier rendez-vous à l'est de la ligne de partage des eaux ; second rassemblement en août à Pierre's Hole." },
+  { a: '1829', g: 1, c: [-108.73, 42.83], n: 'Popo Agie (Lander)', p: 'non', t: "Premier rendez-vous à l'est de la ligne de partage des eaux ; second rassemblement en août à Pierre's Hole." },
   { a: '1830 · 1838', c: [-108.36, 43.0], n: 'Wind River et Popo Agie (Riverton)', p: 'prob', t: "1830 : premiers chariots ; création de la Rocky Mountain Fur Company. 1838 : lieu déplacé ici depuis la Green River par un avis affiché ; présence de Provost incertaine." },
-  { a: '1831', c: [-111.85, 41.88], n: 'Cache Valley : pas de rendez-vous', p: 'non', t: "L'express de Fitzpatrick revient trop tard : les trappeurs attendent en vain." },
+  { a: '1831', g: 1, c: [-111.85, 41.88], n: 'Cache Valley : pas de rendez-vous', p: 'non', t: "L'express de Fitzpatrick revient trop tard : les trappeurs attendent en vain." },
   { a: '1832', c: [-111.11, 43.72], n: 'Pierre\'s Hole (Driggs)', p: 'non', t: "Grand rendez-vous, puis bataille contre les Gros-Ventres le 18 juillet (Antoine Godin)." },
   { a: '1833 · 1835-1837 · 1839-1840', c: [-110.07, 42.87], n: 'Horse Creek et Green River (Daniel)', p: 'oui', t: "Six rendez-vous au même confluent, près du fort Bonneville. Provost y est en 1833 (avec Fontenelle) et en 1837 (sous-chef, peint par Miller), probablement en 1836." },
   { a: '1834', c: [-110.0, 41.65], n: 'Ham\'s Fork (Granger)', p: 'oui', t: "Environ 600 hommes ; Provost mène la troupe de l'American Fur Company (Anderson, Missouri Republican)." }
@@ -1811,7 +1811,7 @@ const ROUTE_RDV = [[-94.415, 39.091], [-96.7, 40.3], [-98.9, 40.68], [-100.77, 4
 let carteRdv = null;
 function initCarteRdv() {
   if (carteRdv || typeof maplibregl === 'undefined') return;
-  const B = [[-113.5, 37.8], [-89.5, 48.6]];
+  const B = [[-113.6, 40.2], [-103.2, 44.7]];
   carteRdv = new maplibregl.Map({ container: 'carte-rdv', style: 'https://tiles.openfreemap.org/styles/positron', bounds: B, fitBoundsOptions: { padding: 30 }, attributionControl: { compact: true } });
   carteRdv.addControl(new maplibregl.NavigationControl({ showCompass: false }));
   carteRdv.on('load', () => {
@@ -1827,8 +1827,9 @@ function initCarteRdv() {
     RDV.forEach(e => {
       const el = document.createElement('div');
       el.style.cssText = `display:flex;align-items:center;gap:4px;cursor:pointer;font:12px Georgia,serif;color:#3a2a14;white-space:nowrap`;
-      el.innerHTML = `<span style="width:14px;height:14px;border-radius:50%;border:2px solid ${e.p === 'non' ? '#6b5a3e' : K[e.p]};background:${K[e.p]};box-shadow:0 0 0 2px #fbfcf7;display:inline-block"></span><span style="background:rgba(251,252,247,.85);padding:0 3px">${e.a}</span>`;
-      new maplibregl.Marker({ element: el, anchor: 'left' }).setLngLat(e.c).setPopup(new maplibregl.Popup({ offset: 10 }).setHTML(`<b>${e.a} · ${e.n}</b><br>${e.t}`)).addTo(carteRdv);
+      const pt = `<span style="width:14px;height:14px;border-radius:50%;border:2px solid ${e.p === 'non' ? '#6b5a3e' : K[e.p]};background:${K[e.p]};box-shadow:0 0 0 2px #fbfcf7;display:inline-block"></span>`, lb = `<span style="background:rgba(251,252,247,.85);padding:0 3px">${e.a}</span>`;
+      el.innerHTML = e.g ? lb + pt : pt + lb;
+      new maplibregl.Marker({ element: el, anchor: e.g ? 'right' : 'left' }).setLngLat(e.c).setPopup(new maplibregl.Popup({ offset: 10 }).setHTML(`<b>${e.a} · ${e.n}</b><br>${e.t}`)).addTo(carteRdv);
     });
   });
 }
