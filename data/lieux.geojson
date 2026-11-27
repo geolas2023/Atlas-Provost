@@ -2199,13 +2199,13 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.366,
-     45.4149
+     -73.363,
+     45.4133
     ]
    },
    "properties": {
     "id": "L74",
-    "nom": "Baronnie de Longueuil, sur la Petite rivière de Montréal : la ferme d'Albert Provost, où grandit Étienne (avant 1783-1796)",
+    "nom": "Carignan, chemin Salaberry : maison natale d'Étienne Provost (emplacement probable), sur la terre concédée à Gabriel Provost en 1745",
     "debut": 1783.5342,
     "fin": 1783.5342,
     "date_edtf": "1783-07-15",
@@ -2214,7 +2214,7 @@
     "categorie": "famille",
     "description": "L'inventaire dressé le 15 juillet 1783 par le notaire Antoine Grisé, après la mort de Marie-Louise Paquet, décrit la ferme d'Albert Provost, père d'Étienne : « une terre de trois arpents de front sur quarante-six [lecture à confirmer] de profondeur, sise en la baronnie de Longueuil, sur la petite rivière de Montréal, bâtie d'une maison de pièce sur pièce de trente pieds sur vingt-huit, bien logeable, avec deux granges aussi bien logeables et en état, avec une écurie de quinze pieds sur onze ». La Petite rivière de Montréal est l'actuelle rivière L'Acadie, qui se jette dans le bassin de Chambly. Albert y élève les enfants de son premier mariage (Élisabeth, Joseph, Charles, Pierre, François), avec deux chevaux, deux juments et leurs poulains, dix-sept cochons et des poules. C'est là, selon toute vraisemblance, que naît Étienne en décembre 1785, du troisième mariage d'Albert avec Marie-Anne Mainard ; la famille fait baptiser ses enfants à Chambly, dont la ferme relève alors pour le culte.",
     "sources": "Inventaire des biens de la communauté d'Albert Provost et de Marie-Louise Paquet, 15 juillet 1783, greffe d'Antoine Grisé dit Villefranche, acte no 2493, BAnQ CN601,S189, microfilm FamilySearch 1420479 (DGS 008326749), images 2702-2712 ; concession no 2036 du 15 juin 1781 (Albert « demeurant à Chambly ») ; Bouchette, Joseph (1815), Topographical Map of the Province of Lower Canada, David Rumsey Map Collection",
-    "note": "Terre de la famille Provost, concédée le 5 octobre 1745 par la baronne de Longueuil à Gabriel Provost, grand-père d'Étienne (notaire Gervais Hodiesne), selon la déclaration de la veuve de Julien Provost au papier-terrier de la baronnie (vers 1847) : 3 arpents 2 pieds de front sur 29 à 31 arpents, 91 arpents, sur la Petite rivière de Montréal, « avec une maison, grange et autres bâtisses ». C'est le no 1374 du cadastre abrégé de 1861 (« Veuve Julien Provost »), les lots 190-191 du plan de 1868, et aujourd'hui les lots 2 601 544, 2 601 646 et 2 601 647, à Carignan ; le point marque le devant de la terre au chemin Salaberry. Albert y vivait en 1783 (maison de pièce sur pièce de 30 × 28 pieds) ; Étienne y est très probablement né en 1785. Voisins : les Paquet (famille de Marie-Louise Paquet), les Quintin, et à quelques terres les Lamoureux (sentence arbitrale de 1794) ; Moïse Lamoureux, futur patron d'Aubry à Saint-Louis, a grandi sur la terre no 1381, environ 900 m au sud-ouest (atlas Aubry). Voir l'onglet « Chambly » de la salle de lecture.",
+    "note": "Terre de la famille Provost, concédée le 5 octobre 1745 par la baronne de Longueuil à Gabriel Provost, grand-père d'Étienne (notaire Gervais Hodiesne), selon la déclaration de la veuve de Julien Provost au papier-terrier de la baronnie (vers 1847) : 3 arpents 2 pieds de front sur 29 à 31 arpents, 91 arpents, sur la Petite rivière de Montréal, « avec une maison, grange et autres bâtisses ». C'est le no 1374 du cadastre abrégé de 1861 (« Veuve Julien Provost »), les lots 190-191 du plan de 1868, et aujourd'hui les lots 2 601 544, 2 601 646 et 2 601 647, à Carignan ; Albert y vivait en 1783 (maison de pièce sur pièce de 30 × 28 pieds) ; Étienne y est très probablement né en 1785. Voisins : les Paquet (famille de Marie-Louise Paquet), les Quintin, et à quelques terres les Lamoureux (sentence arbitrale de 1794) ; Moïse Lamoureux, futur patron d'Aubry à Saint-Louis, a grandi sur la terre no 1381, environ 900 m au sud-ouest (atlas Aubry). Voir l'onglet « Chambly » de la salle de lecture. Emplacement de la maison : au devant de la terre, entre la rivière L'Acadie (vers 45,4155 N, 73,3677 O) et le chemin Salaberry (vers 45,4129 N, 73,3628 O), sur le lot actuel 2 601 544 ; le point est placé au chemin Salaberry. L'emplacement exact de la maison sur ce devant n'est pas connu.",
     "type": "lieu",
     "registres": [
      {
