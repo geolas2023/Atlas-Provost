@@ -39,6 +39,12 @@ p, li { line-height: 1.65; font-size: 1.04rem; }
 .carte-salle:hover { background: var(--parchemin); }
 .carte-salle b { font-family: 'IM Fell English SC', Georgia, serif; font-weight: normal; font-size: 1.25rem; display: block; color: var(--bois); }
 .carte-salle span { font-size: .9rem; color: var(--encre-pale); }
+.cmp { position: relative; overflow: hidden; height: 520px !important; }
+.cmp-carte { position: absolute; inset: 0; }
+.cmp-poignee { position: absolute; top: 0; bottom: 0; left: 50%; width: 4px; margin-left: -2px; background: #fbfcf7; box-shadow: 0 0 0 1px #6b5a3e; cursor: ew-resize; z-index: 5; touch-action: none; }
+.cmp-poignee span { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #fbfcf7; border: 1px solid #6b5a3e; border-radius: 14px; padding: 3px 7px; font-size: .7rem; color: #4a3b22; white-space: nowrap; }
+.cmp-etiq { position: absolute; top: 8px; z-index: 4; background: rgba(251,252,247,.88); border: 1px solid #b9a77f; padding: 2px 8px; font: .78rem Georgia, serif; pointer-events: none; }
+.cmp-g { left: 8px; } .cmp-d { right: 50px; }
 .carte-tab { height: 440px; border: 1px solid var(--sepia); background: var(--parchemin); margin: .4rem 0 .6rem; }
 .note { font-size: .9rem; background: var(--parchemin); border-left: 3px solid var(--orange); padding: .5rem .8rem; }
 .legende-carte span { display: inline-flex; align-items: center; gap: .3rem; margin-right: 1rem; }
@@ -1240,8 +1246,14 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
   </div>
 
   <h3>Où était la terre de la famille ?</h3>
-  <div id="carte-chambly" class="carte-tab" role="img" aria-label="Carte de Chambly, de la rivière L'Acadie et de la Petite-Cadie"></div>
-  <p class="date">Carte : en rouge, l'église Saint-Joseph de Chambly (baptême d'Étienne) ; en bleu, la rivière L'Acadie (Petite rivière de Montréal) entre le Village du Bassin et la limite de Saint-Luc ; en vert, la bande des concessions de la côte sud-est et de la côte nord-ouest de la Petite rivière Montréal, telle que la montre le cadastre de 1868, avec le découpage schématique des lots de trois arpents de front (175 m) sur trente de profondeur (1,75 km) de part et d'autre de la rivière : la ferme d'Albert Provost est l'un de ces lots ; en orange, la Petite-Cadie, autour de l'église de L'Acadie, où se trouvaient les deux terres de 1781. Fond © OpenFreeMap, OpenStreetMap.</p>
+  <div id="cmp-chambly" class="carte-tab cmp" role="img" aria-label="Comparaison : plan cadastral de 1868 géoréférencé et vue satellite actuelle, Chambly et Carignan">
+   <div id="carte-chambly" class="cmp-carte"></div>
+   <div id="carte-chambly-sat" class="cmp-carte"></div>
+   <div class="cmp-poignee" tabindex="0" role="slider" aria-label="Déplacer la séparation entre le plan de 1868 et la vue satellite" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><span>◀ ▶</span></div>
+   <div class="cmp-etiq cmp-g">Plan de 1868</div><div class="cmp-etiq cmp-d">Aujourd'hui</div>
+  </div>
+  <p class="date" style="margin-top:-.2rem"><label>Opacité du plan de 1868 <input type="range" id="op-1868" min="0" max="100" value="85" style="vertical-align:middle;width:140px"></label> · Glissez la poignée pour comparer le plan et la vue satellite.</p>
+  <p class="date">Carte : à gauche, le plan officiel de la paroisse de Chambly (Beaubien, 1868), géoréférencé ; à droite, la vue satellite actuelle (Esri). En vert, la terre no 1374 de la « Veuve Julien Provost » (cadastre abrégé de 1861), la terre concédée à Gabriel Provost en 1745, ferme d'Albert et lieu de naissance probable d'Étienne ; en violet, la terre no 1381 d'Alexis Lamoureux, où a grandi Moïse Lamoureux (bandes schématiques, d'après les mesures de 1861). Repères : en rouge, l'église Saint-Joseph (baptême d'Étienne) ; en orange, la Petite-Cadie, autour de l'église de L'Acadie, où se trouvaient les deux terres de 1781 (plus au sud, hors du plan). Fond © OpenFreeMap, OpenStreetMap ; imagerie © Esri, Maxar ; plan BAnQ E21,S555,SS3,SSS1,P120.</p>
   <p>Les actes répondent maintenant à la question, à l'échelle du rang :</p>
   <ul>
    <li><b>La ferme familiale</b>, où Albert vit avec Marie-Louise Paquet, puis avec Marie-Anne Mainard, et où naît sans doute Étienne en décembre 1785 : une terre de trois arpents de front (environ 175 m) donnant sur la <b>Petite rivière de Montréal</b>, l'actuelle rivière L'Acadie, dans la <b>baronnie de Longueuil</b>, avec une maison de bois de 30 pieds sur 28, deux granges et une écurie. L'acte de 1781 dit Albert « demeurant à Chambly » : la ferme est donc dans la partie de la baronnie qui touche Chambly, le long de la rivière, entre le bassin de Chambly et Carignan (les chemins Bellerive et de Salaberry).</li>
@@ -1251,7 +1263,7 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
    <div><figure><a href="images/chambly/1815-bouchette-chambly-longueuil-petite-riviere.jpg" target="_blank" rel="noopener"><img src="images/chambly/1815-bouchette-chambly-longueuil-petite-riviere.jpg" alt="Joseph Bouchette, carte topographique du Bas-Canada, 1815 (détail) : la baronnie de Longueuil, le bassin de Chambly et la Petite rivière de Montréal, avec ses rangs de concessions en lanières. David Rumsey Map Collection." loading="lazy"></a><figcaption>Joseph Bouchette, carte topographique du Bas-Canada, 1815 (détail) : la baronnie de Longueuil, le bassin de Chambly et la Petite rivière de Montréal, avec ses rangs de concessions en lanières. David Rumsey Map Collection.</figcaption></figure></div>
    <div><figure><a href="images/chambly/1815-bouchette-lacadie-riviere-montreal.jpg" target="_blank" rel="noopener"><img src="images/chambly/1815-bouchette-lacadie-riviere-montreal.jpg" alt="Même carte, plus au sud : « River Montreal » et l'église de « L'Acadie », au cœur de l'ancienne Petite-Cadie, dans la « Barony of Longueuil ». David Rumsey Map Collection." loading="lazy"></a><figcaption>Même carte, plus au sud : « River Montreal » et l'église de « L'Acadie », au cœur de l'ancienne Petite-Cadie, dans la « Barony of Longueuil ». David Rumsey Map Collection.</figcaption></figure></div>
   </div>
-  <p><b>Ce qui reste à préciser.</b> Le numéro de lot actuel. Il faudrait suivre la terre de main en main jusqu'au cadastre de la baronnie (vers 1857) : la succession d'Albert en 1796, puis les ventes de ses héritiers. Les noms des voisins, Dumas et Tremblay, et la mesure de trois arpents de front permettront de reconnaître la terre dans le terrier de la baronnie et dans le cadastre abrégé.</p>
+  <p><b>État de la question (26 novembre 2026).</b> La terre de la famille est retrouvée. Au papier-terrier de la baronnie de Longueuil (vers 1847), la veuve de Julien Provost déclare une terre de trois arpents deux pieds de front sur la Petite rivière de Montréal, « avec une maison, grange et autres bâtisses », dont le titre d'origine est une <b>concession de la baronne de Longueuil à Gabriel Provost, grand-père d'Étienne, le 5 octobre 1745</b>. C'est la même terre, aux mêmes mesures, que le no 1374 du cadastre abrégé de 1861. Elle correspond, sur le plan de 1868, aux lots 190 et 191, et aujourd'hui aux lots 2 601 544, 2 601 646 et 2 601 647 du cadastre du Québec, à Carignan, du chemin Salaberry jusqu'au-delà de l'autoroute 10. Les preuves sont plus bas (« Le papier-terrier » et « Le cadastre abrégé de 1861 »).</p>
 
   <h3>Le plan des lots : le cadastre de la paroisse de Chambly (1868)</h3>
   <div class="art-jx large"><div class="jx-figs">
@@ -1276,6 +1288,34 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
    </div>
   </div>
 
+  <h3 id="ch-terrier">Le papier-terrier de la baronnie (vers 1847) : la terre concédée à Gabriel Provost en 1745</h3>
+  <p>De 1841 à 1853, le notaire Isidore Hurteau dresse le papier-terrier de la baronnie de Longueuil : chaque censitaire vient déclarer devant lui ses terres, leurs bornes et ses titres. Ces déclarations sont microfilmées par FamilySearch (Montréal, actes de notaire, 7 mars 1842 - 6 mai 1853).</p>
+  <p><b>La déclaration de la veuve de Julien Provost</b> (images 1061-1063). Après la mort de Julien (testament reçu par le notaire B. Laroque le 6 décembre 1843), sa veuve, Josephte Fréchette, déclare d'abord « une terre située en ladite baronnie de Longueuil, en la paroisse de Chambly, de trois arpents et deux pieds de front sur trente et un arpents et huit perches dans la ligne nord-est et vingt-neuf arpents et quatre perches dans la ligne sud-ouest, formant quatre-vingt-onze arpents et quatre-vingt-dix-sept perches en superficie, tenant au bout nord-ouest à la petite rivière de Montréal, au bout sud-est à Jean Patenaude, d'un côté au nord-est à Alexis Guertin, d'autre côté au sud-ouest à veuve Euphrosine Quintin, en culture avec une maison, grange et autres bâtisses dessus érigées ». En marge : « 1er rang sud-est de la petite rivière », no 14. Elle déclare aussi une portion de terre de huit perches et demie sur trente arpents, plus loin, tenant au nord-ouest à Alexis Lamoureux et au nord-est à Antoine Marcil. Ses titres énumèrent le testament de Julien, les achats Fréchette de 1834 et 1835 et un échange avec Antoine Marcil et son épouse (1836).</p>
+  <p>Puis vient la phrase décisive : la veuve est censitaire « suivant contrat de concession par Madame la baronne de Longueuil à Gabriel Provost en date du cinq octobre mil sept cent quarante-cinq, [Gervais] Hodiesne, notaire, pour la terre susmentionnée en premier lieu » (la seconde portion vient d'une concession de M. Deschambault à Julien Piédalue, notaire Grisé). La rente seigneuriale de la terre est de deux minots et douze quarantièmes de blé froment et quatre livres quatorze sols ancien cours par an.</p>
+  <p><b>Ce que cela établit.</b> Les mesures (3 arpents 2 pieds, 29 à 31 arpents de profondeur, 91 arpents) sont exactement celles du no 1374 de 1861, et la voisine du sud-ouest, la veuve Euphrosine Quintin, est le no 1376. La terre où vivent Julien et sa veuve est donc la concession faite en 1745 à Gabriel Provost, le grand-père d'Étienne. Elle est passée de Gabriel à Albert, son fils, puis aux enfants d'Albert : en 1820, Julien rachète la part de son demi-frère Charles (actes Boileau 5208 et 5324). C'est la terre « de trois arpents de front sur la petite rivière de Montréal », avec sa maison de pièce sur pièce, décrite dans l'inventaire de 1783, et très probablement la maison où Étienne est né en 1785. (L'inventaire de 1783 donnait une profondeur lue « quarante-six » : la lecture est sans doute à corriger, la terre faisant environ trente arpents.)</p>
+  <p><b>Un voisin confirme.</b> Dans le même papier-terrier, David Patenaude déclare des terres au deuxième rang, au coteau du Trèfle, qui tiennent « au bout nord-ouest » à Julien Provost : elles sont juste derrière la terre Provost. Il possède aussi une étroite lanière de trois perches au premier rang, qui va de la rivière jusqu'à sa terre du deuxième rang, bornée « des deux côtés à la veuve Julien Provost » : un passage pris dans la terre Provost (image 1141).</p>
+
+  <h3 id="ch-1861">Le cadastre abrégé de 1861 : la veuve de Julien Provost et ses voisins</h3>
+  <div class="art-jx">
+   <figure style="max-width:900px"><a href="images/chambly/1861-cadastre-abrege-provost-lamoureux-sur-plan-1868.jpg" target="_blank" rel="noopener"><img src="images/chambly/1861-cadastre-abrege-provost-lamoureux-sur-plan-1868.jpg" alt="Plan de 1868 calé sur la carte actuelle, avec les terres Provost et Lamoureux du cadastre abrégé de 1861" loading="lazy"></a><figcaption>Le plan officiel de 1868 calé sur la carte actuelle (routes en orange, rivière L'Acadie en bleu, d'après OpenStreetMap). En rouge, les numéros du cadastre abrégé de 1861 : 1374, la veuve Julien Provost ; 1381, Alexis Lamoureux (la terre de la maison donnée par Pierre Lamoureux en 1824) ; 1392, Josephte Fréchette, veuve de Julien Provost ; 1357, Antoine Provost et Pierre Doré. Les bandes rouges sont schématiques (largeur et profondeur tirées du cadastre abrégé). Précision du calage : environ 50 à 100 m.</figcaption></figure>
+   <div><figure><a href="images/chambly/1861-cadastre-abrege-longueuil-p54-1368-1379.jpg" target="_blank" rel="noopener"><img src="images/chambly/1861-cadastre-abrege-longueuil-p54-1368-1379.jpg" alt="Cadastre abrégé de la baronnie de Longueuil, 1861, page 54 : nos 1368 à 1379" loading="lazy"></a><figcaption><i>Cadastre abrégé de la baronnie de Longueuil</i> (1861), p. 54 : « Paroisse de Chambly. Première Concession. Côté Sud-Est de la Petite Rivière Montréal ». No 1374, « Veuve Julien Provost », 3 arpents 2 pieds de front, 91 arpents ; puis les Paquet (1375, 1377) et Alexis Lamoureux (1378). Canadiana, oocihm.92386.</figcaption></figure>
+   <figure><a href="images/chambly/1861-cadastre-abrege-longueuil-p54-1379-1391.jpg" target="_blank" rel="noopener"><img src="images/chambly/1861-cadastre-abrege-longueuil-p54-1379-1391.jpg" alt="Cadastre abrégé, page 54, suite : nos 1379 à 1391" loading="lazy"></a><figcaption>Même page, suite : no 1381, « Alexis Lamoureux », 1 arpent 5 perches 9 pieds sur 56 arpents 5 perches, entre Jacques Paquet (1380) et Pierre Trudeau (1382) ; plus loin les Charron, les Toupin (Soupin) et Michel Lamoureux (1391).</figcaption></figure></div>
+  </div>
+  <p>Le <i>Cadastre abrégé de la seigneurie [baronnie] de Longueuil</i>, dressé en 1861 par le commissaire Henry Judah pour l'abolition du régime seigneurial, énumère tous les censitaires, terre par terre. Dans la section « Paroisse de Chambly, Première Concession, côté sud-est de la Petite rivière Montréal », trois inscriptions portent le nom Provost :</p>
+  <ul>
+   <li><b>No 1374, « Veuve Julien Provost »</b> : 3 arpents 2 pieds de front sur 29 à 31 arpents, 91 arpents en superficie. C'est la mesure de la ferme d'Albert en 1783 (trois arpents de front sur la Petite rivière de Montréal). Julien, frère d'Étienne, avait acheté en 1820 la part d'héritage de son demi-frère Charles (actes Boileau 5208 et 5324) : sa veuve détient donc très probablement la terre paternelle. Ses voisins sont Joseph Gélineau et les Marcil d'un côté, Jacques Paquet fils, la veuve Quintin et Jacques Paquet père de l'autre.</li>
+   <li><b>No 1392, Josephte Fréchette, veuve de Julien Provost</b>, dans la deuxième concession : c'est la terre Fréchette que Julien rachète en 1834-1835, décrite alors comme située « à l'arrière de la terre de Jacques Paquet et Larivière ». Sur le plan, elle tombe juste derrière les terres 1374-1377.</li>
+   <li><b>No 1357, « Antoine Provost et Pierre Doré »</b> : 145 arpents, environ 1,5 km plus bas vers Chambly. Antoine est sans doute le frère d'Étienne (né en 1790) ou un neveu.</li>
+  </ul>
+  <p><b>Comment la terre a été placée.</b> Les numéros du cadastre abrégé sont reportés à la main, dans des cercles, sur le plan officiel de 1868 : le cercle 1374 se trouve près des lots 190 et 191 du nouveau cadastre. Le plan a été géoréférencé (transformation affine sur points de calage, en Web Mercator) ; un premier calage indépendant, ajusté sur le tracé de la rivière L'Acadie et vérifié sur le chemin du Coteau-de-Trèfle, le chemin de la Grande-Ligne et la limite de Saint-Luc, donne les mêmes emplacements à environ 100 m près. La carte interactive plus haut superpose ce plan géoréférencé à la vue satellite. La terre 1374 part de la rivière et du chemin Salaberry (son devant, au chemin, est vers 45,4149 N, 73,3660 O, lots actuels 2 601 546 et 2 601 544, au nord du 4913, chemin Salaberry), et file vers le sud-est en traversant le chemin Brunelle et l'autoroute 10, à Carignan. Lots actuels : 2 601 544 (devant), 2 601 646 (milieu), 2 601 647 (fond).</p>
+  <figure style="max-width:620px"><a href="images/chambly/1868-plan-et-cadastre-actuel-terres-1374-1381.jpg" target="_blank" rel="noopener"><img src="images/chambly/1868-plan-et-cadastre-actuel-terres-1374-1381.jpg" alt="Lignes du cadastre actuel du Québec, en rouge, superposées au plan de 1868 géoréférencé, autour des terres 1374 à 1391" loading="lazy"></a><figcaption>Le cadastre actuel du Québec (lignes rouges) reporté sur le plan de 1868 géoréférencé, autour des cercles 1374 à 1391. Les limites de lots d'aujourd'hui suivent encore les lanières de 1868 : la division des terres n'a presque pas bougé depuis le régime seigneurial. Cadastre allégé, gouvernement du Québec.</figcaption></figure>
+  <p><b>Un témoin bâti : la maison Joseph-Trudeau.</b> L'inventaire du patrimoine bâti de la MRC de La Vallée-du-Richelieu (2025) retient au 4976, chemin Salaberry (lot 2 601 585), la « maison Joseph-Trudeau / maison Henri-Bisaillon », datée de 1803, avec un ensemble de bâtiments agricoles, la ferme Trudeau. Placée sur le plan géoréférencé, cette maison tombe au devant du lot 185 de 1868, c'est-à-dire de la terre no 1379 de Joseph Trudeau au cadastre abrégé de 1861, à une quinzaine de mètres près. Ce témoin indépendant confirme le calage du plan à cet endroit. Il donne aussi une image concrète du voisinage : c'est la maison des Trudeau, voisins des Lamoureux dès le papier-terrier, debout à environ 550 m au sud de la terre Provost 1374 et à 350 m au nord de la terre 1381 où a grandi Moïse Lamoureux.</p>
+  <p><b>Les voisins confirment l'emplacement.</b> La première femme d'Albert, Marie-Louise Paquet, était de la famille des Paquet qui bordent la terre 1374. En 1794, une sentence arbitrale oppose Albert à Michel Lamoureux : or les Lamoureux sont à quatre et sept terres de là (1378, 1381, 1391). Et la terre Fréchette de Julien est bien « à l'arrière » des Paquet.</p>
+  <div class="note-encadre" style="border-left:4px solid #3f7d4a;padding:.6em 1em;background:#f3f6ee;margin:1em 0">
+   <p><b>Correction : la maison de Moïse Lamoureux.</b> L'atlas Aubry avait placé la maison natale de Moïse Lamoureux (né en 1816, futur marchand à Saint-Louis) au 4090, chemin Salaberry. Le raisonnement était le suivant : le papier-terrier de la baronnie (vers 1847) numérote les terres de cette côte, et le lot no 8, celui d'Alexis Lamoureux, est la terre « de la maison » que Pierre Lamoureux, père de Moïse, donne à Alexis en 1824 (1 arpent 5 perches sur 56½ arpents, entre Jacques Paquette et Pierre Trudeau). Comme la numérotation de départ du terrier n'était pas connue, l'atlas s'était appuyé sur l'inventaire du patrimoine bâti de la MRC (fiche 148), selon lequel la maison du 4090 a été « érigée par la famille Lamoureux ».</p>
+   <p>Le cadastre abrégé de 1861 règle la question : le no 1381, « Alexis Lamoureux », mesure exactement 1 arpent 5 perches 9 pieds sur 56 arpents 5 perches, entre Jacques Paquet (1380) et Pierre Trudeau (1382). C'est le lot 8 du terrier et la terre de 1824. Son cercle est au lot 183 du plan de 1868, près de la limite de Saint-Luc, à environ 700 m au sud-ouest de la terre Provost 1374 (son devant, au chemin Salaberry, est vers 45,4059 N, 73,3667 O, entre le 5070 et le 5136, chemin Salaberry, au sud du chemin Brunelle ; la terre elle-même correspond au lot actuel 2 601 642). Le 4090, chemin Salaberry, est bien une terre Lamoureux, mais une autre : celle d'Alexis et de Julien Lamoureux (nos 1352 et 1353), environ 3 km plus au nord. Moïse a donc grandi à quelques terres de la ferme des Provost, ce qui éclaire la sentence de 1794 entre Michel Lamoureux, son grand-père, et Albert Provost.</p>
+  </div>
+
   <h3>Après la mort d'Albert (1796)</h3>
   <p>Albert meurt l'hiver 1796, laissant une veuve et quatre jeunes enfants, dont Étienne, dix ans. La terre passe aux héritiers ; les frères Toussaint (marié en 1806) et Julien (marié en 1813) restent au pays. Étienne, lui, part très jeune vers l'Ouest : selon Denis Vaugeois, il n'a pas vingt ans quand il choisit la traite des fourrures. On le retrouve vers 1814 à Saint-Louis, dans l'expédition de Joseph Philibert vers le haut Arkansas (fiches <a href="index.html#lieu=L03">L03</a> et <a href="index.html#lieu=L04">L04</a>). Il ne reviendra pas : en 1850, sa succession ne mentionne aucun bien au Canada.</p>
 
@@ -1283,7 +1323,10 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
   <ul>
    <li><b>La vente de 1790 et la sentence arbitrale de 1794</b>, dans le greffe de Jean-Baptiste Grisé (FamilySearch), qui nommeront d'autres voisins et peut-être la côte.</li>
    <li><b>L'inventaire après décès d'Albert</b> (1796 ou 1797), sans doute chez Jean-Baptiste Grisé, qui décrirait la terre au moment de la mort du père d'Étienne.</li>
-   <li><b>Les terriers et aveux de la baronnie de Longueuil</b> (fonds seigneuriaux, BAnQ et Archives de Montréal) et le <b>cadastre abrégé</b> de la baronnie (vers 1857), qui donnent les numéros de lots et les propriétaires ; un descendant Provost pourrait y figurer.</li>
+   <li><b>Fait (26 nov. 2026) : le cadastre abrégé de 1861</b> (no 1374) et <b>la déclaration de la veuve de Julien Provost au papier-terrier Hurteau</b>, qui donne la concession à Gabriel Provost du 5 octobre 1745. <b>Reste :</b> l'acte de concession de 1745 dans le greffe du notaire Gervais Hodiesne (BAnQ, CN601,S199), et la succession d'Albert (1796).</li>
+   <li><b>Les actes Boileau 5208 et 5324 (1820)</b> : le répertoire du greffe est numérisé sur BAnQ numérique (volume 1819-1820) ; les minutes manquent au microfilm et sont à demander à BAnQ Vieux-Montréal.</li>
+   <li><b>La chaîne des titres</b> du lot 1868 (vers 190-191) au Registre foncier du Québec (index des immeubles de la paroisse de Chambly), puis jusqu'au lot actuel 2 601 646 ; Infolot montre aussi les anciens plans.</li>
+   <li><b>Le livre de renvoi de 1877</b> du cadastre de la paroisse de Chambly (BAnQ Vieux-Montréal, CA601,S171,SS2,SSS2 ; consultation sur place), qui donne le propriétaire de chaque lot de 1868.</li>
    <li><b>La Société d'histoire de la seigneurie de Chambly</b>, dont les collections cartographiques (fonds P072) et de référence (P096) couvrent les côtes de Chambly et du Haut de la rivière.</li>
   </ul>
 
@@ -1296,6 +1339,10 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
    <li>Beaubien, J.-O. (1868, copie de 1911), <i>Plan officiel de la paroisse de Saint-Joseph de Chambly, comté de Chambly</i>, BAnQ E21,S555,SS3,SSS1,P120 (BAnQ numérique, notice 3142856).</li>
    <li>Répertoire de René Boileau, actes no 5208 (9 mars 1820, vente) et no 5324 (11 juillet 1820, quittance), Charles Provost et Julien Provost, via Ancestry ; greffe Boileau, FamilySearch, film 1556902 (DGS 008877117), où les deux actes manquent.</li>
    <li>Greffe d'Antoine-Eusèbe Bardy, acte no 1296 (15 septembre 1834), FamilySearch, film 1487592 (DGS 008866259), images 1141-1144 ; greffe de Pierre Lanctôt, acte no 6207 (10 octobre 1835), FamilySearch, film 1464943 (DGS 008327286), images 1723-1725. Consultés le 20 novembre 2026.</li>
+   <li>Papier-terrier de la baronnie de Longueuil, déclarations reçues par Isidore Hurteau et son confrère : veuve de Julien Provost (FamilySearch, Montréal, actes de notaire, 7 mars 1842 - 6 mai 1853, images 1061-1063, ark 3:1:3QHV-R32G-ZN65, 3QHV-R32G-ZN2L) ; David Patenaude (image 1141, ark 3:1:3QHV-R32G-ZFB8). Consultés le 26 novembre 2026.</li>
+   <li><i>Cadastre abrégé de la seigneurie de la baronnie de Longueuil</i>, no 80, Henry Judah, commissaire, 24 janvier 1861, p. 53-54 (nos 1341-1391), Canadiana, oocihm.92386, consulté le 26 novembre 2026.</li>
+   <li>Gouvernement du Québec, service cartographique « Cadastre allégé » (lots 2 601 544, 2 601 642, 2 601 646, 2 601 647) ; OpenStreetMap, tracé de la rivière L'Acadie et des chemins, pour le calage du plan de 1868.</li>
+   <li>MRC de La Vallée-du-Richelieu, <i>Inventaire du patrimoine bâti</i> (2025), Carignan, fiche 148 (4090, chemin Salaberry).</li>
    <li>Paroisse Saint-Joseph-de-Chambly, « Histoire » (psjdc.org) ; Wikipédia, « Église Saint-Joseph de Chambly ».</li>
    <li>Bouchette, Joseph (1815), <i>Topographical Map of the Province of Lower Canada</i>, assemblage occidental, David Rumsey Map Collection (notice 350026).</li>
    <li>Musée du Haut-Richelieu, <i>Le Vieux-L'Acadie</i> (brochure, 2023) : la Petite-Cadie et les Acadiens de 1768.</li>
@@ -1353,30 +1400,62 @@ const JX = [
   { nom: 'Saint-Louis : Mary Rose Pillsbury', c: [-90.2585, 38.5845], f: 's', a: 'jx-1913', approx: true, txt: "1913 : mort de la fille de Provost." }
 ];
 const COUL = { s: '#9a3322', o: '#c8903e', p: '#4f7a4a' };
-let carteCh = null;
+let carteCh = null, carteSat = null;
+const COINS_1868 = [[-73.118226, 45.464925], [-73.287965, 45.34272], [-73.431615, 45.439035], [-73.261876, 45.561033]];
+const REPERES_CH = [
+  [[-73.29192,45.45152],'#a23b2a','Église Saint-Joseph de Chambly','164, rue Martel. L’église actuelle (1881) repose sur les fondations de l’église de pierre de 1757, où Étienne fut baptisé le 21 décembre 1785.'],
+  [[-73.2765,45.4497],'#2f5d62','Fort Chambly','Fort de pierre (1709-1711), pris par les Américains en 1775.'],
+  [[-73.3660, 45.4149],'#3f7d4a','La terre des Provost (concédée à Gabriel Provost en 1745)','Terre de 3 arpents 2 pieds concédée le 5 octobre 1745 à Gabriel Provost, grand-père d’Étienne (papier-terrier, déclaration de la veuve de Julien Provost, vers 1847) ; no 1374 du cadastre abrégé de 1861 ; lots 190-191 en 1868. Inventaire de 1783 : maison de pièce sur pièce de 30 × 28 pieds, deux granges, écurie.'],
+  [[-73.3667, 45.4059],'#7a4f9e','Terre d’Alexis Lamoureux (no 1381) : maison de Moïse Lamoureux','Terre de la maison donnée en 1824 par Pierre Lamoureux à son fils Alexis (1 arp. 5 perches × 56½). Moïse, né en 1816, y a grandi. Lot 183 en 1868.'],
+  [[-73.3664, 45.4095],'#8a6d3b','Maison Joseph-Trudeau (4976, chemin Salaberry)','Maison datée de 1803 par l’inventaire du patrimoine bâti de la MRC (lot 2 601 585). Elle tombe au devant du lot 185 de 1868, la terre no 1379 de Joseph Trudeau en 1861 : voisin des Provost et des Lamoureux.'],
+  [[-73.345971, 45.395862],'#3f7d4a','Terre Fréchette (no 1392)','Josephte Fréchette, veuve de Julien Provost : la terre de deuxième rang rachetée par Julien en 1834-1835.'],
+  [[-73.351561, 45.423205],'#3f7d4a','Antoine Provost et Pierre Doré (no 1357)','Terre de 145 arpents au cadastre abrégé de 1861.'],
+  [[-73.3530,45.3000],'#c0702a','La Petite-Cadie (L’Acadie)','Les deux terres concédées le 15 juin 1781 (3 × 30 arpents chacune), voisines d’Étienne Dumas et de Joseph Tremblay, encore en bois debout en 1783.']
+];
+function couchesCh(m, plan) {
+  if (plan) {
+    m.addSource('plan1868', { type: 'image', url: 'images/chambly/1868-plan-officiel-chambly-georef.jpg', coordinates: COINS_1868 });
+    m.addLayer({ id: 'plan1868', type: 'raster', source: 'plan1868', paint: { 'raster-opacity': 0.85, 'raster-fade-duration': 0 } });
+  }
+  m.addSource('cadie', { type: 'geojson', data: { type: 'Feature', geometry: { type: 'Polygon', coordinates: [[[-73.335,45.330],[-73.360,45.330],[-73.372,45.285],[-73.350,45.275],[-73.335,45.330]]] } } });
+  m.addLayer({ id: 'cadie-f', type: 'fill', source: 'cadie', paint: { 'fill-color': '#c0702a', 'fill-opacity': 0.25 } });
+  m.addLayer({ id: 'cadie-l', type: 'line', source: 'cadie', paint: { 'line-color': '#c0702a', 'line-width': 2, 'line-dasharray': [2, 2] } });
+  m.addSource('c1861', { type: 'geojson', data: 'data/chambly-1861.geojson' });
+  m.addLayer({ id: 'c1861-f', type: 'fill', source: 'c1861', paint: { 'fill-color': ['get', 'k'], 'fill-opacity': plan ? 0.3 : 0.25 } });
+  m.addLayer({ id: 'c1861-l', type: 'line', source: 'c1861', paint: { 'line-color': plan ? ['get', 'k'] : '#fbfcf7', 'line-width': 2 } });
+  REPERES_CH.forEach(([c,k,n,t]) => {
+    const el = document.createElement('div');
+    el.style.cssText = `width:13px;height:13px;border-radius:50%;border:2px solid ${k};background:${k};box-shadow:0 0 0 2px #fbfcf7;cursor:pointer`;
+    new maplibregl.Marker({ element: el }).setLngLat(c).setPopup(new maplibregl.Popup({ offset: 10 }).setHTML(`<b>${n}</b><br>${t}`)).addTo(m);
+  });
+}
 function initCarteCh() {
   if (carteCh || typeof maplibregl === 'undefined') return;
-  carteCh = new maplibregl.Map({ container: 'carte-chambly', style: 'https://tiles.openfreemap.org/styles/positron', center: [-73.325, 45.40], zoom: 11, attributionControl: { compact: true } });
-  carteCh.addControl(new maplibregl.NavigationControl({ showCompass: false }));
-  carteCh.on('load', () => {
-    carteCh.resize();
-    carteCh.addSource('lots', { type: 'geojson', data: 'data/chambly-lots.geojson' });
-    carteCh.addLayer({ id: 'ferme-f', type: 'fill', source: 'lots', filter: ['==', ['get', 't'], 'zone'], paint: { 'fill-color': '#3f7d4a', 'fill-opacity': 0.18 } });
-    carteCh.addLayer({ id: 'ferme-l', type: 'line', source: 'lots', filter: ['==', ['get', 't'], 'zone'], paint: { 'line-color': '#3f7d4a', 'line-width': 2, 'line-dasharray': [2, 2] } });
-    carteCh.addLayer({ id: 'lots-l', type: 'line', source: 'lots', filter: ['==', ['get', 't'], 'lot'], paint: { 'line-color': '#3f7d4a', 'line-width': 0.8, 'line-opacity': 0.7 } });
-    carteCh.addLayer({ id: 'riv-l', type: 'line', source: 'lots', filter: ['==', ['get', 't'], 'riviere'], paint: { 'line-color': '#2a6f9e', 'line-width': 3.5 } });
-    carteCh.addSource('cadie', { type: 'geojson', data: { type: 'Feature', geometry: { type: 'Polygon', coordinates: [[[-73.335,45.330],[-73.360,45.330],[-73.372,45.285],[-73.350,45.275],[-73.335,45.330]]] } } });
-    carteCh.addLayer({ id: 'cadie-f', type: 'fill', source: 'cadie', paint: { 'fill-color': '#c0702a', 'fill-opacity': 0.25 } });
-    carteCh.addLayer({ id: 'cadie-l', type: 'line', source: 'cadie', paint: { 'line-color': '#c0702a', 'line-width': 2, 'line-dasharray': [2, 2] } });
-    [[[-73.29192,45.45152],'#a23b2a','Église Saint-Joseph de Chambly','164, rue Martel. L’église actuelle (1881) repose sur les fondations de l’église de pierre de 1757, où Étienne fut baptisé le 21 décembre 1785.'],
-     [[-73.2765,45.4497],'#2f5d62','Fort Chambly','Fort de pierre (1709-1711), pris par les Américains en 1775.'],
-     [[-73.3236,45.4399],'#3f7d4a','La ferme d’Albert Provost (l’un de ces lots)','Terre de 3 arpents sur la Petite rivière de Montréal, baronnie de Longueuil : maison de pièce sur pièce de 30 × 28 pieds, deux granges, écurie (inventaire du 15 juillet 1783).'],
-     [[-73.3530,45.3000],'#c0702a','La Petite-Cadie (L’Acadie)','Les deux terres concédées le 15 juin 1781 (3 × 30 arpents chacune), voisines d’Étienne Dumas et de Joseph Tremblay, encore en bois debout en 1783.']].forEach(([c,k,n,t]) => {
-      const el = document.createElement('div');
-      el.style.cssText = `width:13px;height:13px;border-radius:50%;border:2px solid ${k};background:${k};box-shadow:0 0 0 2px #fbfcf7;cursor:pointer`;
-      new maplibregl.Marker({ element: el }).setLngLat(c).setPopup(new maplibregl.Popup({ offset: 10 }).setHTML(`<b>${n}</b><br>${t}`)).addTo(carteCh);
-    });
-  });
+  const vue = { center: [-73.345, 45.425], zoom: 11.6 };
+  carteCh = new maplibregl.Map({ container: 'carte-chambly', style: 'https://tiles.openfreemap.org/styles/positron', ...vue, attributionControl: { compact: true } });
+  carteSat = new maplibregl.Map({ container: 'carte-chambly-sat', style: { version: 8, sources: { sat: { type: 'raster', tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'], tileSize: 256, maxzoom: 19, attribution: 'Imagerie © Esri, Maxar, Earthstar Geographics' } }, layers: [{ id: 'sat', type: 'raster', source: 'sat' }] }, ...vue, attributionControl: { compact: true } });
+  carteSat.addControl(new maplibregl.NavigationControl({ showCompass: false }));
+  carteCh.on('load', () => { carteCh.resize(); couchesCh(carteCh, true); });
+  carteSat.on('load', () => { carteSat.resize(); couchesCh(carteSat, false); });
+  // synchronisation des deux cartes
+  let sync = false;
+  const suivre = (a, b) => a.on('move', () => { if (sync) return; sync = true; b.jumpTo({ center: a.getCenter(), zoom: a.getZoom(), bearing: a.getBearing(), pitch: a.getPitch() }); sync = false; });
+  suivre(carteCh, carteSat); suivre(carteSat, carteCh);
+  // rideau
+  const boite = document.getElementById('cmp-chambly'), poignee = boite.querySelector('.cmp-poignee'), sat = document.getElementById('carte-chambly-sat');
+  const placer = pct => {
+    pct = Math.max(0, Math.min(100, pct));
+    poignee.style.left = pct + '%'; poignee.setAttribute('aria-valuenow', Math.round(pct));
+    sat.style.clipPath = `inset(0 0 0 ${pct}%)`;
+  };
+  placer(50);
+  let glisse = false;
+  const deplacer = e => { if (!glisse) return; const r = boite.getBoundingClientRect(); placer((e.clientX - r.left) / r.width * 100); };
+  poignee.addEventListener('pointerdown', e => { glisse = true; poignee.setPointerCapture(e.pointerId); e.preventDefault(); });
+  poignee.addEventListener('pointermove', deplacer);
+  poignee.addEventListener('pointerup', () => { glisse = false; });
+  poignee.addEventListener('keydown', e => { const v = +poignee.getAttribute('aria-valuenow'); if (e.key === 'ArrowLeft') placer(v - 5); if (e.key === 'ArrowRight') placer(v + 5); });
+  document.getElementById('op-1868').addEventListener('input', e => { if (carteCh.getLayer('plan1868')) carteCh.setPaintProperty('plan1868', 'raster-opacity', e.target.value / 100); });
 }
 let carteJx = null;
 function initCarteJx() {
