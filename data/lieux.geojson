@@ -2461,6 +2461,54 @@
     "note": "Maison actuelle du chemin Salaberry (Carignan), sur l'ancienne côte de la petite rivière Montréal, où se trouvaient les terres des Provost (no 1374) et des Lamoureux (no 1381). Les dates sont celles de l'inventaire ou du rôle, non vérifiées dans les actes. Voir la salle de lecture, onglet Chambly.",
     "type": "lieu"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1889,
+     38.6259
+    ]
+   },
+   "properties": {
+    "id": "L85",
+    "nom": "Saint-Louis : Étienne donne sa part d'héritage de Chambly à son frère Antoine (18 mars 1833)",
+    "debut": 1833.2081,
+    "fin": 1833.2683,
+    "date_edtf": "1833-03-18/1833-04-09",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "Le 18 mars 1833, à Saint-Louis, « Étienne Prevost, ci-devant demeurant au Bassin de la rivière Chambly, paroisse St-Joseph près de la ville de Montréal, province du Bas-Canada, et de présent en la cité et comté de St Louis, État du Missouri », héritier de feu Albert Prevost, fait donation entre vifs à son frère Antoine, « demeurant audit Bassin de la rivière Chambly », de tous ses biens « lui provenant de la succession de son dit père », comme preuve « de son amitié fraternelle ». L'usufruit est réservé à leur mère, Marie-Anne Ménard, encore vivante. Étienne fait sa marque ; témoins Arend Rutgers et Marie-Philippe Leduc. Le 19 mars, Leduc, juge de la cour de comté, reçoit sa reconnaissance ; le 9 avril, le gouverneur Daniel Dunklin et le secrétaire d'État John C. Edwards certifient l'acte sous le grand sceau du Missouri. L'original est déposé à Chambly le 19 novembre 1833 chez le notaire Basile Larocque. C'est le seul document connu, conservé au Québec, qui montre Étienne à Saint-Louis.",
+    "sources": "BAnQ, Archives nationales à Montréal : greffe Basile Larocque (CN601,S239), acte no 236, 19 novembre 1833, avec l'original de Saint-Louis annexé (FamilySearch, « Montreal. Notarial Records Oct 24, 1832–Dec 27, 1833 », DGS 008878049, images 1113-1119, ark 3:1:3QHV-5324-MSQL, 3:1:3QHV-R324-MS7M, 3:1:3QHV-5324-MSS5) ; greffe François Leguay fils, partage du 12 avril 1796 et quittance du 18 décembre 1819 (FamilySearch, « Montreal. Notarial Records Mar 21, 1796–Mar 12, 1798 », image 80, ark 3:1:3Q9M-CSTS-1SJ7-Q) ; greffe René Boileau, donation et testament de Marie-Anne Ménard, 3 novembre 1819 (FamilySearch, « Montreal. Notarial Records Sep 23, 1819–Jun 17, 1822 », images 184-193, ark 3:1:3QHV-532S-1CT3, 3:1:3QHV-532S-1C2W).",
+    "note": "Point placé au palais de justice de Saint-Louis (lieu probable de la reconnaissance devant le juge Leduc) ; le lieu exact de la signature n'est pas dit. Voir la salle de lecture, onglet Chambly, « Étienne vu de Chambly ».",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.2885,
+     45.4497
+    ]
+   },
+   "properties": {
+    "id": "L86",
+    "nom": "Chambly : la famille d'Étienne, « absent depuis plus de dix ans » (1819), reçoit son acte de Saint-Louis (1833)",
+    "debut": 1819.8378,
+    "fin": 1833.8816,
+    "date_edtf": "1819-11-03/1833-11-19",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "Trois actes passés à Chambly parlent d'Étienne pendant son absence. Le 3 novembre 1819, sa mère, Marie-Anne Ménard, veuve d'Albert Provost, donne à son fils Antoine sa part de la terre de la petite rivière de Montréal et le charge de payer « les droits paternels qui peuvent être dus à Étienne et Toussaint Prevost suivant l'acte de partage du douze d'avril » 1796 ; son testament lègue 25 livres à Étienne, Toussaint et Julien (notaires René Boileau et Joseph Demers). Le 18 décembre 1819, Toussaint reçoit de sa mère la part des meubles et des ruines des bâtiments revenant à Étienne et promet d'en rendre compte à Antoine « si toutefois il n'est pas mort, étant absent depuis plus de dix ans ». Le 19 novembre 1833, Antoine et sa mère déposent chez le notaire Basile Larocque la donation qu'Étienne leur a faite à Saint-Louis le 18 mars, et l'acceptent.",
+    "sources": "BAnQ, Archives nationales à Montréal : greffe Basile Larocque (CN601,S239), acte no 236, 19 novembre 1833, avec l'original de Saint-Louis annexé (FamilySearch, « Montreal. Notarial Records Oct 24, 1832–Dec 27, 1833 », DGS 008878049, images 1113-1119, ark 3:1:3QHV-5324-MSQL, 3:1:3QHV-R324-MS7M, 3:1:3QHV-5324-MSS5) ; greffe François Leguay fils, partage du 12 avril 1796 et quittance du 18 décembre 1819 (FamilySearch, « Montreal. Notarial Records Mar 21, 1796–Mar 12, 1798 », image 80, ark 3:1:3Q9M-CSTS-1SJ7-Q) ; greffe René Boileau, donation et testament de Marie-Anne Ménard, 3 novembre 1819 (FamilySearch, « Montreal. Notarial Records Sep 23, 1819–Jun 17, 1822 », images 184-193, ark 3:1:3QHV-532S-1CT3, 3:1:3QHV-532S-1C2W).",
+    "note": "Point placé au village de Chambly (études des notaires Boileau et Larocque, emplacement exact inconnu). Les actes concernent la terre des Provost (voir L74). Lecture « Antoine » de la quittance de 1819 à vérifier.",
+    "type": "lieu"
+   }
   }
  ]
 }
