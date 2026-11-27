@@ -2293,6 +2293,174 @@
      }
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.3664,
+     45.4095
+    ]
+   },
+   "properties": {
+    "id": "L78",
+    "nom": "Carignan, 4976, chemin Salaberry : maison Joseph-Trudeau (vers 1803), en pierre",
+    "debut": 1803.0,
+    "fin": 2026.0,
+    "date_edtf": "1803~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Maison québécoise de style néoclassique, en pierre des champs (moellons), toit à deux versants galbés couvert de tôle à la canadienne, fondations de pierre, portes et fenêtres de bois. L'inventaire de la MRC la date vers 1803 (d'après l'inventaire de 2015, sans justification écrite) et la qualifie de rare survivance de son époque ; un guide du patrimoine y voit « un exemple achevé d'habitation de la première génération de notre architecture traditionnelle ». Elle est connue comme maison Joseph-Trudeau ou maison Henri-Bisaillon. Autour, la ferme Trudeau : neuf bâtiments agricoles (cinq granges-étables, une laiterie, deux hangars), postérieurs à 1900. Lot actuel 2 601 585. Sur le plan de 1868 géoréférencé, la maison tombe à la limite des lots 185 et 186 : en 1861, terre no 1379 de Joseph Trudeau ou pièce no 1378 d'Alexis Lamoureux. C'est la seule maison du voisinage qui remonte à l'époque d'Étienne Provost.",
+    "sources": "Inventaire du patrimoine bâti de la MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, fiches d'inventaire, mrcvr.ca ; rôle d'évaluation de Carignan via OpenHouse (openhouseqc.com), consulté le 26 novembre 2026 ; Cadastre abrégé de la baronnie de Longueuil (1861) et plan officiel de la paroisse de Chambly (1868) géoréférencé. Fiches 169 et 1448 ; Balades patrimoniales à la découverte de trésors architecturaux, p. 37 ; Chambly : 1665-1990, p. 102.",
+    "note": "Maison actuelle du chemin Salaberry (Carignan), sur l'ancienne côte de la petite rivière Montréal, où se trouvaient les terres des Provost (no 1374) et des Lamoureux (no 1381). Les dates sont celles de l'inventaire ou du rôle, non vérifiées dans les actes. Voir la salle de lecture, onglet Chambly.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.362513,
+     45.413784
+    ]
+   },
+   "properties": {
+    "id": "L79",
+    "nom": "Carignan, 4760, chemin Salaberry : maison de ferme, à la limite de la terre Provost",
+    "debut": 1880.0,
+    "fin": 2026.0,
+    "date_edtf": "1850/1910",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "posterite",
+    "description": "Maison rurale à un étage et demi : façade symétrique (porte au centre, deux fenêtres de chaque côté), toit de tôle à deux versants à forte pente, deux lucarnes à pignon, cheminée de brique au faîte, galerie sur toute la largeur, revêtement horizontal moderne, rallonge plus récente à l'arrière ; deux corps décalés d'environ 12 m sur 9 m vus du ciel. Type courant au Québec d'environ 1850 à 1910 ; année de construction non publiée au rôle ; non retenue par l'inventaire de la MRC. Siège d'une ferme d'environ 34 hectares (grandes granges, silos). Elle se trouve exactement sur la limite nord-est de la terre concédée à Gabriel Provost en 1745 (lots 190-191 de 1868) : selon la marge d'erreur, chez les Provost ou chez le voisin (Alexis Guertin au papier-terrier). Rien ne montre qu'elle englobe la maison de pièce sur pièce de 1783. Bâtiment à documenter : chaîne des titres, visite.",
+    "sources": "Inventaire du patrimoine bâti de la MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, fiches d'inventaire, mrcvr.ca ; rôle d'évaluation de Carignan via OpenHouse (openhouseqc.com), consulté le 26 novembre 2026 ; Cadastre abrégé de la baronnie de Longueuil (1861) et plan officiel de la paroisse de Chambly (1868) géoréférencé. Google Street View (2025), imagerie satellite.",
+    "note": "Maison actuelle du chemin Salaberry (Carignan), sur l'ancienne côte de la petite rivière Montréal, où se trouvaient les terres des Provost (no 1374) et des Lamoureux (no 1381). Les dates sont celles de l'inventaire ou du rôle, non vérifiées dans les actes. Voir la salle de lecture, onglet Chambly.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.364312,
+     45.410615
+    ]
+   },
+   "properties": {
+    "id": "L80",
+    "nom": "Carignan, 4913, chemin Salaberry : maison cubique de brique (vers 1900), « maison Norbert »",
+    "debut": 1900.0,
+    "fin": 2026.0,
+    "date_edtf": "1900~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Maison cubique de style vernaculaire industriel, murs de brique, toit en pavillon de tôle pincée, fondations de pierre ; fenêtres modernes. Vers 1900 selon la société d'histoire locale ; l'inventaire de 2015 y voit « probablement la maison Norbert, construite avant 1915 », autrefois au 992, rue Salaberry. Lot actuel 2 601 508. Sur le plan de 1868 : lot 188, terre Paquet ou Quintin en 1861, environ 250 m au sud-ouest de la terre Provost.",
+    "sources": "Inventaire du patrimoine bâti de la MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, fiches d'inventaire, mrcvr.ca ; rôle d'évaluation de Carignan via OpenHouse (openhouseqc.com), consulté le 26 novembre 2026 ; Cadastre abrégé de la baronnie de Longueuil (1861) et plan officiel de la paroisse de Chambly (1868) géoréférencé. Fiche 168 ; Chambly : 1665-1990, p. 121.",
+    "note": "Maison actuelle du chemin Salaberry (Carignan), sur l'ancienne côte de la petite rivière Montréal, où se trouvaient les terres des Provost (no 1374) et des Lamoureux (no 1381). Les dates sont celles de l'inventaire ou du rôle, non vérifiées dans les actes. Voir la salle de lecture, onglet Chambly.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.360036,
+     45.4163985
+    ]
+   },
+   "properties": {
+    "id": "L81",
+    "nom": "Carignan, 4674, chemin Salaberry : maison de brique (avant 1890), « maison Mercille »",
+    "debut": 1890.0,
+    "fin": 2026.0,
+    "date_edtf": "../1890",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Maison de brique à toit plat, de style vernaculaire industriel ; fenêtres modernes. « La maison est érigée à une date indéterminée avant 1890. Dénomination possible : maison Mercille » (inventaire, d'après la chaîne de titres, disponible sur demande à la MRC). Aujourd'hui un triplex. Lot actuel 2 601 567, environ 600 m au nord-est de la terre Provost.",
+    "sources": "Inventaire du patrimoine bâti de la MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, fiches d'inventaire, mrcvr.ca ; rôle d'évaluation de Carignan via OpenHouse (openhouseqc.com), consulté le 26 novembre 2026 ; Cadastre abrégé de la baronnie de Longueuil (1861) et plan officiel de la paroisse de Chambly (1868) géoréférencé. Fiche 163.",
+    "note": "Maison actuelle du chemin Salaberry (Carignan), sur l'ancienne côte de la petite rivière Montréal, où se trouvaient les terres des Provost (no 1374) et des Lamoureux (no 1381). Les dates sont celles de l'inventaire ou du rôle, non vérifiées dans les actes. Voir la salle de lecture, onglet Chambly.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.361014,
+     45.41521
+    ]
+   },
+   "properties": {
+    "id": "L82",
+    "nom": "Carignan, 4714, chemin Salaberry : maison à toit mansardé (avant 1906)",
+    "debut": 1906.0,
+    "fin": 2026.0,
+    "date_edtf": "../1906",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Maison à toit mansardé, revêtement d'aluminium, toit de tôle profilée, fondations de béton ; fenêtres modernes. « La maison est érigée à une date indéterminée avant 1906 » (inventaire, d'après la chaîne de titres). Lot actuel 2 601 568, environ 300 m au nord-est de la terre Provost.",
+    "sources": "Inventaire du patrimoine bâti de la MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, fiches d'inventaire, mrcvr.ca ; rôle d'évaluation de Carignan via OpenHouse (openhouseqc.com), consulté le 26 novembre 2026 ; Cadastre abrégé de la baronnie de Longueuil (1861) et plan officiel de la paroisse de Chambly (1868) géoréférencé. Fiche 166.",
+    "note": "Maison actuelle du chemin Salaberry (Carignan), sur l'ancienne côte de la petite rivière Montréal, où se trouvaient les terres des Provost (no 1374) et des Lamoureux (no 1381). Les dates sont celles de l'inventaire ou du rôle, non vérifiées dans les actes. Voir la salle de lecture, onglet Chambly.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.359072,
+     45.41957
+    ]
+   },
+   "properties": {
+    "id": "L83",
+    "nom": "Carignan, 4588, chemin Salaberry : maison de brique (vers 1920)",
+    "debut": 1920.0,
+    "fin": 2026.0,
+    "date_edtf": "1920~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Maison de brique à fausse mansarde, style vernaculaire industriel, toit de bardeau d'asphalte, fondations de pierre. Vers 1920 d'après le rôle foncier. Lot actuel 2 601 566, environ 1 km au nord-est de la terre Provost.",
+    "sources": "Inventaire du patrimoine bâti de la MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, fiches d'inventaire, mrcvr.ca ; rôle d'évaluation de Carignan via OpenHouse (openhouseqc.com), consulté le 26 novembre 2026 ; Cadastre abrégé de la baronnie de Longueuil (1861) et plan officiel de la paroisse de Chambly (1868) géoréférencé. Fiche 160.",
+    "note": "Maison actuelle du chemin Salaberry (Carignan), sur l'ancienne côte de la petite rivière Montréal, où se trouvaient les terres des Provost (no 1374) et des Lamoureux (no 1381). Les dates sont celles de l'inventaire ou du rôle, non vérifiées dans les actes. Voir la salle de lecture, onglet Chambly.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.3661,
+     45.406619
+    ]
+   },
+   "properties": {
+    "id": "L84",
+    "nom": "Carignan, 5070, chemin Salaberry : maison de brique (vers 1923), voisine de la terre de Moïse Lamoureux",
+    "debut": 1923.0,
+    "fin": 2026.0,
+    "date_edtf": "1923~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Maison de brique et de vinyle à toit plat, style vernaculaire industriel, fondations de béton ; rallonge d'un étage (2025). Vers 1923 d'après le rôle foncier. Lot actuel 2 601 610. Sur le plan de 1868 : lot 184, terre no 1380 de Jacques Paquet en 1861, voisine de la terre no 1381 d'Alexis Lamoureux où grandit Moïse.",
+    "sources": "Inventaire du patrimoine bâti de la MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, fiches d'inventaire, mrcvr.ca ; rôle d'évaluation de Carignan via OpenHouse (openhouseqc.com), consulté le 26 novembre 2026 ; Cadastre abrégé de la baronnie de Longueuil (1861) et plan officiel de la paroisse de Chambly (1868) géoréférencé. Fiche 171.",
+    "note": "Maison actuelle du chemin Salaberry (Carignan), sur l'ancienne côte de la petite rivière Montréal, où se trouvaient les terres des Provost (no 1374) et des Lamoureux (no 1381). Les dates sont celles de l'inventaire ou du rôle, non vérifiées dans les actes. Voir la salle de lecture, onglet Chambly.",
+    "type": "lieu"
+   }
   }
  ]
 }

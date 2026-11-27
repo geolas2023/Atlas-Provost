@@ -2029,6 +2029,174 @@
     "note": "Probable stop, not documented for Provost.",
     "type": "lieu"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.3664,
+     45.4095
+    ]
+   },
+   "properties": {
+    "id": "L78",
+    "nom": "Carignan, 4976 chemin Salaberry: the Joseph-Trudeau house (c. 1803), stone",
+    "debut": 1803.0,
+    "fin": 2026.0,
+    "date_edtf": "1803~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Québécois house in the neoclassical style, in fieldstone (rubble masonry), with a two-slope bell-cast roof in Canadian-style sheet metal, stone foundations, wooden doors and windows. The MRC inventory dates it c. 1803 (after the 2015 inventory, without written justification) and calls it a rare survivor of its period; a heritage guide describes it as a finished example of the first generation of Quebec's traditional architecture. Known as the Joseph-Trudeau or Henri-Bisaillon house. Around it, the Trudeau farm: nine agricultural buildings (five barn-stables, a dairy, two sheds), after 1900. Current lot 2 601 585. On the georeferenced 1868 plan the house falls on the limit of lots 185 and 186: in 1861, Joseph Trudeau's lot no. 1379 or Alexis Lamoureux's piece no. 1378. The only house in the neighbourhood that goes back to Étienne Provost's time.",
+    "sources": "Built-heritage inventory of the MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, inventory entries, mrcvr.ca; Carignan assessment roll via OpenHouse (openhouseqc.com), consulted 26 November 2026; abridged cadastre of the Barony of Longueuil (1861) and georeferenced official plan of Chambly parish (1868). Fiches 169 et 1448 ; Balades patrimoniales à la découverte de trésors architecturaux, p. 37 ; Chambly : 1665-1990, p. 102.",
+    "note": "Present-day house on chemin Salaberry (Carignan), on the old côte of the petite rivière Montréal, where the Provost (no. 1374) and Lamoureux (no. 1381) farms lay. Dates are those of the inventory or roll, not checked against deeds. See the reading room, Chambly tab.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.362513,
+     45.413784
+    ]
+   },
+   "properties": {
+    "id": "L79",
+    "nom": "Carignan, 4760 chemin Salaberry: farmhouse on the limit of the Provost farm",
+    "debut": 1880.0,
+    "fin": 2026.0,
+    "date_edtf": "1850/1910",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "posterite",
+    "description": "One-and-a-half-storey rural house: symmetrical façade (central door, two windows on each side), steep two-slope sheet-metal roof, two gabled dormers, brick chimney on the ridge, full-width gallery, modern horizontal siding, newer rear extension; two offset blocks of about 12 m by 9 m seen from above. A common Quebec type of about 1850 to 1910; construction year not published in the roll; not listed by the MRC inventory. Seat of a farm of about 34 hectares (large barns, silos). It stands exactly on the north-east limit of the land conceded to Gabriel Provost in 1745 (lots 190-191 in 1868): within the margin of error, on the Provost farm or on the neighbour's (Alexis Guertin in the land roll). Nothing shows that it incorporates the 1783 log house. A building to document: chain of title, visit.",
+    "sources": "Built-heritage inventory of the MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, inventory entries, mrcvr.ca; Carignan assessment roll via OpenHouse (openhouseqc.com), consulted 26 November 2026; abridged cadastre of the Barony of Longueuil (1861) and georeferenced official plan of Chambly parish (1868). Google Street View (2025), imagerie satellite.",
+    "note": "Present-day house on chemin Salaberry (Carignan), on the old côte of the petite rivière Montréal, where the Provost (no. 1374) and Lamoureux (no. 1381) farms lay. Dates are those of the inventory or roll, not checked against deeds. See the reading room, Chambly tab.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.364312,
+     45.410615
+    ]
+   },
+   "properties": {
+    "id": "L80",
+    "nom": "Carignan, 4913 chemin Salaberry: brick four-square house (c. 1900), the “Norbert house”",
+    "debut": 1900.0,
+    "fin": 2026.0,
+    "date_edtf": "1900~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Four-square house in the industrial vernacular style, brick walls, pinched sheet-metal hipped roof, stone foundations; modern windows. C. 1900 according to the local historical society; the 2015 inventory calls it probably the Norbert house, built before 1915, formerly at 992 rue Salaberry. Current lot 2 601 508. On the 1868 plan: lot 188, Paquet or Quintin land in 1861, about 250 m south-west of the Provost farm.",
+    "sources": "Built-heritage inventory of the MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, inventory entries, mrcvr.ca; Carignan assessment roll via OpenHouse (openhouseqc.com), consulted 26 November 2026; abridged cadastre of the Barony of Longueuil (1861) and georeferenced official plan of Chambly parish (1868). Fiche 168 ; Chambly : 1665-1990, p. 121.",
+    "note": "Present-day house on chemin Salaberry (Carignan), on the old côte of the petite rivière Montréal, where the Provost (no. 1374) and Lamoureux (no. 1381) farms lay. Dates are those of the inventory or roll, not checked against deeds. See the reading room, Chambly tab.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.360036,
+     45.4163985
+    ]
+   },
+   "properties": {
+    "id": "L81",
+    "nom": "Carignan, 4674 chemin Salaberry: brick house (before 1890), the “Mercille house”",
+    "debut": 1890.0,
+    "fin": 2026.0,
+    "date_edtf": "../1890",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Flat-roofed brick house in the industrial vernacular style; modern windows. Built at an unknown date before 1890; possible name: Mercille house (inventory, from the chain of title, available on request from the MRC). Now a triplex. Current lot 2 601 567, about 600 m north-east of the Provost farm.",
+    "sources": "Built-heritage inventory of the MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, inventory entries, mrcvr.ca; Carignan assessment roll via OpenHouse (openhouseqc.com), consulted 26 November 2026; abridged cadastre of the Barony of Longueuil (1861) and georeferenced official plan of Chambly parish (1868). Fiche 163.",
+    "note": "Present-day house on chemin Salaberry (Carignan), on the old côte of the petite rivière Montréal, where the Provost (no. 1374) and Lamoureux (no. 1381) farms lay. Dates are those of the inventory or roll, not checked against deeds. See the reading room, Chambly tab.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.361014,
+     45.41521
+    ]
+   },
+   "properties": {
+    "id": "L82",
+    "nom": "Carignan, 4714 chemin Salaberry: mansard-roofed house (before 1906)",
+    "debut": 1906.0,
+    "fin": 2026.0,
+    "date_edtf": "../1906",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Mansard-roofed house, aluminium siding, profiled sheet-metal roof, concrete foundations; modern windows. Built at an unknown date before 1906 (inventory, from the chain of title). Current lot 2 601 568, about 300 m north-east of the Provost farm.",
+    "sources": "Built-heritage inventory of the MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, inventory entries, mrcvr.ca; Carignan assessment roll via OpenHouse (openhouseqc.com), consulted 26 November 2026; abridged cadastre of the Barony of Longueuil (1861) and georeferenced official plan of Chambly parish (1868). Fiche 166.",
+    "note": "Present-day house on chemin Salaberry (Carignan), on the old côte of the petite rivière Montréal, where the Provost (no. 1374) and Lamoureux (no. 1381) farms lay. Dates are those of the inventory or roll, not checked against deeds. See the reading room, Chambly tab.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.359072,
+     45.41957
+    ]
+   },
+   "properties": {
+    "id": "L83",
+    "nom": "Carignan, 4588 chemin Salaberry: brick house (c. 1920)",
+    "debut": 1920.0,
+    "fin": 2026.0,
+    "date_edtf": "1920~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Brick house with a false mansard, industrial vernacular style, asphalt-shingle roof, stone foundations. C. 1920 according to the land roll. Current lot 2 601 566, about 1 km north-east of the Provost farm.",
+    "sources": "Built-heritage inventory of the MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, inventory entries, mrcvr.ca; Carignan assessment roll via OpenHouse (openhouseqc.com), consulted 26 November 2026; abridged cadastre of the Barony of Longueuil (1861) and georeferenced official plan of Chambly parish (1868). Fiche 160.",
+    "note": "Present-day house on chemin Salaberry (Carignan), on the old côte of the petite rivière Montréal, where the Provost (no. 1374) and Lamoureux (no. 1381) farms lay. Dates are those of the inventory or roll, not checked against deeds. See the reading room, Chambly tab.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.3661,
+     45.406619
+    ]
+   },
+   "properties": {
+    "id": "L84",
+    "nom": "Carignan, 5070 chemin Salaberry: brick house (c. 1923), next to Moïse Lamoureux's farm",
+    "debut": 1923.0,
+    "fin": 2026.0,
+    "date_edtf": "1923~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "posterite",
+    "description": "Flat-roofed brick and vinyl house, industrial vernacular style, concrete foundations; one-storey extension (2025). C. 1923 according to the land roll. Current lot 2 601 610. On the 1868 plan: lot 184, Jacques Paquet's lot no. 1380 in 1861, next to Alexis Lamoureux's lot no. 1381, where Moïse grew up.",
+    "sources": "Built-heritage inventory of the MRC de La Vallée-du-Richelieu (Passerelles, coopérative en patrimoine, 2025), Carignan, inventory entries, mrcvr.ca; Carignan assessment roll via OpenHouse (openhouseqc.com), consulted 26 November 2026; abridged cadastre of the Barony of Longueuil (1861) and georeferenced official plan of Chambly parish (1868). Fiche 171.",
+    "note": "Present-day house on chemin Salaberry (Carignan), on the old côte of the petite rivière Montréal, where the Provost (no. 1374) and Lamoureux (no. 1381) farms lay. Dates are those of the inventory or roll, not checked against deeds. See the reading room, Chambly tab.",
+    "type": "lieu"
+   }
   }
  ]
 }
