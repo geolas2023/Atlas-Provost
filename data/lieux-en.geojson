@@ -2197,6 +2197,54 @@
     "note": "Present-day house on chemin Salaberry (Carignan), on the old côte of the petite rivière Montréal, where the Provost (no. 1374) and Lamoureux (no. 1381) farms lay. Dates are those of the inventory or roll, not checked against deeds. See the reading room, Chambly tab.",
     "type": "lieu"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1889,
+     38.6259
+    ]
+   },
+   "properties": {
+    "id": "L85",
+    "nom": "St. Louis: Étienne gives his Chambly inheritance to his brother Antoine (18 March 1833)",
+    "debut": 1833.2081,
+    "fin": 1833.2683,
+    "date_edtf": "1833-03-18/1833-04-09",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "On 18 March 1833, in St. Louis, “Étienne Prevost, formerly living at the Bassin of the Chambly River, parish of St. Joseph near the city of Montreal, province of Lower Canada, and now in the city and county of St. Louis, State of Missouri”, heir of the late Albert Prevost, makes a gift inter vivos to his brother Antoine, “living at the said Bassin of the Chambly River”, of all his property “coming to him from the estate of his said father”, as proof “of his brotherly friendship”. The life interest is reserved to their mother, Marie-Anne Ménard, still alive. Étienne makes his mark; witnesses Arend Rutgers and Marie-Philippe Leduc. On 19 March Leduc, justice of the county court, takes his acknowledgment; on 9 April Governor Daniel Dunklin and Secretary of State John C. Edwards certify the deed under the great seal of Missouri. The original was deposited at Chambly on 19 November 1833 with notary Basile Larocque. It is the only known document kept in Quebec that shows Étienne in St. Louis.",
+    "sources": "BAnQ, Archives nationales à Montréal: records of notary Basile Larocque (CN601,S239), deed no. 236, 19 November 1833, with the St. Louis original annexed (FamilySearch, “Montreal. Notarial Records Oct 24, 1832–Dec 27, 1833”, DGS 008878049, images 1113-1119, ark 3:1:3QHV-5324-MSQL, 3:1:3QHV-R324-MS7M, 3:1:3QHV-5324-MSS5); records of François Leguay fils, partition of 12 April 1796 and receipt of 18 December 1819 (FamilySearch, “Montreal. Notarial Records Mar 21, 1796–Mar 12, 1798”, image 80, ark 3:1:3Q9M-CSTS-1SJ7-Q); records of René Boileau, gift and will of Marie-Anne Ménard, 3 November 1819 (FamilySearch, “Montreal. Notarial Records Sep 23, 1819–Jun 17, 1822”, images 184-193, ark 3:1:3QHV-532S-1CT3, 3:1:3QHV-532S-1C2W).",
+    "note": "Point placed at the St. Louis courthouse (probable place of the acknowledgment before Justice Leduc); the exact place of signing is not stated. See the reading room, Chambly tab.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.2885,
+     45.4497
+    ]
+   },
+   "properties": {
+    "id": "L86",
+    "nom": "Chambly: Étienne's family, “absent for more than ten years” (1819), receives his deed from St. Louis (1833)",
+    "debut": 1819.8378,
+    "fin": 1833.8816,
+    "date_edtf": "1819-11-03/1833-11-19",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "Three deeds made at Chambly mention Étienne during his absence. On 3 November 1819 his mother, Marie-Anne Ménard, widow of Albert Provost, gives her son Antoine her share of the farm on the petite rivière de Montréal and charges him with paying “the paternal rights that may be owed to Étienne and Toussaint Prevost according to the partition” of 12 April 1796; her will leaves 25 livres each to Étienne, Toussaint and Julien (notaries René Boileau and Joseph Demers). On 18 December 1819 Toussaint receives from his mother the share of the movables and of the ruined buildings belonging to Étienne, and promises to account for it to Antoine “if he is not dead, having been absent for more than ten years”. On 19 November 1833 Antoine and his mother deposit with notary Basile Larocque the gift Étienne made them in St. Louis on 18 March, and accept it.",
+    "sources": "BAnQ, Archives nationales à Montréal: records of notary Basile Larocque (CN601,S239), deed no. 236, 19 November 1833, with the St. Louis original annexed (FamilySearch, “Montreal. Notarial Records Oct 24, 1832–Dec 27, 1833”, DGS 008878049, images 1113-1119, ark 3:1:3QHV-5324-MSQL, 3:1:3QHV-R324-MS7M, 3:1:3QHV-5324-MSS5); records of François Leguay fils, partition of 12 April 1796 and receipt of 18 December 1819 (FamilySearch, “Montreal. Notarial Records Mar 21, 1796–Mar 12, 1798”, image 80, ark 3:1:3Q9M-CSTS-1SJ7-Q); records of René Boileau, gift and will of Marie-Anne Ménard, 3 November 1819 (FamilySearch, “Montreal. Notarial Records Sep 23, 1819–Jun 17, 1822”, images 184-193, ark 3:1:3QHV-532S-1CT3, 3:1:3QHV-532S-1C2W).",
+    "note": "Point placed in Chambly village (offices of notaries Boileau and Larocque, exact place unknown). The deeds concern the Provost farm (see L74). The reading “Antoine” in the 1819 receipt is to be checked.",
+    "type": "lieu"
+   }
   }
  ]
 }
