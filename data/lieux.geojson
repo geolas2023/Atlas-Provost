@@ -2533,6 +2533,294 @@
     "note": "Révision du 26 novembre 2026 : remplace l'hypothèse d'une naissance sur la terre de 1745 (L74). Point placé au devant de la terre, au chemin Salaberry, d'après la position du no 1357 sur le plan de 1868 (lot actuel 2 600 993 ou voisin) ; incertitude d'environ 150 m. La place exacte de la maison sur la terre n'est pas connue. Voir la salle de lecture, onglet Chambly, « La terre d'Albert : révision ».",
     "type": "lieu"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.84,
+     41.75
+    ]
+   },
+   "properties": {
+    "id": "L88",
+    "nom": "Cache Valley : le rendez-vous de 1826",
+    "debut": 1826.5,
+    "fin": 1826.5,
+    "date_edtf": "1826-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Deuxième rendez-vous, dans la Willow Valley (Cache Valley, Utah), vers Cove ou Hyrum. Ashley y vend son entreprise à Jedediah Smith, David Jackson et William Sublette (18 juillet 1826) et s'engage à ravitailler le rendez-vous suivant. Beckwourth y place Provost ; Hafen le juge très probable en 1958, incertain en 1968. Provost est de retour à Saint-Louis en septembre.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous » ; Hafen, LeRoy R. (1958), « Mountain Men Before the Mormons », Utah Historical Quarterly, p. 308-326 ; Hafen (1968), UHQ 36-2",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.33,
+     41.83
+    ]
+   },
+   "properties": {
+    "id": "L89",
+    "nom": "Lac de l'Ours (Sweet Lake) : le rendez-vous de 1827",
+    "debut": 1827.5,
+    "fin": 1827.5,
+    "date_edtf": "1827-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Rendez-vous de Smith, Jackson et Sublette sur la rive sud du lac de l'Ours, près de Laketown (Utah). Jedediah Smith y revient de Californie ; escarmouches avec les Pieds-Noirs ; Daniel Potts y date une lettre le 8 juillet. Provost, passé à l'American Fur Company, n'y est pas.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous »",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.31,
+     41.85
+    ]
+   },
+   "properties": {
+    "id": "L90",
+    "nom": "Lac de l'Ours : le rendez-vous de 1828",
+    "debut": 1828.5,
+    "fin": 1828.5,
+    "date_edtf": "1828-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Second rendez-vous au lac de l'Ours ; nouveaux combats avec les Pieds-Noirs. À l'automne, McKenzie envoie Provost dire aux trappeurs libres de ces rendez-vous que l'American Fur Company achète leurs fourrures (voir L22).",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous »",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.73,
+     42.83
+    ]
+   },
+   "properties": {
+    "id": "L91",
+    "nom": "Popo Agie : le rendez-vous de 1829",
+    "debut": 1829.5,
+    "fin": 1829.5,
+    "date_edtf": "1829-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Premier rendez-vous à l'est de la ligne de partage des eaux, sur la Popo Agie près de l'actuelle Lander (Wyoming), en juillet ; second rassemblement en août à Pierre's Hole. Pas de trace de Provost.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous »",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.36,
+     43.0
+    ]
+   },
+   "properties": {
+    "id": "L92",
+    "nom": "Wind River : le rendez-vous de 1830",
+    "debut": 1830.5,
+    "fin": 1830.5,
+    "date_edtf": "1830-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Au confluent de la Wind River et de la Popo Agie (Riverton, Wyoming). Les premiers chariots y montent. Smith, Jackson et Sublette vendent leur société à la Rocky Mountain Fur Company (Fitzpatrick, Milton Sublette, Bridger, Fraeb et le Canadien Jean-Baptiste Gervais). Provost est alors chasseur au fort Union.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous »",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.11,
+     43.72
+    ]
+   },
+   "properties": {
+    "id": "L93",
+    "nom": "Pierre's Hole : le rendez-vous et la bataille de 1832",
+    "debut": 1832.5,
+    "fin": 1832.5,
+    "date_edtf": "1832-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "L'un des plus grands rendez-vous, dans la vallée de Teton (Driggs, Idaho), nommée d'après l'Iroquois « le grand Pierre » Tivanitagon. Sublette y arrive le premier avec Nathaniel Wyeth. Le 18 juillet, la bataille contre les Gros-Ventres commence quand Antoine Godin abat leur chef. Pas de trace de Provost.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous »",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.07,
+     42.87
+    ]
+   },
+   "properties": {
+    "id": "L94",
+    "nom": "Horse Creek : Provost au rendez-vous de 1833",
+    "debut": 1833.5,
+    "fin": 1833.5,
+    "date_edtf": "1833-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Rendez-vous au confluent de la Horse Creek et de la Green River, près du fort Bonneville (Daniel, Wyoming). Provost et Lucien Fontenelle y mènent la troupe de l'American Fur Company venue du fort Union par la Bighorn ; Provost redescend par la Yellowstone et le Missouri. Sont aussi présents Bonneville, Campbell et Stewart, Larpenteur, Wyeth ; un loup enragé mord plusieurs hommes.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous » ; Larpenteur, Charles, Forty Years a Fur Trader (éd. Coues, 1898)",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.075,
+     42.875
+    ]
+   },
+   "properties": {
+    "id": "L95",
+    "nom": "Horse Creek : le rendez-vous de 1835",
+    "debut": 1835.5833,
+    "fin": 1835.5833,
+    "date_edtf": "1835-08",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "La caravane de Fontenelle, retardée par le choléra, n'arrive que le 12 août avec les missionnaires Samuel Parker et Marcus Whitman, qui extrait une pointe de flèche du dos de Jim Bridger. Kit Carson s'y bat en duel avec le Canadien Joseph Chouinard (« Shunar »). Pas de trace de Provost.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous » ; Parker, Samuel (1838), Journal of an Exploring Tour",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.065,
+     42.865
+    ]
+   },
+   "properties": {
+    "id": "L96",
+    "nom": "Horse Creek : le rendez-vous de 1836",
+    "debut": 1836.5,
+    "fin": 1836.5,
+    "date_edtf": "1836-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "La caravane de Fitzpatrick arrive le 6 juillet ; Narcissa Whitman et Eliza Spalding sont les premières femmes blanches à franchir les Rocheuses. Un messager parti de la Rock Independence a annoncé la caravane ; les Autochtones avaient été convoqués « à l'embouchure de la Horse Creek vers le 1er juillet » (Russell). Provost accompagne probablement les caravanes de cette année (voir L30).",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous » ; Russell, Osborne, Journal of a Trapper (1914)",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.355,
+     43.005
+    ]
+   },
+   "properties": {
+    "id": "L97",
+    "nom": "Wind River : le rendez-vous de 1838",
+    "debut": 1838.5,
+    "fin": 1838.5,
+    "date_edtf": "1838-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Le lieu est déplacé de la Green River vers la fourche de la Wind River : Russell trouve au confluent de la Horse Creek un papier fixé au mur qui l'y renvoie. La caravane de Drips amène des missionnaires et leurs épouses ; la rumeur court que la compagnie n'apportera plus de marchandises. Présence de Provost incertaine (Tykal : convoyeur « jusqu'en 1838 »).",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous » ; Russell, Osborne, Journal of a Trapper (1914)",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.08,
+     42.865
+    ]
+   },
+   "properties": {
+    "id": "L98",
+    "nom": "Horse Creek : le rendez-vous de 1839",
+    "debut": 1839.5,
+    "fin": 1839.5,
+    "date_edtf": "1839-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Petit rendez-vous. La caravane de Moses « Black » Harris arrive le 5 juillet avec le médecin allemand Wislizenus. Provost, lui, recrute pour la compagnie et guide Nicollet et Frémont dans le haut Mississippi.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous » ; Wislizenus, F. A. (1840), Ein Ausflug nach den Felsen-Gebirgen",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.06,
+     42.875
+    ]
+   },
+   "properties": {
+    "id": "L99",
+    "nom": "Horse Creek : le dernier rendez-vous (1840)",
+    "debut": 1840.5,
+    "fin": 1840.5,
+    "date_edtf": "1840-07",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "rendezvous",
+    "description": "Dernier rendez-vous. La caravane de Drips arrive le 30 juin avec le jésuite Pierre-Jean De Smet, qui célèbre la messe le 5 juillet devant les trappeurs et les Têtes-Plates (« Prairie de la Messe »). Le castor épuisé et la baisse des prix mettent fin au système.",
+    "sources": "Gowans, Fred R. (1975), Rocky Mountain Rendezvous: A History of the Fur Trade Rendezvous, 1825-1840, Provo, Brigham Young University Press ; « Rocky Mountain Trip List, 1804-1843 », annexe A (rfrajola.com) ; salle de lecture, onglet « Les rendez-vous » ; Chittenden et Richardson (éd.), Life, Letters and Travels of Father De Smet (1905)",
+    "note": "Emplacement approximatif (précision de l'ordre du kilomètre).",
+    "type": "lieu"
+   }
   }
  ]
 }
