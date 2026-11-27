@@ -1380,6 +1380,7 @@ footer { font-size: .82rem; color: var(--encre-pale); text-align: center; paddin
 <footer>Atlas Étienne Provost · Olivier J. Caron, Département de géographie, UQAM</footer>
 
 <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script src="js/streetview.js?v=202611262040"></script>
 <script>
 const boutons = [...document.querySelectorAll('.onglets button')];
 function ouvrir(id) {
@@ -1457,6 +1458,7 @@ function initCarteCh() {
   carteCh = new maplibregl.Map({ container: 'carte-chambly', style: 'https://tiles.openfreemap.org/styles/positron', ...vue, attributionControl: { compact: true } });
   carteSat = new maplibregl.Map({ container: 'carte-chambly-sat', style: { version: 8, sources: { sat: { type: 'raster', tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'], tileSize: 256, maxzoom: 19, attribution: 'Imagerie © Esri, Maxar, Earthstar Geographics' } }, layers: [{ id: 'sat', type: 'raster', source: 'sat' }] }, ...vue, attributionControl: { compact: true } });
   carteSat.addControl(new maplibregl.NavigationControl({ showCompass: false }));
+  if (typeof installerStreetView === 'function') { installerStreetView(carteCh, false); carteSat.on('click', e => carteCh.fire('click', { lngLat: e.lngLat, point: e.point, originalEvent: e.originalEvent })); }
   carteCh.on('load', () => { carteCh.resize(); couchesCh(carteCh, true); });
   carteSat.on('load', () => { carteSat.resize(); couchesCh(carteSat, false); });
   // synchronisation des deux cartes
@@ -1484,6 +1486,7 @@ function initCarteJx() {
   if (carteJx || typeof maplibregl === 'undefined') return;
   const B = [[-113.5, 37.5], [-89.5, 48.5]];
   carteJx = new maplibregl.Map({ container: 'carte-jx', style: 'https://tiles.openfreemap.org/styles/positron', bounds: B, fitBoundsOptions: { padding: 30 }, attributionControl: { compact: true } });
+  if (typeof installerStreetView === 'function') installerStreetView(carteJx, false);
   carteJx.addControl(new maplibregl.NavigationControl({ showCompass: false }));
   carteJx.on('load', () => {
     carteJx.resize(); carteJx.fitBounds(B, { padding: 30, duration: 0 });
