@@ -1496,7 +1496,7 @@ function couchesCh(m, plan) {
   m.addSource('cadie', { type: 'geojson', data: { type: 'Feature', geometry: { type: 'Polygon', coordinates: [[[-73.335,45.330],[-73.360,45.330],[-73.372,45.285],[-73.350,45.275],[-73.335,45.330]]] } } });
   m.addLayer({ id: 'cadie-f', type: 'fill', source: 'cadie', paint: { 'fill-color': '#c0702a', 'fill-opacity': 0.25 } });
   m.addLayer({ id: 'cadie-l', type: 'line', source: 'cadie', paint: { 'line-color': '#c0702a', 'line-width': 2, 'line-dasharray': [2, 2] } });
-  m.addSource('c1861', { type: 'geojson', data: 'data/chambly-1861.geojson' });
+  m.addSource('c1861', { type: 'geojson', data: 'data/chambly-1861.geojson?v=20261127' });
   m.addLayer({ id: 'c1861-f', type: 'fill', source: 'c1861', paint: { 'fill-color': ['get', 'k'], 'fill-opacity': plan ? 0.3 : 0.25 } });
   m.addLayer({ id: 'c1861-l', type: 'line', source: 'c1861', paint: { 'line-color': plan ? ['get', 'k'] : '#fbfcf7', 'line-width': 2 } });
   REPERES_CH.forEach(([c,k,n,t]) => {
